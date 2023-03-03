@@ -29,7 +29,7 @@
 
 # 🐧 Datos Linux 🐧
 
-# Estos son los 5 comando
+# Estos son los 5 comandos
 | comando | Descripción                                              |
 |---------|----------------------------------------------------------|
 | apt     | Instalar paquetes                                        |
@@ -73,7 +73,7 @@ push-m=’git push origin main’
 push-d=’git push origin develop’
 ```
 
-# 🐧 Bye said TUX
+# 🐧 Bye say TUX
 
 ---
 
