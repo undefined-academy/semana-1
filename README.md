@@ -1,6 +1,6 @@
 # Wilmer Lopez
 
-Mi nickname en la plataforma es **DevOld** :blush:
+Mi nickname en la plataforma es **DevOld112** :blush:
 
 _Soy un programador autodidacta apasionado por la tecnología y el desarrollo web. Me encanta aprender cosas nuevas y estoy dispuesto a trabajar duro para alcanzar mis metas._
 
