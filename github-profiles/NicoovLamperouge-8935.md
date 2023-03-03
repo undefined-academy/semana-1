@@ -1,0 +1,42 @@
+# Hi, i'm Nicolas 
+
+Front end Jr
+
+
+
+##  A little more about me 
+I'm computer engineer passionate about front-end development, I live in chile in the atacama region more specifically in the city of Copiapo. I found a love for development since I did my internship, I am always learning, since I do not consider myself the best programmer. My goal is to expand my knowledge and grow professionally. When I'm not studying or programming I like to be playing videogames with my friends on discord.
+
+
+
+### Tecnologias
+
+
+| Tecnologias | Nivel |
+| ------ | ------ |
+| HTML | Intermedio |
+| CSS | Intermedio |
+| JavaScript | Intermedio |
+| React | Intermedio |
+| TailWinds | Basico |
+
+
+
+### 5 comandos de la terminal
+
+| Comando |     Descripción  |
+| :-------- |  :------------------------- |
+| ls |  Lista los archivos de la carpeta actual, o de la ruta dada. |
+| pwd |  Muestra la ruta absoluta del directorio actual, su funcion nos permite saber donde estamos ubicados |
+| touch |  Crea un archivo dada una ruta |
+| cp |  Permite copiar archivos en una ruta inicial y una ruta final |
+| rm |  Elimina un archivo de una ruta especifica |
+
+
+
+
+### Alias recomendados
+
+- alias cl= "clear": Permite limpiar la terminal
+
+- alias rm = "trash": Elimina un archivo de forma permanente
