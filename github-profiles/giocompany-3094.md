@@ -1,7 +1,7 @@
-###Hola! 
+# Hola! 
 
 
-##Mi nombre es Giovanni, soy Mexicano, Desarrollador Fullstack en proceso.
+## Mi nombre es Giovanni, soy Mexicano, Desarrollador Fullstack en proceso.
 
 💻 Actualmente aprendiendo y mejorando mis habilidades.
 
@@ -9,7 +9,7 @@
 
 🛠️ Skills
 
-Computer Science & Data structure
+## Computer Science & Data structure
 >HTML5 
 >CSS3 
 >SASS
@@ -17,5 +17,4 @@ Computer Science & Data structure
 >Git
 >GitHub
 
-###Saludos!
-
+### Saludos!
