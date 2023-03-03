@@ -15,7 +15,8 @@ https://github.com/joseandresgavilanes
     👋 I'm a software engineer & fullstack developer!
     <br>Today, I'm focused on changing the world with technology and innovation<br>
     <br/>
-    
+        <img src="https://i.imgur.com/kdKhgx6.gif" width="240px" align="center">
+
 
   </samp>
 </div>
