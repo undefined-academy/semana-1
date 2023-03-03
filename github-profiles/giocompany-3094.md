@@ -1,20 +1,19 @@
-# Hola! :)  
-### Te platico un poco de mí 
-
-📝 Me llamo Gio, Desarrollador Fullstack en proceso! 
-📚  Algunas tecnologías y herramientas que uso son:
-
->Html
->CSS
->SASS
->Javascript
->Git
->GitHub
->Terminal
-
-## te comparto mi link a mi Github 👇🏼
-
-https://github.com/giocompany
+Hola! 
 
 
-Nos vemos pronto!!
+Mi nombre es Giovanni, soy Mexicano, Desarrollador Fullstack en proceso.
+
+💻 Actualmente aprendiendo y mejorando mis habilidades.
+
+📚 Me encuentro tomando el bootcamp Fullstack de Undefined Academy.
+
+🛠️ Skills
+
+Computer Science & Data structure
+HTML5 
+CSS3 
+SASS
+JavaScript
+Git
+GitHub
+
