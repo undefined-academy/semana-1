@@ -1,11 +1,12 @@
 # Hi I'm Jose Andres Gavilanes
 ### GitHub: [joseandresgavilanes](https://github.com/joseandresgavilanes)
 
-<p align="center">
+<h1 align="center">
+Hi I'm Jose Andres Gavilanes | Smiley!
   
 ![psoywh](https://user-images.githubusercontent.com/76002851/220247850-9375eec0-91cb-4924-a1d6-ea90c803ac32.png)
   
-</p>
+</h1>
 
 <p align="center">
   <samp>
