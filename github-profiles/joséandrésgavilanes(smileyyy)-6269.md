@@ -16,6 +16,8 @@ https://github.com/joseandresgavilanes
     <br>Today, I'm focused on changing the world with technology and innovation<br>
     <br/>
     
+    ![download](https://user-images.githubusercontent.com/76002851/222631242-57cb793a-c798-4665-8b87-9d9d9d7de86c.gif)
+
 
   </samp>
 </div>
