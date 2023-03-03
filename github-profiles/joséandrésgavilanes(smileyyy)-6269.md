@@ -133,4 +133,3 @@ I'm an aspiring developer who loves to take on new projects that challenges his 
 
 ![trophy](https://github-profile-trophy.vercel.app/?username=joseandresgavilanes)
 
-        `
