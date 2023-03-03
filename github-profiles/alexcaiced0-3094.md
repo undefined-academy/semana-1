@@ -1,4 +1,4 @@
-# 👋 **Welcome!**
+# 👋 **Hi, I'm Alex!**
 
 I'm a Data Analyst & Scientist with a degree in Petroleum Engineering and 3+ years experience in operations and research activities in the Oil & Gas industry. As an engineer, I've developed many skills including a data-driven behavior (and taste) for gathering and studying valuable information to solve problems.
 
