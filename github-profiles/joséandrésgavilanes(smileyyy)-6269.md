@@ -42,3 +42,68 @@
 ![heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
 ![netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)  
 </div>
+
+
+
+ ## Stats:
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=joseandresgavilanes&theme=material-palenight&hide_border=true&date_format=j%2Fn%5B%2FY%5D)](https://git.io/streak-stats)
+
+ 
+  
+```javascript
+const aboutMe = {
+  name: "José Andrés Gavilanes",
+  nickName: ["Smiley", "Pepe"],
+  pronouns: "he" || "him",
+  code: [Javascript, Typescript, Golang, HTML, CSS, SASS, Python],
+  technologies: {
+    frontEnd: {
+      js: ["ReactJS", "NextJS", "React Native", "Redux", "React Router", "Axios"],
+      css: ["SASS", "Tailwind", "Material UI", "Bootstrap"],
+    },
+    backEnd: {
+      python: ["Django"],
+      js: ["NodeJS", "Expressjs"],
+    },
+    databases: ["MongoDB", "PostgreSQL", "MySQL"],
+  },
+  currentOccupation: ["open for job opportunities"],
+  challenge: "I'm working every day on becoming a better person and programmer.",
+  currentLearning: {
+    fullStackDevelopment: {
+      frontEnd: "✔",
+      backEnd: "✔",
+      database: "✔",
+    },
+    cibersecurityAndEthicalHacking: {
+      bashScripting: ""✔",
+      metasploit: "✔",
+    },
+  },
+};
+```
+
+## Abstract
+
+I'm an aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.
+
+
+- I’m currently learning a bit of cybersecurity and new technologies.
+### Skills 🛠️
+
+
+| _Name \ Familiarity_       | High                         | Medium             | Low                            |
+| -------------------------- | ---------------------------- | ------------------ | ------------------------------ |
+| **Languages(programming)** | JavaScript, Typescript,  Python             | SQL        | Golang     |
+| **Frameworks/Platforms**   | NodeJS, ReactJS, NextJS, ExpressJS| Git, Redux, Django | VueJS |
+| **Languages(human)**       | English, Spanish                      |             | Chinese                        |
+| **Other interests**        | Pentesting, Learning | Videogames  | Hardware, Blockchain           |
+
+
+
+
+<h2>💻 Some stats 💻</h2>
+
+### Github Stats ⭐
+
+![trophy](https://github-profile-trophy.vercel.app/?username=joseandresgavilanes)
