@@ -9,3 +9,19 @@ Tengo **30 años** y actualmente me encuentro estudiando las tecnologias basicas
 
 Estoy ubicado en _Lima_ , _Peru._
       
+# Estos son los 5 comandos
+
+| comando | Descripcíon                    | 
+|---------|--------------------------------|
+| ls | lista el contenido de un directorio |
+| cd | cambiar entre directorios           |
+| yarn | Instalar dependencias             |
+| gst | Git status                         |
+| clear | Limpiar terminal                 |
+| alias | listar los alias                 |
+
+# Estos son mis alias mas usados
+
+grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
