@@ -17,3 +17,5 @@ I'm currently studying to be a **full stack developer**⌨️. For now I've lear
 ### **👾Comandos alias útiles para nuestro día a día:**
 1. alias mkdir="mkdir -pv" 
 2. alias cl = clear
+
+https://github.com/carlotagadel
