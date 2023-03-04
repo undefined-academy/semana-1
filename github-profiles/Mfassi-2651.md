@@ -65,5 +65,16 @@
   </tbody>
 </table>
 
+## Como Crear un alias?  
+### Si es para el usuario root
+> Con privilegios de superusuario editar el archivo de configuracion de bash
+>> vim ~/.bashrc, para editar el archivo
+>> source ~/.bashrc para que la terminal recargue el archivo de bash
+
+### Para que pueda ser usado por todos los usuarios
+>Con permisos de superusuario ejecutar
+>> vim /etc/bash.bashrc
+>>> source /etc/bashrc para recargar el archivo desde la terminal 
+
 
 [Te invito a que veas, mi perfil de github](https://github.com/Mfassi96)
