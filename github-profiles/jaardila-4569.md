@@ -1,5 +1,5 @@
 ### Hi there 👋
-[Enlace a jaardila-3](https://github.com/jaardila-3)
+[Enlace a mi perfil de github](https://github.com/jaardila-3)
 
 
 # Curriculum Vitae - Jorge Ardila
