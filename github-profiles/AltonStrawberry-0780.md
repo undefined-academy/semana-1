@@ -31,3 +31,8 @@ Hello I'm Sebas, I'm from Vinaròs (Spain) I work as a **graphic designer** and 
 | ------ | ------ |
 |  ```alias cl="clear"```  | Clean terminal |
 | ```alias rmyarn="rm -rf node_modules && yarn cache clean && yarn"``` | Delete node_modules folder and reinstalls it with yarn |
+
+
+### ***LINK DE MI BIO GITHUB***
+
+[Mi bio en github](https://github.com/Sebasforsan)
