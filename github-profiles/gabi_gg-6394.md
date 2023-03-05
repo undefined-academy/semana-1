@@ -24,6 +24,7 @@
 
 - Email: gabriel.gonzalez.unt@gmail.com
 - LinkedIn: <a href="https://linkedin.com/in/gabriel-isaias-gonzalez" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gabriel-isaias-gonzalez" height="30" width="40" /></a>
+- Github: <a href="https://github.com/gonzalez-gabriel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="gonzalez-gabriel" height="30" width="40" /></a>
 
 
 
