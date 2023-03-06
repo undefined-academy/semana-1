@@ -14,7 +14,7 @@
 | Cinema4d     | Bootstrap|
 | Illustrator     | Git / Github|
 
-## Connect with me  
+## Connect with me. 
 
 [<img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" height=25>](https://github.com/munozmanuel)
 [<img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" height=25>](https://linkedin.com/in/mmunoza)
