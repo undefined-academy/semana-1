@@ -18,7 +18,7 @@
 <a href="https://linkedin.com/in/ocon-santiago" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ocon-santiago" height="30" width="40" /></a>
 </p>
 
-### Commands learnt from Undefined Shell:
+### Commands learnt in Undefined Shell:
 
 | Command      | Description                                         |
 | ------------ | --------------------------------------------------- |
@@ -35,3 +35,5 @@
 | cl            | clear                   | clear all messages from terminal            |
 | bashrc        | code ~/.bashrc          | open .bashrc file inside visual studio code |
 | gcm <message> | git commit -m <message> | simplify git commit message command         |
+
+> My GitHub profile: [Ocón Santiago Luis](https://github.com/oconsl)
