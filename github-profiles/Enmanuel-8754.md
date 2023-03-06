@@ -27,7 +27,7 @@
 | rm = "trash"    | Evita la perdida de archivos permanentemente|
 | findd = "ls ~/  grep $1" | filtrar las carpetas de nuestro directorio de usuario dada una palabra.                         |
 | alias npms = "npm start"| inicia el servidor de desarrollo y abre un navegador con la aplicación.                                 |
-| alias npmt = "npm test" |  ejecuta las pruebas.               |
+| alias npmt = "npm test" |  ejecuta las pruebas..               |
 
 ## Mis hobbies son:
 1. **Hacer deporte.**
