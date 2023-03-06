@@ -24,40 +24,6 @@ If you want to reach me, you can find me at:
 * +61433409800 📱
 * [LinkedIn 💼](https://www.linkedin.com/in/juan-frasca/)
 * [GitHub 🐈‍⬛](https://github.com/juanfrasca)
-
-<br>
-
----
-<br>
-
-Lastly, I'm currently learning at [Undefined Academy 🦄](https://undefined.sh/), in a 16-weeks JS Full Stack Bootcamp! 
-
-So far, we've talked about terminal, shell, commands and alias, and I want to share with you what I've learned!
-
-|Command   |Description                        |
-|----------|-----------------------------------|
-|`pwd`     |Print current working directory    |
-|`ls`      |List directory contents            |
-|`cd`      |Change current directory           |
-|`mkdir`   |Make a new directory               |
-|`cp/cp -r`|Copy a file/folder (adding -r)     |
-|`rm/rm -r`|Remove a file/folder (adding -r)   |
-|`mv`      |Move (or rename) a file or a folder|
-
-|Alias                          |Description                                 |
-|-------------------------------|--------------------------------------------|
-|`findd = 'ls ~/ \| grep $word'`|Find all folders that contain *$word*       |
-|`rm = 'trash'`                 |Avoid permanent deleting when remove a file |
-|`cl= 'clear'`                  |Clean the terminal                          |
-|`gh = 'history \| grep'`       |Find a command in your grep history         |
-
-I'll be continue adding new information, so come back later! :raised_hands:	
-
-
-
-
-
-
 <!--
 **juanfrasca/juanfrasca** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
