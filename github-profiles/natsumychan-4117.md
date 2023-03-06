@@ -1,5 +1,5 @@
 > npx @11ty/eleventy --serve
-> http://localhost:8080/natsumychan-4117/index.html
+> http://localhost:8080/github-profiles/natsumychan-4117/index.html
 # Hi everyone, I'm Diana Castaño
 ## I am a self-taught front-end developer junior from Colombia 🇨🇴.
 
