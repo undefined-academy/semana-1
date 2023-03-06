@@ -13,5 +13,10 @@ Un buen asset para su empresa
 | Chile | 1 |
 | Perú | 2 |
 
+# Lista de alias
+```bash
+| ls -l | 'rm -i' |  
+```
+
 
 https://github.com/DanaiKongpan
