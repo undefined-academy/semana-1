@@ -15,6 +15,7 @@ Considero que la mejor manera de aprender algo, es **practicándolo** y **enseñ
 
 Estoy seguro de que podrán servirle a alguien más.
 
+Si quieres visitar mi perfil de **GitHub** 👉 [@danielisho](https://github.com/Danielisho/pool_public)
 
 
 > 📍 _Muchos te amarán por lo que eres y otros te odiarán por la misma razón, así que, **acostúmbrate**_ 📍
