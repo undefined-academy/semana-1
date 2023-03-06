@@ -38,6 +38,6 @@ Computer science graduate and passionate about the area of software development 
 
 #### Aliases
 
-| Command   | Description                                                       |
-|-----------|-------------------------------------------------------------------|
-| cl="clear"| Clears all the text fro
+| Command    | Description                       |
+|------------|-----------------------------------|
+| cl="clear" | Clears all the text fro, terminal |
