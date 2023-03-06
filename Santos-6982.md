@@ -1,4 +1,10 @@
 # semana-1
+
+
+## Link a Github
+https://github.com/santos1803
+
+
 # Hola 👋 Soy Santos Martinez
 Estudiante de desarrollo web en JavaScript :seedling:
 
@@ -21,6 +27,3 @@ Estudiante de desarrollo web en JavaScript :seedling:
 ## Estos son mis alias mas usados 
 ``` bash 
 alias findd="ls ~/ | grep $1 ```
-
-## Link a Github
-https://github.com/santos1803
