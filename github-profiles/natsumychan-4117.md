@@ -25,5 +25,6 @@ These alias commands are gonna be very useful to check the git status on your re
 | $ git sh | git config --global alias.sh status -sb| Another version for git status alias |
 
 You can check my profile clicking the github image down here 👇:
+
 [![github icon](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh6ddcW2hpnhB6OeqCT6YMR0DDqST236AsMw&usqp=CAU)](https://github.com/Natsumychan) 
 Github profile
