@@ -2,6 +2,10 @@
 
 I'm electronic engineer M.Sc. in Renewable energy, especialized in Telecommunications currently switching my professional profile from Radio Telecommunications to Cloud  infrastructure and Software. My programing background covers ***Python*** and ***Java***.
 
+***
+My [GitHub](https://github.com/M4rtR0d)
+***
+
 ## Most used Commands
 
 ```
@@ -27,9 +31,6 @@ Undefined Academy
 
 ![undefined shell](https://user-images.githubusercontent.com/62573083/223426460-733386e2-e59e-44ef-9dfb-6451757b59c7.png)
 
-***
-My [GitHub](https://github.com/M4rtR0d)
-***
 
 1. Python
    * Django
@@ -70,4 +71,4 @@ print(mylist)
   
    🐺Y continuo aquí con otra línea
   
-   🐻Y con esta linea termino
+   🐻Y con esta línea termino.
