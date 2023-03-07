@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aitorias">
+    <meta name="description" content="Mi perfil de GitHub">
+    <meta name="theme-color" content="#1e2327">
+    <meta name="color-scheme" content="light dark">
+    <title>Aitorias | Perfil de GitHub</title>
+    <style>
+        /* General */
+        :root {
+            color-scheme: light dark;
+        }
+        [data-color-mode="light"] {
+            color-scheme: light;
+        }       
+        [data-color-mode="dark"] {
+            color-scheme: dark;
+        }
+        :root, [data-color-mode=light][data-light-theme*=light], [data-color-mode=dark][data-dark-theme*=light] {
+            --body-background: #ffffff;
+            --body-color: #24292f;
+            --body-font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            --button-background: #f6f8fa;
+            --button-background-hover: #f3f4f6;
+            --button-border-hover: rgba(27,31,36,0.15);
+            --button-shadow: 0 1px 0 rgba(27,31,36,0.04);
+            --button-inset-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+            --code-background: rgba(175,184,193,0.2);
+            --code-console-background: #f6f8fa;
+            --code-console-color: #0550ae;
+            --icon-fill: #57606a;
+            --link-color: #0969da;
+            --table-tr-border: hsla(210,18%,87%,1);
+            --table-border: #d0d7de;
+            --title-border: hsla(210,18%,87%,1);
+            --wrapper-border-color: #d0d7de;
+        }
+        [data-color-mode=light][data-light-theme*=dark], [data-color-mode=dark][data-dark-theme*=dark] {
+            --body-background: #0d1117;
+            --body-color: #c9d1d9;
+            --body-font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            --button-background: #21262d;
+            --button-background-hover: #30363d;
+            --button-border-hover: #8b949e;
+            --button-shadow: 0 0 transparent;
+            --button-inset-shadow: 0 0 transparent;
+            --code-background: rgba(110,118,129,0.4);
+            --code-console-background: #161b22;
+            --code-console-color: #79c0ff;
+            --icon-fill: #8b949e;
+            --link-color: #58a6ff;
+            --table-tr-border: #21262d;
+            --table-border: #30363d;
+            --title-border: #21262d;
+            --wrapper-border-color: #30363d;
+        }
+        ::marker {
+            unicode-bidi: isolate;
+            font-variant-numeric: tabular-nums;
+            text-transform: none;
+            text-indent: 0px !important;
+            text-align: start !important;
+            text-align-last: start !important;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        /* Elements */
+        html {
+            font-family: sans-serif;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            background-color: var(--body-background);
+            color: var(--body-color);
+            font-family: var(--body-font);
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+        }
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+        a:active,
+        a:focus,
+        a:hover {
+            text-decoration: underline;
+        }
+        a:focus {
+            box-shadow: none;
+            outline: none;
+        }
+        button {
+            background-color: var(--button-background);
+            border-color: var(--wrapper-border-color);
+            border-radius: 6px;
+            border-style: solid;
+            border-width: 1px;
+            box-shadow: var(--button-shadow), var(--button-inset-shadow);
+            color: var(--body-color);
+            cursor: pointer;
+            font-family: var(--body-font);
+            font-weight: 500;
+            padding: 5px 16px;
+            position: relative;
+            transition: 80ms cubic-bezier(0.33, 1, 0.68, 1);
+            transition-property: color,background-color,box-shadow,border-color;
+            user-select: none;
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+        button:hover {
+            border-color: var(--button-border-hover);
+            transition-duration: .1s;
+        }
+        code {
+            background-color: var(--code-background);
+            border-radius: 6px;
+            font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+            font-size: 85%;
+            margin: 0;
+            padding: 0.2em 0.4em;
+            white-space: break-spaces;
+        }
+        figure {
+            margin: 0 auto;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 600;
+            padding-bottom: 0.3em;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+        hr {
+            background-color: var(--color-muted);
+            border: none;
+            height: 1px;
+        }
+        img {
+            display: block;
+            height: auto;
+            max-width: 100%;
+            width: auto;
+        }
+        pre {
+            background-color: var(--code-console-background);
+            border-radius: 6px;
+            font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+            font-size: 85%;
+            line-height: 1.45;
+            margin: 0;
+            overflow: auto;
+            padding: 8px 16px;
+            text-decoration: none;
+            word-wrap: normal;
+        }
+        ol,
+        ul {
+            margin-bottom: 16px;
+            margin-top: 0;
+            padding-left: 2em;
+        }
+        ol li,
+        ul li {
+            margin-left: 16px;
+        }
+        ol li:not(:first-child),
+        ul li:not(:first-child) {
+            margin-top: 16px;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            display: block;
+            overflow: auto;
+            max-width: 100%;
+            width: max-content;
+        }
+        tr {
+            border-top: 1px solid var(--table-tr-border);
+        }
+        tr:nth-child(2n) {
+            background-color: var(--table-even-background);
+        }
+        th,
+        td {
+            border: 1px solid var(--table-border);
+            padding: 6px 13px;
+        }
+        /* Custom */
+        .align-items-center {
+            align-items: center;
+        }
+        .code-console {
+            color: var(--code-console-color);
+        }
+        .flex {
+            display: flex;
+        }
+        .jc-end {
+            justify-content: end;
+        }
+        .mb-2 {
+            margin-bottom: 2em;
+        }
+        .mt-2 {
+            margin-top: 2em;
+        }
+        .mt-3 {
+            margin-top: 3em;
+        }
+        .my-2 {
+            margin-bottom: 2em;
+            margin-top: 2em;
+        }
+        .my-3 {
+            margin-bottom: 3em;
+            margin-top: 3em;
+        }
+        .px-1 {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+        .py-2 {
+            padding-bottom: 2em;
+            padding-top: 2em;
+        }
+        .title {
+            padding-bottom: 0.3em;
+        }
+        .title-border {
+            border-bottom: 1px solid var(--title-border);
+        }
+        .underline {
+            border-bottom: 1px solid var(--title-border);
+        }
+        .header-wrapper,
+        .wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1280px;
+        }
+        .wrapper .content {
+            padding: 40px;
+        }
+        .wrapper .content-border {
+            border-color: var(--wrapper-border-color);
+            border-radius: 6px;
+            border-style: solid;
+            border-width: 1px;
+        }
+        /* Change theme button */
+        .change-theme-button {
+            outline-offset: 5px;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+        }
+        .color-theme-icon>:is(.moon,.sun,.sun-beams) {
+            transform-origin: center center;
+        }
+        .color-theme-icon>:is(.moon,.sun) {
+            fill: var(--icon-fill);
+        }
+        .color-theme-icon>.sun-beams {
+            stroke: var(--icon-fill);
+            stroke-width: 2px
+        }
+        [data-color-mode=dark][data-dark-theme*=dark] .color-theme-icon>.sun {
+            transform: scale(1.75);
+        }
+        [data-color-mode=dark][data-dark-theme*=dark] .color-theme-icon>.sun-beams {
+            opacity: 0;
+        }
+        [data-color-mode=dark][data-dark-theme*=dark] .color-theme-icon>.moon>circle {
+            transform: translate(-7px);
+        }
+
+        /* Media */
+        @media (prefers-color-scheme: light) {
+            :root {
+                --body-background: #ffffff;
+                --body-color: #24292f;
+                --body-font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                --button-background: #f6f8fa;
+                --button-background-hover: #f3f4f6;
+                --button-border-hover: rgba(27,31,36,0.15);
+                --button-shadow: 0 1px 0 rgba(27,31,36,0.04);
+                --button-inset-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+                --code-background: rgba(175,184,193,0.2);
+                --code-console-background: #f6f8fa;
+                --code-console-color: #0550ae;
+                --icon-fill: #57606a;
+                --link-color: #0969da;
+                --table-tr-border: hsla(210,18%,87%,1);
+                --table-border: #d0d7de;
+                --title-border: hsla(210,18%,87%,1);
+                --wrapper-border-color: #d0d7de;
+            }
+        }
+        @media (prefers-color-scheme: dark) {
+            :root, [data-color-mode=auto][data-dark-theme*=dark] {
+                --body-background: #0d1117;
+                --body-color: #c9d1d9;
+                --body-font: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                --button-background: #21262d;
+                --button-background-hover: #30363d;
+                --button-border-hover: #8b949e;
+                --button-shadow: 0 0 transparent;
+                --button-inset-shadow: 0 0 transparent;
+                --code-background: rgba(110,118,129,0.4);
+                --code-console-background: #161b22;
+                --code-console-color: #79c0ff;
+                --icon-fill: #8b949e;
+                --link-color: #58a6ff;
+                --table-tr-border: #21262d;
+                --table-border: #30363d;
+                --title-border: #21262d;
+                --wrapper-border-color: #30363d;
+            }
+
+        }
+
+        @supports (cx: 1) {
+            [data-color-mode=dark][data-dark-theme*=dark] .color-theme-icon>.moon>circle {
+                transform: translate(0);
+                cx: 17;
+            }
+        }
+
+        @media (prefers-reduced-motion: no-preference) {
+            .color-theme-icon>.sun {
+                transition: transform .5s cubic-bezier(.5,1.25,.75,1.25);
+            }
+
+            .color-theme-icon>.sun-beams {
+                transition: transform .5s cubic-bezier(.5,1.5,.75,1.25),opacity .5s cubic-bezier(.25,0,.3,1);
+            }
+
+            .color-theme-icon .moon>circle {
+                transition: transform .25s cubic-bezier(0,0,0,1);
+            }
+
+            @supports (cx: 1) {
+                .color-theme-icon .moon>circle {
+                    transition: cx .25s cubic-bezier(0,0,0,1);
+                }
+            }
+
+            [data-color-mode=dark][data-dark-theme*=dark] .color-theme-icon>.sun {
+                transform: scale(1.75);
+                transition-timing-function: cubic-bezier(.25,0,.3,1);
+                transition-duration: .25s
+            }
+
+            [data-color-mode=dark][data-dark-theme*=dark] .color-theme-icon>.sun-beams {
+                transform: rotate(-25deg);
+                transition-duration: .15s;
+            }
+
+            [data-color-mode=dark][data-dark-theme*=dark] .color-theme-icon>.moon>circle {
+                transition-delay: .25s;
+                transition-duration: .5s;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-wrapper px-1 px-md-2 px-lg-2 py-2">
+            <div class="flex align-items-center jc-end">
+                <button class="change-theme-button" id="change-theme-button" name="change-theme-button" type="button" aria-label="dark">
+                    <svg class="color-theme-icon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                        <mask class="moon" id="moon-mask">
+                          <rect x="0" y="0" width="100%" height="100%" fill="white"></rect>
+                          <circle cx="24" cy="10" r="6" fill="black"></circle>
+                        </mask>
+                        <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor"></circle>
+                        <g class="sun-beams" stroke="currentColor">
+                          <line x1="12" y1="1" x2="12" y2="3"></line>
+                          <line x1="12" y1="21" x2="12" y2="23"></line>
+                          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                          <line x1="1" y1="12" x2="3" y2="12"></line>
+                          <line x1="21" y1="12" x2="23" y2="12"></line>
+                          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                         </g>
+                      </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper mb-2 px-1 px-md-2 px-lg-2">
+            <div class="content content-border">
+                <article class="file">
+                    <figure>
+                        <img src="https://raw.githubusercontent.com/aitorias/aitorias/main/aitorias-terminal.gif" alt="Aitorias GitHub Profile">
+                    </figure>
+                    <h1 class="title underline">¡Bienvenidos! Soy Aitorias</h1>
+                    <h2 class="title underline">¡Encantado de conoceros! &#128516;</h2>
+                    <article>
+                        <div class="mt-3">
+                            <p>Soy <strong>técnico superior en desarrollo de aplicaciones web</strong> y <strong>experto en SEO</strong> de Barcelona, España.</p>
+                            <p>Me encanta el <strong>desarrollo front-end</strong> y estoy especializado en PHP, SQL y JavaScript.</p>
+                            <p>Actualmente estoy cursando un bootcamp de <strong>desarrollo full-stack en Javascript</strong> para potenciar mis conocimientos &#128218;.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="mt-3">
+                            <h2 class="title underline">JavaScript Full-stack Development Bootcamp, por <a href="https://undefined.academy/" target="_blank">Undefined Academy</a></h2>
+                            <h3>Ejercicios</h3>
+                            <ol>
+                                <li>
+                                    <a href="https://github.com/aitorias/undefinedshell-bootcamp/blob/main/week-1/week-1-day-1-exercise.md" target="_blank">Semana 1, Día 1</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="mt-3">
+                            <h3>Día 1, ejercicio</h3>
+                            <ol>
+                                <li>Crear un Github Profile README. Este debe tener una pequeña descripción tuya tipo CV.</li>
+                            </ol>
+                            <ul>
+                                <li>Enlace a <a href="https://github.com/aitorias" target="_blank">mi perfil de GitHub</a></li>
+                                <li>Enlace al <a href="https://github.com/aitorias/aitorias#readme" target="_blank">README.md</a> de mi perfil de GitHub.</li>
+                            </ul>
+                            <br>
+                            <ol start="2">
+                                <li>Añade una tabla en Markdown con al menos 5 comandos de la Terminal que hayas aprendido, de forma que tenga nombre del comando y descripción en columnas separadas.</li>
+                            </ol>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Comando</th>
+                                        <th>Descripción</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <code>cd *directory*</code>
+                                        </td>
+                                        <td>Permite moverse al directorio <em>directory</em></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <code>date</code>
+                                        </td>
+                                        <td>Muestra la fecha del sistema</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <code>ls</code>
+                                        </td>
+                                        <td>Lista el contenido, tanto archivos como directorios, de la ruta actual</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <code>mkdir *directory*</code>
+                                        </td>
+                                        <td>Crea un directorio con nombre <em>directory</em></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <code>pwd</code>
+                                        </td>
+                                        <td>Muestra la ruta actual en la cual se está situado</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                            <ol start="3">
+                                <li>Añade una sección con al menos 2 comandos alias que te parezcan útiles incluyendo columna de descripción.</li>
+                            </ol>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Alias</th>
+                                        <th>Descripción</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <pre><span class="code-console">alias</span> apt-sysupdate=<span class="code-console">"sudo apt update && sudo apt upgrade -y"</span></pre>
+                                        </td>
+                                        <td>Este alias actualiza todos los paquetes del sistema Linux</td>
+                                    </tr>
+                                    <tr></tr>
+                                    <tr>
+                                        <td>
+                                            <pre><span class="code-console">alias</span> search=<span class="code-console">"grep"</span></pre>
+                                        </td>
+                                        <td>Este alias se utiliza para buscar texto y cadenas de texto en un archivo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </article>
+                </article>
+            </div>
+        </div>
+    </main>
+    
+    <script>
+        const storageKey = 'theme-preference';
+
+        const onClick = () => {
+            theme.value = theme.value === 'light'
+                ? 'dark'
+                : 'light'
+
+            setPreference();
+        }
+
+        const getColorPreference = () => {
+            if (localStorage.getItem(storageKey)) {
+                return localStorage.getItem(storageKey);
+            } else {
+                return window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light'
+            }
+        }
+
+        const setPreference = () => {
+            localStorage.setItem(storageKey, theme.value);
+            reflectPreference();
+        }
+
+        const reflectPreference = () => {
+            document.firstElementChild.setAttribute('data-color-mode', theme.value);
+
+            document.querySelector('#change-theme-button')?.setAttribute('aria-label', theme.value)
+        }
+
+        const theme = {
+            value: getColorPreference(),
+        }
+
+        reflectPreference();
+
+        window.onload = () => {
+            reflectPreference();
+
+            document.querySelector('#change-theme-button').addEventListener('click', onClick);
+        };
+
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ({matches:isDark}) => {
+            theme.value = isDark ? 'dark' : 'light'
+            setPreference();
+        })
+    </script>
+</body>
+</html>
