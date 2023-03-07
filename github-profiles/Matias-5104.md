@@ -1,3 +1,5 @@
+https://github.com/Matiaspercivale2001
+
 # Hi guys, I'm Matias! 😃
 
 I am 21 years old. I have two brothers bigger than me. I live with my fathers and my pets. Currently, I'm trying to improve my skills inside the new technologies.
@@ -7,7 +9,9 @@ I considery myselft a strong-willed and well-balanced person. I'm interesting in
 
 - Improve my English 🏴󠁧󠁢󠁥󠁮󠁧󠁿
 * Improve my skills like engineer student 🏗️
-+ Improve my programming knowledge 👨‍💻
++ Improve my programming knowledge and computer knowledge 👨‍💻
+
+**I'am doing this homework with my brother**
 
 
 ![image](https://user-images.githubusercontent.com/126214162/222607561-7fac0d4c-a950-485d-9162-487ee8bcba72.png)
@@ -27,7 +31,3 @@ I considery myselft a strong-willed and well-balanced person. I'm interesting in
 alias.npmd=npm run dev
 alias.npms=npm start
 ```
-
-**Buenas Guillermo, a continuación te dejo el link de mi perfil de Github, saludos!**
-
-My profile: https://github.com/Matiaspercivale2001
