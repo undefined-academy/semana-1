@@ -18,7 +18,7 @@ Una de las partes mas interesantes es el momento de aplicar la teoría en la pr�
 - [Encuesta a Usuarios de CYTUS](https://maubedoya.github.io/survey-form-cytus/surveyForm.html) ➡️ [**_[ REPOSITORIO ]_**](https://github.com/MauBedoya/survey-form-cytus)
   : Maquetado de formulario aplicando conocimientos sobre selectores en CSS.
 
-- [Página de Documentación Técnica](https://maubedoya.github.io/documentacion-tecnica/javascript.html) ➡️ [**_[ REPOSITORIO ]_**](https://github.com/MauBedoya/survey-form-cytus)
+- [Página de Documentación Técnica](https://maubedoya.github.io/documentacion-tecnica/javascript.html) ➡️ [**_[ REPOSITORIO ]_**](https://github.com/MauBedoya/documentacion-tecnica)
   : Blog de documentación técnica de Javascript (desactualizado), donde se aplican conceptos aprendidos sobre maquetación y estilizado de diferentes elementos de las páginas web.
 
 ---
