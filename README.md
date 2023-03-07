@@ -27,4 +27,7 @@ I considery myselft a strong-willed and well-balanced person. I'm interesting in
 alias.npmd=npm run dev
 alias.npms=npm start
 ```
+
+**Buenas Guillermo, a continuación te dejo el link de mi perfil de Github, saludos!**
+
 https://github.com/Matiaspercivale2001
