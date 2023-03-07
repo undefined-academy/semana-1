@@ -30,7 +30,7 @@ Manejo **JavaScript, CSS, HTML**
 
 - 🌱 Manejo nivel básico de inglés, un poco de alemán y un poco de sueco
 - 👯 Me gustaría colaborar en trabajos donde pueda ganar experiencia.
-- ⚡ Mis hobbies son: leer, escribir novelas, juegar a videojuegos, jardinería y todo lo que implique crear algo. 
+- ⚡ Mis hobbies son: leer, escribir novelas, jugar a videojuegos, jardinería y todo lo que implique crear algo. 
 - :blush: Me gusta la puntualidad, amo los retos constructivos, soy sincera y proactiva.
 
 ###Comandos de la terminal de windows
