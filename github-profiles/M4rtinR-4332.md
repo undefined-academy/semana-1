@@ -66,8 +66,8 @@ print(mylist)
 
 🌟*Algunas **aclaraciones** son convenientes*
 
-   🐘Todo mi aprendizaje ha sido autodidacta
+   🐘Aquí escribo una línea de prueba
   
-   🐺Soy una persona solitaria pero sociable cuando tengo la oportunidad
+   🐺Y continuo aquí con otra línea
   
-   🐻Han sido tiempos dificiles pero muy provechosos
+   🐻Y con esta linea termino
