@@ -33,5 +33,5 @@
 | Alias: | Funcion: |
 |--------|-----------|
 | alias ls="exa -lah" |  Permite reemplazar ls por exa. Es preciso instalar exa     |
-| alias cp="cp -i"       |   Antes de sobreescribir un fichero nos pedirá confirmación.         |
+| alias cp="cp -i"       |   Antes de sobreescribir un fichero nos pedirá confirmación.       |
 
