@@ -22,7 +22,6 @@
 
 ### **Contacto**
 * Via e-mail: **adri23458@gmail.com**
-* Via telefónica: **616621271**
 
 ### **Motivación**
 Pese a que siempre me ha gustado el mundo de la informática y del software, nunca había pensado en dedicarme a ello profesionalmente. Después de la pandemia y conociendo a gente del mundillo del development y la programación, estoy convencido que este mundo está hecho para mí. Desde entonces mi motivación es tener los suficientes conocimientos y soltura para poder dar el salto de mi actual trabajo a esta industria en constante evolución.
@@ -33,3 +32,6 @@ Pese a que siempre me ha gustado el mundo de la informática y del software, nun
 2. Practicar deportes (Tenis, escalada, voleibol, etc)
 3. Seriéfilo y cinéfilo
 4. Techie
+
+>Link para mi perfil de github:
+>https://github.com/Avy1992
