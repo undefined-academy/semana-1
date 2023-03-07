@@ -6,17 +6,28 @@
 
 ## Hi there 👋
 
-# `👩‍💻 I'm Frontend Developer`
+<img display="block" src="https://assets.website-files.com/5e51c674258ffe10d286d30a/5e53517fc6b2492d63287d6d_peep-11.png" height="150" display="block"/>
 
-I am currently working at Aconcagua Software Spain, as a `Frontend Developer with ReactJs and React Native`. You can see more on my Linkedin profile:
+# `LUCIA ALDANA CASTILLO`
+
+# `👩‍💻 I'm Frontend Developer` [![luciaaldana](https://img.shields.io/github/followers/luciaaldana?style=social)](https://github.com/luciaaldana)
+
+I am currently working at Aconcagua Software Spain, as a `Frontend Developer with ReactJs and React Native`.  
+You can see more on my Linkedin profile:
 
 <a href="https://www.linkedin.com/in/luciaaldanacastillo" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
-I like to learn, I am self-taught. The solutions that are posted for different problems or questions about how to solve something help me a lot, so I leave some answers on Stackoverflow ([you can find my Stackoverflow profile here](https://stackoverflow.com/users/19827435/lucia-aldana)) and I also create some Gists with some processes hoping to give back some of that help.
+## `📚 My GitHub Stats`
+
+<img src="https://github-readme-stats.vercel.app/api?username=luciaaldana&show_icons=true&theme=graywhite" alt="LuciaAldana-5957" />
+
+I love to learn. And I look for solutions that are posted for different problems or questions about how to solve something and they help me a lot,  
+so I leave some answers on Stackoverflow ([you can find my Stackoverflow profile here](https://stackoverflow.com/users/19827435/lucia-aldana))  
+and I also create some Gists with some processes hoping to give back some of that help.
 
 ## `🌟 Gists`
 
-### I have created some gists, [_you can see them all here:_](https://gist.github.com/luciaaldana)
+### I have created some gists, [_you can see them all here_](https://gist.github.com/luciaaldana) or choose from the list:
 
 | Topic                | Detail                                                      | Link                                                                       |
 | -------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -29,6 +40,8 @@ I like to learn, I am self-taught. The solutions that are posted for different p
 ✨ I hope it helps you.
 
 ## `👾 Alias`
+
+I have created some aliases to use in my projects:
 
 | Alias | Command                                                     | Description                                            |
 | ----- | ----------------------------------------------------------- | ------------------------------------------------------ |
