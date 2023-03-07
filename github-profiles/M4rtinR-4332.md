@@ -40,7 +40,6 @@ My [GitHub](https://github.com/M4rtR0d)
 2. Java
    
 3. Anaconda
-   * Jupyter Notebook
    * JupyterLab
    * Spyder
 
