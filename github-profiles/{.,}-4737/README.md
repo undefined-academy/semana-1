@@ -3,7 +3,7 @@ I'm a 19 year old student from **Venezuela** 🇻🇪. Currently learning progra
 
 ---
 
-## 📚 Technologies I'm currentrly learning:
+## 📚 Technologies I'm currently learning:
  ![](https://imgur.com/iwnosd0.png)![](https://imgur.com/Bx1AIqi.png)![](https://imgur.com/E8CS0gW.png)
 
 ---
