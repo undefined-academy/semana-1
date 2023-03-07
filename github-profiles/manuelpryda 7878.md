@@ -1,7 +1,7 @@
 # Hey! Soy Manuel Pulido,
 ### ¡ Aprendiendo el maravillo mundo de la programación !
 
-Soy **Licenciado en Administración y Dirección de Empresas** con más de de diez años de experiencia en 
+Soy **Licenciado en Administración y Dirección de Empresas** con más de diez años de experiencia en 
 el ámbito del sector empresarial, en gestión de patrimonios y gestión económica-financiera, con conocimientos básicos de HTML y CSS,  me embarco en esta nueva
 aventura para intentar dar un **giro de 180º** en mi carrera profesional.
 
