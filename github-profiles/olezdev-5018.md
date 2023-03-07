@@ -3,7 +3,7 @@
 - 💡 I'm currently learning with [Undefined Academy](https://undefined.academy/)
 - 👀 I'm interested in javascript.
 
-# Estos son los 5 comando
+### Estos son los 5 comando
 | comando    | Descripción               |
 |---------   |---------------------------|
 | ls         | Lista el contenido        |
