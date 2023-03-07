@@ -2,7 +2,7 @@
 
 ## sobre mi
 
-Estidiante de desarrooolo web autodidacta con ganas de aprender sobre la tecnología, en busca de conocimientos que me permitan crear soluciones mediante código.
+Estudiante de desarrollo web autodidacta con ganas de aprender sobre la tecnología, en busca de conocimientos que me permitan crear soluciones mediante código.
 Algunos de los comandos de códigos que me parecen interesantes son :
 | Comando | Funcionaliad |
 |---------|--------------|
