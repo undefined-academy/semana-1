@@ -19,12 +19,12 @@ https://github.com/ldrl
 |git| Utilizado para tener el control de versiones |
 
 ### Listado de commandos alias
-```bash
+```
 stop:
 	docker-compose stop
 ```
 * Permite parar un contenedor 
-```bash
+```
 up:
 	docker-compose up -d
 ```
