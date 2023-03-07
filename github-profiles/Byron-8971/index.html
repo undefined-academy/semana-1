@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+
+    <style type="text/css">
+        td,
+        th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3>Hi there 👋</h3>
+        <h1>Byron Valdivieso</h1>
+
+
+        <a href="https://github.com/Byron2016" target="_blank"><img
+                src="https://img.shields.io/static/v1?label=&message=github profile&color=fbfbfb&logo=github&logoColor=black&style=social"></a>
+    </header>
+    <main>
+        <section>
+            <h1>PRESENTACIÓN</h1>
+            <p>Soy un ingeniero de sistemas y computación graduado en la Pontificia Universidad Católica de Quito
+                en el año 1997, he adquirido experiencia en diferentes campos como son gestión y seguimiento de
+                proyectos, administración y mantenimiento de aplicaciones, levantamiento y mejora de procesos,
+                levantamientos funcionales, también poseo experiencia en temas programáticos y de diseños en
+                bases de datos relacionales como son SQL Server, MySQL, PostgreSQL, poseo conocimientos de
+                los siguientes lenguajes de programación: C# .NET, HTML. </p>
+        </section>
+        <section>
+            <h1>Listado de comandos</h1>
+            <article>
+                <h2>Comandos en la terminal</h2>
+
+                <table>
+                    <tr>
+                        <th>COMANDO</th>
+                        <th>DESCRIPCIÓN</th>
+                    </tr>
+                    <tr>
+                        <td> pwd </td>
+                        <td> Imprimir directorio de trabajo. </td>
+                    </tr>
+                    <tr>
+                        <td> date </td>
+                        <td> fecha actual </td>
+                    </tr>
+                    <tr>
+                        <td> uptime </td>
+                        <td> Tiempo transcurrido desde ultima apagada </td>
+                    </tr>
+                    <tr>
+                        <td> cal </td>
+                        <td> muestra calendario (sudo apt install ncal) </td>
+                    </tr>
+                    <tr>
+                        <td> df </td>
+                        <td> espacio disco duro. </td>
+                    </tr>
+                    <tr>
+                        <td> whoami </td>
+                        <td> quien soy </td>
+                    </tr>
+                    <tr>
+                        <td> ls </td>
+                        <td> lista directorios (list directory contents) </td>
+                    </tr>
+                    <tr>
+                        <td> cd </td>
+                        <td> cambiar de directorio (change directory) </td>
+                    </tr>
+                    <tr>
+                        <td> pwd </td>
+                        <td> Print current working directory. </td>
+                    </tr>
+                    <tr>
+                        <td> mkdir </td>
+                        <td> crear directorio (make directory) </td>
+                    </tr>
+                    <tr>
+                        <td> cp -r </td>
+                        <td> copiar de manera recursiva (copy) </td>
+                    </tr>
+
+                    <tr>
+                        <td> rm -r </td>
+                        <td> eliminar de manera recursiva (remove) </td>
+                    </tr>
+                    <tr>
+                        <td> touch </td>
+                        <td> crear archivo</td>
+                    </tr>
+                    <tr>
+                        <td> cat </td>
+                        <td> mostrar contenido de un archivo </td>
+                    </tr>
+                    <tr>
+                        <td> more </td>
+                        <td> similar a cat pero permite navegar usando comandos tipo VIM </td>
+
+                    </tr>
+                    <tr>
+                        <td> mv </td>
+                        <td> mover un archivo de un lugar a otro / cambiar el nombre de un archivo.</td>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td> cd ~ </td>
+                        <td> Ir al home </td>
+                    </tr>
+                </table>
+
+            </article>
+
+            <article>
+                <h2>Atajos de comandos en la terminal</h2>
+
+                <table>
+                    <tr>
+                        <th>COMANDO</th>
+                        <th>DESCRIPCIÓN</th>
+                    </tr>
+                    <tr>
+                        <td> ctrl + c </td>
+                        <td> cancela la ejecución de un proceso </td>
+                    </tr>
+                    <tr>
+                        <td> ctrl + u </td>
+                        <td> borrar línea </td>
+                    </tr>
+                    <tr>
+                        <td> ctrl + w </td>
+                        <td> eliminar última palabra de lo q escribimos. </td>
+                    </tr>
+                    <tr>
+                        <td> ctrl + a </td>
+                        <td> ir al inicio de la línea </td>
+                    </tr>
+                    <tr>
+                        <td> ctrl + e </td>
+                        <td> ir al final de una línea </td>
+                    </tr>
+                    <tr>
+                        <td> ctrl + l </td>
+                        <td> limpiar la pantalla </td>
+                    </tr>
+                    <tr>
+                        <td> F arriba </td>
+                        <td> comando anterior </td>
+                    </tr>
+                    <tr>
+                        <td> F abajo </td>
+                        <td> comando siguiente </td>
+                    </tr>
+                    <tr>
+                        <td> alt + b </td>
+                        <td> movernos entre palabras hacia atras </td>
+                    </tr>
+                    <tr>
+                        <td> alt + f </td>
+                        <td> movernos entre palabras hacia delante </td>
+                    </tr>
+                    <tr>
+                        <td> ctrl + r </td>
+                        <td> búsqueda recursiva </td>
+                    </tr>
+                    <tr>
+                        <td> echo $SHELL </td>
+                        <td> saber el shell q se tiene </td>
+                    </tr>
+
+                </table>
+            </article>
+
+            <article>
+                <h2>Comandos en la terminal para alias</h2>
+
+                <table>
+                    <tr>
+                        <th>COMANDO</th>
+                        <th>DESCRIPCIÓN</th>
+                    </tr>
+                    <tr>
+                        <td> alias findd="ls ~/ \| grep $1" </td>
+                        <td> Buscar archivo/directorio coincidente </td>
+                    </tr>
+                    <tr>
+                        <td> alias npmd="npm run dev" </td>
+                        <td> Ejecutar servidor en ambiente desarrollo </td>
+                    </tr>
+                    <tr>
+                        <td> alias npms="npm start" </td>
+                        <td> Ejecutar script start </td>
+                    </tr>
+                    <tr>
+                        <td> alias rm="trash" </td>
+                        <td> Ejecutar comando trash </td>
+                    </tr>
+                    <tr>
+                        <td> alias cl="clear" </td>
+                        <td> Limpiar pantalla </td>
+                    </tr>
+                    <tr>
+                        <td> alias cafe="cat /dev/urandom \| hexdump \| grep \\"ca fe\\" " </td>
+                        <td> Generar listado de números aleatorios en
+                            hexadecimal y buscar "ca fe" dentro de el listado generado </td>
+                    </tr>
+
+                </table>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
