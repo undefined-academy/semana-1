@@ -6,6 +6,10 @@
 
 ## Courses
 4. Fullstack Java developer (Bootcamp at Edutecno Chile)
-5. Fullstack Javascript Developer (Bootcamp on goin)
+5. Fullstack Javascript Developer (Bootcamp on going)
 
 ### Web developer in WordPpress
+
+Many things still on going and many more to come.
+
+find more about it at [Github Nanpipe](https://github.com/nanpipe).
