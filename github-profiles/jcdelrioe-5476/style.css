@@ -24,3 +24,7 @@ code {
     padding: 2px 4px;
     vertical-align: text-bottom;
 }
+
+pre{
+    padding: 1em;
+}
