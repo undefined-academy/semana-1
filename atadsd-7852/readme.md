@@ -2,7 +2,7 @@
 # Hola mi nombre es Anthony Torres. 
 ## *tengo 27 años* 
 ## soy un **ingeniero mecanico** especializado en mecanica automotriz. 
-## realice cursos de cocina durante 1 año y medio  cocina durante 1 año 
+## realice cursos de cocina durante 1 año y medio   
 ### soy **tecnico de KTM** con mas de 5 años de experiencia.
 
 **nacido en venezuela y actualmente resido en peru donde trabajo en la empresa MotoWorld desde al año 2019** 
