@@ -6,5 +6,5 @@ I'm a **Full stack Web Developer** with an emphasis on JavaScript, NodeJS, HTML,
 - 🌱 I’m currently learning Dara Analytics.
 - ⚡ Hobbies: Motorcycle, Bike, Beach.
 
-### Perfil GitHub
+### GitHub Profile
 https://github.com/pintor32
