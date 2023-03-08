@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background: gray;
+  color: black;
+  font-size: 20px;
+}
+
+h1 span{
+    color: rgb(4, 27, 85);
+}
+
+li span {
+    color: rgb(144, 144, 144);
+    background: rgb(29, 29, 29);
+    border: 2px solid black;
+    padding: 5px;
+    line-height: 40px;
+}
+
+.comandos {
+    color: orangered;
+}
+
+tr strong {
+    color: black;
+
+}
