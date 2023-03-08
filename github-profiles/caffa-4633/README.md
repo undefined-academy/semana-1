@@ -19,7 +19,7 @@ Los archivos serán los siguientes:
 | git.md | bis Git y Git Hub |
 | apuntes.md | este archivo, que iré avanzando por fecha para ordenar después |
 | shame.md | Respaldo desordenado de lo que sobre de apuntes para referencia futura. Puede que no tenga sentido ni organización.
-| tareas.md | Las tareas de las clases. Acá va el enunciado pedido y las respuestas las (espero) ir solucionando con la siguiente sigla: SemanaX-ClaseX-TareaX o `s1-c3-t1.md`. Si dejo todo metido en un archivo me va a quedar el desorden.
+| tareas.md | Acá pienso poner las tareas, pero así como va la cosa de rápido, creo que sólo guardaré los enunciados y alguna información breve para acordarme de cómo las voy solucionando. |
 
 ### Ejercicio 2
 
