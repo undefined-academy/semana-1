@@ -1,10 +1,12 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
 body{
     margin: 0 auto;
     max-width: 50em;
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
     padding: 4em 1em;
-    color: #555;
+    color: #566b78;
 }
 
 h2{
@@ -17,7 +19,9 @@ h1, h2, strong {
 }
 
 code, pre{
-    background: #eee;
+    background: #f5f7f9;
+    border-bottom: 1px solid #d8dee9;
+    color: #a7adba;
 }
 
 code {
@@ -27,6 +31,7 @@ code {
 
 pre{
     padding: 1em;
+    border-left: 2px solid #69c;
 }
 
 a{
