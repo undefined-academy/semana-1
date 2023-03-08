@@ -1,5 +1,80 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+
+header, main{
+    margin: 0 auto;
+    max-width: 50em;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    padding: 2em 1em;
+}
+header{  
+    background-image: url("bg-jean-pierre.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+a strong{
+    color: inherit;    
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+h2{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+h1, h2, strong {
+    color: #333;
+}
 body {
-    background: lightblue;
+    margin: 0 auto; 
+    max-width: 50em;
+    line-height: 1.5; 
+    color: #566b78;
+    background: linear-gradient(rgb(148, 209, 230), lightgrey);
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+header img{
+    display: inline-block;
+    height: 120px;
+    vertical-align: top; 
+    width: 120px;
+}
+header h1{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+header a{ 
+    color: rgb(39, 72, 143);
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color,background;
+    padding: 8px 8px;
+}
+header a:hover{
+    background: #333;
+    color: #d8dee9;
+    border-radius: 10px;
+}
+code, pre {
+    background: #f5f7f9;
+    border-bottom: 1px solid #d8dee9;
+    color: #a7adba;
+}
+code{
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+a{
+    color: #3763db
 }
