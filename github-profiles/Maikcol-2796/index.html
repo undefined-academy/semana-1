@@ -5,72 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil</title>
+    <script src="https://kit.fontawesome.com/8bdf5a52d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Maikcol Guevara</h1>
-    <p>👨‍🎓 Estudiante de desarrollo de software, manejo:</p>
-    <ul>
-        <li><em>JavaScript</em></li>
-        <li><em>HTML,</em></li>
-        <li><em>CSS</em></li>
-        <li><em>React JS</em></li>
+    <nav>
+        Maikcol G.
+        <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <article>
+       
+        <section id="about" class="perfil">
+            <aside class="aside-perfil">
+                <img class="aside-perfil__img" src="https://d131oejryywhj7.cloudfront.net/p/api/usuario/dup/w30xWWGW2UhGmZunxIdWRLJCwNqm59GL0.jpg/300x300cut/?s=l" alt="Foto de Maikcol Guevara">
+                <h1>Maikcol Guevara</h1>
+                <div class="aside-perfil__content">
+                    Proficient in:
+                    <ul>
+                        <li><em><i class="fa-brands fa-square-js" style="color: rgb(238, 255, 2);"></i> JavaScript</em></li>
+                        <li><i class="fa-brands fa-html5" style="color: rgb(255, 116, 2);"></i> <em>HTML</em></li>
+                        <li><i class="fa-brands fa-css3-alt" style="color: rgb(7, 74, 242);"></i> <em>CSS</em></li>
+                        <li><i class="fa-brands fa-react" style="color: rgb(7, 164, 242);"></i> <em>React JS</em></li>
+                        <li><i class="fa-brands fa-square-github"></i> <em>GitHub</em></li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="perfil__content">
+                
+                <p>Hi, I'm a web development student specializing in JavaScript and React. If you're looking for a passionate and dedicated web developer, you've come to the right place. Additionally, I am an avid novel reader and a enthusiastic video gamer, which gives me a unique and creative perspective when it comes to problem-solving in programming.</p>
+                
+                
+            </div>
+        </section>
 
-    </ul>
-    <a href="https://github.com/Alexis033">Perfil GitHub</a>
-    <hr>
-    <h2>🔎 Comandos</h2>
-    <table>
-        <thead>
-            <th>Comando</th>
-            <th>Descripción</th>
-            <th>Ejemplo</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>cd</strong></td>
-                <td>permite cambiar el directorio actual</td>
-                <td> <code> $cd .. </code></td>
-            </tr>
-            <tr>
-                <td><strong>ls</strong></td>
-                <td>lista los archivos de la ruta actual</td>
-                <td> <code>$ls</code></td>
-            </tr>
-            <tr>
-                <td><strong>cat</strong></td>
-                <td>muestra lo que hay dentro de un archivo</td>
-                <td> <code>$cat archivo.txt</code></td>
-            </tr>
-            <tr>
-                <td><strong>mkdir</strong></td>
-                <td>crea una nueva carpeta con el nombre especificado</td>
-                <td> <code>$mkdir nombre</code></td>
-            </tr>
-            <tr>
-                <td><strong>df</strong></td>
-                <td>enumera el espacio utilizado y disponible de todos los archivos montados</td>
-                <td> <code>$df -h</code></td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h2>👾 Comandos alias</h2>
-    <table>
-        <thead>
-            <th>Alias</th>
-            <th>Descripción</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td><code>$alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'</code></td>
-                <td>Crea un directorio y accede directamente al directorio creado</td>
-            </tr>
-            <tr>
-                <td><code>$alias count="find . -type f | wc -l"</code></td>
-                <td>Cuenta los ficheros que contiene un directorio</td>
-            </tr>
-        </tbody>
-    </table>
+        <section id="projects" class="projects">
+            <h2>My projects</h2>
+            <div class="project">
+                <div class="project__content">
+                    <h3>Tic-tac-toe</h3>
+                    <i class="fa-brands fa-react" style="color: rgb(7, 164, 242);"></i>
+                    <i class="fa-brands fa-css3-alt" style="color: rgb(7, 74, 242);"></i>
+                    <p>The project is a tic tac toe game created using React JS and CSS, with options to play against the computer or another player locally. It includes features to save the user's score and the last unfinished game. The main goal is to provide an enjoyable and visually appealing gaming experience, while also allowing users to easily track their progress over time.</p>
+                </div>
+                <a class="project__link" href="https://tic-tac-toe-snowy-nine.vercel.app/" target="_blank"><img class="project__img" src="img/Tic-tac-toe.png" alt="Image game: tic-tac-toe"></a>
+            </div>
+    
+            <div class="project">
+                
+                <div class="project__content">
+                    <h3>School enrollment management system</h3>
+                    <i class="fa-brands fa-react" style="color: rgb(7, 164, 242);"></i>
+                    <i class="fa-brands fa-bootstrap" style="color: rgb(120, 17, 247);"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-solid fa-database" style="color: rgb(0, 123, 154);"></i>
+                    <p>The project aims to develop a document management system for student registration using Bootstrap for the user interface design, React JS for the frontend, Python as the main programming language, and FastAPI as the framework for developing the RESTful API. The goal of the project is to simplify and streamline the student registration process, allowing them to easily and quickly upload the required documents, and providing system administrators with an efficient tool to manage and approve the received documents.</p>
+                </div>
+                <a class="project__link" href="https://github.com/Alexis033/miweb" target="_blank"><img class="project__img" src="img/app.png" alt="App login Image"></a>
+            </div>
+
+            <div class="project">
+                <div class="project__content">
+                    <h3>Other projects with React</h3>
+                    <i class="fa-brands fa-react" style="color: rgb(7, 164, 242);"></i>
+                    <i class="fa-brands fa-css3-alt" style="color: rgb(7, 74, 242);"></i>
+                    <p>This project repository contains multiple React JS projects that showcase the use of different React hooks such as useState, useRef, useEffect, useMemo, and useContext. These hooks are used for managing state, handling side effects, optimizing performance, and sharing data between components. The goal of the repository is to help developers improve their React JS skills by demonstrating practical use cases for these hooks.</p>
+                </div>
+                <a class="project__link" href="https://github.com/Alexis033/Aprendiendo-React" target="_blank"><img class="project__img" src="img/projects react.png" alt="github repository image"></a>
+            </div>
+
+            
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact me on</h2>
+
+            <p>If you're looking for a developer with experience in JavaScript, React JS, Python, and who is focused on continuous learning and professional growth, then please don't hesitate to reach out to me. Let's discuss how I can help take your project to the next level!</p>
+
+            <ul>
+                <li><a href="https://github.com/Alexis033" target="_blank"><i class="fa-brands fa-square-github"></i> GitHub</a></li>
+                <li><a href="mailto:guevarafma@gmail.com?subject=Contacto por oferta de trabajo en programación"><i class="fa-solid fa-envelope"></i> Send mail</a></li>
+                <li><a href="https://www.linkedin.com/in/maikcol-guevara/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+            </ul>
+        
+        </section>
+    </article>
 
 </body>
 </html>
