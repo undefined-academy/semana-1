@@ -1,0 +1,39 @@
+
+
+body {
+    margin: 20px 70px;
+    padding: px;
+    background-color: #CBE4DE;
+    color: #2C3333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: #0E8388;
+    text-align: center;
+    font-size: 60px;
+    padding: 20px 0px;
+}
+
+h1:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+h3 {
+    background-color: #2E4F4F;
+    color: #CBE4DE;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #2C3333;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #0E8388;
+    font-weight: 600;
+}
