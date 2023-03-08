@@ -1,0 +1,18 @@
+body {
+    background-color: tomato;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+section {
+    background-color: purple;
+}
+div {
+    background-color: palegoldenrod;
+    padding: 16px 32px;
+    margin: 20px;
+    border: 8px solid orchid;
+}
+p {
+    background-color: papayawhip;
+    color: lightgray;
+}
