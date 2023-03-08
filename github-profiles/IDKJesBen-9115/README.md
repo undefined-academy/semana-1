@@ -33,7 +33,7 @@
   + **Desarrollo web Full-Stack**. _Undefined Academy 2023_  **_EN CURSO_**
   + **Platzi English Academy**. _Platzi 2023_  **_EN CURSO_**
   + **Curso de Pensamiento lógico: Algoritmos y diagramas de flujo**. _Platzi 2023_  [Diploma](https://drive.google.com/file/d/1dDPldDaZwrLrmV6tFhYS-YX-p47pCwQa/view?usp=sharing)
-  + **Curso de *Pensamiento lógico: Funciones y estructuras de control*. _Platzi 2023_  [Diploma](https://drive.google.com/file/d/12FXnSw2xmaQZXGVPFOpCep3xlWceJijK/view?usp=sharing)
+  + **Curso de Pensamiento lógico: Funciones y estructuras de control**. _Platzi 2023_  [Diploma](https://drive.google.com/file/d/12FXnSw2xmaQZXGVPFOpCep3xlWceJijK/view?usp=sharing)
   + **Curso de Fundamentos de pruebas de softwate**. _Platzi 2022_ [Diploma](*https://drive.google.com/file/d/1CVYKFFv9azeMLRl3iBf_ec8wL5azLYhw/view?usp=share_link)
   + **Curso de Introducción a la automatización de pruebas**. _Platzi 2022_  [Diploma](https://drive.google.com/file/d/1JJzJc2ISLaExQf-XONF2JtmwJ09ztdlC/view?usp=sharing)
   + **Curso de Professional Adobe Photoshop CC Course With Advance Training**. _Udemy 2021_  [Diploma](https://udemy-certificate.s3.amazonaws.com/image/UC-a09002c2-1ab8-4f94-83a1-ddb27b93351d.jpg?v=1623886478000)
