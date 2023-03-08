@@ -45,6 +45,14 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 1.2;
-    padding: 10vw 2em;
+    padding: 5vw 2em;
     text-align: center;
+    color: #eee;
+}
+
+header img{
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
 }
