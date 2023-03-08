@@ -1,0 +1,31 @@
+https://github.com/Matiaspercivale2001
+# ¡Hola chicos, soy Matías!😃
+
+Tengo 21 años. Tengo dos hermanos más grandes que yo. Vivo con mis padres y mis mascotas. 
+Actualmente, estoy tratando de mejorar mis habilidades dentro de las nuevas tecnologías. 
+Me considero una persona de voluntad fuerte y bien equilibrada. Me interesa la ingeniería y que podamos mejorar nuestras vidas usando nuevas tecnologías.💻
+
+**Mis metas personales como estudiante:**
+
+1-Mejorar mi inglés🏴󠁧󠁢󠁥󠁮󠁧󠁿
+2-Mejorar mis habilidades como estudiante de ingeniería.🏗️
+3-Mejorar mis conocimientos de programación.👨‍💻
+
+![imagen](https://user-images.githubusercontent.com/126214162/222607561-7fac0d4c-a950-485d-9162-487ee8bcba72.png)
+
+Estos son los 5 comandos
+
+| comando | descripcion   |
+|---------|---------------|
+| pwd     | work directory|
+| cd      | folder change |
+| ls      | file list     |
+| clear   | terminal clear|
+| mkdir   | new folder    |
+
+**Estos son mis 2 alias mas usados**
+
+```bash
+alias.npmd=npm run dev
+alias.npms=npm start
+```
