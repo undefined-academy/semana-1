@@ -94,16 +94,16 @@ header img {
   }
 /*text styles*/
 header h1 {
-    color: white;
+    color: rgba(13, 12, 12, 0.883);
     font-size: 2.5em;
     font-weight: 300;
   }
   
   header a {
-    border: 1px solid #e81c4f;
-    border-radius: 290486px;
+    border: 1px solid #274ed1;
+    border-radius: 33px;
     color: white;
-    font-size: 0.6em;
+    font-size: 0.9em;
     letter-spacing: 0.2em;
     padding: 1em 2em;
     text-transform: uppercase;
@@ -113,8 +113,8 @@ header h1 {
   }
   
   header a:hover {
-    background:  #e81c4f;
-    color: white;
+    background:  #274ed1;
+    color: black;
   }
 
 
