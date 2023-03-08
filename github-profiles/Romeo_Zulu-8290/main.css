@@ -10,6 +10,9 @@ body {
     margin-top: 1em;
     padding-top: 1em;
   }
+  li {
+    text-align: justify;
+  }
   h1,
   h2,
   strong {
@@ -72,12 +75,12 @@ header {
     font-weight: 300;
 }
   header a {
-    border: 1px solid #330f18;
+    border: 1px solid #527cf0;
     border-radius: 290486px;
     color: rgb(109, 10, 221);
-    font-size: 0.6em;
-    letter-spacing: 0.1em;
-    padding: 0.5em 0.5em;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+    padding: 0.3em 0.4em;
     text-transform: uppercase;
     text-decoration: none;
     transition: none 200ms ease-out;
@@ -85,11 +88,26 @@ header {
   }
     header a:hover {
     background:  #5438d3;
-    color: rgb(255, 255, 255);
+    color: rgb(233, 233, 233);
   }
   .header {
     padding: 10px 16px;
     background: #4bb1da;
     color: #f1f1f1;
   }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;    
+  }  
+  td, th {
+    border:3px solid #4da3dd;
+    text-align: center;
+    padding:8px;
+    width: 50%;
+  }  
+  tr:nth-child(even) {
+    background-color: #70dee6;
+  }
+  
   
