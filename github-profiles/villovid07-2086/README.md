@@ -6,7 +6,7 @@ this is my github profile https://github.com/villovid07
 
 - ✌️I'm a **Software Developer** from **Colombia** I live in **Pasto** a city in the Colombia's Soutwest, I love learning about programming 💻 and playing videogames 🎮, I enjoy so much working in front-end development but in backend development too.
 - 👀 My motivations are learning and developing everyday my skills in coding and improve my english.
-- 🌱 Currently I'm studying Nodejs, ava, Angular and React
+- 🌱 Currently I'm studying Nodejs, Java, Angular and React
 - 💞️ I like working in any project which encourage me to learn more and to be a challenge for me.
 - 📫 villovid07@hotmail.com / villovid07@gmail.com.
 
