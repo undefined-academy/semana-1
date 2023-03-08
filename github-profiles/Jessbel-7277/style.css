@@ -1,7 +1,8 @@
 :root{
-    /*Colores*/
     --color-background: #0d1117;
     --just-white: #fff; 
+    --border-main: #30363d;
+    --border-bottom: #21262d;
 }
 
 *{
@@ -11,7 +12,6 @@
 }
 
 html{
-    font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
     color: var(--just-white);
     background-color: var(--color-background);
@@ -25,16 +25,42 @@ body {
 main{
     width: 100%;
     height: auto;
-    padding: 20px;
+    margin-top: 10px;
+    padding: 50px;
+    border: 1px solid var(--border-main);
+    border-radius: 6px;
 }
 
+h1{
+    font-size: 2em;
+    border-bottom: 1px solid var(--border-bottom);
+    padding-bottom: 0.3em;
+    margin-bottom: 30px;
+}
+
+ul{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+h2{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 1.25em;
+}
 table {
     border-collapse: collapse;
+    font-size: 0.8em;
 }
 
 th, td{
-    background: #30363d;
-    border: 1px solid #c9d1d9;
+    border: 1px solid gray;
     padding: .75rem;
     color: #fff;
+}
+table tbody tr:nth-child(odd) {
+	background: var(--color-background);
+}
+table tbody tr:nth-child(even) {
+	background: #161b22;
 }
