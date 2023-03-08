@@ -1,0 +1,51 @@
+/* GENERAL */
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    background-color:  gold;
+    color: black;
+    border: 2px solid ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+code,
+pre {
+background: #eee;
+}
+
+code {
+padding: 2px 4px;
+vertical-align: text-bottom;
+}
+
+pre {
+padding: 1em;
+}
+
+header{
+    background-image:url(/portátil-negro-con-mapa-del-mundo-en-pantalla-icono-aislado-sobre-fondo-amarillo-mundial-geografía-símbolo-estilo-de-sombra-210624276.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 30vw 1em;
+    text-align: center;
+    color: white;
+    
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-texto{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:bold;
+}
