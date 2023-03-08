@@ -9,7 +9,7 @@ At the moment I am studying in **Platzi** courses about HTML, CSS, JavaScript an
 | Command | Description |
 | ------ | ------ |
 | $ rm -r | remove a folder, e.g:  $ rm -r hola . |
-| $ touch | cereate a new file, e.g: $ touch chao|
+| $ touch | create a new file, e.g: $ touch chao|
 | $ cat| insert information into a designated file, e.g: $ cat chiao |
 | $ ls | show your files or document in your actual route or a specific route, e.g: $ ls Documents |
 | $ cowsay| checkout what this do on your terminal :eyes: . e.g: $ cowsay -d  "Not okay"   |
