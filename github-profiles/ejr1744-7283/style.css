@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    line-height: 1.5;
+    padding: 4em 1em;
+    margin: 0;    
+    background-image: url(./fondo1.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link { text-decoration: none;
+    color: white;
+}
+
+a:visited {
+text-decoration: none;
+color: white;
+}
+
+h1,
+h2,
+strong {
+  color: white;
+}
+
+.container{
+border: 1px solid white;
+    width: 85%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0,0,0,0.6);    border: 2px solid white;
+    width: 85%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;            
+    
+}
+
+.imagen{
+    border-radius:  50%;
+    width : 300px; 
+    height : 300px;
+}
+
+.cont-titulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.cont-titulo h1 {
+    margin-left: 30px;
+}
