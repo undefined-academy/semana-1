@@ -1,0 +1,56 @@
+body {
+  /* Color and  contrast */
+  background-color: #30156a;
+  color: #94e74c;
+  /* Font Family */
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  /* Centering */
+  margin: 0 auto;
+  max-width: 50em;
+  /* Spacing */
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+strong {
+  color: #94e74c;
+}
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+a {
+  color: #94e74c;
+}
+footer {
+  text-align: center;
+}
+h1 {
+  /* background-color: crimson; */
+  text-align: center;
+}
+.subtitle-0 {
+  /* background-color: lightcoral; */
+  text-align: center;
+  color: #94e74c;
+}
+
+.week-0 {
+  background-color: #593f92;
+  color: lightseagreen;
+  text-align: center;
+}
+.list {
+  color: lightseagreen;
+}
+.week-1 {
+  background: #593f92;
+  color: lightseagreen;
+  text-align: center;
+}
+.class-1,
+.class-2,
+.class-3,
+.class-4 {
+  color: lightseagreen;
+}
