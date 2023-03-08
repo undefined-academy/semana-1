@@ -21,3 +21,5 @@ Estoy ubicado en _Lima_ , _Peru._
 | alias | listar los alias                 |
 
 # Estos son mis alias mas usados
+
+Todavia no tengo ningun alias generado xD
