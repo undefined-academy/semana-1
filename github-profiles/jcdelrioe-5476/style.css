@@ -45,7 +45,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 1.2;
-    padding: 5vw 2em;
+    padding: 10vw 2em;
     text-align: center;
     color: #eee;
 }
@@ -55,4 +55,28 @@ header img{
     height: 120px;
     vertical-align: top;
     width: 120px;
+}
+
+header h1 {
+    color: black;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+header a{
+    border: 1px solid #e81c4f;
+    border-radius: 290486px;
+    color: black;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+header a:hover{
+    background: #e81c4f;
+    color: white;
 }
