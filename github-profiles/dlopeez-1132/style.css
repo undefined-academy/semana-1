@@ -1,0 +1,33 @@
+body {
+    /* Centering the page. */
+    margin: 0 auto;
+
+    /* Setting the maximum width of the page to 50% of the screen. */
+    max-width: 50%;
+
+    font-family: sans-serif;
+
+    /* Setting the line height to 1.5 times the font size. */
+    line-height: 1.5;
+
+    color: #444;
+}
+
+h1 {
+    max-width: 100%;
+    background-image: url(header_img.jpeg);
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding: 4em;
+}
+
+h4{
+    padding: 1em;
+    background-color:gainsboro;
+}
+
+h1,
+h4,
+strong{
+    color:darkcyan;
+}
