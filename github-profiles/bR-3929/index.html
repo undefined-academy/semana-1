@@ -4,7 +4,7 @@
 <head>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
-      </style>
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,32 +32,55 @@
     </ul>
 
     <h2>Comandos de la terminal aprendidos</h2>
-
-    <p><strong>ls</strong>: Lista los archivos de la carpeta actual, o de la ruta dada. Ej. <strong>ls</strong>
-        Documents </p>
-
-    <p><strong>cd</strong>: Nos permite navegar entre carpetas. Ej. <strong>cd</strong> Documents nos ubicaría en
-        /Users/<usuario>/Documents </p>
-
-    <p><strong>pwd</strong>: Nos nuestra la ruta absoluta del directorio actual, así podemos saber en dónde estamos
-        ubicados.</p>
-
-    <p><strong>mkdir</strong>: Crea una nueva carpeta dado un nombre para esa carpeta. Ej. <strong>mkdir</strong> hola
-    </p>
-
-    <p><strong>touch</strong>: Crea un archivo nuevo dada una ruta y/o nombre. Ej. <strong>touch</strong> README .</p>
-
-
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre de Comando</th>
+                <th>Utilidad del Comando</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>ls:</strong></td>
+                <td>Lista los archivos de la carpeta actual, o de la ruta dada. Ej.
+                    <strong>ls</strong> Documents
+                </td>
+            </tr>
+            <tr>
+                <td><strong>cd:</strong></td>
+                <td>Nos permite navegar entre carpetas. Ej. <strong>cd</strong> Documents nos ubicaría en
+                    /Users/usuario/Documents</td>
+            </tr>
+            <tr>
+                <td><strong>pwd:</strong></td>
+                <td> Nos nuestra la ruta absoluta del directorio actual, así podemos saber en dónde estamos ubicados.
+                </td>
+            </tr>
+            <tr>
+                <td><strong>mkdir:</strong></td>
+                <td>Crea una nueva carpeta dado un nombre para esa carpeta. Ej. <strong>mkdir</strong> hola</td>
+            </tr>
+            <tr>
+                <td><strong>touch:</strong></td>
+                <td>Crea un archivo nuevo dada una ruta y/o nombre. Ej. <strong>touch</strong> README.md</td>
+            </tr>
+        </tbody>
+    </table>
     <h2> Comandos Alias utiles</h2>
-<code>
-    <strong> findd="ls ~/ | grep $1":</strong> <br>
+    <code>
+    <strong> findd="ls ~/ | grep $1":</strong>
     <em>Crea un alias "findd", el cual busca $1 documento en HOME (o directorio agregado al alias).</em>
 </code><br>
-<br>
-<code>
-    <strong> alias cl = "clear"</strong><br>
+    <br>
+    <code>
+    <strong> alias cl = "clear"</strong>
     <em>Crea un alias "cl", el cual ejectura el comando CLEAR</em>
 </code>
+
+    <footer>
+        <p>&copy;Ejercicios del BootCamp Undefined-Shell</p>
+    </footer>
 </body>
+
 
 </html>

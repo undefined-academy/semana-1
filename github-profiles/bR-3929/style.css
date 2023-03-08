@@ -4,8 +4,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 1.4;
-    padding: 10px 10px 170px 10px;
+    height: 100%;   
+    padding: 12px 5px;
+    content: 100%;
 }
+
 
 code {
     background-color: azure;
@@ -30,4 +33,26 @@ body ul {
 
 body code {
     font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
 }
+
+th{
+    border: 2px solid rgb(230, 10, 10);
+}
+
+td{
+    border: 2px solid rgb(230, 10, 10);
+}
+
+table{
+    background-color: rgb(214, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    color: #666;
+    padding: 10px;
+    text-align:right;
+
+  }
+  
