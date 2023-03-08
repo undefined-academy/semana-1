@@ -1,0 +1,36 @@
+body{
+    background-color: turquoise;
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5em;
+    padding: 4em 1em;
+    color: brown;
+}
+
+.container{
+    border: 2px solid;
+    height: 150px;
+    text-align: center;
+    background-color: aquamarine;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+table, th, td{
+    border: 1px  solid black;   
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th, td{
+padding: 1opx;
+}
+
+th{
+text-align: center;
+}
+
