@@ -1,0 +1,74 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 15px;
+  border: 5px dotted cornflowerblue;
+  border-radius: 15px;
+  font-family:sans-serif;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  color:indigo;
+}
+
+li {
+  line-height: 2em;
+}
+
+li:hover {
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color:cornflowerblue;
+}
+
+table {
+  border: 1px solid cornflowerblue;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: lighter;
+  border-right: 1px solid cornflowerblue;
+}
+
+th:hover {
+  background-color: lavender;
+}
+
+.table-type {
+  font-weight:bold;
+  color: indigo;
+  text-align: center;
+  border-bottom: 1px solid cornflowerblue;
+  padding: 0 15px;
+}
+
+.table-type:hover {
+  background-color: white;
+}
+
+.info {
+  background-color: lavender;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 340px;
+  padding-right: 340px;
+}
+
+.title {
+  color: indigo;
+}
