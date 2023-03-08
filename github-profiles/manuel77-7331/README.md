@@ -1,7 +1,7 @@
 # Leovigildo Manuel Martinez Balderas
 **SysAdmin Linux / Back-End Developer**
 
-# My Github profile: [manuelmannuel](https://github.com/manuelmannuel/manuelmannuel "manuelmannuel")
+# My Github profile: [manuelmannuel](https://github.com/manuelmannuel "manuelmannuel")
 
  *SysAdmin Linux and software development, with problem solving skills, verifiable experience in system administration and software development.*
 
@@ -11,8 +11,8 @@ Command  | Description
 ------------- | -------------
 ls  | Lists all files and directories in the present working directory
 cd  | To change to a particular directory 
-pwd | muestra la ruta relativa 
-cp  | copy files
+pwd | Full path name of your current directory 
+cp  | Copy files
 cat filename| Displays the file content
 rm  | Delete file
 mkdir | Make directory
