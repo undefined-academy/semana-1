@@ -1,56 +1,66 @@
 body {
     margin: 0 auto;
     max-width: 50em;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5;
     padding: 2em 0.5em;
     color: #353535;
-  }
-  h2 {
+}
+
+h2 {
     margin-top: 1em;
     padding-top: 1em;
-  }
-  li {
-    text-align: justify;
-  }
-  h1,
-  h2,
-  strong {
-    color: #333;
-  }
-  code,
-pre {
-  background: #fffefe;
 }
+
+li {
+    text-align: justify;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+code,
+pre {
+    background: #fffefe;
+}
+
 code {
     padding: 1px 2px;
     vertical-align: text-bottom;
-  }
-  pre {
+}
+
+pre {
     padding: 0.5em;
-  }
-  a {
+}
+
+a {
     color: #d12e56;
-  }
-  body {
+}
+
+body {
     color: #566b78;
-  }
-  
-  code,
-  pre {
+}
+
+code,
+pre {
     background: #f5f7f9;
     border-bottom: 1px solid #d8dee9;
     color: #a7adba;
-  }
-  
-  pre {
+}
+
+pre {
     border-left: 2px solid #69c;
-  }
-  @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+}
+
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
 body {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
+
 header {
     background-color: #a6e2d0;
     background-image: url("header.jpg");
@@ -60,21 +70,25 @@ header {
     line-height: 1.2;
     padding: 10vw 2em;
     text-align: center;
-    background-blend-mode:hard-light;
-    position: sticky;top: 0;
+    background-blend-mode: hard-light;
+    position: sticky;
+    top: 0;
 }
-  header img {
+
+header img {
     display: inline-block;
     height: 120px;
     vertical-align: top;
     width: 120px;
-  }
-  header h1 {
+}
+
+header h1 {
     color: white;
     font-size: 2.5em;
     font-weight: 300;
 }
-  header a {
+
+header a {
     border: 1px solid #527cf0;
     border-radius: 290486px;
     color: rgb(109, 10, 221);
@@ -85,29 +99,33 @@ header {
     text-decoration: none;
     transition: none 200ms ease-out;
     transition-property: color;
-  }
-    header a:hover {
-    background:  #5438d3;
+}
+
+header a:hover {
+    background: #5438d3;
     color: rgb(233, 233, 233);
-  }
-  .header {
+}
+
+.header {
     padding: 10px 16px;
     background: #4bb1da;
     color: #f1f1f1;
-  }
-  table {
+}
+
+table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;    
-  }  
-  td, th {
-    border:3px solid #4da3dd;
+    width: 100%;
+}
+
+td,
+th {
+    border: 3px solid #4da3dd;
     text-align: center;
-    padding:8px;
+    padding: 8px;
     width: 50%;
-  }  
-  tr:nth-child(even) {
+}
+
+tr:nth-child(even) {
     background-color: #70dee6;
-  }
-  
-  
+}
