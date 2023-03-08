@@ -4,6 +4,8 @@ I'm a **FullStack JavaScript Developer** from **Argentina**.
 
 Previously I worked as an audiovisual producer, graphic designer and sound designer, also as an administrator, but I have always been passionate about technology and today I am in search of it.
 
+> Link to my **[GitHub](https://github.com/lllariogonzalez)**
+
 ## Terminal useful commands
 
 |  Command ~$  |  Description                                           |
