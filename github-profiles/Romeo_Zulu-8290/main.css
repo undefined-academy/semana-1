@@ -6,9 +6,6 @@ body {
     padding: 2em 0.5em;
     color: #353535;
   }
-  li {
-    
-  }
   h2 {
     margin-top: 1em;
     padding-top: 1em;
@@ -62,7 +59,7 @@ header {
     text-align: center;
     background-blend-mode:hard-light;
     position: sticky;top: 0;
-  }
+}
   header img {
     display: inline-block;
     height: 120px;
@@ -73,8 +70,7 @@ header {
     color: white;
     font-size: 2.5em;
     font-weight: 300;
-  }
-  
+}
   header a {
     border: 1px solid #330f18;
     border-radius: 290486px;
@@ -85,10 +81,9 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     transition: none 200ms ease-out;
-    transition-property: color, background;
+    transition-property: color;
   }
-  
-  header a:hover {
+    header a:hover {
     background:  #5438d3;
     color: rgb(255, 255, 255);
   }
@@ -97,7 +92,4 @@ header {
     background: #4bb1da;
     color: #f1f1f1;
   }
-  .content {
-    padding: 16px;
-  }
- 
+  
