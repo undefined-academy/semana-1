@@ -1,6 +1,4 @@
- http://localhost:8080/firstExercise/index.html
-
-# **Hi!** Welcome to my **CV**
+<> Hi! Welcome to my **CV**
 
 ## Who am i?
 i am a guy that is **studying** coputer sciense and decided study **programming by himself**, i have **knowledge** of this world of programing more expesific in **fronted** (javascipt, css, html). 
