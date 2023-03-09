@@ -1,8 +1,8 @@
 # Maikcol Guevara
 
-### 👨‍🎓 _Estudiante de desarrollo de software, manejo de JavaScript, HTML, CSS y React JS._
+### 👨‍🎓 _Hi, I'm a web development student specializing in JavaScript and React. If you're looking for a passionate and dedicated web developer, you've come to the right place. Additionally, I am a philosopher, an avid novel reader and a enthusiastic video gamer, which gives me a unique and creative perspective when it comes to problem-solving in programming._
 
-### Link perfil GitHub https://github.com/Alexis033
+### [Link perfil GitHub](https://github.com/Alexis033)
 
 ## 🔎 Comandos
 
