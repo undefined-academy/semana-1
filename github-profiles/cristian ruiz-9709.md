@@ -14,6 +14,7 @@ formatear texto de manera *sencilla* y *fácil* de leer.
 4. Versátil
 5. Compatible con HTML
 6. Rápido
+
 7. Centrado en el contenido
 ## Filosofía
 > Markdown is intended to be as easy-to-read and easy-to-write as is
