@@ -2,7 +2,7 @@
 
 # Darwin Rozo
 
-### Full stack developer and Accounter
+### Trader Expert
 
 **Formal Education**
 
