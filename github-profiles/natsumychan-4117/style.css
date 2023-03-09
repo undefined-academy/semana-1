@@ -1,0 +1,66 @@
+body{
+ margin:0;
+ padding:0;
+ background-color:#F9F7FE;
+ font-size: 62.5%;
+}
+
+main{
+ margin: 0 auto;
+ margin-top: 20px;
+ padding: 30px;
+ width:80%;
+}
+
+main h1, h2{
+ margin-top: 30px;
+ text-align: center;
+}
+
+main, section, footer{
+ background-color: #FFFFFF;
+ border-radius: 4px;
+}
+
+h1{
+ font-size:1.8rem;
+}
+
+h2{
+ font-size:1.6rem;
+}
+
+p, th, td {
+  font-size:1.2rem;
+  color: #333;
+}
+
+.terminal-container .alias-container{
+ padding:20px;
+ width:70%;
+}
+
+h3{
+ font-size:1.4rem;
+}
+
+footer{
+ height:200px;
+}
+
+footer p{
+ text-align: center;
+}
+
+img{
+ display:block;
+ margin: 0 auto;
+ width:100px;
+ height:100px;
+ transition: all 0.5s ease-out;
+}
+
+img:hover{
+ width: 150px;
+ height: 150px;
+}
