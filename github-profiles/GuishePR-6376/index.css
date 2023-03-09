@@ -2,7 +2,7 @@
 
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  background: #1f2937;
+  background: #f9eae1;
   color: black;
   font-size: 15px;
   margin: 0 auto;
@@ -21,8 +21,8 @@ li span {
     line-height: 40px;
 }
 
-.comandos {
-    color: #1e3a8a;
+h2 {
+    color: #0d5945;
 }
 
 table, td, th {

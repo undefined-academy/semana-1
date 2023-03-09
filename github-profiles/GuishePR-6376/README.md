@@ -13,10 +13,12 @@ Estoy empezando en el mundo de la programación con el **Bootcamp Undefined Shel
 | ls       | Listar contenido        |
 
 # Comandos alias:
-| ALIAS | COMANDOS | DESCRIPCIÓN         |
-|-------|----------|---------------------|
-| cl    | clear    | Limpiar la terminal |
+| ALIAS | COMANDOS                   | DESCRIPCIÓN               |
+|-------|----------------------------| --------------------------|
+| cl    | clear                      | Limpiar la terminal       |
+| hhtml | npx vite dev               | Cargar .html en localhost |
+| hmd   | npx @11ty/eleventy --serve | Cargar .md en localhost   |
 
 # Mi perfil de Github
 
-### https://github.com/GuishePR
+[**GuishePR**](https://github.com/GuishePR)

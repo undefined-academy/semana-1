@@ -2,9 +2,13 @@
 
 body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    background: #1f2937;
+    background: #f9eae1;
     color: black;
     font-size: 15px;
     margin: 0 auto;
     max-width: 50em;
+}
+
+h1 {
+    color: #0d5945;
 }
