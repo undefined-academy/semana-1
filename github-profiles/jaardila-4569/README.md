@@ -42,7 +42,7 @@ Soy un desarrollador ASP.NET con experiencia en el diseño y desarrollo de aplic
 ## Certificaciones
 
 | Nombre de la certificación         | Emisor | Fecha de obtención |
-| --- | --- | --- |
+| ---------------------------------- | ------ | ------------------ |
 | Certificación en microservicios C# | Udemy  | Febrero 2021       |
 | Certificación en Asp.Net           | Udemy  | Agosto 2020        |
 | Certificación en Javascript        | Platzi | Mayo 2019          |
