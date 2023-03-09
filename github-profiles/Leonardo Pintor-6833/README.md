@@ -8,3 +8,18 @@ I'm a **Full stack Web Developer** with an emphasis on JavaScript, NodeJS, HTML,
 
 ### GitHub Profile
 https://github.com/pintor32
+
+### Commands
+
+| Command | Description                                     |
+| ------- | -----------                                     |
+|  pwd    | show the absolute path of the current directory |
+|  ls     | list directory                                  |
+|  cat    | print the content of a file                     |
+|  yarn   | install dependecies                             |
+|  touch  | create a new file                               |
+
+### Alias
+
+``` alias mostused='history | awk '\''{print $2} '\'' | sort | uniq -c | sort -nr | head -n 10' ```
+``` alias findd="ls ~/ | grep $1"" ```
