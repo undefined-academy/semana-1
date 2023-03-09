@@ -39,18 +39,18 @@ Antes de este Bootcamp, estudié por mi cuenta y en plataformas como [Platzi](ht
 
 ### Tabla de **comandos** de la terminal 💻
 
-|          Comando            |                              Descripción                                                                                                        |
-|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-|            `pwd`            | Arroja la ruta absoluta en la que nos encontremos trabajando.                                                                                   |
-|            `ls`             | Lista de los archivos contenidos dentra de la carpeta en la que estemos ubicados.                                                               |
-|    `cd [ruta o archivo]`    | Navega a través de los distintos directorios que creemos en nuestra área de trabajo.                                                            |
-|        `wget [url]`         | Descarga archivos directamente con una url.                                                                                                     |
-| `git clone [url o key SSH]` | Permite clonar cualquier repositorio de [GitHub](https://github.com/ "https://github.com/") directamente a nuestra área de trabajo local.       |
+|          Comando            |                              Descripción                                                   |
+|-----------------------------|--------------------------------------------------------------------------------------------|
+|            `pwd`            | Arroja la ruta absoluta en la que nos encontremos trabajando.                              |
+|            `ls`             | Lista de los archivos contenidos dentra de la carpeta en la que estemos ubicados.          |
+|    `cd [ruta o archivo]`    | Navega a través de los distintos directorios que creemos en nuestra área de trabajo.       |
+|        `wget [url]`         | Descarga archivos directamente con una url.                                                |
+| `git clone [url o key SSH]` | Clona cualquier repositorio de GitHub directamente a nuestra área de trabajo local.        |
 |           `rm -rf`          | Borra/remueve una o varias carpetas con su contenido                                                                                            |
 
 ### Tabla de **comandos ***alias***  👨🏻‍💻👩🏻‍💻
 
-|          Comando          |                              Descripción                                                              |
-|---------------------------|-------------------------------------------------------------------------------------------------------|
-|          ``cl``           | Abreviación para el comando `clear` y hace lo mismo, limpiar la consola.                              |
-|          `rmdir`          | Comando para borrar carpetas y su contenido. `rm -rf`                                                 |
+|          Comando          |                              Descripción                                                     |
+|---------------------------|----------------------------------------------------------------------------------------------|
+|          ``cl``           | Abreviación para el comando `clear` y hace lo mismo, limpiar la consola.                     |
+|          `rmdir`          | Comando para borrar carpetas y su contenido. `rm -rf`.                                       |
