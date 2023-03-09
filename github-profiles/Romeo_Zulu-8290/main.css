@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     max-width: 50em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
     padding: 2em 0.5em;
     color: #353535;
@@ -53,12 +53,6 @@ pre {
 
 pre {
     border-left: 2px solid #69c;
-}
-
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
-
-body {
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 header {
@@ -128,4 +122,5 @@ th {
 
 tr:nth-child(even) {
     background-color: #70dee6;
+    
 }
