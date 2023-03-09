@@ -4,6 +4,7 @@
     --hue-color: 142;
     --body-color: hsl(var(--hue-color), 28%, 12%);
     --first-color: hsl(var(--hue-color), 69%, 61%);
+    --text-color: hsl(var(--hue-color), 8%, 75%);
 }
 
 
@@ -11,10 +12,14 @@ body {
     background-color: var(--body-color);
     margin: 0 auto;
     max-width: 50em;
-    font-family: Poppins, sans-serif;
+    font-family: Poppins;
     line-height: 1.5;
     padding: 4em 1em;
     color: hsl(var(--hue-color), 69%, 99%);
+}
+
+h1 {
+    font-size: 40px;
 }
 
 h2 {
@@ -28,7 +33,7 @@ h2 {
 }
 
 strong {
-    color: hsl(var(--hue-color), 69%, 40%);
+    color: var(--first-color);
 }
 
 img {
@@ -45,6 +50,7 @@ img {
 .social-icon {
     font-size: 3em;
     color: var(--first-color);
+    text-decoration: none;
 }
 
 .social-icon:hover {
@@ -53,4 +59,9 @@ img {
 
 p {
     text-align: justify;
+    color: var(--text-color);
+}
+
+ol {
+    color: var(--text-color);
 }

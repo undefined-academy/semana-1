@@ -22,3 +22,12 @@ I have an endless curiosity, always looking for opportunities to learn and impro
 - Movies 📽️🎞️
 
 🌱 I’m currently learning about Data Science and Artificial Intelligence 📊🤖.
+
+## 🤖 **My most used commands**
+
+| Command | Alias | Description |
+| --------| ----- | ----------- |
+| `git status` | `git st` | Checks the status of the local repository.     |
+| `git config --global -l` | `git gl` | Prints out the content of the local git configuration. |
+| `git commit -m` | `git cm` | Commit changes from staging area to repository. |
+| `git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)%an%C(reset) - %C(bold yellow)%d%C(reset)' --all` | `git slog` | Gives a nice looking view to the repository history log. |
