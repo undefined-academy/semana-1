@@ -1,6 +1,39 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
 body {
 
     margin: 0 auto;
     max-width: 50em;
-    
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+    font: normal 16px Roboto;
+
 }
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+strong {
+
+    color: #333;
+}
+
+code,
+pre {
+
+    background: #eee;
+}
+
+header {
+    background-color: #263d36;
+    background-image: "header.jpg";
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+  }
