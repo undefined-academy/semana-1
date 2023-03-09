@@ -10,7 +10,7 @@
 
 - I am from Colombia
 
-- 👩‍🎓 I am studying Sofwate Analisys and Development in the Seina
+- 👩‍🎓 I am studying Sofwate Analisys and Development in the Sena
 
 With knowledge in **python and data analysis and management of sql databases**
 
