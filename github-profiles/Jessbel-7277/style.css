@@ -3,6 +3,7 @@
     --just-white: #fff; 
     --border-main: #30363d;
     --border-bottom: #21262d;
+    --secondary-background: #292f36;
 }
 
 *{
@@ -44,10 +45,20 @@ ul{
 }
 
 h2{
-    margin-top: 24px;
-    margin-bottom: 16px;
+    margin-top: 30px;
+    margin-bottom: 12px;
     font-size: 1.25em;
 }
+
+.container-info{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: 1px dotted gray;
+    border-radius: 6px;
+    background-color: var(--secondary-background);
+}
+
 table {
     border-collapse: collapse;
     font-size: 0.8em;
@@ -62,5 +73,5 @@ table tbody tr:nth-child(odd) {
 	background: var(--color-background);
 }
 table tbody tr:nth-child(even) {
-	background: #161b22;
+	background: var(--secondary-background);
 }
