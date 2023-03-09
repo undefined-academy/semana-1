@@ -1,8 +1,9 @@
 # Welcome
 
 ## Contact me 📲
-[Github](https://github.com/marisolSv22)
-[Linkedln](https://www.linkedin.com/in/marisol-salazar-valencia-928091242/)
+> [Github](https://github.com/marisolSv22)
+
+> [Linkedln](https://www.linkedin.com/in/marisol-salazar-valencia-928091242/)
 
 
 ## _My name is Marisol Salazar_
