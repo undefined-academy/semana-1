@@ -1,4 +1,4 @@
-Github Profile - https://github.com/DanRev
+ [Github Profile](https://github.com/DanRev)
 
 # Daniel Beltran Gomez
 ### _Software Developer_

@@ -3,6 +3,8 @@ body{
   max-width: 50em;
   font-family: 'Cascadia Code', "Arial", sans-serif;
   line-height: 1.5;
+  background-color: #e5e5e5;
+  font-size: 1.1em;
 }
 
 .header-title{
@@ -16,6 +18,7 @@ main > section{
 .profile-about_description{
   line-height: 2;
   word-spacing: 5px;
+  font-size: 1.1em;
 }
 
 .profile-contact_container{
