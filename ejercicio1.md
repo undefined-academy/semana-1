@@ -18,5 +18,19 @@ How to reach me: romeroagustina.dev@gmail.com 📩
 Fun fact: I'm nurse. While I study programmin also work on it 👩‍⚕️
 ***
 🚧 This "readme" was created with little knowledge of English and a lot of google translate. Don't worry about it, I'm currently studying English. Anyway, feel free to send me corrections.
+***
+### **Comandos aprendidos en el bootcamp**
 
-[Click](https://github.com/Romero-Agustina) to visit my github profile.
+| Comando    | Descripción |
+| ----------- | ----------- |
+| ls      |  lista los archivos de la carpeta actual o ruta dada |
+| cp-r   | nos permite copiar una carpeta dada una ruta inicial y una ruta final |
+| rm -r   | remove una carpeta dada una ruta |
+| cat   |  imprime el contenido de un archivo dado una ruta |
+| mv  |  nos permite mover un archivo o carpeta |
+
+### **Comandos alias utiles**
+
+>✅ Utilizar *cl* para abreviar el comando clear
+
+>✅ Utilizar *ls~ /| grep <palabra>* para filtrar carpetas del directorio por esa palabra.
