@@ -1,0 +1,24 @@
+body,p{
+    background: gainsboro;
+    font-size: 16px;
+    outline: 1px solid red; 
+}
+
+section{
+    background: transparent;
+}
+
+div{
+    background: palegoldenrod;
+    font-size: 16px;
+    padding: 16px 32px;
+    margin: 20px;
+    border: 8px solid orchid;
+   
+
+}
+
+p{
+    background: papayawhip;
+    color: lightgray;
+}
