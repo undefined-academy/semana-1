@@ -1,39 +1,33 @@
-
+body {
+    margin: 0 auto;
+    width: 90%;
+    }
 
 header{
     display: block;
     width: 90%;
-    height: 250px;
-    background-color: rgb(22, 139, 143);
+    height: 350px;
+    background-image: url("https://images.unsplash.com/photo-1451085659669-f3564fa2249f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
     text-align: center;
     margin-left: auto;
     margin-right: auto; 
+    background-size: cover
 }
-
 header .titulo_primero{
     font-size: 45px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 80px;
+    color: white;
 }
 main{
     display: block;
     width: 90%;
-    height: 250px;
+    height:auto;
     background-color:rgb(206, 155, 88);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
- main .link{
-    margin-top: 2px;
-    text-align: center;
-    padding-top: 40px;
-    font-size: 38px;
-}
-
-
-main .about{
-   font-size: 30px; 
+    font-size: 30px; 
 }
 
 section div.titulo{
@@ -75,11 +69,8 @@ div.orden{
     display: block;
     text-align: center;
 }
-main .titulo_segundo{
-    margin: 2px;
-    font-size: 38px;
-}
-main .segundo_gith{
+
+.segundo_gith{
     font-size: 25px;
 }
 section#tools{
@@ -87,7 +78,7 @@ section#tools{
     height: auto;
     width: 90%;
     background-color:cadetblue;
-    margin: auto;
+    margin: 2px auto;
     text-align: center;
 }
 h1{
