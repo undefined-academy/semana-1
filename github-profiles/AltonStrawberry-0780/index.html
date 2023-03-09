@@ -5,95 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alton Straberry - 0780</title>
-    <style>
-      body {
-        font-family: Arial;
-      }
-    </style>
+
+    <link rel="stylesheet" href="main.css" />
   </head>
 
   <body>
-    <h1>🙋 <strong>Sebas Forner</strong></h1>
-    <h2>💻 <strong>Graphic designer and frontend</strong></h2>
-    <p>
-      Hello I'm Sebas, I'm from Vinaròs (Spain) I work as a
-      <strong>graphic designer</strong> and <strong>frontend</strong> since
-      2014.<br />
-      💬 Nowadays I can talk in Spanish, Catalan and English
-    </p>
+    <section class="intro">
+      <h1 class="intro__titulo">Sebas Forner</h1>
+      <h2 class="intro__subtitulo">Graphic designer and frontend</h2>
+      <div class="intro__descripcion">
+        Hello I'm Sebas, I'm from Vinaròs (Spain) I work as a
+        <span>graphic designer</span> and <span>frontend</span> since 2014.<br />
+        💬 Nowadays I can talk in Spanish, Catalan and English
+      </div>
+    </section>
 
-    <h3>🔓 <strong>Now I'll detail my skills:</strong></h3>
-    <img
-      src="https://skillicons.dev/icons?i=ps,ai,xd,ae,pr,svg,vscode,html,css,gulp,sass,bootstrap"
-    />
+    <section class="skills">
+      <h3 class="skills__titulo">🔓 Now I'll detail my skills:</h3>
+      <div class="skills__img">
+        <img
+          src="https://skillicons.dev/icons?i=ps,ai,xd,ae,pr,svg,vscode,html,css,gulp,sass,bootstrap"
+        />
+      </div>
 
-    <h3>
-      This is what I'm interested in: 🔒
-      <strong>This is what I'm interested in:</strong>
-    </h3>
+      <h3 class="skills__subtitulo">🔒This is what I'm interested in</h3>
 
-    <img
-      src="https://skillicons.dev/icons?i=js,vue,react,angular,nodejs,figma,git,github,jquery,php"
-    />
+      <div class="skills__img">
+        <img
+          src="https://skillicons.dev/icons?i=js,vue,react,angular,nodejs,figma,git,github,jquery,php"
+        />
+      </div>
 
-    <p>
-      These are my skills and the technologies in which I am interested, apart
-      from it I'm also interested in all tecnologies that will emerge and
-      nowadays I'm unaware of.
-    </p>
+      <div class="skills__info">
+        These are my skills and the technologies in which I am interested, apart
+        from it I'm also interested in all tecnologies that will emerge and
+        nowadays I'm unaware of.
+      </div>
+    </section>
 
-    <h3>
-      <strong>TERMINAL COMMANDS</strong>
-    </h3>
+    <section class="tabla">
+      <h2 class="tabla__titulo">
+        <span>Terminal commands</span>
+      </h2>
+      <div class="tabla__tabla">
+        <table>
+          <tr>
+            <td><span>pwd</span></td>
+            <td>
+              It gives us our absolute path to the current directory, so we can
+              know where we are located
+            </td>
+          </tr>
+          <tr>
+            <td><span>mkdir</span></td>
+            <td>Create a new folder giving a name for that folder</td>
+          </tr>
+          <tr>
+            <td><span>cd</span></td>
+            <td>It allows us to navigate between folders</td>
+          </tr>
+          <tr>
+            <td><span>ls</span></td>
+            <td>List the files in the current folder, or in the given path</td>
+          </tr>
+          <tr>
+            <td><span>touch</span></td>
+            <td>Create a new file given a path and/or name</td>
+          </tr>
+        </table>
+      </div>
+      <h2 class="tabla__subtitulo">Alias</h2>
+      <div class="tabla__tabla">
+        <table>
+          <tr>
+            <td><em>tabla cl="clear"</em></td>
+            <td>Clean tabla</td>
+          </tr>
+          <tr>
+            <td>
+              <em>
+                tabla rmyarn="rm -rf node_modules && yarn cache clean && yarn
+              </em>
+            </td>
+            <th>Delete node_modules folder and reinstalls it with yarn</th>
+          </tr>
+        </table>
+      </div>
+    </section>
 
-    <table>
-      <tr>
-        <td><em>pwd</em></td>
-        <td>
-          It gives us our absolute path to the current directory, so we can know
-          where we are located
-        </td>
-      </tr>
-      <tr>
-        <td><em>mkdir</em></td>
-        <td>Create a new folder giving a name for that folder</td>
-      </tr>
-      <tr>
-        <td><em>cd</em></td>
-        <td>It allows us to navigate between folders</td>
-      </tr>
-      <tr>
-        <td><em>ls</em></td>
-        <td>List the files in the current folder, or in the given path</td>
-      </tr>
-      <tr>
-        <td><em>touch</em></td>
-        <td>Create a new file given a path and/or name</td>
-      </tr>
-    </table>
-
-    <strong>ALIAS</strong>
-    <table>
-      <tr>
-        <td><em>alias cl="clear"</em></td>
-        <td>Clean terminal</td>
-      </tr>
-      <tr>
-        <td>
-          <em>
-            alias rmyarn="rm -rf node_modules && yarn cache clean && yarn
-          </em>
-        </td>
-        <th>Delete node_modules folder and reinstalls it with yarn</th>
-      </tr>
-    </table>
-
-    <h3>
-      <strong>LINK DE MI BIO GITHUB</strong>
-    </h3>
-
-    <a href="https://github.com/Sebasforsan">
-      <h4>Mi bio en github</h4>
-    </a>
+    <section class="bio">
+      <h2 class="bio__titulo">
+        <strong>LINK DE MI BIO GITHUB</strong>
+      </h2>
+      <a href="https://github.com/Sebasforsan"> Mi bio en Github </a>
+    </section>
   </body>
+  <footer></footer>
 </html>
