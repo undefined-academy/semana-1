@@ -26,10 +26,22 @@ h2 {
 }
 a {
   color: #94e74c;
+  width: 50px;
+  border: solid #4f3682;
+  background-color: #593f92;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin: 150px 130px;
+  text-decoration: none;
+}
+a:hover {
+  background-color: lightseagreen;
+  border: 2px solid #593f92;
+  color: #593f92;
 }
 footer {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
   font-size: 20px;
 }
 .title {

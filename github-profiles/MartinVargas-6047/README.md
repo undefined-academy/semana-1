@@ -1,5 +1,3 @@
-https://github.com/MartinRodrigoVargas
-
 # Hello, I'm Martin Vargas 👋
 
 ## I'm a student of the **UNDEFINED ACADEMY** free Bootcamp to become a **Full-stack JavaScript Developer**.
@@ -33,3 +31,5 @@ alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'
 ```
 
 **Create a directory and access it directly.**
+
+[Github personal profile](https://github.com/MartinRodrigoVargas)
