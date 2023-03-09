@@ -45,3 +45,6 @@ alias cl=clear
 ```sh
 alias mostused='history | awk '\''{print $2}'\'' | sort | uniq -c | sort -nr | head -n 10'
 ```
+```sh
+alias gita=git add .
+```
