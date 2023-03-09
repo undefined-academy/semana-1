@@ -9,24 +9,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        Maikcol G.
-        <ul>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <h1>Maikcol G.</h1>
+            <ul>
+                <li><a class="nav__link" href="#about">About me</a></li>
+                <li><a class="nav__link" href="#projects">Projects</a></li>
+                <li><a class="nav__link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <article>
        
         <section id="about" class="perfil">
             <aside class="aside-perfil">
-                <img class="aside-perfil__img" src="https://d131oejryywhj7.cloudfront.net/p/api/usuario/dup/w30xWWGW2UhGmZunxIdWRLJCwNqm59GL0.jpg/300x300cut/?s=l" alt="Foto de Maikcol Guevara">
-                <h1>Maikcol Guevara</h1>
+                <figure>
+                    <img class="aside-perfil__img" src="https://d131oejryywhj7.cloudfront.net/p/api/usuario/dup/w30xWWGW2UhGmZunxIdWRLJCwNqm59GL0.jpg/300x300cut/?s=l" alt="Foto de Maikcol Guevara">
+                    <figcaption><h2>Maikcol Guevara</h2></figcaption>
+                </figure>
                 <div class="aside-perfil__content">
                     Proficient in:
                     <ul>
-                        <li><em><i class="fa-brands fa-square-js" style="color: rgb(238, 255, 2);"></i> JavaScript</em></li>
+                        <li><i class="fa-brands fa-square-js" style="color: rgb(238, 255, 2);"></i> <em>JavaScript</em></li>
                         <li><i class="fa-brands fa-html5" style="color: rgb(255, 116, 2);"></i> <em>HTML</em></li>
                         <li><i class="fa-brands fa-css3-alt" style="color: rgb(7, 74, 242);"></i> <em>CSS</em></li>
                         <li><i class="fa-brands fa-react" style="color: rgb(7, 164, 242);"></i> <em>React JS</em></li>
@@ -34,9 +39,10 @@
                     </ul>
                 </div>
             </aside>
+
             <div class="perfil__content">
                 
-                <p>Hi, I'm a web development student specializing in JavaScript and React. If you're looking for a passionate and dedicated web developer, you've come to the right place. Additionally, I am an avid novel reader and a enthusiastic video gamer, which gives me a unique and creative perspective when it comes to problem-solving in programming.</p>
+                <p>Hi, I'm a web development student specializing in JavaScript and React. If you're looking for a passionate and dedicated web developer, you've come to the right place. Additionally, I am a philosopher, an avid novel reader and a enthusiastic video gamer, which gives me a unique and creative perspective when it comes to problem-solving in programming.</p>
                 
                 
             </div>
@@ -54,8 +60,7 @@
                 <a class="project__link" href="https://tic-tac-toe-snowy-nine.vercel.app/" target="_blank"><img class="project__img" src="img/Tic-tac-toe.png" alt="Image game: tic-tac-toe"></a>
             </div>
     
-            <div class="project">
-                
+            <div class="project">                
                 <div class="project__content">
                     <h3>School enrollment management system</h3>
                     <i class="fa-brands fa-react" style="color: rgb(7, 164, 242);"></i>
@@ -81,18 +86,22 @@
         </section>
 
         <section id="contact" class="contact">
-            <h2>Contact me on</h2>
+            <h2>Contact me</h2>
 
-            <p>If you're looking for a developer with experience in JavaScript, React JS, Python, and who is focused on continuous learning and professional growth, then please don't hesitate to reach out to me. Let's discuss how I can help take your project to the next level!</p>
+            <p>If you're looking for a developer with experience in JavaScript, React JS, Python, and who is focused on continuous learning and professional growth, then please don't hesitate to contact me at the links below. 👇</p>
 
             <ul>
-                <li><a href="https://github.com/Alexis033" target="_blank"><i class="fa-brands fa-square-github"></i> GitHub</a></li>
                 <li><a href="mailto:guevarafma@gmail.com?subject=Contacto por oferta de trabajo en programación"><i class="fa-solid fa-envelope"></i> Send mail</a></li>
-                <li><a href="https://www.linkedin.com/in/maikcol-guevara/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+                <li><address><a href="https://github.com/Alexis033" target="_blank"><i class="fa-brands fa-square-github"></i> GitHub</a></address></li>
+                <li><address><a href="https://www.linkedin.com/in/maikcol-guevara/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a></address></li>
             </ul>
         
         </section>
     </article>
+
+    <footer>
+        <p> &copy; 2023 Made by Maikcol Guevara</p>
+    </footer>
 
 </body>
 </html>
