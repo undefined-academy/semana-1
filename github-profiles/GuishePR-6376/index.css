@@ -37,3 +37,7 @@ table, td, th {
 #dos {
     background: #0284c7;
 }
+
+p a {
+    text-decoration: none;
+}
