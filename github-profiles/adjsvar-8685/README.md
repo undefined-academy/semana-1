@@ -6,13 +6,13 @@ Actually i'm following the Javascript Fullstack Bootcamp from Guillermo Rodas an
 
 5 Most used commands:
 
-| Command | Description                         |
-| ------ | -----------                         |
-|   ls   | List files in the actual directory  |
-|   cd   | Change the directory                |
-|  mkdir | Create a new directory              |
-| touch  | Create a new file                   |
-| pwd    | prints the actual directory         |
+| Command |          Description                |
+| ------  |       -----------------             |
+|   ls    |  List files in the actual directory |
+|   cd    |  Change the directory               |
+|  mkdir  |  Create a new directory             |
+|  touch  |  Create a new file                  |
+|  pwd    |  Prints the actual directory        |
 
 Usefull Alias:
 
