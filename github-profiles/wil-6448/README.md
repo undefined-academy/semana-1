@@ -1,8 +1,12 @@
 https://github.com/nobody-redhawk
 
 # 👋 Hello, I'm Wilmer Gulcochia Sanchez, 
-## 📫 Soy de Perú, actualmente soy estudiante de Front-End en Alura Latam
-🌱 Soy bachillere en Ciencias Agrarias de la una **Universidad Nacional Agraria de la Selva - Tingo María.**
+🌱 Soy bachillere en Ciencias Agrarias de la **Universidad Nacional Agraria de la Selva - Tingo María.**
+
+📗 Estoy realizando el Bootcamp de **JavaScript Full-stack** en **Undefined Academy** con Guillermo Rodas.
+
+📗 Actualmente, tambien soy estudiante de **Front-End** en **Alura Latam**.
+
 
 👀 Soy un apasionado por la tecnología, estoy aprendiendo Front-End en **Alura Latam** del programa **One Next Education**
 
