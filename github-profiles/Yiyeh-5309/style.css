@@ -21,10 +21,6 @@ strong {
   color: #333;
 }
 
-
-
-
-
 ul {
     list-style: none;
     padding: 0;
@@ -39,29 +35,4 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Estilos específicos para cada sección */
-/* Información de contacto */
-ul.contact-info li {
-    margin-bottom: 10px;
-}
 
-/* Resumen */
-p.summary {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-/* Habilidades técnicas */
-ul.skills li {
-    margin-bottom: 10px;
-}
-
-/* Proyectos */
-ul.projects li {
-    margin-bottom: 20px;
-}
-
-ul.projects li strong {
-    font-size: 18px;
-}
