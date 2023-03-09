@@ -45,5 +45,3 @@
 | 🌐🌐🌐🌐 | Castellano |
 | 🌐🌐🌐 | English   |
 | 🌐🌐🌐 | Français  |
-
-## 🔗 Link to [my GitHub](https://github.com/rachelbq)
