@@ -23,5 +23,14 @@ Soy **Analista de sistemas informaticos** vivo en **Argentina** ,Me gusta mucho 
 |ln                   |link simbolico          |
 |pavucontrol          |control del audio       |
 
+** Alias**
+
+alias mv="mv -i"
+alias cp="cp -i"
+alias grep="grep --color=auto"
+alias gh="history | grep"
+
+**Mi github **
+
 [^ https://github.com/dvRetro ]
 
