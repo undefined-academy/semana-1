@@ -13,7 +13,6 @@ h1, h2 {
 }
 
 #mi-nombre {
-    background-color: transparent;
     -webkit-text-fill-color: cyan;
     -webkit-text-stroke: 1px darkcyan;
 }

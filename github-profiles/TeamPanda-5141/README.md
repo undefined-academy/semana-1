@@ -21,12 +21,20 @@ Antes de este Bootcamp, estudié por mi cuenta y en plataformas como [Platzi](ht
 
 ## Hobbies e Intereses 🎮👦🏻
 
-### Me gusta:
+### Me gusta😋
 
 - La música y de forma autodidacta aprendí a tocar el piano 🎹🎵.
 - Enseñar👨🏻‍🏫. Es una forma muy positiva de fijar conocimientos y apoyar a otros en el proceso 🧠✨.
 - Optimizar 🔧. Creo que para casi todo existe *la forma más **óptima*** para hacerla 🙌🏻.
-- Investigar 🔬🤔. Disfruto buscar y entender el ***"¿Por qué?"*** de las cosas.
+- Investigar 🔬🤔. Disfruto buscar y entender el ***"¿Por qué?"*** de las cosas 🌌.
+
+### Me interesa🏁
+
+- **Elevar** mi nivel y conocimientos de programación 📚💻.
+- Desenvolverme profesionalmente como **Desarrollador**🙋🏻‍♂️.
+- Crear producto de **valor** para el mundo 🌎.
+
+---------------------------------------------------------------------------------------------------
 
 ## Encuéntrame 🔎
 
@@ -48,7 +56,7 @@ Antes de este Bootcamp, estudié por mi cuenta y en plataformas como [Platzi](ht
 | `git clone [url o key SSH]` | Clona cualquier repositorio de GitHub directamente a nuestra área de trabajo local.        |
 |           `rm -rf`          | Borra/remueve una o varias carpetas con su contenido                                                                                            |
 
-### Tabla de **comandos ***alias***  👨🏻‍💻👩🏻‍💻
+### Tabla de **comandos** **`alias`**  👨🏻‍💻👩🏻‍💻
 
 |          Comando          |                              Descripción                                                     |
 |---------------------------|----------------------------------------------------------------------------------------------|
