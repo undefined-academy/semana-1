@@ -23,7 +23,7 @@ recomendados 📌
 
 
 
-* Findd: permitirá buscar un archivo dentro de la ruta en que se encuenetre
+* Findd: permitirá buscar un archivo dentro de la ruta en que se encuentre
 
 
 ```sh
