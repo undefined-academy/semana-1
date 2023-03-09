@@ -2,9 +2,9 @@
 
 body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    background: gray;
+    background: #1f2937;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 auto;
     max-width: 50em;
 }

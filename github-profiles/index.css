@@ -2,13 +2,15 @@
 
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  background: gray;
+  background: #1f2937;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
+  margin: 0 auto;
+  max-width: 50em;
 }
 
 h1 span{
-    color: rgb(4, 27, 85);
+    color: #1e3a8a;
 }
 
 li span {
@@ -20,7 +22,7 @@ li span {
 }
 
 .comandos {
-    color: aqua;
+    color: #1e3a8a;
 }
 
 table, td, th {
@@ -28,6 +30,10 @@ table, td, th {
     border-collapse: collapse;
 }
 
-td, th {
-    background-color: aquamarine;
+#uno {
+    background: #38bdf8;
+}
+
+#dos {
+    background: #0284c7;
 }
