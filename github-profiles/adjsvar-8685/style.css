@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Rufina:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&display=swap');
 
 * {
   margin: 0;
@@ -14,16 +14,16 @@ body {
   color: #f2f2f2;
   line-height: 1.5;
   padding: 1rem 2rem;
-  font-family: 'Average Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1.2rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rufina', serif;
+  font-family: 'DM Serif Display', serif;
 }
 
 main {  
-  max-width: 50rem;
+  max-width: 60rem;
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
@@ -32,12 +32,12 @@ main {
 table {
   border-spacing: 0;
   border: 1px solid #5b87ae;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   overflow: hidden;
 }
 
 table * {
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   border: 1px solid #5b87ae;
 }
 
