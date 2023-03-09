@@ -46,3 +46,23 @@ Soy un desarrollador ASP.NET con experiencia en el diseño y desarrollo de aplic
 | Certificación en microservicios C# | Udemy  | Febrero 2021       |
 | Certificación en Asp.Net           | Udemy  | Agosto 2020        |
 | Certificación en Javascript        | Platzi | Mayo 2019          |
+
+## Como crear un alias?  
+### Si es para el usuario root
+> Con privilegios de superusuario editar el archivo de configuracion de bash
+>> vim ~/.bashrc, para editar el archivo
+>> source ~/.bashrc para que la terminal recargue el archivo de bash
+### Para que pueda ser usado por todos los usuarios
+>Con permisos de superusuario ejecutar
+>> vim /etc/bash.bashrc
+>>> source /etc/bashrc para recargar el archivo desde la terminal 
+
+## Comandos mas usados
+
+| Comando | Descripción                                              |
+| ------- | -------------------------------------------------------- |
+| ls      | Lista los archivos y directorios en el directorio actual |
+| cd      | Cambia el directorio actual a otro directorio            |
+| mkdir   | Crea un nuevo directorio en el directorio actual         |
+| rm      | Elimina un archivo                                       |
+| mv      | Mueve o renombra un archivo o directorio                 |
