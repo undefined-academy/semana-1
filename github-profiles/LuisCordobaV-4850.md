@@ -1,4 +1,5 @@
-# semana-1
+https://github.com/LuisCordobaV
+
 # Hello, I'm Luis Córdoba V. 😎
 ________________________________________________________________________________
 #### _I'm a Developer in process, I'm studing my first Programation Bootcamp._    
@@ -24,4 +25,4 @@ ________________________________________________________________________________
 ### Este es el alias que he usado hasta el momento
 ```
 alias mostused='history | awk '\''{print $2}'\''| sort | uniq -c | sort -nr | head -n 10'
-```         
+```       
