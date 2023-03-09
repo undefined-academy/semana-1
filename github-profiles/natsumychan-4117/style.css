@@ -3,6 +3,7 @@ body{
  padding:0;
  background-color:#F9F7FE;
  font-size: 62.5%;
+ color:whitesmoke;
 }
 
 main{
@@ -17,8 +18,10 @@ main h1, h2{
  text-align: center;
 }
 
+
+
 main, section, footer{
- background-color: #FFFFFF;
+ background-color:#66347F;
  border-radius: 8px;
 }
 
@@ -31,8 +34,7 @@ h2{
 }
 
 p, th, td {
-  font-size:1.2rem;
-  color: #333;
+  font-size:1.3rem;
 }
 
 .terminal-container {
