@@ -27,20 +27,3 @@ Os dejo enlace a mis redes sociales para que podamos compartir nuestros conocimi
 | mv| Permite mover o cambiar el nombre de un archivo o carpeta |
 ***
 
-
-### 📗 Algunos alias importantes
-Alias de comandos dev y start
-
-```sh
-alias npmd="npm run dev"
-```
-```sh
-alias npms="npm start"
-```
-
-Alias de clear
-
-```sh
-alias cl="clear"
-```
-
