@@ -31,19 +31,19 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 
 
 ### Comandos
-| Comando | Description |
-| ------ | ------ |
-| ls | show files and directories are in the current directory |
-| cd | change directories |
-| git init | creates an empty Git repository |
-| clear | clear the terminal screen |
+| Comando    | Description                                                      |
+|------------|------------------------------------------------------------------|
+| ls         | show files and directories are in the current directory          |
+| cd         | change directories                                               |
+| git init   | creates an empty Git repository                                  |
+| clear      | clear the terminal screen                                        |
 | git status | displays the state of the working directory and the staging area |
 
 ### Comandos alias
 | Comando | Description |
-| ------ | ------ |
-| cl | clear |
-| gnit | git init |
+|---------|-------------|
+| cl      | clear       |
+| gnit    | git init    |
 
 ## 🍎 What is the difference between a distributed version control system and a centralized?
 In a distributed version control system, each developer has a complete copy of the repository on their own computer. They can make changes and then synchronize their work with the central repository and with the copies of other developers if they choose to. On the other hand, in a centralized version control system, there is only one central repository where all versions of the source code are stored. Developers must connect to it to obtain a copy and submit their changes.
