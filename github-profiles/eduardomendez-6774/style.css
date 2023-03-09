@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    width: 100%;
+}
+
+header {
+    font-size: 1em;
+    line-height: 1.2;
+    background-color: #031332;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+}
+
+.header-container-menu {
+    display: inline-block;
+    margin: 5px;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a:hover {
+    color: #0b50f1;
+}
+
+main {
+    font-size: 1.2em;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.main-container-title {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-container-description {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.main-container-tecnologies {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.main-container-projects {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.main-container-projects a {
+    text-decoration: none;
+    color: blue;
+}
+
+.main-container-projects a:hover {
+    color: #0b50f1;
+}
+
+.main-container-training {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+
+footer {
+    font-size: 1em;
+    background-color: #031332;
+    color: #ffffff;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
