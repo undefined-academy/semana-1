@@ -20,6 +20,11 @@ li:hover {
   font-size: large;
 }
 
+span {
+  font-weight: 200;
+  font-size: 15px;
+}
+
 a {
   text-decoration: none;
   font-weight: bold;
@@ -71,4 +76,167 @@ th:hover {
 
 .title {
   color: indigo;
+}
+
+.skill {
+  border: 1px solid #5D2E46;
+  border-radius: 10px;
+  margin: 1em 0 1em 0;
+  height: 1em;
+}
+
+.skill-level {
+  height: 1em;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+
+#html {
+  animation-name: htmlSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes htmlSkillLevel {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 90%;
+  }
+}
+
+#css {
+  animation-name: cssSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cssSkillLevel {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 70%;
+  }
+}
+
+#python {
+  animation-name: pythonSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pythonSkillLevel {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 35%;
+  }
+}
+
+#javascript {
+  animation-name: jsSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes jsSkillLevel {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 65%;
+  }
+}
+
+#react {
+  animation-name: reactSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes reactSkillLevel {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 30%;
+  }
+}
+
+#vue {
+  animation-name: vueSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes vueSkillLevel {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
+}
+
+#typescript {
+  animation-name: typescriptSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes typescriptSkillLevel {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+#node {
+  animation-name: nodeSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes nodeSkillLevel {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
+}
+
+#mongo {
+  animation-name: mongoSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mongoSkillLevel {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
+}
+
+#express {
+  animation-name: expressSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes expressSkillLevel {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
 }
