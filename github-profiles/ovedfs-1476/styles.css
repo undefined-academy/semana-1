@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&family=Nunito:wght@200;300;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 50em;
+  margin: 0 auto;
+  font-family: 'Averia Serif Libre', cursive;
+  line-height: 1.5;
+  color: #555;
+  background-color: #F0ECCF;
+}
+
+h1, h2, h3 {
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+header {
+  color: #A3BB98;
+  padding: 2em;
+  position: relative;
+}
+
+header h1 {
+  text-shadow: 3px 3px 3px #444;
+  font-size: 4em;
+}
+
+header h2 {
+  font-family: monospace;
+  font-weight: normal;
+}
+
+.link-github {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+.block {
+  padding: 1em;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.list-item {
+  background-color: #FFB100;
+  color: white;
+  font-size: 1.2em;
+  padding: 1.5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.list-item i {
+  font-size: 2.5em;
+  color: #444;
+}
+
+footer {
+  margin-top: 2em;
+  padding: 2em;
+  color: #A3BB98;
+  text-align: center;
+}
