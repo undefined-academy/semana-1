@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+}
+
+h1, h2 {
+    font-family: "Helvetica", "Arial", sans-serif;;
+}
+
+#mi-nombre {
+    background-color: transparent;
+    -webkit-text-fill-color: cyan;
+    -webkit-text-stroke: 1px darkcyan;
+}
+
+code {
+    color: cyan;
+    background-color: #212529;
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
