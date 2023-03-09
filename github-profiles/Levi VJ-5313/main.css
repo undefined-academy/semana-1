@@ -4,6 +4,8 @@ body{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0 100px;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.5);
+    line-height: 1.5;
     }
 
 .joda{
@@ -21,9 +23,9 @@ body{
 }
 
 .pa {
-    background:linear-gradient(45deg,rgb(165, 111, 111),blue);
+    /*background:linear-gradient(45deg,rgba(214, 185, 21, 0.9),rgba(100, 111, 111, 0.9));*/
   
-    border: #0000ff solid 3px;
+    /*border: #0000ff solid 3px;*/
 
 }
 
@@ -44,15 +46,25 @@ tr, th, td{
     
 }
 
-
-
 h1, h3{
     text-shadow: -1px -1px 0 white, 2px 2px 2px black;
 }
+.contenedor{
+display: flex;
+align-items: center;
+}
+img{
+    margin-left: auto;
+    width: 150px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
 
-img {
-    display: block;
-    margin: 0 auto;
-    width: 250px;
-  }
+.barrita{
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
 
+header{
+    background: linear-gradient(45deg,rgba(190, 141, 481, 0.95),rgb(150, 117, 194, 0.95));
+}
