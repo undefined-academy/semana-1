@@ -1,5 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
+
+table{border: 1px solid black; border-collapse: collapse;}
+td, th{border:1px solid black}
+
 body {
     margin: 0 auto;
     max-width: 50em;
