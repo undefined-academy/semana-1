@@ -1,5 +1,5 @@
 # Ever Jesús Montero Minaya
-## Desarrollador Junior | estudiante de Ingenieria en sistemas
+## Desarrollador Junior | Estudiante de Ingeniería en sistemas
 
 [Ir a github](https://github.com/everjm0128)
 
