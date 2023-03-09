@@ -24,6 +24,10 @@ strong {
     color: #333;
 }
 
+#description {
+    text-align: center;
+}
+
 a {
     color: lightseagreen;
 }
