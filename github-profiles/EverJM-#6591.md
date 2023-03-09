@@ -1,11 +1,12 @@
 # Ever Jesús Montero Minaya
 ## Desarrollador Junior | estudiante de Ingenieria en sistemas
 
+[Ir a github](https://github.com/everjm0128)
+
 Un saludo ✌
 
 Soy un estudiante de la carrera de **Ingenieria de sistemas** y  del bootcamp Undefined Academy, soy un amante de la **tecnología** y me gusta estar en constante aprendizaje. 
 
-s
 # Bootcamp 
 
 ## Semana 1
