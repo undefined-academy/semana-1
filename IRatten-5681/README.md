@@ -30,3 +30,4 @@ I'm very interested in learning about new technologies.
 ### Useful Alias
 
 1. alias gadd='git add .'          ----> This command is to add all files to staging area in git.
+1. alias gcom='git commit -m '$1'' ----> This command is to commit all the files and be ready to push them into the repository
