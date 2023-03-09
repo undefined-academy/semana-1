@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+    --hue-color: 142;
+    --body-color: hsl(var(--hue-color), 28%, 12%);
+    --first-color: hsl(var(--hue-color), 69%, 61%);
+}
+
+
+body {
+    background-color: var(--body-color);
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: Poppins, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: hsl(var(--hue-color), 69%, 99%);
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2 {
+    color: hsl(var(--hue-color), 69%, 99%);
+}
+
+strong {
+    color: hsl(var(--hue-color), 69%, 40%);
+}
+
+img {
+    display: block;
+    background-image: linear-gradient(var(--first-color), #000);
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.social-icon {
+    font-size: 3em;
+    color: var(--first-color);
+}
+
+.social-icon:hover {
+    color: hsl(var(--hue-color), 69%, 40%);
+}
+
+p {
+    text-align: justify;
+}
