@@ -1,0 +1,131 @@
+
+
+header{
+    display: block;
+    width: 90%;
+    height: 250px;
+    background-color: rgb(22, 139, 143);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+header .titulo_primero{
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 80px;
+}
+main{
+    display: block;
+    width: 90%;
+    height: 250px;
+    background-color:rgb(206, 155, 88);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ main .link{
+    margin-top: 2px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 38px;
+}
+
+
+main .about{
+   font-size: 30px; 
+}
+
+section div.titulo{
+    background-color:cadetblue;
+    display: block;
+    width: 90%;
+    height: 450px;
+    text-align: center;
+    margin: auto;
+}
+
+.text{
+    margin-top: 2px;
+    padding-top: 45px;
+    font-size: 50px;
+}
+
+#temarios{
+    display: block;
+    background-color: coral;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    margin: 2px;
+    padding: 25px;
+    font-size: 45px;
+}
+
+h3{
+    font-size: 40px;
+}
+li{
+    font-size: 25px;
+}
+div.orden{
+    display: block;
+    text-align: center;
+}
+main .titulo_segundo{
+    margin: 2px;
+    font-size: 38px;
+}
+main .segundo_gith{
+    font-size: 25px;
+}
+section#tools{
+    display: block;
+    height: auto;
+    width: 90%;
+    background-color:cadetblue;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    margin-top: 2px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+section#find{
+    display: block;
+    height: auto;
+    width: 90%;
+    background-color:coral;
+    margin: auto;
+    text-align: center;
+}
+section.code{
+    display: block;
+    height: 180px;
+    width: 90%;
+    background-color:cadetblue;
+    margin: auto;
+    text-align: center;
+}
+.text_cod{
+    font-size: 18px;
+    border: 4px solid black; 
+    
+}
+section.terminal{
+    display: block;
+    height: auto;
+    width: 90%;
+    background-color:coral;
+    margin: auto;
+    text-align: center;
+}
+.text_term{
+    font-size: 18px;
+    border: 4px solid black; 
+}
