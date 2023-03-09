@@ -45,3 +45,10 @@ body {
     text-align: center;
     padding: 20px 0 30px;
 }
+.comandos td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.alias td {
+    padding-left: 5px ;
+}
