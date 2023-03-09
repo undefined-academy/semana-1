@@ -16,3 +16,18 @@ I'm very interested in learning about new technologies.
 
 ##### Databases and version control
 [![My Skills](https://skillicons.dev/icons?i=mysql,git,github,gitlab)](https://skillicons.dev)
+
+### Table Most Used Alias
+
+| Command | Description                                                                   |
+| ------- | ----------------------------------------------------------------------------- |
+| ls      | Listar el contenido                                                           |
+| cd      | Cambiar entre directorios                                                     |
+| git     | Comando para interactuar con git                                              |
+| cat     | Concatenar el contenido de un archivo                                         |
+| code    | Comando para abrir una ventana de Visual Studio Code en una ruta especifcada  |
+
+### Useful Alias
+
+1. alias gadd='git add .'          ----> This command is to add all files to staging area in git.
+1. alias gcom='git commit -m '$1'' ----> This command is to commit all the files and be ready to push them into the repository
