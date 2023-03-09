@@ -38,7 +38,16 @@ header h2 {
 .link-github {
   position: absolute;
   top: 2em;
-  right: 2em;
+  right: 1em;
+  font-size: 2em;
+  color: #444;
+  transition: 0.3s;
+}
+
+.link-github:hover {
+  transform: scale(1.1);
+  color: #FFB100;
+  text-shadow: 0 0 1px #444;
 }
 
 .block {
