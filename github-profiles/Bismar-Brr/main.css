@@ -1,0 +1,41 @@
+body{
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+}
+
+body{
+    color: #555;
+}
+
+h1,h2,strong{
+color: #333;
+}
+
+code,pre{
+    antecedentes : #eee ;
+
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre{
+    padding: 1em;
+}
+
+li{
+    padding: 0.5em;
+}
