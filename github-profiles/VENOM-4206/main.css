@@ -1,0 +1,45 @@
+body {
+    background-color:  beige;
+    margin: 0 auto;
+    max-width: 50em;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    line-height: 1.5;
+    padding: 4em 1em;
+
+    margin-top: 2em;
+    padding-top: 2em;
+
+    color: #030000;
+
+
+}
+
+   
+    h1 h2 h3 h4 {
+   color: #030000;
+}
+    a {
+    text-decoration: none;
+    color: crimson;
+}
+    code,
+    table {
+    background: #eee;
+}
+    code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+  }
+  
+    table {
+     padding: 1em;
+  }
+  code,
+table {
+  background: #9cbeca;
+  
+  border: 2px solid #000000; 
+}
+
