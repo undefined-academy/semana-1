@@ -3,7 +3,7 @@ body{
     background: rgba(81, 126, 91, 0.4);
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0 100px;
+    margin: 0 200px;
     text-shadow: 1px 1px 1px rgba(0,0,0, 0.5);
     line-height: 1.5;
     }
@@ -67,4 +67,7 @@ img{
 
 header{
     background: linear-gradient(45deg,rgba(190, 141, 481, 0.95),rgb(150, 117, 194, 0.95));
+}
+.codigo{
+    background-color: gray;
 }
