@@ -1,0 +1,19 @@
+body{
+    margin: 0 auto;
+    border: 2px solid gray;
+    background-color: #ccc;
+    max-width: 800px;
+    font-size: 12 px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #444;
+}
+
+p{
+    line-height: 2;
+}
+
+h1, h2{
+    line-height: 1.5;
+    margin-top: 50px;
+    color: #8B62BF;
+}
