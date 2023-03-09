@@ -6,4 +6,4 @@ Soy **estudiantes de informatica**, me gusta mucho la programacion, vivo en **Re
 - c++
 - java
 
-Actualmente me encuentro estudiando el Bootcamp de Undefined Shell, con el cual desarrollarecd todas mi habilidades.
+Actualmente me encuentro estudiando el Bootcamp de Undefined Shell, con el cual desarrollare todas mi habilidades.
