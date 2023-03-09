@@ -1,34 +1,53 @@
-<!DOCTYPE html> 
+<!doctype html> 
 <!--http://localhost:8080/index.html -->
 <html>
     <head>
         <meta charset="utf-8">
         <title>Archivo html-Semana1</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./main.CSS">
     </head>
     <body>
-|       <h1><strong>Hi!</strong> Welcome to my <strong>CV</strong> </h1>
+        <section class="tittle">    
+            <h1 class="title"><strong>Hi!</strong> Welcome to my <strong>CV</strong> </h1><hr /> 
 
-        <h2>Who am i?</h2>
-            <p>i am a guy that is <strong>studying</strong> coputer sciense and decided study <strong>programming by himself</strong>, i have knowledge of this world of programing more expesific in fronted (javascipt, css, html). 
-            I take this bootcampo because i considered that my skills in program lenguaje are so bad and i want to be a very good programer.</p>
-
-        <h2><strong>Table of commands</strong></h2>
-            <p><strong>Commands</strong>|  <strong>Description </strong></p> 
-                <ol>
-                    <li> <strong>pwd |</strong> This command show us where are us</li>
-                    <li><strong>cd |</strong> Is used to go to folders in our terminal</li>
-                    <li><strong>ls |</strong> This command is used to show us files that we have in a folder</li>
-                    <li><strong>clear |</strong> Is for our terminal be like new </li>
-                    <li><strong>mkdir |</strong> This help us to created a folder giving a name after command</li>
-                    <li><strong>rm |</strong> This command is used to delete folders</li>
+            <h2 class="title">Who am i?</h2>
+                <p>i am a guy that is <strong>studying</strong> coputer sciense and decided study <strong>programming by himself</strong>, i have knowledge of this world of programing more expesific in fronted (javascipt, css, html). 
+                I take this bootcampo because i considered that my skills in program lenguaje are so bad and i want to be a very good programer.</p><hr /> 
+        </section>    
+        <section>        
+            <h2 class="title"><strong>Table of commands</strong></h2><hr /> 
+                <p><strong>Commands and</strong> <strong>Description </strong></p> 
+                    <ol class="color" >
+                        <li> <strong>pwd:</strong> This command show us where are us</li><hr /> 
+                        <li><strong>cd:    </strong> Is used to go to folders in our terminal</li><hr /> 
+                        <li><strong>ls:    </strong> This command is used to show us files that we have in a folder</li><hr /> 
+                        <li><strong>clear: </strong> Is for our terminal be like new </li><hr /> 
+                        <li><strong>mkdir: </strong> This help us to created a folder giving a name after command</li><hr /> 
+                        <li><strong>rm:    </strong> This command is used to delete folders</li><hr /> 
+                    </ol>
+        </section>
+        <section >
+            <h2 class="title"><strong>Table of alias</strong></h2><hr /> 
+                <p ><strong>Commands and</strong> <strong>Description </strong> </p>
+                <ol class="color">
+                    <li> <strong>cl: </strong> This is the alias for clean, that clean our terminal</li><hr /> 
+                    <li><strong>crn: </strong> Is a alias for create a new folder</li>
                 </ol>
-        <h2><strong>Table of alias</strong></h2>
-            <p><strong>Commands</strong>|  <strong>Description </strong></p> 
-            <ol>
-                <li> <strong>cl |</strong> This is the alias for clean, that clean our terminal</li>
-                <li><strong>crn |</strong> Is a alias for create a new folder</li>
-            </ol>
+        </section>      
+        <script>
+            // Asignamos la cantidad demonedas de Hugo, este valor es elque tienes que resolver.
+            let hugo = 15;// Calculamos la cantidad demonedas de Paco y Luis en funciónde Hugo
+            let paco = 2 * hugo;
+            let luis = paco + 10;// Sumamos las cantidades demonedas de los tres amigos
+            let total = hugo + paco + luis;
             
+                if (total === 85) {
+                console.log("Hugo: " + hugo)
+                console.log("Paco: " + paco)
+                console.log("Luis: " + luis)}
+        </script>  
     </body>
 </html>
