@@ -17,11 +17,12 @@
 * Accountant auxiliar *Inversiones Mallol Ltda*
 * Digitador *Gas Colombia*
 
-| planes a largo plazo | fecha de ejecucion |
+| ALIAS USADOS | FUNCION |
 |---------------------- | --------------- |
 | alias .1 |"cd .."	.1 para subir 1 nivel en la estructura de directorios.|
 | alias .2 |"cd ../.."	.2 para subir 2 niveles en la estructura de |directorios |
-| alias .3 |"cd ../../.."	.3 para subir 3 niveles en la estructura de directorios |
+| alias .3 |"cd ../../.."	.3 para subir 3 niveles en la estructura de directorioss |
+
 
 **Contact me..**
 
