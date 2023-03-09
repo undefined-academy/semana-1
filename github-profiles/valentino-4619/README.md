@@ -1,6 +1,6 @@
-# VLNTINO
+# VALNTINO
 
-## Hello world !
+## Hello world
 
 Mi nombre es **Valentino** y estoy actualmente estudiando **Desarrollo Web**; Soy bastante autodidacta y me encanta responderme a los "porqués" que me surgen al momento de aprender/solucionar algo, lo que considero que me fue lo que me hizo buen navegante en internet.
 
@@ -13,7 +13,7 @@ Por otro lado, también estoy estudiando en el bootcamp de
 
 Tengo 20 años y me rigen la constante evolución y la búsqueda de armonía en los distintos ámbitos de la vida.
 
-### Cosas me gustan:
+### Cosas me gustan
 
 - Leer 📚
 - Meditar 🧘‍♂️
@@ -21,7 +21,7 @@ Tengo 20 años y me rigen la constante evolución y la búsqueda de armonía en 
 
 ---
 
-## _ Ejercicios del boot}cam_
+## _Ejercicios del bootcam_
 
 ### 📅 Semana 1
 
