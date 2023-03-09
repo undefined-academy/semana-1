@@ -24,4 +24,10 @@ del mundo de la programacion y complementarlo con los conocimientos de *cocina* 
 | mkdir             | Comando utilizado para crear directorios o carpetas                  | 
 | clear             | Borra la informacion del terminal                                    |
 | cd                | Se usa para cambiar el directorio de trabajo actual de un usuario    |    
-
+  
+# Alias used
+```bash
+alias status = 'git status'
+alias add    = 'git add .'
+alias update = 'sudo apt-get update && sudo apt upgrade'
+```  
