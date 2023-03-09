@@ -1,0 +1,39 @@
+body {
+        background-color: #f1ebcf;
+        margin: 0 auto;
+        max-width: 50em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        line-height: 1.5;
+        padding: 4em 1em;
+        margin-top: 2em;
+        padding-top: 2em;
+        color: black;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+strong {
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    color: firebrick;
+}
+code,
+table {
+    background: #c6e1ec;
+    border-bottom: #000000;
+    color: #000000;
+    }
+
+    code {
+        padding: 2px 4px;
+        vertical-align: text-bottom;
+    }
+
+    pre {
+        padding: 1em;
+    }
