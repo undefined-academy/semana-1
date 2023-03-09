@@ -1,7 +1,9 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
 body {
   max-width: 50em;
   margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   line-height: 1.5;
   padding: 4em 1em;
   color: #566b78;
