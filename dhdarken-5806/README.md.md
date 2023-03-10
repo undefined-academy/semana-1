@@ -31,4 +31,4 @@ I consider myself a person with very good values ​​such as respect, honesty,
 | ----------------- | ------------------------------------------------------------- |
 | imagenes          | alias imagenes=”cd /home/sapoclay/Imágenes/”                  |
 | actualizarsistema | alias actualizarsistema=”sudo apt update && sudo apt upgrade” |
-| htdocs            | alias htdocs=”cd /opt/lampp/htdocs”                           |
+| hdivocs           | alias hdivocs=”cd /opt/lampp/hdivocs”                         |
