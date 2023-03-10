@@ -35,7 +35,7 @@ rominabertello1993@gmail.com
 | CP       | allows us to copy files from the beginning and end |
 | LS       | shows us a list of files                           |
 | PWD      | shows us the directory path                        |
-| RM       | delete file                                        |
+| RM       | delete files                                       |
 | MV       | We use it to move a file                           |
 
 # 5 command alias
