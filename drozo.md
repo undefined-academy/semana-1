@@ -2,29 +2,29 @@
 
 # Darwin Rozo
 
-### Trader Expert
+### Desarrollador web y contador publico
+-----
 
 **Formal Education**
 
-1. Full stack developer  *Guillermo Rodas*
-2. Tecnico en programacion web  *UNAB*
-3. Especialista en gerencia de negocios internacionales *USTA*
-4. Contador publico *USTA*
+1. Tecnico en programacion web  *UNAB*
+2. Especialista en gerencia de negocios internacionales *USTA*
+3. Contador publico *USTA*
 
-**Experiencie**
+**Experiencia**
 
-* Accountant Coordinator *Tecniensayos SAS*
-* Accountant auxiliar *Inversiones Mallol Ltda*
+* Coordinanor de contabilidad *Tecniensayos SAS*
+* Auxiliar contable *Inversiones Mallol Ltda*
 * Digitador *Gas Colombia*
 
-| ALIAS USADOS | FUNCION |
+| Lenguajes de programación manejados | Frameworks |
 |---------------------- | --------------- |
-| alias .1 |"cd .."	.1 para subir 1 nivel en la estructura de directorios.|
-| alias .2 |"cd ../.."	.2 para subir 2 niveles en la estructura de |directorios |
-| alias .3 |"cd ../../.."	.3 para subir 3 niveles en la estructura de directorioss |
+| Phyton| |
+| Java |SpringBoot |
+| Java Script |Node.js y React.js |
 
 
-**Contact me..**
+**Contacto**
 
 <https://www.darwinrozo.com>
 
