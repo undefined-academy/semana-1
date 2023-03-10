@@ -21,13 +21,17 @@ background-size: cover;
 }
 
 .color {
-    background-color: #DDDDDD;
-    background: #dcdddd;
-    border-bottom: 1px solid #d8dee9;
+    background: #bcd6d6b0;
     color: #000000;
 }
 .color {
-    border-left: 3px solid rgba(111, 161, 212, 0.753);
+    border-left: 3px solid rgba(125, 172, 219, 0.753);
+}
+.textdt {
+    margin: 10px 0px 0px 1px;
+}
+.textdd {
+    margin: -25px 0px 0px 102px;
 }
 
 .git {
@@ -54,4 +58,9 @@ a:link, a:visited { text-decoration: none;
     align-items: flex-end;
     width: 200px;
     height: 100px;
+}
+
+.textTable {
+    margin: 9px -237px 9px 27px;
+    display: flex;
 }
