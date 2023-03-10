@@ -32,7 +32,7 @@
 
 ***
 
-## 👓 Alias Commands
+## 👓 Aliases Commands
 
 |Command         | Description |
 |----------------|------------|
