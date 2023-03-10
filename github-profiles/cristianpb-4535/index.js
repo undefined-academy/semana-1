@@ -12,3 +12,13 @@ let a = null
 if(typeof a==="object"){
     console.log("a es un objeto")
 }
+const human = {
+    name : "cristian", 
+    age : "24",
+    blackhaired : true,
+    lastname : "polo"
+}
+let b = ["b", 5]
+if(Array.isArray(b)){
+    console.log("b es un arreglo")
+}
