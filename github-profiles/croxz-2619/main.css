@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/fixedsys-excelsior-301');
+
+body{
+    margin: 0 auto;
+	padding: 0;
+    max-width: 50em;
+    box-sizing: border-box;
+    background-color: black;
+    color: green;
+    font-family: 'Fixedsys Excelsior 3.01', sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    padding: 4em 1em;
+}
+
+a{
+    color: green;
+}
+
+code,
+pre {
+  background: black;
+  color:green;
+}
+
+pre {
+    border: 2px dotted #69c;
+  }
+
+.terminal{
+    background: #28292B;
+    color: green;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+.terminal span{
+    display: block;
+    text-align: center;
+}
+
+.titulo{
+    display: block;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    width: 59ch;
+
+    animation: typing 2s steps(59), blink .5s infinite step-end alternate;
+    overflow: hidden;
+
+}
+
+@keyframes typing {
+    from { width: 0 }
+
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
