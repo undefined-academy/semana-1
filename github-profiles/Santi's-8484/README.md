@@ -1,7 +1,7 @@
 
-# Profile github: 
-**link github** https://github.com/santiOcampo01git
-
+# Profiles: 
+[github](https://github.com/santiOcampo01)
+[LinkedIn](https://www.linkedin.com/in/santi-mejia-ocampo-23599a230/)
 
 # Hi! Welcome to my **CV**
 
