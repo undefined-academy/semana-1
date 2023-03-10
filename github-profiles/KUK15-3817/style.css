@@ -1,80 +1,20 @@
-/* Centering */
-/*Las largas líneas de texto pueden ser difíciles de analizar y, por lo tanto, difíciles de leer . Establecer un límite de caracteres por línea mejora en gran medida la legibilidad y el atractivo de un muro de texto.*/
 body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0 auto;
     max-width: 50em;
-  }
-/* Font family */
-body {
-    font-family: "Helvetica", "Arial", sans-serif;
-  }
-/* Spacing */
-body {
     line-height: 1.5;
     padding: 4em 1em;
-  }
-  
+    color: #566b78;
+  } 
 h2 {
     margin-top: 1em;
     padding-top: 1em;
-  }
-/* Color & contrast*/
-body {
-    color: #555;
   }
 h1,
 h2,
 strong {
     color: #333;
   }
-/* Balance */
-code,
-pre {
-  background: #eee;
-}
-
-code {
-  padding: 2px 4px;
-  vertical-align: text-bottom;
-}
-
-pre {
-  padding: 1em;
-}
-/*Primary color*/
-a {
-    color: #e81c4f;
-  }
-/*Secondary colors*/
-  body {
-    color: #566b78;
-  }
-  
-  code,
-  pre {
-    background: #f5f7f9;
-    border-bottom: 1px solid #d8dee9;
-    color: #a7adba;
-  }
-  
-  pre {
-    border-left: 2px solid #69c;
-  }
-/* Agrega la fuente a la sección de fuentes
-@import url('https://fonts.googleapis.com/css2?family=Nombre+de+la+Fuente');
-
- Usa la fuente en tus estilos
-body {
-  font-family: 'Nombre de la Fuente', sans-serif;
-}
-*/
-/*Custom font*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
-
-body {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-}
-/*background image*/
 header {
     background-color: #263d36;
     background-image: url("https://d19tiqumqauva7.cloudfront.net/var/andorra/storage/images/www.andorra.ad/multimedia/galeria/natura/rutes-de-senderisme2/ruta-de-senderisme-pic-de-casamanya/1906x960_ruta-de-senderisme-pic-de-casamanya/23813685-1-cat-ES/1906x960_ruta-de-senderisme-pic-de-casamanya.jpg");
@@ -85,25 +25,22 @@ header {
     padding: 10vw 2em;
     text-align: center;
   }
-/*logo*/
 header img {
     display: inline-block;
     height: 120px;
     vertical-align: top;
     width: 120px;
   }
-/*text styles*/
 header h1 {
     color: rgba(13, 12, 12, 0.883);
     font-size: 2.5em;
     font-weight: 300;
   }
-  
-  header a {
+header a {
     border: 1px solid #274ed1;
     border-radius: 33px;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
     letter-spacing: 0.2em;
     padding: 1em 2em;
     text-transform: uppercase;
@@ -111,11 +48,19 @@ header h1 {
     transition: none 200ms ease-out;
     transition-property: color, background;
   }
-  
-  header a:hover {
+header a:hover {
     background:  #274ed1;
     color: black;
   }
-
-
-  
+table {
+    border-collapse: collapse;
+  }
+td, 
+th {
+    border: 1px solid grey;  
+    text-align: center;
+    padding: 10px;
+  }
+.gray-cell {
+    background-color: #e6e6e67f;
+  }
