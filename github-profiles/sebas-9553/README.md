@@ -17,3 +17,8 @@ https://github.com/sebasvalencia
 |clear  | Limpiar la terminal       |
 |alias  | Lista los alias           |
 
+# Estos sin mis alias más usados
+```bash
+gpp='git pull'
+gps='git push'
+```
