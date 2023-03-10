@@ -24,11 +24,11 @@ En estos momentos me encuentro buscando oportunidades laborales en la industria 
 
 ### Listado de ALIAS
 
-Alias | Configuración Global | Descripción |
-| ---- | ----- | ------- |
-| npm i | npm install  | instalar paquetes | 
-|gst | git status | lista los cambios que se han realizado |
-|gco | git checkout | ir de una rama a otra|
+|Alias  | Configuración Global |        Descripción                      |
+| ----  | -----                |        -------                          |
+| npm i |npm install           |      instalar paquetes                  | 
+|gst    | git status           | lista los cambios que se han realizado  |
+|gco    | git checkout         | ir de una rama a otra                   |
 
 
 Link al repositorio:
