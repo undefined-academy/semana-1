@@ -5,8 +5,6 @@ Te invito a mi [peril de Github](https://github.com/ivanpachecos)
 
 Full-stack (*Descarrollador Web*)💻.
 
-Actualmente estoy en proceso de convertir en **Desarrollador web (Full stack)**.
-
 Soy un apasionado por las tecnologías, me considero una persona que le gustan los retos y busco aprender cosas nuevas en mi vida, resolver problemas, ayudar, compartir, etc.
 
 ## 🎓Academias

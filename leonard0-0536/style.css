@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,600;1,100;1,700&display=swap');
+
+:root {
+    --color-principal : #37306B;
+    --color-secundario : #66347F;
+    --color-letter : #4D455D;
+
+    --roboto-ff : 'Roboto Mono', monospace;
+}
+
+body {
+    background-color: var(--color-principal);
+    font-size: 1.5rem;
+    font-family: var(--roboto-ff);
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2rem;
+}
