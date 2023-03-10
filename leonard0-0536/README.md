@@ -1,17 +1,30 @@
 Te invito a mi [peril de Github](https://github.com/ivanpachecos)
 
 
-# Iván Pacheco (Developer FullStack). 👋
+# Hola👋 , mi nombre es Iván Pacheco. 
 
-Hola, mi nombre es Iván , vivo en Ecuador y actualmente estoy proceso para convertirme en desarrollador Web💻.
+Full-stack (*Descarrollador Web*)💻.
 
-## Academias🤵‍♂️📓
+Actualmente estoy en proceso de convertir en **Desarrollador web (Full stack)**.
+
+Soy un apasionado por las tecnologías, me considero una persona que le gustan los retos y busco aprender cosas nuevas en mi vida, resolver problemas, ayudar, compartir, etc.
+
+## 🎓Academias
 - Undifined Academy
 - Open Bootcamp
 - Codeacademy
 - FreeCodeCampt
 
-## Mis 5 comados
+## ⚙️Tecnologías
+- Html y Css
+- Javascript
+- Nodejs
+- Angular JS
+- Express
+
+
+
+## Mis 5 comados mas usados en WSL
 
 | Comandos | Descripcion                            |
 | -------- | -------------------------------------- |
