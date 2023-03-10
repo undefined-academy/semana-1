@@ -92,11 +92,7 @@ header img {
     background: #d8dee9;
   }
 
-  th{
-    padding: 10px;
-    border-radius: 10px;
-  }
-  td{
+  th,td{ 
     padding: 10px;
     border-radius: 10px;
   }
