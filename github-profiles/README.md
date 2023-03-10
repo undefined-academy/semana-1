@@ -30,4 +30,4 @@
 | alias npmd | npm run dev -> to run den environment |
 | alias cl   | clear to -> clear terminal            |
 
-Vistit mi **[GITHUB profile](http://github.com/bycarlosgamez/)**
+Vistit my **[GITHUB profile](http://github.com/bycarlosgamez/)**
