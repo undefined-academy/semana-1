@@ -10,13 +10,12 @@ body {
     margin-top: 1em;
     padding-top: 1em;
     color: #333;
-
   }
   code,
 pre {
     background: #f5f7f9;
     border-bottom: 1px solid #d8dee9;
-    color: #a7adba;
+    color: #43454b
 }
 
 code {
@@ -27,7 +26,6 @@ code {
 pre {
   padding: 1em;
   border-left: 2px solid #69c;
-
 }
 
   a:link, a:visited {
@@ -44,13 +42,8 @@ pre {
     background-color: rgb(91, 85, 85);
   }
   
-  
-
-
-
-
 table,
-        th,
-        td {
-            border: 1px solid black;
-        }
+    th,
+    td {
+      border: 1px solid black;
+       }
