@@ -18,13 +18,13 @@ La idea principal es poder desarrollarme en el ambito del back-end.
 
 ### Comandos de la terminal aprendidos
 
-| Comando | Acción |
-| ------ | ------ |
-| **ls** | Lista los archivos de la carpeta actual, o de la ruta dada. Ej. **ls** Documents  |
-| **cd** | Nos permite navegar entre carpetas. Ej. **cd** Documents nos ubicaría en /Users/<usuario>/Documents |
-| **pwd** |  Nos nuestra la ruta absoluta del directorio actual, así podemos saber en dónde estamos ubicados.|
-| **mkdir** | Crea una nueva carpeta dado un nombre para esa carpeta. Ej. **mkdir** hola|
-| **touch** | Crea un archivo nuevo dada una ruta y/o nombre. Ej. **touch** README . |
+| Comando   | Acción                                                                                          |
+| ------    | ------                                                                                          |
+| **ls**    | Lista los archivos de la carpeta actual, o de la ruta dada. Ej. **ls** Documents                |
+| **cd**    | Nos permite navegar entre carpetas.Ej. **cd** Documents nos ubicaría en /Users/usuario/Documents|
+| **pwd**   | Nos nuestra la ruta absoluta del directorio actual,así podemos saber en dónde estamos ubicados. |
+| **mkdir** | Crea una nueva carpeta dado un nombre para esa carpeta. Ej. **mkdir** hola                      |
+| **touch** | Crea un archivo nuevo dada una ruta y/o nombre. Ej. **touch** README .                          |
 
 
 ### Comandos Alias utiles
