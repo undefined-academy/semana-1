@@ -3,17 +3,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 3%;
 }
 
 body {
   margin: 0 auto;
   font-family: "Outfit", Georgia;
-  background-color: #fafafa;
+  background-color: #e4e4e7;
   background-image: url("");
   background-size: cover;
 
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #18181b;
   
 }
 
@@ -23,13 +25,13 @@ section, article, aside, footer, header, nav {
 
 nav {
   padding: .5rem 2rem;
-  background-color: #0a0a0a;
+  background-color: #18181b;
   
   position: fixed;
   top: 1%;
-  right: 1%;
-  left: 1%;
-  color: #f0e10b;
+  right: 2%;
+  left: 2%;
+  color: #facc15;
 
   display: flex;
   
@@ -40,7 +42,7 @@ nav ul {
   list-style: none;
   align-items: center;
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   flex-grow: 1;
   justify-content: flex-end;
 }
@@ -70,7 +72,7 @@ section {
 
 
   max-width: 900px;
-  padding: 4em 1em 1em;
+  padding: 2em 1em 1em;
   margin: 0 auto;
 }
 
@@ -79,11 +81,12 @@ section h1 {
 }
 
 section h3 {
-  margin: 0 auto 1em;
+  margin: 1em auto ;
+  text-align: center;
 }
 
 section h2 {
-  text-decoration: underline #f0e10b;
+  text-decoration: underline #facc15;
 }
 
 ul {
@@ -93,10 +96,15 @@ ul {
 .perfil {
   flex-direction: row;
   flex-wrap: wrap;
+  
 }
 
 .aside-perfil__content {
   text-align: justify;
+}
+
+.aside-perfil__content i {
+  font-size: 1.8rem;
 }
 
 .aside-perfil {
@@ -106,7 +114,7 @@ ul {
 
 .aside-perfil__img {
   height: 200px;
-  border: 1px solid #0a0a0a;
+  border: 1px solid #facc15;
   border-radius: 50%;
 }
 
@@ -117,26 +125,24 @@ ul {
 .project {
  display: flex;
  flex-wrap: wrap;
- align-items: center;
  justify-content: space-around;
  gap: 20px;
 
  padding: 1.5em 1em;
  
- background-color: #0a0a0acb;
+ background-color: #18181b;
  border-radius: 40px;
 
- color: #fafafa;
+ color: #e4e4e7;
 }
 
 .project__content {
-  flex-basis: 50%;
-  flex-grow: 2;
+  flex: 1 1 50%;
 }
 
 .project__link {
-  flex-basis: 45%;
-  flex-grow: 1;
+  flex: 1 1 45%;
+  align-self: center;
 }
 
 .project__img {
@@ -153,16 +159,16 @@ ul {
 }
 
 .contact a {
-  color: #0a0a0a;
+  color: #18181b;
   text-decoration: none;
 }
 
 .contact a:hover {
-  text-decoration: underline #f0e10b;
+  text-decoration: underline #facc15;
 }
 
 footer {
-  background-color: #0a0a0a;
+  background-color: #18181b;
   padding: .5rem 2rem;
-  color: #f0e10b;
+  color: #facc15;
 }
