@@ -33,7 +33,7 @@ _Universidad de Antioquia, Medellín. Colombia_
 |pwd|Nos nuestra la ruta absoluta del directorio actual, así podemos saber
 en dónde estamos ubicados.|
 
-## Alias que pueden ser de utilidad 
+## 🎭 Alias que pueden ser de utilidad 
 
 |Alias|Funcionalidad|
 |-----------|---------------------------|
