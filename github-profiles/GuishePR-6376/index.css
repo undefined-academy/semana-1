@@ -30,11 +30,11 @@ table, td, th {
     border-collapse: collapse;
 }
 
-#uno {
+.uno {
     background: #38bdf8;
 }
 
-#dos {
+.dos {
     background: #0284c7;
 }
 
