@@ -27,9 +27,9 @@ header {
   }
 header img {
     display: inline-block;
-    height: 120px;
+    height: 12px;
     vertical-align: top;
-    width: 120px;
+    width: 12px;
   }
 header h1 {
     color: rgba(13, 12, 12, 0.883);

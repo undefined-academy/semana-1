@@ -18,3 +18,20 @@ Soy un **Técnico de sistemas informaticos TIC** con experiencia en el sector de
 | Español | Nativo     |
 | Inglés  | Intermedio |
 | Francés | Intermedio |
+# 👉 5 comandos mas usados
+| Comando | Descripción                                                 |
+|---------|-------------------------------------------------------------|
+| ls      | Muestra el contenido de un directorio.                      |
+| cd      | Cambia el directorio actual.                                |
+| mkdir   | Crea un nuevo directorio.                                   | 
+| rm      | Elimina un archivo o directorio.                            | 
+| grep    | Busca una cadena de texto en un archivo o entrada de texto. |
+# 👉 Comandos alias recomendados
+| Alias | Comando original  |
+|-------|-------------------|
+| ls    | ls --color=auto   |
+| grep  | grep --color=auto |
+| ..    | cd ..             |
+| ...   | cd ../..          |
+| md    | mkdir             |
+| rd    | rmdir             |
