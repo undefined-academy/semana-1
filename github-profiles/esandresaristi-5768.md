@@ -1,6 +1,7 @@
 # Andrés Aristizabal Orozco 😎🧔 
 ***Tecnologo Administrador de Redes de Computo***   
-[🔎INSTAGRAM](https://www.instagram.com/esandresaristi/)
+[🔎INSTAGRAM](https://www.instagram.com/esandresaristi/)  
+[🔎GITHUB] (https://github.com/andresarioro) 
 
 Cuento con experiencia en servicio al cliente y robótica educativa. Poseo gran interés por el desarrollo de software, y cuento con 
 buena lógica de programación debido a las funciones en las que me he desempeñado.  
