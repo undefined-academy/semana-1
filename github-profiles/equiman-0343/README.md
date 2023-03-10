@@ -1,14 +1,12 @@
-# Profile
-
-[Equiman on GitHub](https://github.com/equiman)
-
----
+# Profile Equiman
 
 ## Hola Mundo
 
 Soy **Camilo Martínez**, mas conocido como **Equiman** un desarrollador de software de Medellín, Colombia 🇨🇴.
 
 ![Medellin](https://user-images.githubusercontent.com/933393/164779706-9434093e-61cd-4e6e-86a9-5c23ec90b1b1.png)
+
+## Acerca
 
 ```javascript
 const equiman = () => ({
@@ -41,6 +39,15 @@ const equiman = () => ({
 |`gp`   |`git push` |
 
 ---
+
+### Contacto
+
+[![GitHub Badge](https://img.shields.io/badge/-@equiman-gray?style=flat&labelColor=010101&logo=github&logoColor=white&link=https://github.com/equiman)](https://github.com/equiman)
+[![Twitter Badge](https://img.shields.io/badge/-@equimancho-gray?style=flat&labelColor=1DA1F2&logo=twitter&logoColor=white&link=https://twitter.com/equimancho)](https://twitter.com/equimancho)
+[![Dev.to Badge](https://img.shields.io/badge/-@equimancho-gray?style=flat&labelColor=0A0A0A&logo=devdotto&logoColor=white&link=https://dev.to/equimancho)](https://dev.to/equimancho)
+[![YouTube Badge](https://img.shields.io/badge/-@equimancho-gray?style=flat&labelColor=FF0000&logo=youtube&logoColor=white&link=https://youtube.com/c//equimancho)](https://youtube.com/c//equimancho)
+[![StackOverflow Badge](https://img.shields.io/badge/-@equiman-gray?style=flat&labelColor=FE7A16&logo=stackoverflow&logoColor=white&link=https://stackoverflow.com/story/equiman)](https://stackoverflow.com/users/812915)
+[![LinkedIn Badge](https://img.shields.io/badge/-@equiman-gray?style=flat&labelColor=0077B5&logo=linkedin&logoColor=white&link=https://linkedin.com/in/equiman)](https://linkedin.com/in/equiman)
 
 **That's All Folks!**
 **Happy Coding** 🖖
