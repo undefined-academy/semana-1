@@ -1,4 +1,4 @@
-Enlace a mi perfil de github: https://github.com/ivanpachecos [Ejemplo de enlace](https://www.ejemplo.com/)
+Te invito a mi [peril de Github](https://github.com/ivanpachecos)
 
 # Iván Pacheco (Developer FullStack). 👋
 
