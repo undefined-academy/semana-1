@@ -14,7 +14,7 @@ if(total === 85){
     console.log("luis: " + luis)
     
   }
-  
+//verificar si un valor es un objeto
 let a = []
   
 if (typeof a === "object" && a !== null){
@@ -22,3 +22,24 @@ if (typeof a === "object" && a !== null){
   } else {
     console.log("a no es un objeto")
   }
+
+//calentamiento 10/04/2023
+
+//escribir un objeto "humano" que te represente.
+const humano = {
+  name: "Brian",
+  lastname: "Polo",
+  height: "1,77",
+  age: 24,
+  nationality: "Argentina"
+}
+
+//ejercicio 10/04/2023
+// verificar si un valor es un array
+let b = ["a", "b", "c", 6]
+
+if(Array.isArray(b)){
+  console.log("b es un array")
+} else{
+  console.log("b no es un array")
+}
