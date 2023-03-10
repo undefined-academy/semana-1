@@ -36,3 +36,10 @@ rominabertello1993@gmail.com
 | LS       | shows us a list of files                           |
 | PWD      | shows us the directory path                        |
 | RM       | delete file                                        |
+| MV       | We use it to move a file                           |
+
+# 5 command alias
+| COMMANDS | MEANING |
+| ------   | ------  |
+| Cl       | clear   |
+| RM       | Trash   |
