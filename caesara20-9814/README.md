@@ -22,14 +22,15 @@ Me caracterizo por ser un profesional disciplinado y con fácil adaptación al e
 | rm      | Permite eliminar un archivo dada una ruta                                |
 | touch   | Crea un archivo nuevo dada una ruta y/o nombre                           |
 
-## Comandos _Alias_
-### Estos son mis alias mas usados
+## *Comandos _Alias_*
+### **Estos son mis alias mas usados**
 ```bash
 cl = 'clear'
 npmd = 'npm run dev'
 npms = 'npm start'
 search = 'ls ~/ | grep $1'
 ```
+### **Alias principales usados**
 
 | Comando| Descripción |
 | --------| ----------- |
