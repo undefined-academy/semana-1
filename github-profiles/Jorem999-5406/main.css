@@ -1,12 +1,12 @@
 html {
   line-height: 1.5;
   font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 body {
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 70em;
   line-height: 1.5;
   padding: 4em 1em;
   background: rgb(252, 233, 233);
@@ -59,15 +59,8 @@ a:visited {
 }
 
 img {
-  vertical-align: text-top;
-  max-height: 100%;
-  max-width: 100%;
-  padding: 1px;
-}
-
-.cat {
-  height: 100px;
-  width: 100px;
+  vertical-align: baseline;
+  height: 18Px;
  }
 
 h1,
@@ -75,6 +68,7 @@ h2,
 strong {
   color: #833e3e;
 }
+
 h3 {
   font-style: italic;
   text-align: center;
