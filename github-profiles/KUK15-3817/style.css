@@ -37,6 +37,7 @@ header h1 {
     font-weight: 300;
   }
 header a {
+    margin-top: -20px;
     border: 1px solid #274ed1;
     border-radius: 33px;
     color: white;
