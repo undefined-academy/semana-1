@@ -12,17 +12,17 @@
 
 ### 📚 Five Linux commands I learned in the first bootcamp class
 
-| Command 	| Description                               |
-| --------- | ----------------------------------------- |
-| ls 	    | Lists the contents of a directory         |
-| cd 	    | Change the current working directory      |
-| pwd 	    | Print the current working directory       |
-| mkdir 	| Create a new directory                    |
-| whoami    | Display the username of the current user  |
+| Command           | Description                                       |
+| ----------------- | ------------------------------------------------- |
+| ls 	            | Lists the contents of a directory                 |
+| cd 	            | Change the current working directory              |
+| pwd 	            | Print the current working directory               |
+| mkdir             | Create a new directory                            |
+| whoami            | Display the username of the current user          |
 
 ### Two useful alias commands for Linux 🐧"
 
-|   Command                                                 | Description                                                                                       |
+| Command                                                   | Description                                                                                       |
 | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | alias md="mkdir $1"                                       | Create a new directory with a specified name                                                      |
 | alias ll="ls -alFh"                                       | Display detailed information about files and directories in a human-readable format               |
