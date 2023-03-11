@@ -22,10 +22,11 @@
 
 ### Two useful alias commands for Linux 🐧"
 
-|   Command             |    Description                                                                                                               |
-| --------------------- | -----------------------------------------------------------------------------------------------------------------------------|
-| alias md="mkdir $1"   | Create a new directory with a specified name by simply typing "md" followed by the desired directory name. 📁                |
-| alias ll="ls -alFh"   | Display detailed information about files and directories in a human-readable format, including hidden files and file sizes.📃|
+|   Command                                                 | Description                                                                                       |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| alias md="mkdir $1"                                       | Create a new directory with a specified name                                                      |
+| alias ll="ls -alFh"                                       | Display detailed information about files and directories in a human-readable format               |
+| alias cafe="cat /dev/urandom \| hexdump \| grep "ca fe"   | Takes random input, converts it into hexadecimal format and then searches for the pattern "ca fe" |
 
 ### Second bootcamp class (week 1, exercise 2)
 [Github Profile](https://github.com/luanarmo)
