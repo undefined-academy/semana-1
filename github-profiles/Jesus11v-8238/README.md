@@ -5,10 +5,10 @@
 
 ## 📚Technologies i'm currently learning:
 
-![React](./img/React.png "React is so cool")
-![NodeJs](./img/nodejs.png "Node is ok")
-![TailwindCss](./img/tailwind.png "Bootstrap is easier :(")
-![PHP](./img/php.png "I hate you PHP")
+![React](https://assets.stickpng.com/thumbs/62a74dd1223343fbc2207d00.png "React is so cool")
+![NodeJs](https://symbols.getvecta.com/stencil_25/63_nodejs.124d3fe0e1.png "Node is ok")
+![TailwindCss](https://mohsenmodhej.com/wp-content/uploads/2022/02/tailwind-300x300.png "Bootstrap is easier :(")
+![PHP](https://lineadecodigo.com/wp-content/uploads/2013/11/php.png "I hate you PHP")
 
 ---
 
