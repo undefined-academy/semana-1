@@ -30,8 +30,7 @@ _Universidad de Antioquia, Medellín. Colombia_
 |cd|Nos permite navegar entre carpetas|
 |rm-r|Nos permite eliminar una carpeta dada una ruta|
 |touch|Crea un archivo nuevo dada una ruta y/o nombre|
-|pwd|Nos nuestra la ruta absoluta del directorio actual, así podemos saber
-en dónde estamos ubicados.|
+|pwd|Nos nuestra la ruta absoluta del directorio actual, así podemos saber en dónde estamos ubicados.|
 
 ## Alias que pueden ser de utilidad 
 

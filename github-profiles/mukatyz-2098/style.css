@@ -1,0 +1,42 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin: 0 auto;
+    max-width: 50em;
+    background-color: aliceblue;
+}
+header{
+
+    background-color: rgb(176, 176, 201);
+    background-image: url("https://media.istockphoto.com/id/1396817212/es/foto/huevos-de-pascua-azules-flor-de-margarita.jpg?s=612x612&w=0&k=20&c=gNvysBVBVscf3tQfnXKaxz4X5yG3D7Ma0e1bdqdp0gI=");
+    width: auto;
+    height: 10em;
+}
+header>h1{
+    color: #333;;
+    padding: 2em;
+    text-align: end;
+}
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+h1,
+h2,
+strong {
+  color: #333;
+}
+h2 {
+    color: #e81c4f;
+}
+ul{
+    background-color: #e1dee7;
+}
+
+tr:nth-of-type(1)
+{
+    background-color: #e1dee7;
+}
+tr {
+    padding: 2px 4px;
+}
