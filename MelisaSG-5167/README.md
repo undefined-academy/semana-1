@@ -18,9 +18,15 @@
 
 #### Alias utiles para la terminal
 
-| Alias   | Descripción |
-|---------|-------------|
-| gmg     | git merge   |
-| ce      | code .      |
+```
+    alias gmg = "git merge"
+
+```
+
+```
+    alias ce = "code ."
+
+```
+
 
 #### Mi perfil GitHub-----> [✨🐣✨](https://github.com/MelisaSG)
