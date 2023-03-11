@@ -27,3 +27,22 @@ Soy una **desarrolladora junior**, en constante búsqueda de nuevos desafíos pa
 
 ---
 _perfil github: [https://github.com/miche890](https://github.com/miche890)_
+
+---
+## Tabla de comandos
+
+| Comando     | Descripción                          |
+| ----------- | ------------------------------------ |
+| mkdir       | crea una carpeta                     |
+| clear       | limpia la terminal                   |
+| mv          | mover o cambiar nombre a un archivo  |
+| rm          | eliminar archivo o diirectorio       |
+| ls          | listar el contenido de un directorio |
+
+---
+
+## Alias
+| Alias                | Descripción                     |
+| -------------------- | ------------------------------- |
+| alias `cl`=*"clear"* | limpiar la teminal              |
+| alias `..`=*"cd .."* | regresar al directorio anterior |
