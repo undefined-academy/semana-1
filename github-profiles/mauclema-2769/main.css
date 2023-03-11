@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+    font-family: "Helvetica", "Arial", sans-serif;
+    
+}
+
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+code,
+pre {
+  
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+h2 {
+
+    border-bottom: 2px solid tomato; 
+    display: inline
+}
+
+
+
+a {
+    color: aquamarine;
+    font-style: italic;
+  }
