@@ -1,6 +1,6 @@
 # Hola a todos :wave:, soy Mariano Martinez.
 
-### Desarrollador **Front-End**, Diseñador **UX-UI** y Estudiante del Bootcamp **Full-stack JavaScript Developer**, de **Undefined Academy**.:computer:
+### En camino a ser Desarrollador **Front-End**, Diseñador **UX-UI** y Estudiante del Bootcamp **Full-stack JavaScript Developer**, de **Undefined Academy**.:computer:
 
 #### Edad :older_man:
 * 22 Años.
@@ -11,7 +11,7 @@
 #### Estudios :blue_book:
 * Bachillerato en comunicación, **Instituto Santa Lucia**.
 * UX-UI Desing de **Open Bootcamp**.
-* Desarrollo Web Font-End de **Ticmas**.
+* Desarrollo Web Front-End de **Ticmas**.
 
 | Comando | Descripión |
 | ----------- | ----------- |
