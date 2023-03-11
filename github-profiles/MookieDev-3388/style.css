@@ -6,6 +6,9 @@ html{
    body {
        margin: 0 auto;
        max-width: 50em;
+       font-size: 14px;
+       border: 2px dashed tomato;
+       
      }
    
      h1{
@@ -21,6 +24,7 @@ html{
       text-align: center;
       font-family: "Century Gothic", sans-serif;
       font-weight:700px;
+      line-height: 1.5;
    }
    
    h2{
@@ -38,6 +42,7 @@ html{
      font-family: "Century Gothic", sans-serif;
      text-align: justify;
      margin-bottom: 0;
+     line-height: 1.1;
    }
    
    th{
@@ -59,7 +64,7 @@ html{
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     margin-bottom: 20px;
+     margin-bottom: 10px;
    }
    
    .image{
@@ -68,7 +73,7 @@ html{
    }
    
    .table{
-     margin-bottom: 100px;
+     margin-bottom: 40px;
    }
    
    #table-tittle{
