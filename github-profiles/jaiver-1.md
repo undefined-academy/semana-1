@@ -25,8 +25,7 @@ igualmente implementación de la pagina web.
 
 # Estos son mis alias 
 
-`
+```
 gs = git status
 gpus = git push origen main
-
-`
+```
