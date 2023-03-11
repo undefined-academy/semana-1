@@ -1,0 +1,65 @@
+.flags{
+    border-radius: 5px;
+    max-height: 30px;
+    height: 1.4em;
+}
+
+body{
+    max-width: 70%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+    font-family: monospace;
+    text-align: center;
+    text-transform:uppercase;
+    color: dodgerblue;
+}
+
+img.gatito{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+p{
+    text-align: justify;
+}
+
+#education{
+    display: calc();
+}
+
+#btn{
+    display: none;
+}
+#btn:checked + label > img {
+    width: 75px;
+    height: 75px;
+}
+
+#goodbye{
+    display: none;
+}
+
+#goodbye:target{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: dodgerblue;
+    text-align: center;
+
+}
+
+div.center{
+    text-align: center;
+}
+
+footer{
+    margin: 50px;
+}
+
