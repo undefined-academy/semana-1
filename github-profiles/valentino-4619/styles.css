@@ -11,16 +11,14 @@ html {
 body {
   width: 50%;
   margin: 0 auto;
-  color: #ff3f7f;
+  color: #f43f5e;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
-span,
 strong,
 a {
   color: rgb(255, 94, 94);
@@ -29,6 +27,7 @@ a {
 
 h1 {
   text-align: center;
+  font-size: 34px;
 }
 
 .img-container {
