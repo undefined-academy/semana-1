@@ -15,10 +15,10 @@ I am from Colombia and I am very interested in learning new things like full-sta
 |**alias**|Makes an alias of another command                  |
 
 ### Alias commands
-|Alias command|Commands|Description
-|------|-----------|--------|
-|**findd**|ls ~/ &#124; grep $1| Finds the elements starting with the argument $1 in the current directory|
-|**cl**|clear|clears terminal|
+|Alias command|Commands            |Description                                                               |
+|-------------|--------------------|--------------------------------------------------------------------------|
+|**findd**    |ls ~/ &#124; grep $1| Finds the elements starting with the argument $1 in the current directory|
+|**cl**       |clear               |clears terminal                                                           |
 
 deploy test: https://test-deploy-ace.vercel.app
 
