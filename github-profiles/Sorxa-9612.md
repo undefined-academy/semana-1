@@ -25,4 +25,4 @@
 | *```rm```* | alias del comando ```trash``` evita eliminar de forma permanente los archivos |
 
 **🌐 Link perfil de github:** 
-> https://github.com/Sorx4s 
+> [Sorx4s Github Profile](https://github.com/Sorx4s)
