@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+  a {
+    color: #e81c4f;
+  }
+
+section {
+    background-color: palegoldenrod;
+}
