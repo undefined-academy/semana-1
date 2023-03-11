@@ -1,5 +1,13 @@
 /* GENERAL */
 
+html{
+    font-size: 75.50%;
+}
+
+img{
+    width: 75%;
+}
+
 body {
     margin: 0 auto;
     max-width: 50em;
@@ -27,7 +35,7 @@ padding: 1em;
 }
 
 header{
-    background-image:url(/portátil-negro-con-mapa-del-mundo-en-pantalla-icono-aislado-sobre-fondo-amarillo-mundial-geografía-símbolo-estilo-de-sombra-210624276.jpg);
+    background-image:url(../Wilmer-8071/portátil-negro-con-mapa-del-mundo-en-pantalla-icono-aislado-sobre-fondo-amarillo-mundial-geografía-símbolo-estilo-de-sombra-210624276.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,8 +52,17 @@ footer{
     flex-direction: column;
 }
 
+.footer-contacto{
+    font-weight: bold;
+}
+
 .footer-texto{
-    text-align: center;
     text-transform: uppercase;
     font-weight:bold;
+    text-align: center;
+    
+}
+
+table{
+    background-color: gold;
 }
