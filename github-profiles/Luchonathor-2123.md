@@ -4,7 +4,7 @@
 
 **[Mi GitHub](https://github.com/Luchonathor)** - **[Mi Correo](luismimora81@hotmail.com)** - **[Mi Linkedin](https://www.linkedin.com/in/luismimora81/)**
 
-# CV
+# Hoja de Vida
 ## PERFIL LABORAL: 👜
 *Desarrollador de software* con experiencia en desarrollo full stack, **backend en PHP Laravel** y **Node JS**, frontend con **Vue JS**, **Angular** y **Ionic**. Bases de datos **MySQL**; autodidacta, con habilidad para adaptarse a las diferentes necesidades de la organización, con sentido de pertenencia, capaz de tomar decisiones. Tengo experiencia y disposición para trabajar en equipo, liderazgo, buenas relaciones interpersonales y proactivo.
 
