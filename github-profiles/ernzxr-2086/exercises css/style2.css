@@ -1,0 +1,13 @@
+main {
+    width: 600px;
+}
+
+main div {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.column {
+    display: inline-block;
+    width: calc(100% / 3 - 20px * 2 - 1px * 2);
+}

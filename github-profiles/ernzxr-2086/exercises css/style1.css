@@ -1,0 +1,44 @@
+.abuelo {
+    border: 1px solid black;
+}
+
+.padre p + p {
+    color: tomato;
+}
+
+/* hermano 
+.padre ~ .hermano span{
+    color: rebeccapurple;
+}*/
+
+/* hijo 
+.hermano > span{
+    color: rebeccapurple;
+}*/
+
+/* descendiente 
+.hermano span{
+    color: rebeccapurple;
+}*/
+
+div.hermano > span{
+    color: rebeccapurple;
+}
+
+/* todo span descendiente de .abuelo */
+.abuelo span {
+    font-weight: bold;
+}
+
+div span {
+    font-weight: bold;
+}
+
+/* adyacente 
+.padre div + p + div {
+    color: teal;
+}*/
+
+.padre div ~ div {
+    color: teal;
+}
