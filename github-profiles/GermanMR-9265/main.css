@@ -1,0 +1,32 @@
+body {
+    max-width: 600px;
+    font-size: 12px;
+    margin: 0 auto;
+    background: white;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+h1,
+h2 {
+    line-height: 1.5;
+}
+
+div {
+    margin-top: 5px;
+    padding: 15px;
+    background: #f5f7f9;
+}
+
+header {
+    margin-top: 20px;
+    background: url("https://images.unsplash.com/photo-1532456745301-b2c645d8b80d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdlb21ldHJpYyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 60px;
+    color: #555;
+}
