@@ -1,10 +1,10 @@
 https://github.com/Psychobroder
 
-# bootcamp Undefined Shell
+## bootcamp Undefined Shell
 
 Lo que aprendi en la escuela de botes es...
 
-Comandos básicos del sistema operativo
+## Comandos básicos del sistema operativo
 
 | command | description |
 | ------ | ------ |
@@ -14,7 +14,8 @@ Comandos básicos del sistema operativo
 |df: | Muestra el espacio libre actual en el disco duro. |
 |whoami: | Muestra el nombre del usuario actual. |
 
-Comandos para el manejo decarpetas
+## Comandos para el manejo decarpetas
+
 | command | description |
 | ------ | ------ |
 |ls:  | Lista los archivos de la carpeta actual, o de la ruta dada. Ej. ls Documents . |
@@ -24,7 +25,7 @@ Comandos para el manejo decarpetas
 | cp -r: | Nos permite copiar una carpeta dada una ruta inicial y una ruta final.Ej. cp -r hola alo . |
 | rm -r:  | Nos permite eliminar una carpeta dada una ruta. Ej. rm -r hola .  |
 
-Comandos para el manejode archivos
+## Comandos para el manejode archivos
 
 | command | description |
 | ------ | ------ |
@@ -35,7 +36,8 @@ Comandos para el manejode archivos
 | 1rm: | Nos permite eliminar un archivo dada una ruta. |
 | mv: | Nos permite mover un archivo o carpeta dada una ruta inicial y una ruta final.Ej. mv adios /Users/<usuario>/Downloadsmv también es el comando que nos permite cambiar el nombre de un archivo ocarpeta. Ej. mv adios bye .|
 
-Atajos de los comandos en laterminal
+## Atajos de los comandos en laterminal
+
 | command | description |
 | ------ | ------ |
 |Ctrl + c: | Si queremos cancelar el comando actual o la terminal no respondepodemos hacer uso de este atajo para detenerlo.|
@@ -65,7 +67,7 @@ Según tu tipo de terminal puedes ejecutar:code ~/.bashrc o code ~/.zshrc . Sí 
 
 solo tienes que pegar tu alias en unasola linea dentro de tu archivo ~/.bashrc o~/.zshrc .# `~/.bashrc` o `~/.zshrc`alias findd="ls ~/ | grep $1"
 
-Comandos alias recomendadosLos comandos start y dev se suelen usar mucho
+## Comandos alias recomendadosLos comandos start y dev se suelen usar mucho
 | shortcut | description |
 | ------ | ------ |
 | npmd | alias npmd="npm run dev" | 
@@ -74,7 +76,7 @@ Comandos alias recomendadosLos comandos start y dev se suelen usar mucho
 | cl="clear" |El comando de clear se suele usar muchoalias |
 | gst | Git Status alias gst="git status"|
 
-Recursos!https://git-tower.com/blog/command-line-cheat-sheet/–https://www.shortcutfoo.com/app/dojos/command-line–https://cheatography.com/davechild/cheat-sheets/linux-command-line/
+Recursos: https://git-tower.com/blog/command-line-cheat-sheet/–https://www.shortcutfoo.com/app/dojos/command-line–https://cheatography.com/davechild/cheat-sheets/linux-command-line/
 
 
 
