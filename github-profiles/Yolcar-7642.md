@@ -54,3 +54,10 @@ I have worked Frontend Angular and React. As for the backend, I mainly use .NET 
 | npm install   | Install packages to project       |
 | clear         | Clear terminal                    |
 | cd            | Go to path                        |
+
+## Alias for Git curreny used
+|Alias                                                | Descripcion                                                       |
+|-----------------------------------------------------|-------------------------------------------------------------------|
+|alias glog = 'git log --oneline --graph --decorate'  | Displays the log of the git repository in the form of a graph     |
+|alias gst='git status'                               | displays the state of the working directory and the staging area  |
+|alias push='git push origin HEAD'                    | Can push a local working branch to the remote                     |
