@@ -5,77 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marvin Salcedo</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     
+    <!-- ENCABEZADO -->
     <header>
-        <h1>Hola, Soy Marvin Salcedo,</h1>
-        <img src="/img/profile.png" alt="Marvin Salcedo" width="100">
+        <img src="/img/profile.png" alt="Marvin Salcedo">
+        <h1>Hola, Soy Marvin Salcedo</h1>
     </header>
         
-    <main>
+    <main >
         
-        <h2>Ingeniero en Sistemas de Software</h2>
-        
-        <p>Soy un estudiante de la <strong>Universidad Central del Ecuador</strong> que le gusta mucho la tecnología, programación, los videojuegos y la aviacion. Como pasatiempo me gusta jugar videojuegos con mis amigos y bailar aunque no lo haga muy bien xd.</p>
+        <div class="content">
+            
+            <h2>Ingeniero en Sistemas de Software</h2>
+            
+            <p>Soy un estudiante de la <strong>Universidad Central del Ecuador</strong> que le gusta mucho la tecnología, programación, los videojuegos y la aviacion. Como pasatiempo me gusta jugar videojuegos con mis amigos y bailar aunque no lo haga muy bien.</p>
+            <strong>Frase de Vida</strong>
+            <br>
+            <p>"Vive una vida que solo tu recordarás ^^ "</p>
 
-        <strong>Frase de Vida</strong>
-        <br>
-        <q>Vive una vida que solo tu recordarás ^^ </q>
+            <!-- SECCION DE LENGUAJES APRENDIDOS -->
+            <section>
+                <h2>Lenguajes Aprendidos</h2>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </section>
 
-        <!-- SECCION DE LENGUAJES APRENDIDOS -->
-        <section>
-            <h2>Lenguajes Aprendidos</h2>
-            <ul>
-                <li>Java</li>
-                <li>Python</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-        </section>
+            <!-- INFORMACION DE IDIOMAS -->
+            <section>
+                <h2>Idiomas</h2>
+                <ul>
+                    <li>Español (nativo)</li>
+                    <li>Inglés (A2)</li>
+                </ul>
+            </section>
 
-        <!-- INFORMACION DE IDIOMAS -->
-        <section>
-            <h2>Idiomas</h2>
-            <ul>
-                <li>Español (nativo)</li>
-                <li>Inglés (A2)</li>
-            </ul>
-        </section>
+            <!-- INFORMACION SOBRE CURSOS -->
+            <section class="cursos">
+                <h2>Cursos realizados</h2>
+                <article>
+                    <div class="card">
+                        <h3>Bootcamp de Fronted</h3>
+                        <img src="/img/codigofacilito.png" alt="Codigo Facilito" width="100">
+                        <p>Un curso de 10 semanas sobre el desarrollo fronted.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="card">
+                        <h3>Bootcamp Full-stack JavaScript</h3>
+                        <img src="/img/undefined_academy.jpeg" alt="Undefined Academy" width="100">
+                        <p>Curso de 16 semanas sobre desarrollo Full-stack.</p>
+                    </div>
+                </article>
+            </section>
 
-        <!-- INFORMACION SOBRE CURSOS -->
-        <section>
-            <h2>Cursos realizados</h2>
+            <!-- INFORMACION DE SECCION DE PROYECTOS -->
+            <section class="proyectos">
+                <h2>Proyectos realizados</h2>
+                <article>
+                    <div class="card movie">
+                        <h3>DLMovies</h3>
+                        <img src="/img/dlmovies.jpeg" alt="DLMovies" width="100">
+                        <p>Es una aplicación realizada con amigos para teléfonos android en versiones 9 o superior. Para ver peliculas de
+                            diferentes plataformas.</p>
+                        <a href="https://www.facebook.com/profile.php?id=100075875987375">Facebook</a>
+                    </div>
+                </article>
+            </section>
 
-            <article>
-                <h3>Bootcamp de Fronted</h3>
-                <img src="/img/codigofacilito.png" alt="Codigo Facilito" width="100">
-                <p>Un curso de 10 semanas sobre el desarrollo fronted.</p>
-            </article>
-
-            <article>
-                <h3>Bootcamp Full-stack JavaScript</h3>
-                <img src="/img/undefined_academy.jpeg" alt="Undefined Academy" width="100">
-                <p>Curso de 16 semanas sobre desarrollo Full-stack.</p>
-            </article>
-        </section>
-
-        <!-- INFORMACION DE SECCION DE PROYECTOS -->
-        <section>
-            <h2>Proyectos realizados</h2>
-            <article>
-                <h3>DLMovies</h3>
-                <img src="/img/dlmovies.jpeg" alt="DLMovies" width="100">
-                <a href="https://www.facebook.com/profile.php?id=100075875987375">Facebook</a>
-                <p>Es una aplicación realizada para teléfonos android en versiones 9 o superior. Para ver peliculas de
-                    diferentes plataformas.</p>
-            </article>
-        </section>
+        </div>
 
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados. Marvin Salcedo &copy; 2023</p>
+        <span>Redes Sociales: </span>
         <a href="https://www.facebook.com/marvin.salcedo.14/?locale=es_LA">Facebook</a>
         <a href="https://www.instagram.com/marvin_david16">Intagram</a>
     </footer>
