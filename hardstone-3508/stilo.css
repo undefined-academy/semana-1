@@ -81,3 +81,43 @@ hr {
     width: 100%;
     color: #1d3235;
 }
+/* code styles */
+.code {
+    position: relative;
+    background-color: black;
+    background-image: radial-gradient(rgba(0, 54, 0, 0.75), black 140%);
+    height: auto;
+    margin: 1rem 2rem;
+    overflow: hidden;
+    padding: 2rem;
+    color: white;
+    font size: ;: 1.3rem
+    font-family: 'Space Mono', monospace;
+    text-shadow: 0 0 5px #c8c8c8;
+    border-radius: 10px;
+    border: 2px solid #202328;
+    box-shadow : 0px 7px 5px rgba(0, 0, 0, 0.75);
+}
+.code::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15), 1px,
+      transparent 1px,
+      transparent 2px
+    );
+    pointer-events: none;
+}
+.code::selection {
+    background: #0080ff;
+    text-shadow: none;
+}
+pre {
+    margin: 0;
+}
