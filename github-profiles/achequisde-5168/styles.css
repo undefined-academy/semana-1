@@ -12,6 +12,17 @@ body {
 
 h1 {
   font-size: 1.75rem;
+  background: linear-gradient(0.25turn, #c19ab7, #9c95dc);
+  background-size: 100%;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+
+header {
+  text-align: center;
+  background-color: transparent;
 }
 
 h2 {
@@ -56,15 +67,20 @@ code {
   border-bottom: 2px solid #228cdb;
 }
 
+ul {
+  margin: 0;
+  padding: 0 2ch;
+}
+
 img {
-  max-width: 30%;
+  max-width: 10em;
+  vertical-align: middle;
   float: right;
-  margin: 0em 1em;
+  margin: 0 0 1em 1em;
 }
 
 a {
   color: #c19ab7;
-  font-style: italic;
 }
 
 table {
