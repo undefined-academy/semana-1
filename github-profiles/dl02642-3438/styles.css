@@ -1,0 +1,39 @@
+/* CUSTOM PROPERTIES */
+:root {
+  /* colors */
+  --color-bg: #1f1f28;
+  --color-primary: #98bb6c;
+  --color-secondary: #c8c093;
+  --color-text-body: #727169;
+  --color-white: #f8f8ff;
+
+  --container-width: 62rem;
+  --font-title: 2rem;
+  --font-title-hero: 4rem;
+  --font-body: 0.87rem;
+  --font-logo: 1.5rem;
+  --font-family-logo: "Kaushan Script", cursive;
+  --font-family-body: "Roboto Mono", monospace;
+}
+
+/* RESET STYLES */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.body {
+  font-family: var(--font-family-body);
+  background-color: var(--color-bg);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+[id] {
+  scroll-margin-top: 9ex;
+}
