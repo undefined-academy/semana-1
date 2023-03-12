@@ -19,9 +19,11 @@
 
 ### [Alias]()
 
-- **kbi** :  `Kubectl apply -f`
-- **..** :   `cd ..`
-- **.2** :   `cd ../..`
-- **.3** :   `cd ../../..`
+| Option | Description |
+|------|------|
+| **kbi** | `Kubectl apply -f`  |
+| **..**  | `cd ..`  |
+| **.2**  | `cd ../..`  |
+| **.3** | `cd ../../..` |
 
 ### [Personal Profile Link]( https://github.com/yolombana )
