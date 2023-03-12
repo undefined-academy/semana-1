@@ -1,0 +1,42 @@
+
+header{
+    background-color: #263d36;
+    background-image: url("escuela_de_atenas.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1;
+    padding: 10vw 2em;
+    text-align: center;
+}
+body{
+    margin: 0 auto;
+    max-width: 60em;
+    font-family: "Century Gothic", sans-serif;
+    line-height: 1.3;
+    padding-top: 4em, 1em;
+    color: #566b78;
+}
+
+h2{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2,{
+    color: #333
+}
+
+strong{
+    color: tomato
+}
+
+a{
+    color: #566b78
+}
+
+pre{
+    background: #f5f7f9;
+    padding: 1em;
+    border-left: 2px solid #69c;
+}
