@@ -1,0 +1,19 @@
+body {
+    background-color: honeydew;
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555555;
+  }
+  h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+ p {
+    color: #00570c;
+ }
+ table {
+    border 2px 
+ }
