@@ -1,0 +1,45 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #555;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+ol{
+  background: #e7e9ff;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #000;
+}
+th, td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 0.3em;
+}
+caption {
+  padding: 0.3em;
+}
+
+th{
+  text-align: center;
+  background-color: #e7e9ff;
+}
+
