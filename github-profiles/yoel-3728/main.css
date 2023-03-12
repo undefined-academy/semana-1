@@ -1,6 +1,8 @@
 body {
+    background: #dfdbdb;
     margin: 0 auto;
     max-width: 50em;
+    border: 2px solid black;
   }
 
 body {
@@ -28,7 +30,7 @@ body {
   
 code,
   pre {
-    background: #eee;
+    background: #4d4343;
   }
   
 code {
