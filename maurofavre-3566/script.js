@@ -1,8 +1,16 @@
-const human = {
-    age:32,
-    apellido:"favre",
-     nombre:"mauro",
-}
+typeof arr === "object" 
+
+// -----------------------------------------------------------------
+
+// Crear un objeto "human"
+
+// const human = {
+//     lastname:"favre",
+//     name:"mauro",
+//     age:32,
+//     from:"Argentina"
+//     work:"Student"
+// }
 
 // ----------------------------------------------------------------
 // Ejercicios clases 5.
