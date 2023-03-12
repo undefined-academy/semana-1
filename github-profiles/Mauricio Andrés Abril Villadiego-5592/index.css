@@ -1,0 +1,21 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    /* border: 1px red dashed; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    padding: 2.5em 1em;
+    color: #555;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2,
+h3,
+strong {
+    color: #333;
+}
