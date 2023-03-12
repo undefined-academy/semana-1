@@ -28,7 +28,7 @@
 
 # ℹ️ README Bootcamp JS
 
-# 👨‍💻 Sebastián Rico Pérez
+# 👨‍💻 Sebastián Rico Pérez.
 
 ## Hola, soy Desarrollador de software FullStack de **Colombia**
 
@@ -54,3 +54,4 @@
  |-------------|-----------------|
  |*ggpull*      |*equivalente a git pull origin $(current_branch) 👌*|
  |*gcam*        |*equivalente a git commit -a -m 🧑‍🎓*|
+
