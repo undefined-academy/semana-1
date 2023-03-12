@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+
+<head>
+    <title>undefined.academy - Andres Mercado</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--<script src="js/color-theme.js"></script>-->
+    <style>
+        :root {
+            background-color: rgba(112, 111, 111, 0.081) !important;
+            color: rgb(75, 74, 74) !important;
+        }
+
+        [data-theme="dark"] {
+            background-color: #212529 !important;
+            color: rgb(180, 176, 176) !important;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        [data-theme="dark"] #dmode-d {
+            display: none;
+        }
+
+        #dmode-d {
+            display: var(--display);
+        }
+
+        [data-theme="light"] #dmode-l {
+            display: none;
+        }
+
+        #dmode-l {
+            display: var(--display);
+        }
+
+        [data-theme="dark"] #titulo {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        }
+
+        #titulo {
+            background: var(--background);
+            background: var(--background-linear-gradient);
+        }
+
+        [data-theme="light"] #titulo {
+            padding-top: 20px;
+            background: rgb(131, 58, 180);
+            background: linear-gradient(90deg,
+                    rgba(131, 58, 180, 1) 0%,
+                    rgba(253, 29, 29, 1) 50%,
+                    rgba(252, 176, 69, 1) 100%);
+        }
+
+        #titulo {
+            background: var(--background);
+            background: var(--background-linear-gradient);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"><strong>Andres Mercado</strong></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <div class="container-fluid" style="font-size: medium">
+                                <a class="nav-link active" href="https://www.github.com/andresmercado92"
+                                    aria-current="page"><img src="https://github.com/fluidicon.png" width="20" alt="" />
+                                    GitHub <span class="visually-hidden">(current)</span></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://Undefined.academy">undefined.academy</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="dropdownId"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Redes Sociales</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="https://www.twitter.com/andresmercado92">Twitter</a>
+                                <a class="dropdown-item" href="#">Discord</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <a class="btn-info" display-mode-light="none" id="theme-button"><svg id="dmode-l"
+                                xmlns="http://www.w3.org/2000/svg" width="30" height="30" style="color: white"
+                                fill="currentColor" class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                            </svg><svg id="dmode-d" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                style="color: white" fill="currentColor" class="bi bi-brightness-high"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                            </svg></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid" id="titulo">
+            <div class="container">
+                <div id="titulo-flex" class="d-flex">
+                    <img id="img-profile" src="../AMRK2-4631/img/profile.jpg" alt="" />
+                    <h1 class="h1-titulo" id="titulo-h1">
+                        Hola 👋, soy Andres Mercado.
+                    </h1>
+                </div>
+                <h1 class="h1-titulo" id="titulo-h1-2">
+                    Hola 👋, soy Andres Mercado.
+                </h1>
+                <div id="titulo-container">
+                    <span class="badge bg-primary">Ingeniero de Sistemas</span>
+                    <span class="badge bg-success">Desarrollador Junior Genexus</span>
+                    <span class="badge bg-danger">Desarrollo web</span>
+                    <hr />
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container-md">
+                <section>
+                    <div class="container-md">
+                        <div class="col-sm-1S">
+                            <p>
+                            <h2>👨🏾Biografía</h2>
+                            Soy de
+                            <a href="https://goo.gl/maps/avC1f8jxiWWHxVTi6">Santa Marta, Colombia 🌅,</a> actualmente
+                            vivo en Bogotá, D.C.
+                            Trabajo como desarrollador junior GeneXus™, llevo
+                            año y medio en esta tecnología que brinda muchas
+                            herramientas y soluciones de desarrollo para las empresas, de
+                            manera agíl e integrada. Actualmente estoy aprendiendo
+                            JavaScript a través de un bootcamp gratuito dictado por
+                            Guillermo Rodas llamado
+                            <a href="https://undefined.academy/">Undefined Academy</a>.<br /><br />
+                            Me interesa mucho el desarrollo web tanto frontend y backend,
+                            mi meta es poder aprender lo necesario para ser Dev Web
+                            FullStack.
+                            </p>
+                            <br>
+                            <p>
+                            <h2>📚 Estudios</h2>
+                            <ul>
+                                <li>Ingeniería de Sistemas, Universidad del Magdalena, 2021.</li>
+                                <li>Curso profesional de Git y GitHub, Platzi, 2017.</li>
+                            </ul>
+                            </p>
+
+                            <p>
+                            <h2>👨🏾‍💻 Trabajos</h2>
+                            <ul>
+                                <li>
+                                    Desarrollador Junior GeneXus™ (Desarrollo Backend y frontend de reportes en formatos
+                                    PDF y Excel, Desarrollo backend y frontend de portales web con integración a bases
+                                    de datos, API de pago, API de consulta. Desarrollo de aplicaciones moviles para
+                                    Android con integración por consultas XML y Webhook), 2021 - Actualidad.
+                                </li>
+                                <li>
+                                    Desarrollador web WordPress (Creación de página web comercial), 2020.
+                                </li>
+                                <li>
+                                    Desarrollador web (Creación de pagina web comercial y tienda en línea basado en la
+                                    plataforma PrestaShop), 2019.
+                                </li>
+                            </ul>
+                            </p>
+
+                            <p>
+                            <h2>🚵🏾‍♂️ Hobbies</h2>
+                            <ul>
+                                <li>
+                                    Andar en bicicleta.
+                                </li>
+                                <li>
+                                    Videojuegos.
+                                    <ul>
+                                        <li>
+                                            Call of Duty Warzone 2.
+                                        </li>
+                                        <li>
+                                            Horizon Chase.
+                                        </li>
+                                        <li>
+                                            GTA V.
+                                        </li>
+                                        <li>
+                                            Fall Guys.
+                                        </li>
+                                        <li>
+                                            No man´s Sky.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Ver series.
+                                    <ul>
+                                        <li>
+                                            Fauda, Netflix.
+                                        </li>
+                                        <li>
+                                            The Last of Us, HBO Max.
+                                        </li>
+                                        <li>
+                                            The Dark Material, HBO Max.
+                                        </li>
+                                        <li>
+                                            Doom Patrol, HBO Max.
+                                        </li>
+                                        <li>
+                                            La casa del drágon, HBO Max.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </p>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">© 2023 Andres Mercado</span>
+        </div>
+    </footer>
+    <script>
+        // Obtenemos el botón y el elemento html
+        const button = document.getElementById("theme-button");
+        const html = document.documentElement;
+
+        // Escuchamos el evento click del botón
+        button.addEventListener("click", function () {
+            // Obtenemos el valor actual de la variable data-theme
+            const theme = html.getAttribute("data-theme");
+
+            // Si es light, lo cambiamos a dark, y viceversa
+            if (theme === "light") {
+                html.setAttribute("data-theme", "dark");
+            } else {
+                html.setAttribute("data-theme", "light");
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
