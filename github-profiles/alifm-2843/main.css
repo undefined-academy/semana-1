@@ -2,7 +2,8 @@
 
 body {
     background-color: antiquewhite;
-    text-align: center;
+    margin: 0 auto;
+    max-width: 50em;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
     padding: 4em 1em;
@@ -21,9 +22,19 @@ h2 {
   }
 
   a {
-    color: #e81c4f;
+    color: #c27488;
   }
 
 section {
     background-color: palegoldenrod;
+}
+
+img {
+  border-radius: 10px;
+}
+
+
+li {
+  list-style: square inside;
+  
 }

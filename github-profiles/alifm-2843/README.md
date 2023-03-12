@@ -1,8 +1,27 @@
-# Undefined Academy. Boot Camp Full-Stack JavaScript
+# Hi there! I'm Alianna
 
-## Class 2. Git version control
+- [GitHub Profile](https://github.com/AliannaFormoso)
 
-### Exercise 2
+I majored in Industrial Engineering and have been working in information management, organization and quality management, Intellectual/Industrial Property.
+Currently I am learning Web development/programming and Data analysis/Science.
+
+## Lenguajes y Herramientas
+
+- `HTML`
+- `CSS`
+- `JavaScript`
+- `Bootstrap`
+- `React`
+- `Git`
+- `Python`
+
+✨This is an exercise for 👇
+
+## Undefined Academy. Boot Camp Full-Stack JavaScript
+
+### Class 2. Git version control
+
+#### Exercise 2
 
 1. Make a fork from the [repo](https://github.com/undefined-academy/semana-1).
 2. Clone your forked repo.
@@ -12,7 +31,7 @@
 6. Create your first Pull Request.
 7. Write the solution process in the Pull request description by using Markdown.
 
-### Exercise 1 Markdown file
+#### Exercise 1 Markdown file
 
 - Table in Markdown with at least 5 terminal commands
 
