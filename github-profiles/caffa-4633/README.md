@@ -5,6 +5,7 @@
 - Ambas tablas deben contener 'item' y 'descripción'
 - Clona el repositorio y ejecuta 11ty. (Esta parte la hice sólo en local)
 
+Acá va mi perfil de GitHub: [OrcaCL](https://github.com/OrcaCl)
 
 #### Presentación:
 Hola, mi nombre es Orlando Caffarena a.k.a. OrcaCL. Mis iniciales coinciden con este hermoso animalito y por lo mismo son parte de mi nickname. Y soy de Chile. 
