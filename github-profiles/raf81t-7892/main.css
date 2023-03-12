@@ -1,0 +1,38 @@
+body {
+    max-width: 800px;
+    font-size: 12px;
+    margin: 0 auto;
+    background: #f8fafc;
+    color: #334155;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3 {
+    margin-top: 1em;
+    line-height: 1.5;
+    color: #3f3f46;
+}
+
+a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #10b981;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+    color: #3f3f46;
+}
+
+ul li {
+    color: #ea580c;
+    margin: 5px;
+}
+
+table, th, td {
+    border: 1px solid #f43f5e;
+}
