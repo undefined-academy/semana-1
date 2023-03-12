@@ -1,4 +1,3 @@
-link perfil github: https://github.com/jayler0203
 ## Hola soy jayler castillo 👋
 ## Perfil personal
 - :mag: Me apasiona la tecnologia y la investigacion
@@ -30,6 +29,7 @@ link perfil github: https://github.com/jayler0203
 |-------------------------------|-----------------------------------------|
 |alias gh="history &#124; grep" |Permite buscar un  comando en historial  |
 |alias mi_ip='curl ifconfig.me' |Se puede averiguar de forma rapida mi ip |
+link perfil github: https://github.com/jayler0203
 
 
 
