@@ -9,27 +9,20 @@ header {
     background-size: cover;
     line-height: 1.2;
     padding: 30px 2em;
-    text-align: center;
     border-radius: 10px;
+    text-align: center;
 }
 
 
 header .logo {
     display: inline-block;
-    vertical-align: top;
     border-radius: 50%;
     height: 150px;
     width: 150px;
 }
 
-header h1 {
-    color: white;
-    font-size: 2.5em;
-    font-weight: 300;
-    text-shadow: 1px 1px 2px black;
-}
-
 header a {
+    display: inline-block;
     border: 1px solid #ff16d8;
     border-radius: 290486px;
     color: white;
@@ -41,6 +34,7 @@ header a {
     transition: none 200ms ease-out;
     transition-property: color, background;
     text-shadow: 1px 1px 2px black;
+    margin-top: 10px;
 }
 
 header a:hover {
@@ -61,13 +55,13 @@ h2, strong {
     color: #333;
 }
 
+h2 {
+    font-size: 1.2em;
+}
+
 h3, h4 {
     margin-top: 1em;
     padding-top: 1em;
-}
-
-.table {
-    margin-top: 1em;
 }
 
 code, pre {
@@ -81,13 +75,17 @@ code {
 }
 
 pre {
-    padding: 1em;
+    padding: 0.3em;
     border-bottom: 1px solid #d8dee9;
     border-left: 2px solid rgb(121, 121, 121);
 }
 
 a {
     color: #e81c4f;
+}
+
+.table {
+    margin-top: 1em;
 }
 
 table {
