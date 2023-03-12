@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 body {
     margin: 0 auto;
@@ -12,14 +13,158 @@ h1, h2 {
     font-family: "Helvetica", "Arial", sans-serif;;
 }
 
-#mi-nombre {
-    -webkit-text-fill-color: cyan;
-    -webkit-text-stroke: 1px darkcyan;
+h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    /* aquí puede meterse una fotish */ 
 }
+
+#introduccion {
+    border: 2px solid azure;
+    margin: 0 auto;
+    padding: 13px;
+}
+
+#experiencia-previa {
+    border: 2px solid azure;
+    margin: 0 auto;
+    padding: 13px;
+}
+
+#hobbies-intereses {
+    border: 2px solid azure;
+    margin: 0 auto;
+    padding: 13px;
+}
+
+#encuéntrame {
+    border: 2px solid azure;
+    margin: 0 auto;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.botones {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#boton-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 130px;
+    height: 35px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    color: aliceblue;
+    background-color: transparent;
+    border: 2px solid azure;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: 9px;
+    background-size: 25px;
+}
+
+#boton-github:hover {
+    background-color: #817d7d;
+}
+
+.mi-nombre {
+    -webkit-text-fill-color: cyan;
+    /* -webkit-text-stroke: 1px darkcyan; */
+}
+
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+  }
+  .mi-nombre span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
 
 code {
     color: cyan;
     background-color: #212529;
     padding: 2px 4px;
     vertical-align: text-bottom;
+}
+
+#boton-platzi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 130px;
+    height: 35px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    color: aliceblue;
+    background-color: transparent;
+    border: 2px solid azure;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: 9px;
+    background-size: 25px;
+}
+
+#boton-platzi:hover {
+    background-color: rgba(153, 205, 50, 0.295);
+}
+
+#boton-freecodecamp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 190px;
+    height: 35px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    color: aliceblue;
+    background-color: transparent;
+    border: 2px solid azure;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: 9px;
+    background-size: 25px;
+}
+
+#boton-freecodecamp:hover {
+    background-color: #575353be;
+}
+
+#borde-externo {
+    background-color: rgba(53, 51, 51, 0.719);
+    margin: 0 auto;
+    padding: 13px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#prueba {
+    padding-left: 20px;
+    padding-right: 20px;
 }
