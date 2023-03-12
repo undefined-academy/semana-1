@@ -8,8 +8,6 @@ Mi aspiración es ser **Frontend Developer.**
 
 ### Actualmente vivo en Medellín, Colombia pero originalmente soy de Venezuela.
 
-***Aprender cada día y disfrutar del camino***🚀
-
 ### Commandos más comunes:
 
 |Comando                 | Descripción              |
@@ -26,3 +24,6 @@ Mi aspiración es ser **Frontend Developer.**
 |------------------------|--------------------------|
 | alias findd="ls ~/ | grep $1     | filtrar carpetas de usuarios da una palabra | 
 | gs                 |  Git status                                               | 
+
+
+***Aprender cada día y disfrutar del camino***🚀
