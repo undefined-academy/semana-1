@@ -7,15 +7,15 @@ I consider myself a strong-willed and well-balanced person. I am interested in e
 
 **My goals as student:**
 
-- Mejorar mi inglés🏴󠁧󠁢󠁥󠁮󠁧󠁿
-- Mejorar mis habilidades como estudiante de ingeniería.🏗️
-- Mejorar mis conocimientos de programación.👨‍💻
+- Improve my English🏴󠁧󠁢󠁥󠁮󠁧󠁿
+- Improve my skills as Engineering student.🏗️
+- Improve my programmin skills.👨‍💻
 
 ![imagen](https://user-images.githubusercontent.com/126214162/222607561-7fac0d4c-a950-485d-9162-487ee8bcba72.png)
 
-Estos son los 5 comandos
+**Here are the five most used commands:**
 
-| comando | descripcion   |
+| command | description   |
 |---------|---------------|
 | pwd     | work directory|
 | cd      | folder change |
@@ -23,13 +23,13 @@ Estos son los 5 comandos
 | clear   | terminal clear|
 | mkdir   | new folder    |
 
-**Estos son mis 2 alias mas usados**
+**Here are the two most used alias by me**
 
 ```bash
 alias.npmd=npm run dev
 alias.npms=npm start
 ```
 
-**A continuación te dejo el link de mi perfil de Github**
+*My github profile:**
 
 https://github.com/Matiaspercivale2001 😃😃
