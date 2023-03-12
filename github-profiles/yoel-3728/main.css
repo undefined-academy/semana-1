@@ -1,5 +1,5 @@
 body {
-    background: #dfdbdb;
+    background: #f3f4f6;
     margin: 0 auto;
     max-width: 50em;
     border: 2px solid black;
@@ -20,7 +20,7 @@ h2 {
   } 
 
 body {
-    color: #555;
+    color: #333;
   }
   h1,
   h2,
