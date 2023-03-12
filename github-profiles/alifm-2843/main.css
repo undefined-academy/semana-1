@@ -23,7 +23,11 @@ h2 {
 
   a {
     color: #c28090;
-    
+  }
+
+  a:hover {
+    background:  #65464e;
+    color: white;
   }
 
 section {
@@ -34,7 +38,9 @@ section {
 
 img {
   border-radius: 10px;
-  margin: 0 auto;
+  display: inline-block;
+  vertical-align: top;
+
 }
 
 
