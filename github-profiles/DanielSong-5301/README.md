@@ -19,7 +19,7 @@ Trabajo con seguridad con un theme como Astra, Neve o desde un tema de inicio Un
 * [x] REACT
 
 #### Me autopercibo como melómano
-Y esta es mi lista de pusica preferida :sound:
+Y esta es mi lista de musica preferida :sound:
 
 
  | Rock         | Indie               | Jazz            |
