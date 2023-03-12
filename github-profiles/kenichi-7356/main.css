@@ -1,4 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=roboto:300,400,500';
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
 body{
     margin: 0 auto;
     max-width: 50em;
@@ -33,5 +40,12 @@ pre{
 a{
     color: #e81c4f;
 }
-
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: #96D4D4;
+    padding: 15px;
+  }
 
