@@ -8,13 +8,13 @@ GitHub Profile: https://github.com/ernzxr
 
 ### 📃 **Experience**
 
-I had adquire experience of multiple jobs, most of them from the esports industry, where i started, but with time and networking, i become more flexible and jump into content creation and live shows world. 
+I had adquired experience of multiple jobs, most of them from the esports industry, where i started, but with time and networking, i become more flexible and jump into content creation and live shows world. 
 
-I worked as freelance content creator of gaming, esports and on-demand content categories. As professional player and coach of PUBG/VALORANT with international presence, and last for companys as content director, broadcast manager, broadcast operator and stage manager of live shows.
+I worked as freelance content creator of gaming, esports and on-demand content categories. As professional player and coach of PUBG/VALORANT with international presence, and last for companies as content director, broadcast manager, broadcast operator and stage manager of live shows.
 
 ### 🎯 **Goals**
 
-With time i realiced i loved programming. In the past i worked as IT support, where i does lot of micro fixes doing code without further. Today i want to become a good programmer and look for projects that feed my need of knowledge.
+With time i realized i loved programming. In the past i worked as IT support, where i does lot of micro fixes doing code without further. Today i want to become a good programmer and look for projects that feed my need of knowledge.
 
 ### 🧠 **Skills**
 
@@ -52,5 +52,5 @@ With time i realiced i loved programming. In the past i worked as IT support, wh
 | alias  | Code                                                          | Description          |
 | ------ | ------------------------------------------------------------- | -------------------- |
 | `cl`   | `alias cl="clear"`                                            | Clear the terminal.  |
-| `cafe` | `alias cafe="cat /dev/urandom \| hexdump \| grep \"ca fe\""`  | Look for coffe.      |
+| `cafe` | `alias cafe="cat /dev/urandom \| hexdump \| grep \"ca fe\""`  | Look for coffee.      |
 
