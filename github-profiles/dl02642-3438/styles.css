@@ -142,3 +142,89 @@
 .btn__link:hover {
   background-color: var(--color-primary-effect);
 }
+
+/* STYLES SECTION MAIN */
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+}
+
+/* SECTIONS STYLES */
+.section {
+  width: var(--container-width);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section__title {
+  color: var(--color-white);
+  font-size: var(--font-title);
+  display: flex;
+}
+
+.section__title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #54546d;
+  width: 25rem;
+  margin-left: 1.5rem;
+  align-self: center;
+}
+
+.section__title::before {
+  content: "";
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  align-self: end;
+}
+
+.section__title--tools::before {
+  content: "01.";
+}
+
+.section__title--commands::before {
+  content: "02.";
+}
+
+.section__title--alias::before {
+  content: "03.";
+}
+
+.section__table {
+  border-collapse: collapse;
+}
+
+.table * {
+  border: 2px solid var(--color-primary);
+  padding: 0.5rem;
+}
+.table__head {
+  color: #6a9589;
+}
+
+.table__body {
+  color: var(--color-text-body);
+  font-size: var(--font-body);
+}
+
+/* FOOTER STYLES */
+.footer {
+  padding: 1.5rem;
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copyright {
+  color: var(--color-text-body);
+}
+
+.footer__github {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
