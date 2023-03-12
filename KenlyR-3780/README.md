@@ -1,3 +1,5 @@
+## Github Profile link:
+
 https://github.com/kenlyjr
 
 # Hi, I'm Kenly Rojas
@@ -8,7 +10,7 @@ Mi aspiración es ser **Frontend Developer.**
 
 ***Aprender cada día y disfrutar del camino***🚀
 
-###Commandos más comunes:
+### Commandos más comunes:
 
 |Comando                 | Descripción              |
 |------------------------|--------------------------|
@@ -18,7 +20,7 @@ Mi aspiración es ser **Frontend Developer.**
 | df        | Espacio libre en el disco             | 
 | Ctrl+W    | Eliminar palabras                     | 
 
-###Alias
+### Alias
 
 |Comando   Alias         | Descripción              |
 |------------------------|--------------------------|
