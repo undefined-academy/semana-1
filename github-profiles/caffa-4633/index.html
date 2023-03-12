@@ -2,60 +2,72 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Perfil del Bootcamp</title>
+    <title>Ejercicio 3: Markdown a HTML</title>
 </head>
 <body>
-    <header></header>
-    <main>
-        <h1>Perfil OrcaCL</h1>
-        <p>Hola, mi nombre es Orlando Caffarena a.k.a. OrcaCL. Mis iniciales coinciden con este hermoso animalito y por lo mismo son parte de mi nickname. Y soy de Chile.</p>
-        <p>Soy <strong>Diseñador Gráfico</strong>, y anteriormente me dedicaba a ser desarrollo web usando el stack <i>LAMP</i>.</p>
+    <h1>Ejercicio 3: Markdown a HTML</h1>
 
-        <h2>Acerca de mi:</h2>
-        <p>Actualmente estoy actualizando mis conocimientos para convertirme en un <strong>Full Stack Designer</strong> aprendiendo de <i>UX/UI</i> y siguiendo en diferido un bootcamp de <strong>Full Stack Javascript</strong> dictado por <strong>Guillermo Rodas</strong> en <a href="https://undefined.academy/">Undefined Academy</a>.</p>
-        <p>Más adelante subiré un link a mi CV completo, pero por el momento dejaré este archivo hasta aquí.</p>
-        <p>Si estás leyendo esto y quieres seguir mis procesos y/o descubrimientos, te recomiendo leer algunos de los otros documentos que guardaré en el repo "el-mundo-del-markdown". Los archivos serán los siguientes:</p>
-        <table>
-            <thead>
-                <th>Nombre</th>
-                <th>Descripcion</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>bash.md</td>
-                    <td>Todo lo que va relacionado con la consola y terminal bash</td>
-                </tr>
-                <tr>
-                    <td>mark.md</td>
-                    <td>Todo lo que va relacionado con Markdown</td>
-                </tr>
-                <tr>
-                    <td>git.md</td>
-                    <td>Git y GitHub</td>
-                </tr>
-                <tr>
-                    <td>apuntes.md</td>
-                    <td>este archivo, que iré avanzando por fecha para ordenar después</td>
-                </tr>
-                <tr>
-                    <td>shame.md</td>
-                    <td>Respaldo desordenado de lo que sobre de apuntes para referencia futura. Puede que no tenga sentido ni organización.</td>
-                </tr>
-                <tr>
-                    <td>tareas.md</td>
-                    <td>Acá pienso poner las tareas, pero así como va la cosa de rápido, creo que sólo guardaré los enunciados y alguna información breve para acordarme de cómo las voy solucionando.</td>
-                </tr>
-            </tbody>
-        </table>
+    <p>Hola, mi nombre es Orlando Caffarena a.k.a. OrcaCL. Mis iniciales coinciden con este hermoso animalito y por lo mismo son parte de mi nickname. Y soy de Chile.</p>
+    
+    <p>Soy <strong>Diseñador Gráfico</strong>, y anteriormente me dedicaba a ser desarrollo web usando el stack <i>LAMP</i>.</p>
 
-        <p>Ah, y antes que lo olvide, mi perfil de GitHub está en <a href="https://github.com/OrcaCL">Acá</a></p>
+    <h2>Acerca de mi:</h2>
 
-        <pre>
-            Hola Mundo :)
-        </pre>
-    </main>
-    <footer></footer>
+    <p>Actualmente estoy actualizando mis conocimientos para convertirme en un <strong>Full Stack Designer</strong> aprendiendo de <i>UX/UI</i> y siguiendo en diferido un bootcamp de <strong>Full Stack Javascript</strong> dictado por <strong>Guillermo Rodas</strong> en <a href="https://undefined.academy/">Undefined Academy</a>.</p>
+
+    <h3>Tabla de comandos de la terminal</h3>
+
+    <table>
+        <thead>
+            <th>Nombre</th>
+            <th>Ejecución</th>
+            <th>Extra</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>alias</td>
+                <td>alias nom='definicion'</td>
+                <td>Para dejar un alias definitivo, debo abrir y guardar desde ~ el archivo `.bash_aliases` con NaNo.</td>
+            </tr>
+            <tr>
+                <td>Mover archivo</td>
+                <td>mv archivo-origen archivo-destino</td>
+                <td>Se usa el mismo comando para mover cosas</td>
+            </tr>
+            <tr>
+                <td>Renombrar</td>
+                <td>mv nombre-antiguo nombre-nuevo</td>
+                <td>cambiarle nombre es cambiar la ubicación de memoria, por eso es mover.</td>
+            </tr>
+            <tr>
+                <td>cambiar al home</td>
+                <td>cd (espacio) </td>
+                <td>Dejar el espacio provoca que bash automágicamente agregue ~ en la terminal</td>
+            </tr>
+            <tr>
+                <td>borrar archivo/carpeta</td>
+                <td>rm nombre_archivo.ext</td>
+                <td>Para borrar directorios hay que agregar "-r" al comando, para que sea recursivo al borrar tanto la carpeta como su contenido</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Tabla de Aliases en Bash</h3>
+
+    <ul>
+        <li>ls = Listar cosas del directorio actual </li>
+        <li>ls  -a -l = Listar cosas del directorio incluyendo las ocultas. Si se usa ? puedes ver más opciones de LS. ls -l muestra en formato detalles. </li>
+        <li>mv = Mover cosas o cambiarle el nombre, porque asignaciones de memoria y weas</li>
+        <li> pwd = Print Working Directory - Mostrar la carpeta donde estoy parado en el momento</li>
+        <li>cd - = Saltar al directorio donde estaba anteriormente</li>
+        <li>cat file.ext = Muestra el contenido de un file.ext</li>
+        <li>alias (enter) = muestra todos los alias disponibles</li>
+        <li>grep = filtro de texto. Se puede concatenar con otros comandos usando el caracter pipe | </li>
+        <li>alias \| grep parametro = lista todos los alias y filtra con grep, lo que diga parametro</li>
+    </ul>
+    
+    <!-- 
+        PD: Agregué los meta de idioma español y codificación UTF-8 porque usamos Ñ en Chile. 
+    -->
 </body>
 </html>
