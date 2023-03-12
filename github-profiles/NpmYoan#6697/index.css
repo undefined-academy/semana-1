@@ -1,0 +1,65 @@
+body {
+  max-width: 80%;
+  margin: 0 auto;
+  color: #555;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  padding: 4rem 1rem;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+a {
+  color: #42b580;
+}
+
+ol {
+  font-size: 1.3rem;
+}
+
+table {
+  background-color: lightgray;
+  width: 300px;
+  text-align: center;
+  margin: 0;
+}
+
+table tr {
+  text-align: left;
+}
+
+table thead {
+  background-color: #42b580;
+  color: lightgray;
+  height: 4rem;
+}
+table thead th {
+  text-align: center;
+}
+table tbody td {
+  padding: 1rem 2rem;
+}
