@@ -4,7 +4,7 @@ Desarrrollador Web con habilidades avanzadas en HTML, CSS, Javascript, entusiast
 
 [GITHUB](https://github.com/yoan0102)
 
-Aprendiz de Nextjs y Remix run
+**Aprendiz de Nextjs y Remix run**
 
 ## Frameworks usados Profesionalmente
 
