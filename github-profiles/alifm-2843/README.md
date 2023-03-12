@@ -5,7 +5,7 @@
 I majored in Industrial Engineering and have been working in information management, organization and quality management, Intellectual/Industrial Property.
 Currently I am learning Web development/programming and Data analysis/Science.
 
-## Lenguajes y Herramientas
+## Programming Languages and Tools
 
 - `HTML`
 - `CSS`
@@ -38,17 +38,17 @@ Currently I am learning Web development/programming and Data analysis/Science.
 | Command name | Description |
 |--------------|-------------|
 |`cp` _(copy directory)_ | Copy a file from one location to another/make a copy of the same file with a new name |
-|`mv` _(move a file)_ | file move from one location to another, removing the file from the original location and putting it into the new location|
-|`rm -R` _(remove nested directories) | remove an entire directory that might contain other directories or files. This command is irreversible |
+|`mv` _(move a file)_    | file move from one location to another, removing the file from the original location and putting it into the new location|
+|`rm -R` _(remove nested directories)_ | remove an entire directory that might contain other directories or files. This command is irreversible |
 |`rmdir` _(remove an empty directory)_ | remove a directory, use the rmdir command followed by the path to the directory |
-| `touch` _(create a text file)_ | create any type of file |
+| `touch` _(create a text file)_       | create any type of file |
 
 - Table in Markdown with at least 2 alias commands
 
 | Alias | Description |
 |--------------|-------------|
-| `clr` _(clear)   | Clear your terminal screen    |
-|`ll` _(ls -al)_ |  List all files in current directory in long list format  |
+| `clr` _(clear) | Clear your terminal screen |
+|`ll` _(ls -al)_ |  List all files in current directory in long list format |
 
 ### GitHub Profile link
 

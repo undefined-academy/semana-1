@@ -22,19 +22,31 @@ h2 {
   }
 
   a {
-    color: #c27488;
+    color: #c28090;
+    
   }
 
 section {
-    background-color: palegoldenrod;
+    background-color: rgb(220, 218, 193);
+  padding: 0.1em 2em;
+  margin-bottom: 1em;
 }
 
 img {
   border-radius: 10px;
+  margin: 0 auto;
 }
 
 
-li {
+ul {
   list-style: square inside;
   
+}
+
+table, th, td {
+  border: 1px solid #333;
+}
+
+table {
+  margin-bottom: 1em;
 }
