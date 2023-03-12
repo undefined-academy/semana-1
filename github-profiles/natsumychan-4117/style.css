@@ -6,10 +6,19 @@ body{
  color:whitesmoke;
 }
 
+.profile-container{
+  margin: 0 auto;
+  max-width: 650px;
+  height: 1400px;
+  background-color: #66347F;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
 main{
  margin: 0 auto;
  margin-top: 20px;
- padding: 30px;
+ padding: 20px;
  width:80%;
 }
 
@@ -18,12 +27,6 @@ main h1, h2{
  text-align: center;
 }
 
-
-
-main, section, footer{
- background-color:#66347F;
- border-radius: 8px;
-}
 
 h1{
  font-size:1.8rem;
@@ -39,9 +42,8 @@ p, th, td {
 
 .terminal-container {
  margin:  0 auto;
- margin-top: 30px;
- padding:20px;
- width: calc(70% - 40px);
+ padding:10px;
+ width: 90%;
 }
 
 .terminal-container table{
@@ -59,28 +61,38 @@ h3{
 
 .alias-container{
  margin: 0 auto;
- margin-top: 30px;
  padding: 20px;
  width: calc(100% - 70px);
 }
 
+.link-container p{
+  text-align: center;
+}
+
+.link-container div {
+  margin: 0 auto;
+  width:80px;
+  height: 80px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: all 0.3s ease-out;
+}
+
+img:hover {
+  width: 120px;
+  height: 120px;
+}
+
 footer{
- height:200px;
+ height:auto;
+background-color: rgb(190, 78, 190);text-align: center;
+color: rgb(249, 222, 186);
 }
 
 footer p{
- text-align: center;
-}
-
-img{
- display:block;
- margin: 0 auto;
- width:100px;
- height:100px;
- transition: all 0.5s ease-out;
-}
-
-img:hover{
- width: 150px;
- height: 150px;
+  margin-top: 20px;
 }
