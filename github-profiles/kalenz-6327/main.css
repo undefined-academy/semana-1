@@ -1,0 +1,15 @@
+body {        
+    background:rgb(173, 169, 169);                                          
+    font-family: Cambria;
+    font-size: 18px; 
+}
+section {
+    background:rgb(173, 169, 169); 
+}
+div {
+    background: cadetblue;   
+    padding: 32px 32px; 
+    margin: 150px;
+    border: 8px solid blanchedalmond;
+    width: 1500px;
+}
