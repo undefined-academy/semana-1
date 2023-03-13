@@ -11,12 +11,9 @@ body {
   margin: 0 auto;
   font-family: "Outfit", Georgia;
   background-color: #e4e4e7;
-  background-image: url("");
-  background-size: cover;
 
   line-height: 1.5;
-  color: #18181b;
-  
+  color: #18181b;  
 }
 
 section, article, aside, footer, header, nav {
@@ -58,7 +55,7 @@ nav ul {
 
 
 article {
-  margin-top: 1em;
+  margin-top: 3em;
   font-size: 1.3rem;
   text-align: justify;
 }
@@ -89,6 +86,10 @@ section h2 {
   text-decoration: underline #facc15;
 }
 
+figure {
+  margin-bottom: 1em;
+}
+
 ul {
   list-style: none;
 }
@@ -96,7 +97,19 @@ ul {
 .perfil {
   flex-direction: row;
   flex-wrap: wrap;
-  
+  align-items: flex-start;
+}
+
+.aside-perfil {
+  text-align: center;
+  flex-basis: 30%;
+  flex-grow: 1;
+
+  color: #e4e4e7;
+  background-color: #18181b;
+  border-radius: 10px;
+
+  padding: 1.5rem;
 }
 
 .aside-perfil__content {
@@ -107,19 +120,17 @@ ul {
   font-size: 1.8rem;
 }
 
-.aside-perfil {
-  text-align: center;
-  flex-basis: 30%;
-}
-
 .aside-perfil__img {
   height: 200px;
-  border: 1px solid #facc15;
+  border: 2px solid #facc15;
   border-radius: 50%;
 }
 
 .perfil__content {
   flex-basis: 60%;
+  flex-grow: 1;
+
+  padding: 1em;
 }
 
 .project {
@@ -171,4 +182,9 @@ footer {
   background-color: #18181b;
   padding: .5rem 2rem;
   color: #facc15;
+
+  background-image: url("img/dibujo paisaje con cielo en pixel-art.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
