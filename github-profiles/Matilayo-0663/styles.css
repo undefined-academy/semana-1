@@ -1,3 +1,16 @@
+header {
+    background-color: #263d36;
+    background-image: url(imagenes/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 7vw 2em;
+    text-align: center;
+    opacity: 75%;
+    border-bottom: 3px solid black;
+}
+
 body {
     background-color: antiquewhite;
     color: #555;
@@ -44,18 +57,7 @@ ul {
     background-color: lightgoldenrodyellow;
 }
 
-header {
-    background-color: #263d36;
-    background-image: url(lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 1.2;
-    padding: 7vw 2em;
-    text-align: center;
-    opacity: 75%;
-    border-bottom: 3px solid black;
-}
+
 
 
 
