@@ -85,13 +85,13 @@ hr {
 .code {
     position: relative;
     background-color: black;
-    background-image: radial-gradient(rgba(0, 54, 0, 0.75), black 140%);
+    background-image: radial-gradient(rgba(0, 54, 0, 0.33), black 140%);
     height: auto;
     margin: 1rem 2rem;
     overflow: hidden;
-    padding: 2rem;
-    color: white;
-    font size: ;: 1.3rem
+    padding: 1.5rem;
+    color: white;   
+    font-size: 1.3rem;
     font-family: 'Space Mono', monospace;
     text-shadow: 0 0 5px #c8c8c8;
     border-radius: 10px;

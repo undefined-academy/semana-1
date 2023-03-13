@@ -140,9 +140,62 @@
                         </ul>
                     </p>
                     <hr>
-                    <h3>Ejercicio Java</h3>
+                    <h3>Calentamiento Intro JavaScript</h3>
                     <div class="code">
-                        <p>background: repeating-linear-gradient(#e66465, #e66465 20px, #9198e5 20px, #9198e5 25px);</p>
+                        <p>
+                            let hugo = 0;<br>
+                            let paco = 2 * hugo;<br>
+                            let luis = paco + 10;<br>
+                            let total = hugo + paco + luis;<br>
+                            //con un poco de algebra depejamos a hugo.<br>
+                            //total = hugo + (2 * hugo) + ((2 * Hugo) + 10);<br>
+                            hugo = (total - 10) / 5;<br>
+                            //redefinimos las variables.<br>
+                            paco = hugo * 2;<br>
+                            luis = paco +10;<br>
+                            console.log("Hugo: " + hugo + "\n" + "Paco: " + paco + "\n" + "Luis: " + luis);<br>
+                            Hugo: 15<br>
+                            Paco: 30<br>
+                            Luis: 40<br>
+                        </p>
+                    </div>
+                    <hr>
+                    <h3>Ejercicio Intro JavaScript</h3>
+                    <div class="code">
+                        <p>
+                            //una expresión para verificar si un valor es un bojeto.<br>
+                            typeof obj === "object" && obj != null;<br>
+                            //debido a un bug de JavaScript es necesario evaluar que no sea null
+                        </p>
+                    </div>
+                    <hr>
+                    <h3>Calentamiento 101 JavaScript</h3>
+                    <div class="code">
+                        <p>
+                            //hacer un objeto "human" que te represente<br>
+                            const human = {<br>
+                                name: "Paul Fabian",<br>
+                                last_name: "Suarez Guerrero",<br>
+                                age: 40,<br>
+                                city: "Bogota",<br>
+                                height: 180,<br>
+                                weight: 76,<br>
+                                sons: true<br>
+                            }<br>
+                            console.log(human)<br>
+                        </p>
+                    </div>
+                    <hr>
+                    <h3>Calentamiento 101 JavaScript</h3>
+                    <div class="code">
+                        <p>
+                            //como comprobar que un valor es un array<br>
+                            const animes = ["Evangelion","Cowboy Beebop","Atack on Titan"];<br>
+                            // con typeof dice que es un object. Entonces usamos is.array.<br>
+                            Array.isarray(animes)<br>
+                            true<br>
+                            console.log(animes)<br>
+                        </p>
                     </div>
                 </div>
             </div>
