@@ -1,0 +1,92 @@
+body {
+    background-color: #a3d8ec;
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+    color: #566b78;
+  }
+
+  
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+h1, h2, strong {
+  color: #4b1111;
+}
+code, pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+a {
+    color: #e81c4f;
+  }
+  
+code, pre {
+    background: #f5f7f9;
+    border-bottom: 1px solid #d8dee9;
+    color: #a7adba;
+  }
+  
+pre {
+    border-left: 2px solid #69c;
+  }
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  }
+  header {
+    background-color: #ffe23d;
+    background-image: url("header.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+  }  
+  body img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+  }
+  header h1 {
+    font-family:"Star wars", fantasy;
+    color: rgb(255, 230, 0);
+    font-size: 2.5em;
+    font-weight: 300;
+  }
+  
+  header a {
+    border: 2px solid #e7a71d;
+    border-radius: 290486px;
+    color: rgb(226, 8, 0);
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+  }
+  
+  header a:hover {
+    background:  #90dd39;
+    color: white;
+  }
+  
