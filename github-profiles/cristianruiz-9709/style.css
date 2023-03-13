@@ -1,3 +1,74 @@
 :root {
-  var --fuente:
+  --primario: whitesmoke;
+  --secundario: rgb(139, 148, 56);
+  --fontbody: Verdana, Geneva, Tahoma, sans-serif;
+  --fontHeading: 'Ubuntu', sans-serif;
+  ;
+  --fontParrafo: monospace;
+
+}
+
+html {
+  font-size: 62.5%;
+  background-color: var(--secundario);
+}
+
+body {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0%
+}
+
+h1 {
+  font-family: var(--fontHeading);
+  font-size: 3rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: var(--fontHeading);
+  margin-top: 1rem;
+  padding-top: 1rem;
+
+}
+
+p {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: var(--fontParrafo);
+}
+
+div {
+  margin: 0%;
+}
+
+.heading {
+  background-image: url(img/backgroundimage.webp);
+  background-size: cover;
+  text-align: center;
+  padding: rem;
+  color: whitesmoke;
+}
+
+.headingh {
+  background-color: rgb(0 0 0 /50%);
+  width: 100%;
+  height: 100%;
+  margin-top: 0%;
+  padding: 2rem;
+}
+
+.href {
+  text-decoration: none;
+}
+
+.nav {
+  padding: 5rem;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+
 }
