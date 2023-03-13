@@ -24,17 +24,17 @@ Soy una persona apasionada con lo que hago y lo que busco hacer y aunque suene r
 
 INSTRUCCIÓN | DESCRIPCIÓN
 ---         | ---
-pwd         | Dirección del directorio
-ls          | Lista el contenido del directorio
-mkdir       | Crear directorio en dirección actual
-cd          | Cambia de directorio (Actual hacia el directorio general)
-cat         | Imprime en pantalla el contenido de un documento
+pwd | Dirección del directorio
+ls | Lista el contenido del directorio
+mkdir | Crear directorio en dirección actual
+cd | Cambia de directorio (Actual hacia el directorio general)
+cat | Imprime en pantalla el contenido de un documento
 
 ---------
 
 ## COMANDOS ALIAS
 
 ALIAS | INSTRUCCIÓN ORIGINAL | DESCRIPCIÓN
----   | ---                  |--- 
-cl    | clear                | Limpia el historial de la terminal
+--- | --- |--- 
+cl | clear | Limpia el historial de la terminal
 md | mkdir | Crear carpeta (en ingles make directory)
