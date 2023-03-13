@@ -1,4 +1,3 @@
-
 # Hi there 👋, I´m Ivan Pugliese 👨🏻‍💻
 
 👨🏽‍💻 Nací el 6 de Febrero de 1999 en Argentina. Apasionado por la tecnología desde muy joven y de la programación desde que me adentre en el mundo de forma autodidacta. Considero que la mejor herramienta es el conocimiento de uno mismo, mi mayor motivación es seguir aprendiendo, fortaleciendo mi desarrollo personal y profesional.
@@ -18,10 +17,9 @@
   </a>
 </div>
 
-
 📫 Puedes contactarme a través de : ivanpugliese02@gmail.com
 
-**Tecnologías:**  
+**Tecnologías:**
 
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
@@ -36,20 +34,19 @@
 
 ## Comandos de la terminal
 
-| Option | Description |
-|------|------|
-| Ctrl + A | Mover cursosr al inicio  |
-| Ctrl + E | Mover cursor al final|
-| Ctrl + U | Eliminar linea |
-| Ctrl + W | Eliminar palabra |
-| Ctrl + R | Buscar comando |
+| Option   | Description            |
+| -------- | ---------------------- |
+| Ctrl + A | Mover cursor al inicio |
+| Ctrl + E | Mover cursor al final  |
+| Ctrl + U | Eliminar linea         |
+| Ctrl + W | Eliminar palabra       |
+| Ctrl + R | Buscar comando         |
 
 # Alias
 
 ```bash
-| cl |  alias para el comando clear |
+| cl    |  alias para el comando clear |
 | findd |  alias para: **ls ~/ | grep $1** en donde se realiza una búsqueda de un token que se envía por parámetro en el directorio home |
 ```
 
 ⭐️ From [Ivan Pugliese](https://github.com/ivan-pugliese)
-
