@@ -16,7 +16,10 @@ h1, h2 {
 h1 {
     padding-left: 20px;
     padding-right: 20px;
-    /* aquí puede meterse una fotish */ 
+    /* aquí puede meterse una fotish */
+    background-repeat: no-repeat;
+    background-position: 509px;
+    background-size: 75px; 
 }
 
 #introduccion {
@@ -46,8 +49,8 @@ h1 {
 }
 
 .botones {
-    display: inline-flex;
-    flex-direction: column;
+    display: flex;
+    justify-content: center;
 }
 
 #boton-github {
@@ -70,12 +73,12 @@ h1 {
 }
 
 #boton-github:hover {
-    background-color: #817d7d;
+    background-color: #575353be;
 }
 
 .mi-nombre {
-    -webkit-text-fill-color: cyan;
-    /* -webkit-text-stroke: 1px darkcyan; */
+    -webkit-text-fill-color: #00ffffeb;
+    -webkit-text-stroke: 1px #008b8b7d;
 }
 
 .waviy {
@@ -156,7 +159,7 @@ code {
 }
 
 #borde-externo {
-    background-color: rgba(53, 51, 51, 0.719);
+    background-color: rgb(53 51 51 / 51%);
     margin: 0 auto;
     padding: 13px;
     border-radius: 30px;
