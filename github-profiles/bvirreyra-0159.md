@@ -23,7 +23,8 @@ Tengo un marcado interés por la **_programación_** por lo que quiero aprender 
 
 Además se debe tomar en cuenta los siguientes **_alias_** para facilitar el trabajo.
 
-| Alias                     | Descripción                                           |
-| ------------------------- | ----------------------------------------------------- |
-| `alias cl="clear"`        | Borra el contenido de la pantalla, limpia la pantalla |
-| `alias bu="ls \ grep $1"` | Busca un archivo                                      |
+| Alias                                  | Descripción                                           |
+| -------------------------------------- | ----------------------------------------------------- |
+| `alias cl="clear"`                     | Borra el contenido de la pantalla, limpia la pantalla |
+| `alias bu="ls \ grep $1"`              | Busca un archivo                                      |
+| `alias grb="git remote add origin $1"` | Agrega un reporsitorio remoto                         |
