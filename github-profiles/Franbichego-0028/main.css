@@ -1,0 +1,15 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap';
+body {
+    margin: 0 auto;
+    max-width: 55em;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    padding: 3em 1em;
+    background-color: #EFF8F6;
+    color: #555;
+}
+h1,
+h2,
+strong {
+    color: #333;
+}
