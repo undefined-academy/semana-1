@@ -1,0 +1,33 @@
+body{
+    max-width: 800px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; /*centra el bloque*/
+    margin: 0 auto;
+    
+}
+
+p{
+    line-height: 1.1;
+}
+
+h1, h2{
+    line-height: 1.5;
+    color: black;
+    font-weight: 300;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
