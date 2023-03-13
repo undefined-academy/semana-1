@@ -7,20 +7,20 @@
 
 *Funny terminal commands*
 
-Command    |Description   |
------------|-----------------|
-aafire     | ASCII art flames|
-cmatrix    | Shows "The Matrix"|
+Command    |Description                        |
+-----------|-----------------------------------|
+aafire     | ASCII art flames                  |
+cmatrix    | Shows "The Matrix"                |
 sl         | Shows an animated steam locomotive|
-rev        | Reverse lines characterwise|
-yes        | Print a string repeatedly|
+rev        | Reverse lines characterwise       |
+yes        | Print a string repeatedly         |
 
 *Useful alias*
 
-Alias                    |Description   |
--------------------------|--------------|
-alias l.='ls -d .* --color=auto'|Show hidden files|
-alias cl="clear"| For clear the screen
+Alias                           |Description          |
+--------------------------------|---------------------|
+alias l.='ls -d .* --color=auto'|Show hidden files    |
+alias cl="clear"                | For clear the screen|
 
 
 [My GitHub profile](https://github.com/alex-aponte)
