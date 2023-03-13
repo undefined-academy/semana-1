@@ -21,7 +21,7 @@ Soy diseñadora gráfica y tengo el propósito de convertirme en un UNICORNIO�
 ```bash
 alias findd='ls~/grep'
 ```
-* Sirve para **filtrar carpetas** dando una palabra clave.
+* Sirve para **filtrar carpetas** dando una palabra.
 ```bash
 alias cl='clear'
 ```
