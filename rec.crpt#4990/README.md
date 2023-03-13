@@ -21,8 +21,8 @@ b. Tecnicatura en Telecomunicaciones y Redes (2023 - actualidad).
 - Campus virtual de la provincia de Córdoba: Curso de capacitación enfocado en la tecnología Blockchain y criptomonedas (2022).
 - Plataforma 5: Curso introductorio a la programación web (2022).
 - Coursera && ComunidadIT: Certificación de Especialista en Soporte de Tecnologías de la Información de Google (2022).
-- Coursera && ComunidadIT: Certificación de Especialista en Diseño UX de Google.
-- Open Bootcamp: Certificación en Diseño UX/UI.
+- Coursera && ComunidadIT: Certificación de Especialista en Diseño UX de Google (2022).
+- Open Bootcamp: Certificación en Diseño UX/UI (2023).
 
 ## Habilidades 🧠
  - HTML5
