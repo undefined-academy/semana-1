@@ -1,6 +1,6 @@
-# **¡Hola a todos!, Mi nombre es Boris Virreyra**
+# **¡Hola a todos!, [Mi nombre es Boris Virreyra**](https://github.com/bvirreyra "Hacer click para ir a mi perfil de GitHub")
 
-![imagen](fotoboris.jpg "Telecomunicaciones y Redes") Me encanta aprender y descubrir cosas nuevas, y siempre estoy actualizado con las últimas tendencias y noticias en diferentes campos.
+[![imagen](fotoboris.jpg "Click para ver mi perfil")](https://github.com/bvirreyra) Me encanta aprender y descubrir cosas nuevas, y siempre estoy actualizado con las últimas tendencias y noticias en diferentes campos.
 
 ---
 
