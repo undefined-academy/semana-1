@@ -1,0 +1,69 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    background-position: center;
+    line-height: 1.5;
+    padding: 4em 1em;
+
+
+}
+
+h1 {
+    text-align: center;
+    background-color: lightblue;
+}
+
+section {
+    opacity: 0.2;
+}
+
+
+.imagenfondo {
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.contenido {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    background-color: lightseagreen;
+}
+
+ol {
+    background-color: lightskyblue;
+}
+
+a {
+    font-weight: bold;
+    color: red;
+}
+
+a :hover {
+    background: #e81c4f;
+    color: white;
+}
+
+.git {
+    text-align: right;
+}
+
+footer 
+{
+    background-image: url(footer.jpg) ;
+    
+}
+footer p{
+font-size: 18px;
+font-weight: bold;
+color: #f5023f;
+opacity: 0.9;
+text-align: center;
+
+
+}
