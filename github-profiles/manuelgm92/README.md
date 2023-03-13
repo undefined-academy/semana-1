@@ -9,6 +9,7 @@ Now, I am working in another job, like administrative, that has nothing to do wi
 ----------
 
 ### Week 1
+
   - Class 1:
     - About Terminal and Markdown
     
@@ -23,7 +24,10 @@ Now, I am working in another job, like administrative, that has nothing to do wi
 | cp | to copy files |
 | mv | to move files |
 
-This is the ling of my github prfile: https://github.com/manuelgm92#hi-there--im-manuel-gonzalez-martinez-a-project-of-developer
+
+This is the link of my github prfile: https://github.com/manuelgm92#hi-there--im-manuel-gonzalez-martinez-a-project-of-developer
+
+
 <!--
 **manuelgm92/manuelgm92** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
