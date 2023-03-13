@@ -36,14 +36,14 @@ Responsable de 22 personas distribuidas en la entidad federativa.
   
 ---
 ## Comandos en Terminal
-|Comando|Descripción|
-|--|--|
-|mkdir <dir>|Crea una nueva carpeta|
-|rm -R <dir>|Elimina una carpeta con su contenido|
-|cd|Cambia al directorio HOME del usuario|
-|cd [folder]|Cambiar de directorio|
-|pwd|Muestra el directorio de trabajo|
-|ls|Lista el nombre de los archivos y subcarpetas del directorio actual|
+| Comando      | Descripción                                                         |
+|--------------|---------------------------------------------------------------------|
+| mkdir <dir>  | Crea una nueva carpeta                                              |
+| rm -R <dir>  | Elimina una carpeta con su contenido                                |
+| cd           | Cambia al directorio HOME del usuario                               |
+| cd [folder]  | Cambiar de directorio                                               |
+| pwd          | Muestra el directorio de trabajo                                    |
+| ls           | Lista el nombre de los archivos y subcarpetas del directorio actual |
 ---
 ### Alias
 De los alias mostrados en el video son practicos los siguientes dos:
