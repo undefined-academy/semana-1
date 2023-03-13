@@ -14,6 +14,8 @@ body{
   background-color: #66347F;
   border-radius: 8px;
   box-sizing: border-box;
+  border: 1px solid whitesmoke;
+  box-shadow: 7px 17px 34px -6px rgba(99, 97, 99, 1);
 }
 
 main{
@@ -112,5 +114,5 @@ footer a{
 }
 
 footer a:hover{
-  color:rgb(35, 0, 100);
+  color:rgb(145, 0, 118);
 }
