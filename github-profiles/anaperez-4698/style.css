@@ -1,0 +1,12 @@
+*{
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+h1,h3{
+     color: rebeccapurple
+}
+
+body{
+    background-color: rgb(247, 222, 237);
+}
