@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    
+    display: flex;
+    justify-content: right;
+    
+}
+
+.header_nav{
+    position: absolute;
+    font-size: 2em;
+    font-weight: 900;    
+    margin-right: 10px;
+    padding: 10px;
+    
+}
+
+.header_nav > a{
+    color: #ffaf00;
+    text-decoration: none;
+}
+
+.main_fondo{
+    width: 100%;
+}
+
+.fondo{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   
+}
+
+
+.fondo_second{
+    width: 100%;
+    position: relative;
+    top: -13px;
+    
+    
+ }
+
+.bootcamp{
+    position: absolute;
+    color: #fff;
+    left: 834px;
+    top: 485px;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+
+.name{
+    position: absolute;
+    color: #fff;
+    left: 834px;
+    top: 594px;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+
+.experience{
+    position: absolute;
+    color: #282828;
+    left: 373px;
+    top: 1278px;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+.experience_text{
+    width: 30%;
+    position: absolute;
+    color: #282828;
+    left: 373px;
+    top: 1407px;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.experience_one{
+    position: absolute;
+    color: #282828;
+    left: 373px;
+    top: 1506px;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+.experience_text-one{
+    width: 30%;
+    position: absolute;
+    color: #282828;
+    left: 373px;
+    top: 1634px;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.experience_two{
+    position: absolute;
+    color: #282828;
+    left: 373px;
+    top: 1739px;
+    font-size: 4em;
+    font-weight: 900;
+}
+
+.experience_text-two{
+    width: 30%;
+    position: absolute;
+    color: #282828;
+    left: 373px;
+    top: 1863px;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.fondo2{
+    width: 100%;
+    margin-top: -18px;
+}
+
+.footer_text{
+    width: 30%;
+    color: #ffaf00;
+    position: relative;
+    left: 110px;
+    bottom: 186px;
+    font-size: 1.7em;
+    font-weight: 900;
+
+}
+
+.footer_text-one{
+    width: 30%;
+    color: #ffaf00;
+    position: relative;
+    left: 110px;
+    bottom: 169px;
+    font-size: 1.7em;
+    font-weight: 900;
+
+}
