@@ -1,4 +1,4 @@
-https://github.com/jaguzmana/semana-1
+https://github.com/jaguzmana/
 
 - 👋 Hi, I’m **@jaguzmana**
 - 👀 I’m interested in **Data Engineering and Backend Development**
