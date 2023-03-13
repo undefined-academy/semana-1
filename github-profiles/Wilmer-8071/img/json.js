@@ -42,3 +42,12 @@ console.log(human);
 
 //Ejercicio 02 - semana 02:
 //¿Como implementar una expresion para verificar si un valor es un array?
+
+function idArray(arr){
+    return Array.isArray(arr) && arr !== null;
+}
+
+// let arr = []; - Devuelve true
+// let arr = 5; - Devuelve false
+
+console.log(idArray(arr));
