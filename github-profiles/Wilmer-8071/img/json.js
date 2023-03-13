@@ -1,4 +1,4 @@
-// Ejercicio calentamiento bootcamp de Guillermo Rodas:
+// Ejercicio calentamiento 01 bootcamp de Guillermo Rodas:
 // Hugo, Paco y Luis tienen una cantidas desconocida de monedas cada uno
 //Sabemos que Paco tiene el doble de monedas que Hugo y que Luis tiene 10 monedas mas que Paco
 
@@ -16,3 +16,29 @@ if (total === 85){
     console.log("Paco:" + paco);
     console.log("Luis:" + luis);
 }
+
+
+//Ejercicio 1 - Semana 02
+
+//Como implementar una expresion para verificar si un valor es un objeto
+
+function idObjeto(obj) {
+    return typeof obj === "object" && obj !== null;
+}
+
+console.log(idObjeto([]))
+
+// Ejercicio calentamiento 02 bootcamp de Guillermo Rodas:
+//Escribir un objeto "humano" que te represente:
+
+const human = {
+    name: "Wilmer",
+    edad: 30,
+    sexo: "Masculino",
+    estatura: 1.78,
+
+}
+console.log(human);
+
+//Ejercicio 02 - semana 02:
+//¿Como implementar una expresion para verificar si un valor es un array?
