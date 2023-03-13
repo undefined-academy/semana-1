@@ -3,6 +3,7 @@ body{
  padding:0;
  background-color:#F9F7FE;
  font-size: 62.5%;
+ font-family: 'Poppins', sans-serif;
  color:whitesmoke;
 }
 
@@ -89,8 +90,8 @@ img:hover {
 
 footer{
  height:auto;
-background-color: rgb(190, 78, 190);text-align: center;
-color: rgb(249, 222, 186);
+background-color: rgb(232, 157, 232);text-align: center;
+color: rgb(65, 65, 65);
 }
 
 footer p{
