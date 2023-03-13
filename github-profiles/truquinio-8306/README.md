@@ -1,4 +1,8 @@
-https://github.com/truquinio
+# 🗓 semana-1 
+🔗 https://github.com/truquinio
+🔗 http://localhost:5173/aboutMe.html
+
+<br>
 
 ## 💫 About Me:
 ![uk](https://i.ibb.co/G5dxCXJ/uk1.png) I'm a person who is in constant search of growth and learning. I have great adaptability and proactivity, both allow me to function naturally both in teamwork and individually. I seek to venture into all areas related to my experiences and that can enrich me and teach me new tools and techniques to be a better person and professional. I could summarize my profile as dynamic and decisive.
