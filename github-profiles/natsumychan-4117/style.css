@@ -9,8 +9,8 @@ body{
 
 .profile-container{
   margin: 0 auto;
-  max-width: 650px;
-  height: 1400px;
+  max-width: 750px;
+  height: 1650px;
   background-color: #66347F;
   border-radius: 8px;
   box-sizing: border-box;
@@ -21,6 +21,10 @@ main{
  margin-top: 20px;
  padding: 20px;
  width:80%;
+}
+
+main p{
+  text-align: justify;
 }
 
 main h1, h2{
