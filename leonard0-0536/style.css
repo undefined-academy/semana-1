@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,600;1,100;1,700&display=swap');
 
 :root {
-    --color-principal : #37306B;
+    --color-principal : #584ea4;
     --color-secundario : #66347F;
     --color-letter : #4D455D;
 
@@ -16,15 +16,24 @@
 
 body {
     background-color: var(--color-principal);
-    font-size: 1.5rem;
     font-family: var(--roboto-ff);
 }
 
 .principal {
+    padding: 10%;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
     display: flex;
+    gap: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.content-logo {
+    align-self: flex-end;
+    width: 40px;
+    cursor: pointer;
 }
