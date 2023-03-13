@@ -4,66 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cab9b5f132.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
     <title>👩🏻‍💻 beresdev</title>
 </head>
 <body>
     <main>
-        <section>
-            <h1>Hi, I´m Bere! 👩🏻‍💻</h1>
-            <h2>Front-end developer</h2>
-            <h3>Communications and Electronics Engineer at <a href="https://www.ipn.mx/">National Polytechnic Institute</a></h3>
-        </section>
-        <section>
-            <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" alt="astronaut-kitten-gif">
-            <h2>A little more about me</h2>
-            <div>
-                <code>
-                    const bere {<br>
-                        pronouns: 'she' | 'her', <br>
-                        challenges: {<br>
-                            💛: "Front-end development at Laboratoria <L>",<br>
-                            💙: "Fullstack development at Undefined Academy ",<br>
-                            💚: "30 days of JavaScript at Platzi "<br>
-                        },<br>
-                        strengths: ['self-taught person', 'curiosity', 'adaptability']<br>
-                    }
-                </code>
+        <section class="name-section">
+            <h1>Hi, I'm Bere!</h1>
+            <h2 class="rol">Front-end developer student</h2>
+            <div class="social-container">
+                <a href="https://www.linkedin.com/in/beresdev/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/beresdev"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:beresdev@gmail.com"><i class="fa-solid fa-envelope"></i></a>
             </div>
         </section>
-        <section>
-            <h2>Tech Stack</h2>
-            <a href="https://img.shields.io/badge/-Linux-333333?style=flat&logo=Linux&logoColor=FCC624">Linux</a>
-            <ul>
-                <li><a href="https://img.shields.io/badge/-React-333333?style=flat&logo=React">React</a></li>
-                <li><a href="https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=JavaScript">JavaScript</a></li>
-                <li><a href="https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5">HTML5</a> </li>
-                <li><a href="https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3">CSS3</a></li>
-                <li><a href="https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js">Node.js</a></li>
-
-            </ul>  
-            <ul>
-                <li><a href="https://img.shields.io/badge/-Git-333333?style=flat&logo=git">Git</a></li>
-                <li><a href="https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github">GitHub</a></li>
-                <li><a href="https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown">Markdown</a></li>
-                <li><a href="https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma">Figma</a></li>
-                <li><a href="https://img.shields.io/badge/-Trello-333333?style=flat&logo=trello">Trello</a></li>
-                <li><a href="https://img.shields.io/badge/-Notion-333333?style=flat&logo=notion">Notion</a></li>
-            </ul>
+        <section class='aboutme-section'>
+            <h2>A little more about me</h2>
+            <div class="cat-code-container">
+                <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" alt="astronaut-kitten-gif">
+                <div class="code-container">
+                    <code>
+                        const bere {<br>
+                            pronouns: 'she' | 'her', <br>
+                            challenges: {<br>
+                                💛: "Front-end development at Laboratoria",<br>
+                                💙: "Fullstack development at Undefined Academy ",<br>
+                                💚: "30 days of JavaScript at Platzi "<br>
+                            },<br>
+                            strengths: ['self-taught person', 'curiosity', 'adaptability']<br>
+                        }
+                    </code>
+                </div>
+            </div>
         </section>
-        <section>
+        <section class='tech-section'>
+            <h2>Tech Stack</h2>
+            <img src="https://img.shields.io/badge/-Linux-333333?style=flat&logo=Linux&logoColor=FCC624"></img>
+            <div class="tech-container">
+                <ul class="tech-technology">
+                    <li><img src="https://img.shields.io/badge/-React-333333?style=flat&logo=React"></img></li>
+                    <li><img src="https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=JavaScript"></img>
+                    </li>
+                    <li><img src="https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5"></img> </li>
+                    <li><img src="https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3"></img></li>
+                    <li><img src="https://img.shields.io/badge/-Node.js-333333?style=flat&logo=node.js"></img></li>
+    
+                </ul>
+                <ul class="tech-tools">
+                    <li><img src="https://img.shields.io/badge/-Git-333333?style=flat&logo=git"></img></li>
+                    <li><img src="https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github"></img></li>
+                    <li><img src="https://img.shields.io/badge/-Markdown-333333?style=flat&logo=markdown"></img></li>
+                    <li><img src="https://img.shields.io/badge/-Figma-333333?style=flat&logo=figma"></img></li>
+                    <li><img src="https://img.shields.io/badge/-Trello-333333?style=flat&logo=trello"></img></li>
+                    <li><img src="https://img.shields.io/badge/-Notion-333333?style=flat&logo=notion"></img></li>
+                </ul>
+            </div>
+        </section>
+        <section projects-section>
             <h2>Projects</h2>
-            <ul>
-                <li><a href="https://beresdev.github.io/DEV002-cipher/">Cesar Cipher</a></li>
-                <li><a href="https://beresdev.github.io/DEV002-data-lovers/">✨ Harry Potter's Wizarding World ✨</a></li>
-                <li><a href="https://www.npmjs.com/package/md-links-beresdev">npm library md-links-beresdev</a></li>
-                <li><a href="https://main--effervescent-bubblegum-f1c07e.netlify.app/#/">PowerL💛</a></li>
-            </ul>
+            <div class="projects-container">
+                <div class="project-container">
+                    <h3 class="project-title">Cesar cipher</h3>
+                    <a href="https://beresdev.github.io/DEV002-cipher/"><img src="./assets/Cipher_400px.PNG" alt="Cesar_cipher_web"></a>
+                    <p class="project-description">Web page where you can cipher text with a key</p>
+                    <p class="project-technologies">HTML | CSS | JavaScript</p>
+                </div>
+                <div class="project-container">
+                    <h3 class="project-title">✨ Harry Potter's Wizarding World ✨</h3>
+                    <a href="https://beresdev.github.io/DEV002-data-lovers/"><img src="./assets/HP_400px.png" alt="HP_web"></a>
+                    <p class="project-description">Web page that shows data about Harry Potter based on books</p>
+                    <p class="project-technologies">HTML | CSS | JavaScript</p>
+                </div>
+                <div class="project-container">
+                    <h3 class="project-title">md-links-beresdev</h3>
+                    <a href="https://www.npmjs.com/package/md-links-beresdev"><img src="./assets/md-links_400px.png" alt="mdlinks-npm"></a>
+                    <p class="project-description">npm library to get links from markdown files</p>
+                    <p class="project-technologies">Node.js</p>
+                </div>
+                <div class="project-container">
+                    <h3 class="project-title">PowerL💛</h3>
+                    <a href="https://main--effervescent-bubblegum-f1c07e.netlify.app/#/"><img src="./assets/powerL_400px.png" alt="powerL-web"></a>
+                    <p class="project-description">Social network for Laboratoria community</p>
+                    <p class="project-technologies">HTML | CSS | JavaScript | Firebase</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <p>Let's get in touch</p>
-        <a href="https://www.linkedin.com/in/beresdev/">My LinkedIn</a>
-        <a href="https://github.com/beresdev">My GitHub</a>
+        <p>&copy; [2023] beresdev. All rights reserved.</p>
     </footer>
 </body>
 </html>
