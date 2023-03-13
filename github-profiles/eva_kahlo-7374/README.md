@@ -13,7 +13,7 @@ En esta ocasión estoy cursando el Bootcamp de JS de *Undefined Academy*, donde 
 - [x] Añade una sección con al menos 2 comandos alias que te parezcan útiles incluyendo columna de descripción.
 - [x] (Opcional) Clona tu repositorio y ejecuta 11ty como en la practica.
 
-### Comandos de la terminal.
+### Comandos de la terminal
 
 |   Comando   |    Descripción   |
 |-------------|------------------|
@@ -23,7 +23,7 @@ En esta ocasión estoy cursando el Bootcamp de JS de *Undefined Academy*, donde 
 |    mv       | Mueve archivos o directorios   |
 |    date     | Desliega la fecha|
 
-### Comandos alias para la terminal.
+### Comandos alias para la terminal
 
 |   Comando   |    Descripción   |
 |-------------|------------------|
@@ -34,3 +34,8 @@ En esta ocasión estoy cursando el Bootcamp de JS de *Undefined Academy*, donde 
 * GitHub 🖥️
 * Twitter 🐦
 * LinkedIn 💼
+
+Preguntas extra:
+1- ¿Cual es la diferencia entre un sistema de control de versiones distribuido y uno centralizado?
+
+Sistemas centralizados: cuando se guarda todo el proyecto en un servidor centralizado para poder trabajar y enviar cambios en el software que se está programando. Sistemas distribuidos: cuando cada integrante del equipo mantiene una copia completa del proyecto localmente.
