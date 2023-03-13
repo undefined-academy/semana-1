@@ -15,7 +15,7 @@
 <br>
 
 ## 🌐 RR.SS.:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in//federico-trucco/) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/zcRG3dSt) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/317680) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/https://twitch.tv/truquinio) [![BuyMeACoffee](https://img.shields.io/badge/-Buy%20me%20a%20coffee-FFDD00.svg?logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/truquinio) [![Cafecito](https://img.shields.io/badge/-Cafecito-88a3d0.svg?logo=CoffeeScript&logoColor=white)](https://cafecito.app/truquinio) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in//federico-trucco/) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.com/channels/truquinio#8306) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/317680) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/https://twitch.tv/truquinio) [![BuyMeACoffee](https://img.shields.io/badge/-Buy%20me%20a%20coffee-FFDD00.svg?logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/truquinio) [![Cafecito](https://img.shields.io/badge/-Cafecito-88a3d0.svg?logo=CoffeeScript&logoColor=white)](https://cafecito.app/truquinio) 
 
 <br>
 
