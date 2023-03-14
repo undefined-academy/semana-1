@@ -1,0 +1,33 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+img {
+    border-radius: 25%;
+    transition: 1s all;
+}
+
+img:hover {
+    transform: scale(1.05) rotate(5deg);
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #566b78;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+#description {
+    text-align: center;
+}
+
+a {
+    color: lightseagreen;
+}
