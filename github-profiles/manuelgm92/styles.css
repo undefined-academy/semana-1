@@ -1,0 +1,25 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #566b78;
+    background-color: whitesmoke;
+}
+
+h1, h2, h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #333;
+}
+
+
+strong, em {
+    color: #333;
+}
+
+
+a {
+    color: blue;
+  }
