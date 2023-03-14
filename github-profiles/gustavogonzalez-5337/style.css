@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to top, rgb(46, 4, 160), rgb(9, 202, 128));
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+section {
+    background: rgb(74, 168, 245) ;
+    margin: 20px;
+    justify-content: center;
+    padding: 10px;
+    
+    
+}
+
+div {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    text-align:center
+
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h2{
+    margin: 10px;
+    padding: 0px;
+}
+table {
+    margin: 0 auto;
+    
+}
+ul {
+    list-style-type: circle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+li{
+    text-align: center;
+    margin: 10px;
+    color: brown;
+}
