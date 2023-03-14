@@ -1,0 +1,75 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+body{
+    font-family:'roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #566b78;
+}
+header {
+    background-color: #263d36;
+    background-image: url("/forked/github-profiles/brianbr-3719/images/codingg.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+  }
+  header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+  }
+  header h2 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+  }
+  
+  header a {
+    border: 1px solid #ff3769;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-in-out;
+    transition-property: color, background;
+  }
+  
+  header a:hover {
+    background:  #ff2058;
+    color: white;
+  }
+
+h2{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+em,strong{
+    color: #ca6262;
+}
+ul{
+  background: #eee;
+  border-bottom: 2px solid rgba(217, 105, 105, 0.678);
+  color: #726b6b;
+  
+  
+}
+ul{
+    border-left: 2px solid rgba(217, 105, 105, 0.788);
+}
+
+h3 {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    padding: 0.5em;
+  }
+a{
+    color: #8a9eff;
+}
