@@ -1,0 +1,41 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #333;
+    background: #FFE6F7;
+}
+
+.contenedor {
+    margin: auto;
+    border-radius: 10px;
+    background: transparent;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #C689C6;
+}
+
+h1, 
+h2 {
+    margin-top: 50px;
+    
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+h2,
+strong {
+    color: #C689C6;
+}
+
+h2 a {
+    text-decoration: none;
+}
