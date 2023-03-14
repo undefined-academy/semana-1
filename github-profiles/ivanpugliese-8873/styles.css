@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+    width: 800px;
+    font-family: "Poppins", sans-serif;
+    background-color: #ececec;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1,strong {
+    color: #00001F;
+}
+
+.p-1 {
+    margin-top: 50px;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3B3BF0;
+}
