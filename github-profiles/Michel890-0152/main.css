@@ -1,0 +1,163 @@
+/* GENERALES */
+:root {
+  --color1: #191c21;
+  --color2: #35373f;
+  --color3: #5b5a66;
+  --color4: #8c8696;
+  --color5: #ccbbd0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 1rem auto;
+  font-size: 1.6rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: var(--color1);
+}
+svg {
+  width: 3rem;
+  height: 3rem;
+  fill: var(--color4);
+  margin-right: 0.5rem;
+}
+h1 {
+  color: var(--color5);
+}
+section {
+  margin: 0.5rem;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CABECERA */
+header {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+/* PERFIL */
+.perfil {
+  max-width: 45rem;
+  font-style: italic;
+  padding: 0.5rem;
+  background-color: var(--color5);
+  border-radius: 0.5rem;
+}
+
+/* CONTACTO */
+.contacto {
+  display: flex;
+  max-width: 50rem;
+  padding: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contacto ul {
+  list-style: none;
+}
+.contacto ul li {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+.contacto ul li a {
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color3);
+}
+.contacto ul li a:hover,svg:hover {
+  color: var(--color5);
+  fill: var(--color5);
+  cursor: pointer;
+}
+
+.habilidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 75%;
+}
+.areas {
+  list-style: none;
+  padding: 0.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.areas li{
+  margin: 0.7rem;
+  background-color: var(--color5);
+  padding: 0.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem 0 var(--color5);
+}
+.areas li ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 25.3rem;
+  padding: 0.5rem;
+  box-shadow: 0 0 1rem 0 var(--color1);
+}
+.habilidades ul ul {
+  list-style: none;
+  padding: 0.2rem;
+}
+.intereses {
+  display: flex;
+  max-width: 50rem;
+  padding: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color5);
+  border-radius: 0.5rem;
+}
+.intereses h1 {
+  color: var(--color1);
+}
+.intereses ul {
+  list-style: none;
+}
+.intereses ul li {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+}
+footer {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: var(--color4);
+}
+footer a {
+  text-decoration: none;
+  color: var(--color3);
+}
+footer a:hover {
+  text-decoration: none;
+  color: var(--color5);
+}
