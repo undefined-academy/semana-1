@@ -7,7 +7,7 @@ I'm a **Full stack Web Developer** with an emphasis on JavaScript, NodeJS, HTML,
 - ⚡ Hobbies: Motorcycle, Bike, Beach.
 
 ### GitHub Profile
-```[Click to visit Leonardo Pintor's github profile](https://github.com/pintor32)```
+[Click to visit Leonardo Pintor's github profile](https://github.com/pintor32)
 
 ### Commands
 
