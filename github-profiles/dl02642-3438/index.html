@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Daniel Mestas 🐱</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="apple-touch-icon" href="/assets/icon.png" />
+    <link rel="icon" href="/assets/icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body class="body">
+    <nav class="navbar">
+        <a href="/" class="navbar__link navbar__link--logo">DL</a>
+        <div class="navbar__menu">
+            <a href="#tools-and-languages" class="navbar__link"><span class="link__number">01. </span>Lenguages y
+                herramientas</a>
+            <a href="#commands" class="navbar__link"><span class="link__number">02. </span>Comandos</a>
+            <a href="#alias" class="navbar__link"><span class="link__number">03. </span>Alias</a>
+        </div>
+    </nav>
+
+    <article class="hero">
+        <div class="hero__content">
+            <span class="hero__span">Hola, me llamo</span>
+            <h1 class="hero__title">Daniel Mestas.</h1>
+            <h2 class="hero__subtitle">Estudiante de Ingenieria de sofware</h2>
+            <p class="hero__description">
+                En este momento, me encuentro aprendiendo sobre tecnologías móviles y
+                desarrollo web, dos áreas que me apasionan enormemente. Me dedico a
+                profundizar en el conocimiento de las plataformas, herramientas y
+                lenguajes de programación específicos para cada una de estas áreas. Me
+                entusiasma la posibilidad de crear soluciones innovadoras y eficientes
+                que puedan satisfacer las necesidades de los usuarios en ambos campos.
+            </p>
+            <button class="hero__btn btn">
+                <a href="https://github.com/02652" class="btn__link" target="_blank">Mi cuenta de GitHub</a>
+            </button>
+        </div>
+    </article>
+
+    <main class="main">
+        <section class="section" id="tools-and-languages">
+            <h3 class="section__title section__title--tools">
+                Lenguages y herramientas
+            </h3>
+            <img src="https://skillicons.dev/icons?i=js,html,css,lua,python,dart,git,flutter,django,mysql"
+                alt="Skills in programming" />
+        </section>
+
+        <section class="section" id="commands">
+            <h3 class="section__title section__title--commands">
+                Comandos con su descripción
+            </h3>
+
+            <table class="section__table table">
+                <thead class="table__head">
+                    <tr>
+                        <th>Comando</th>
+                        <th>Accion</th>
+                    </tr>
+                </thead>
+
+                <tbody class="table__body">
+                    <tr>
+                        <td>cal</td>
+                        <td>Muestra el calendario</td>
+                    </tr>
+                    <tr>
+                        <td>ls</td>
+                        <td>Lista los elementos de un directorio</td>
+                    </tr>
+                    <tr>
+                        <td>mkdir</td>
+                        <td>Crear una nueva carpeta</td>
+                    </tr>
+                    <tr>
+                        <td>date</td>
+                        <td>Muestra la fecha actual</td>
+                    </tr>
+                    <tr>
+                        <td>pwd</td>
+                        <td>Muestra en que directorio me encuentro actual</td>
+                    </tr>
+                    <tr>
+                        <td>whoami</td>
+                        <td>Muestra el nombre del usuario actual</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section" id="alias">
+            <h3 class="section__title section__title--alias">
+                Alias y su descripcion
+            </h3>
+            <table class="section__table table">
+                <thead class="table__head">
+                    <tr>
+                        <th>section</th>
+                        <th>Comando</th>
+                        <th>Accion</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                    <tr>
+                        <td>zshconfig</td>
+                        <td>code ~/.zshrc</td>
+                        <td>Abre VSCode con el archivo de configuracion de zsh</td>
+                    </tr>
+                    <tr>
+                        <td>la</td>
+                        <td>ls -a</td>
+                        <td>Muestra todos los archivos incluyendo los ocultos</td>
+                    </tr>
+                    <tr>
+                        <td>cpr</td>
+                        <td>cp -r</td>
+                        <td>Me permite copiar un directorio</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <small class="footer__copyright">Creado por
+            <a href="https://github.com/02652" class="footer__github" target="_blank">Daniel Mestas</a></small>
+    </footer>
+</body>
+
+</html>
