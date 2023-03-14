@@ -1,0 +1,43 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #eee;
+  max-width: 56rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  padding: 4rem 1rem;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+h1, h2, strong {
+  color: #222;
+}
+
+h2, p {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  font-size: 3.2rem;
+}
+
+p {
+  font-size: 2rem;
+  color: #444;
+}
+
+em {
+  font-weight: bold;
+}
+
+a {
+  display: inline-block;
+  font-size: 2.4rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: darkcyan;
+}
