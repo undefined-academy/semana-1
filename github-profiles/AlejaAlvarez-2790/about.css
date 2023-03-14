@@ -1,0 +1,14 @@
+body {
+    background-color: papayawhip;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-auto-columns: 20px;
+    grid-auto-flow: column;
+}
+.item {
+    border: 1px solid #00bcd4;
+    font-size: 1rem;
+}
