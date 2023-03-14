@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+body{
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Sono', sans-serif;;
+    line-height: 1.5em;
+    color: #3b3b3b;
+    background-color: #263d36;
+    background-image: url("imagenes/concepto-escritorio-vista-superior-espacio-copia.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, h2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+h1, h2, strong{
+    color: rgb(15, 15, 15);
+}
+.descripcion-trabajo{
+    background-color: rgb(224, 215, 215);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-left: 4px solid rgb(102, 204, 128);
+}
+a{
+    color: rgb(11, 196, 134);
+    display: inline-block;
+    text-decoration: none;  
+}
+.empresa{
+    color: orange;
+    font-size: 1.3em;
+}
+.iconos{
+padding: 0px;
+}
+div{
+    display: inline-block;
+    vertical-align: 1em;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+div:hover {
+    background:  #18a82b;
+    color: white;
+  }
+.linkedin{
+    width: 35px;
+}
+
