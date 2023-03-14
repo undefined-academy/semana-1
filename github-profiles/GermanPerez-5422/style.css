@@ -1,0 +1,45 @@
+body{
+    color: #555;
+    background-color: rgb(245, 146, 245);
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1, h2, h3, th, td, span, strong{
+    color: #333;
+}
+
+code, pre{
+    background: #bb1919;
+}
+
+table{
+    background: rgb(209, 255, 240);
+}
+
+th, td{
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    padding: 1em;
+}
+
+table, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+body{
+    color: #566b78;
+}
+
+p{
+    font-size: 18px;
+}
