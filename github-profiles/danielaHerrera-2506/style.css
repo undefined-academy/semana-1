@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 50em;
+  color: #413543;
+}
+
+h1 {
+margin-top: 100px;
+}
+
+img {
+  border-radius: 50%;
+  width: 64px;
+  margin-left: 50px;
+}
+
+h1, h2 {
+color: #8F43EE;
+}
