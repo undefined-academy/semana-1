@@ -1,0 +1,164 @@
+:root {
+  --font: "Fira Sans", sans-serif;
+  --main-color: #00abb3;
+  --secondary-color: #3c4048;
+  --complement-color: #b2b2b2;
+  --emphasis-color: #eaeaea;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--font);
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
+
+main {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+main section {
+  width: 100%;
+}
+
+.name-section {
+  padding-top: 3rem;
+}
+
+main h1 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.rol {
+  padding-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--emphasis-color);
+}
+
+.name-section .social-container {
+    display: flex;
+    justify-content: center;
+}
+
+.name-section .social-container a {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    padding: 1rem;
+}
+
+.name-section .social-container a:hover {
+    color:var(--emphasis-color);
+}
+
+main section {
+  padding-top: 3rem;
+}
+
+section h2 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.cat-code-container {
+  display: flex;
+}
+
+.cat-code-container img {
+  width: 25rem;
+}
+
+.cat-code-container .code-container {
+  padding-top: 3rem;
+}
+
+.code-container code {
+  font-size: 1.5rem;
+  color: var(--emphasis-color);
+}
+
+.tech-section a {
+  font-size: 2rem;
+}
+
+.tech-container {
+  width: 100%;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-section img {
+  width: 10rem;
+  height: 3rem;
+}
+
+.tech-container li {
+  list-style: none;
+}
+
+.tech-container ul {
+  display: flex;
+  gap: 1rem;
+  padding-left: 2rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-container .project-title {
+  font-size: 2.5rem;
+  color: var(--emphasis-color);
+}
+
+.project-container {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.project-container a img {
+  border-radius: 1rem;
+}
+
+.project-container p {
+  font-size: 1.5rem;
+}
+
+.project-container .project-technologies {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.project-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+footer {
+    height: 5rem;
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
