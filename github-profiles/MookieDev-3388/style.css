@@ -1,0 +1,94 @@
+html{
+    background-color: lightgreen;
+    background-image: linear-gradient(to bottom, #8eff8e, #6effc9, #8e8eff);
+   }
+   
+   body {
+       margin: 0 auto;
+       max-width: 50em;
+       font-size: 14px;   
+     }
+   
+     h1{
+       font-size: 40px;
+       margin-top: 50px;
+       margin-bottom: 10px;
+       letter-spacing: 4px;
+       text-shadow: 2px 2px 5px #000000;
+     }
+   
+   h1, h2, h3{ 
+      text-align: center;
+      font-family: "Century Gothic", sans-serif;
+      font-weight:600px;
+      line-height: 1.5;
+   }
+   
+   h2{
+     font-size: 35px;
+     margin-top: 0;
+     margin-bottom: 0;
+   }
+   
+   h3{
+     font-size: 30px;
+   }
+   
+   p {
+     font-size: 30px;
+     font-family: "Century Gothic", sans-serif;
+     text-align: justify;
+     margin-bottom: 0;
+     line-height: 1.1;
+   }
+   
+   th{
+     font-size: 25px;
+     font-weight:bold;
+   }
+   
+   td{
+     font-size: 15px;
+     text-align: justify;
+   }
+   
+   table{
+     font-family: "Century Gothic", sans-serif;
+   }
+
+   ul{
+    text-align: center;
+    font-size: 30px;
+     font-family: "Century Gothic", sans-serif;
+     margin-top: 0;
+   }
+   
+   .image-div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 10px;
+   }
+   
+   .image{
+     margin:0;
+   max-width: 100%;
+   }
+   
+   .table{
+     margin-bottom: 40px;
+   }
+
+   .aboutMe{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+   
+   #table-tittle{
+     text-align: center;
+     font-size: 25px;
+     font-weight:400px;
+   }
