@@ -43,7 +43,7 @@ pre {
     display: block;
     white-space: nowrap;
     border-right: 2px solid white;
-    width: 59ch;
+    width: 30ch;
 
     animation: typing 2s steps(59), blink .5s infinite step-end alternate;
     overflow: hidden;
