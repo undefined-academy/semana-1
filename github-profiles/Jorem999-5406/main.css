@@ -18,6 +18,8 @@ header {
   background-position: center top;
   padding: 5% 20% 5% 20%;
   background-size: cover;
+  margin-bottom: 4em;
+  text-align: center;
 }
 
 .wrap {
@@ -101,9 +103,4 @@ hr {
   border: none;
   height: 1px;
   margin: 1em 0;
-}
-
-header {
-  margin-bottom: 4em;
-  text-align: center;
 }
