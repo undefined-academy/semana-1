@@ -7,35 +7,21 @@ body{
     color: #555;
 }
 
-h2{
-    margin-top: 1em;
-    padding-top: 1em;
-}
-
 h1, h2, strong {
     color: #333;
+    margin-top: 1em;
+    padding-top: 1em;
 }
 
 code, pre {
     background: #f5f7f9;
     border-bottom: 1px solid #d8dee9;
     color: #a7adba;
-}
-
-code {
-    padding: 2px 4px;
-    vertical-align: text-bottom;
-}
-
-pre {
     padding: 1em;
+    vertical-align: text-bottom;
     border-left: 2px solid #69c;
 }
 
 a {
     color: #e81c4f;
-}
-
-body{
-    color: #566b78;
 }
