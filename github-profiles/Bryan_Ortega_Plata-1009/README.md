@@ -7,7 +7,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayan-rafael-ortega-plata-30125597/)
 
-**Ingeniero de sistema**, apacionado por el mundo del **desarrollo** y todo lo relacionado con las **tecnologias de la informacion**, contando con mas de un año de experiencia en el desarrollo web full stacks.
+**Ingeniero de sistema**, apasionado por el mundo del **desarrollo** y todo lo relacionado con las **tecnologias de la informacion**, contando con mas de un año de experiencia en el desarrollo web full stacks.
 
 ##### LATAM / COLOMBIA 🚩
 
