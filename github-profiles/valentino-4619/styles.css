@@ -1,0 +1,43 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+html {
+  background-color: rgb(255, 225, 252);
+}
+body {
+  width: 50%;
+  margin: 0 auto;
+  color: #f43f5e;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+strong,
+a {
+  color: rgb(255, 94, 94);
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  font-size: 34px;
+}
+
+.img-container {
+  width: 13%;
+  display: inline-block;
+  text-align: center;
+  left: 80%;
+  position: relative;
+  margin: 30px;
+}
+.img-container img {
+  width: 100%;
+}
