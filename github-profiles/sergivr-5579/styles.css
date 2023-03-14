@@ -1,0 +1,24 @@
+body {
+    font-family: "Helvetica", "Arial";
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    background-color: antiquewhite;
+}
+
+h3 {
+   text-align: center;
+   font-family: "Cascadia Code";
+}
+
+strong {
+    color: tomato;
+}
+
+em {
+    color: rgb(85, 184, 85);
+}
+
+.main {
+    margin-top: 25%;
+}
