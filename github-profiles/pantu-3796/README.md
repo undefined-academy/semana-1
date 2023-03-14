@@ -42,4 +42,4 @@
 | -- | -- |
 | `rm = 'trash'` | Evita la eliminación permanente al eliminar un archivo |
 | `cl= 'clear'` | Limpiar terminal |
-| `gh = 'history | grep'` | Ecuentra un comando en tu historial de grep |
+| `gcam` | git commit -a -m |
