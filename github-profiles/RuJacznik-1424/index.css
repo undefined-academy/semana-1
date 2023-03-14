@@ -1,4 +1,4 @@
-body {
+    body {
     background-color: cornsilk;
 
     margin: 0 auto;
@@ -80,7 +80,19 @@ body {
         background:  #8c81df;
         color: white;
       }
-      
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse
+      }
+
+      th,td {
+        padding: 10px;
+      }
+
+      th{
+        text-align: left;
+      }
+        
 
   
   

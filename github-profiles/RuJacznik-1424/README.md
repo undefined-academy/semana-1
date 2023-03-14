@@ -28,3 +28,18 @@ asistencia de calidad*.
 
 ### Perfil de GitHub
 [RubenJ10](https://github.com/RubenJ10/RubenJ10)
+
+
+| Comandos | Descripcion                                     |
+| -------- | ----------------------------------------------- |
+|    ls    | Lista archivos de la carpeta actual o ruta dada |
+|    cd    | Navegar entre carpetas                          |
+|    pwd   | Ruta absoluta del directorio                    |
+|    mkdir | Crea una nueva carpeta                          |
+|    cp-r  | Copia una carpeta                               | 
+
+
+| Comandos | alias         |
+| -------- | --------------|
+| clear    | cl            |
+| gcam     | git commit -m |
