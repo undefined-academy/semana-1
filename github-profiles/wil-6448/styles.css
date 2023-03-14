@@ -1,0 +1,257 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+
+
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background: white;
+  color: #566b78;
+  color: #555;
+  line-height: 1.5;
+}
+
+header {
+  background: linear-gradient(to right, #DD2476, #FF512F);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 4rem 4rem;
+  text-align: center;
+  max-width: none;
+  
+}
+
+header img {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  
+}
+
+header a {
+  /* border: 1px solid #e81c4f; */
+  border: 2px solid #333;
+  border-radius: 290486px;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+header a:hover {
+  /* background:  #e81c4f; */
+  Background: #333;
+  color: white;
+}
+header p {
+  text-align: center;
+  padding-top: 1rem;
+  color: white;
+  margin-top: 2rem;
+}
+
+main {
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+h1, h2, strong {
+  color: #333;
+}
+
+/* code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+  border-left: 2px solid #69c;
+} */
+
+a {
+    color: #e41a4a;
+  }
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+li > img {
+  width: 20px;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: rgb(251, 248, 248);
+  padding: 2rem;
+  border-top: 1px solid rgb(179, 178, 178);
+}
+
+html a.button {
+  border: 1px solid #d8dee9;
+  border-radius: 290486px;
+  color: #b0bfc7;
+  padding: 1em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+html a.button strong {
+  color: #e41a4a;
+}
+
+.button:hover {
+  background: #e41a4a;
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.button em {
+  display: block;
+  font-size: 0.6em;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.button strong {
+  color: #e81c4f;
+  -webkit-transition: color 200ms ease-out;
+  transition: color 200ms ease-out;
+}
+
+.button:hover strong {
+  color: white !important;
+}
+
+.button.linkedin strong {
+  color: #0e76a8;
+}
+
+.button.linkedin:hover {
+  background: #0e76a8;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.button.instagram strong {
+  color: #d6249f;
+}
+
+.button.instagram:hover {
+  background: #d6249f; 
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+
+.button.facebook strong {
+  color: #3b5998;
+}
+
+.button.facebook:hover {
+  background: #3b5998;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.button.twitter strong {
+  color: #55acee;
+}
+
+.button.twitter:hover {
+  background: #55acee;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+footer .button {
+  font-size: 0.8em;
+  padding: 1em 2em;
+}
+
+.buttons .button {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.cover {
+  text-align: center;
+}
+
+.cover .resource {
+  display: block;
+}
+
+.emoji {
+  font-size: 1.125em;
+  vertical-align: middle;
+}
+
+/* Responsiveness */
+
+@media (min-width: 600px) {
+  .buttons {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 1em 0;
+  }
+
+  .buttons .button {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-bottom: 0;
+    margin-right: 1em
+  }
+
+  .buttons .button:last-child {
+    margin-right: 0;
+  }
+
+}
+

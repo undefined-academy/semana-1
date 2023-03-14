@@ -1,0 +1,42 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+
+table{border: 1px solid black; border-collapse: collapse;}
+td, th{border:1px solid black}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.2;
+    padding: 4em 1em;
+    background-color: antiquewhite;
+}
+
+h1, h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: sienna;
+  font-size: 2.5em;
+  font-weight: 300;
+    
+}
+strong {
+    color: #333;
+}
+
+a {
+    color: #e81c4f;
+    border: 1px solid #e81c4f;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+
+
+}

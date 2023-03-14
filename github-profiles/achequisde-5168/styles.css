@@ -1,0 +1,89 @@
+body {
+  margin: 0 auto;
+  max-width: 40em;
+
+  font-family: "Helvetica", "Arial", sans-serif;
+
+  line-height: 1.5;
+  padding: 1.5em;
+
+  color: #555;
+}
+
+h1 {
+  font-size: 1.75rem;
+  background: linear-gradient(0.25turn, #c19ab7, #9c95dc);
+  background-size: 100%;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+
+header {
+  text-align: center;
+  background-color: transparent;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+li {
+  padding: 0.25em;
+}
+
+tr:nth-child(even) {
+  background-color: #c19ab7;
+  color: #fff;
+}
+
+th:first-child {
+  width: 15%;
+}
+
+th,
+td {
+  padding: 0.25em;
+  border-bottom: 1px solid #333;
+}
+
+th:first-child,
+td:first-child {
+  border-right: 1px solid #333;
+}
+
+h1,
+h2,
+th,
+strong {
+  color: #9c95dc;
+}
+
+code {
+  font-size: 0.875rem;
+  display: inline-block;
+  padding: 0.2em;
+  border-bottom: 2px solid #228cdb;
+}
+
+ul {
+  margin: 0;
+  padding: 0 2ch;
+}
+
+img {
+  max-width: 10em;
+  vertical-align: middle;
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+a {
+  color: #c19ab7;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}

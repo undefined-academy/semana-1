@@ -1,0 +1,160 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    color: #555;
+    margin: 0;
+}
+
+main {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 1em 1em;
+}
+
+header {
+    background-color: #263d36;
+    background-image: url("https://user-images.githubusercontent.com/933393/164779706-9434093e-61cd-4e6e-86a9-5c23ec90b1b1.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 1vw 1em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 1em;
+}
+
+header p {
+    max-width: 40em;
+    color: white;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #3333339e;
+    border-radius: 8px;
+}
+
+header strong {
+    color: white;
+    font-weight: 600;
+}
+
+header a {
+    border: 1px solid #1babe9;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+header a:hover {
+    background:  #1babe9;
+    color: white;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+hr {
+    margin-top: 2em;
+}
+
+a {
+    color: #1babe9;
+}
+
+section {
+    width: 100%;
+}
+
+picture {
+    padding-top: 1rem;
+    background-color: #69c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.city {
+    width: 100%;
+}
+
+pre,
+code {
+    font-family: monospace;
+}
+
+code {
+    color: gray;
+    padding: 2px 4px;
+}
+
+pre {
+    padding: 1rem 1rem 0 1rem;
+    overflow-x: auto;
+    background-color: #0e0e0e;
+    color: #cecece;
+    border-radius: 8px;
+    border: 2px solid #69c;
+}
+
+table, th, tr, td {
+    border: 1px solid #0e0e0e;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 600;
+    background: gray;
+    color: white;
+}
+
+th, td {
+    padding: 4px 8px;
+}
+
+td:first-child {
+    width: 8em;
+}
+
+td:last-child {
+    width: 22em;
+}
+
+footer {
+    max-width: 50em;
+    margin-top: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer section {
+    margin-bottom: 1em;
+}
