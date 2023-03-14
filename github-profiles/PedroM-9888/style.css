@@ -1,0 +1,39 @@
+
+body{
+    background-color: rgb(251, 253, 242);
+    color :rgb(77, 76, 76);
+
+    margin: 0 auto;
+    max-width: 800px;
+
+    font-family: "Quicksand", "Helvetica", "Arial", sans-serif;
+    font-size: 22px;
+}
+
+h1,
+h3{
+    padding-top: 25px;
+    color: rgb(48, 48, 48);
+}
+
+
+strong{
+    color: rgb(194, 51, 51);
+}
+
+ul{
+    background-color: rgb(253, 253, 253);
+    max-width: 700px;
+    
+    border-left: 5px solid;
+    box-shadow: 9px 9px 7px -6px rgba(199,199,199,1);
+}
+
+li{
+    margin-bottom: 6px;
+    color: rgb(194, 51, 51);
+}
+
+a{
+    text-decoration-color: brown;
+}
