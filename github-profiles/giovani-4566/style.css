@@ -1,0 +1,138 @@
+/* Importamos la fuente Roboto de Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+/* Estilos generales para el body de la página */
+body {
+    max-width: 50em;/* Ancho máximo de la página */
+    margin: 0 auto;/* Centrar la página en el medio del viewport */
+    padding: 4em 1em;/* Espacio interno alrededor del contenido */
+    line-height: 1.5;/* Altura de línea */
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif; /* Fuente predeterminada para la página */
+    color: #555;/* Color de texto predeterminado */
+    background-color: #f5f5f5;/* Color de fondo predeterminado */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    padding: 2em;/* Espacio interno alrededor del contenido */
+    max-width: 800px;/* Ancho máximo del contenedor */
+    margin: 0 auto;/* Centrar el contenedor en el medio del viewport */
+}
+
+
+/* Estilos para los títulos principales */
+h1 {
+    font-weight: bold;/* Peso de fuente en negrita */
+    font-size: 2.5em;/* Tamaño de fuente */
+    margin-bottom: 0.5em; /* Espacio inferior después del elemento */
+}
+
+/* Estilos para los subtítulos principales */
+h2 {
+    font-weight: bold; /* Peso de fuente en negrita */
+    font-size: 1.8em;/* Tamaño de fuente */
+    margin-bottom: 0.5em;/* Espacio inferior después del elemento */
+    margin-top: 1em;/* Espacio superior antes del elemento */
+    padding-top: 1em;/* Espacio interno superior */
+}
+
+/* Estilos para los elementos en negrita */
+h1,
+h2,
+strong {
+    color: #333;/* Color de texto para elementos en negrita */
+}
+/* Estilos para los párrafos */
+p {
+    margin-bottom: 1.5em;/* Espacio inferior después del elemento */
+}
+
+/* Estilos para los elementos de código */
+code,
+pre {
+    background-color: #eee;/* Color de fondo */
+}
+
+/* Estilos para el elemento de código */
+code {
+    padding: 2px 4px;/* Espacio interno alrededor del contenido */
+    vertical-align: text-bottom;/* Alineación vertical */
+}
+/* Estilos para el bloque de código */
+pre {
+    padding: 1em;/* Espacio interno alrededor del contenido */
+    border-left: 2px solid #69c;/* Borde a la izquierda */
+    background-color: #f5f7f9;/* Color de fondo */
+    border-bottom: 1px solid #d8dee9;/* Borde inferior */
+    color: #a7adba;/* Color de texto */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #99747d;/* Color de texto para enlaces */
+    text-decoration: none;/* Sin decoración de texto */
+    border-bottom: 1px solid #e81c4f;/* Borde inferior */
+    transition: color 200ms ease-out;/* Transición de color */
+}
+
+/* Estilos para los enlaces al pasar el mouse */
+a:hover {
+    color: #2874ca;/* Color de texto al pasar*/
+    background-color: #ccb1b8;/*Color de fondo*/
+}
+
+
+
+/* Estilos para los encabezados*/
+header {
+    background-color: #263d36;
+    background-image: url("Charlie Christian.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+
+/* Estilos para los encabezados h1*/
+header h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: white;
+}
+
+/* Estilos para los enlaces de los encabezados */
+header a {
+    padding: 1em 2em;
+    border: 1px solid #e81c4f;
+    border-radius: 290486px;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    transition: background 200ms ease-out, color 200ms ease-out;
+}
+/* Estilos para los enlaces en la cabecera al pasar el mouse */
+header a:hover {
+    background-color: #e81c4f;
+    color: white;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+/* Estilos para el título de sección */
+.section-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    color: #555;
+}
