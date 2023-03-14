@@ -1,0 +1,18 @@
+body{
+    font: italic 1.2em "Fira Sans", serif;
+}
+
+section{
+    background-color: #EEE;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin: 10px auto;
+}
+
+nav >  ul > li{
+    display: inline-flex;
+    color:#888;
+    font-size: .7em;
+    margin: 0 10px;
+
+}
