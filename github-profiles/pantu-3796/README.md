@@ -18,8 +18,8 @@
 -   Me encanta el trading y las criptomonedas.
   
 ## Contacto.
- - ✉ **Gmail**: agusaudejaud@gmail.com
- - 🌐**Github**: https://github.com/agusaudejaud
+ -  🌐[GITHUB](https://github.com/agusaudejaud)
+ -  🌐**Email**: agusaudejaud@gmail.com.
 
 
 ==================================================
