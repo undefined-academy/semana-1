@@ -75,12 +75,15 @@ h2, strong {
 a {
     color: #8D48E8;
     text-decoration: none;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
 }
 
 a:hover{
     color: #5a15b5;
     transition: all 0.3s ease;
-    font-size: 1.05em;
+    transform: scale(1.06);
+    display: inline-block;
 }
 
 .commands{
