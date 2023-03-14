@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #888;
+  font-weight: 400;
+  background-color: rgb(237, 236, 249);
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: rgb(85, 85, 251);
+}
+
+.container {
+  max-width: 700px;
+  margin: 3rem auto;
+}
+
+.info-container {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.title,
+.greeting,
+.paragraph {
+  letter-spacing: 1px;
+}
+
+.title,
+.greeting {
+  font-weight: 600;
+}
+
+.title {
+  font-size: 1.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(61, 61, 228);
+}
+
+.greeting {
+  margin-bottom: 0;
+  text-align: right;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+.paragraph {
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
