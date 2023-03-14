@@ -20,7 +20,7 @@ Nuevamente, lo reitero, aprendiendo cada día mas (SUPERACIÓN). Y dejar siempre
 * Fundamentos en Python 🐍
 * Java ☕
 * Desarrollo de Software 💻🖥
-* Desarrollo de Software 💻🖥
+* Desarrollo de Aplicaciones WEB 💻📰
 
 ## 🌱 Cursando:
 
