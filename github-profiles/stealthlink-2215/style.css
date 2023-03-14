@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Open Sans", "Helvetica", "Arial", "Sans-serif";
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #566b78;
+}
+h2{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2,
+strong{
+    color: #333;
+}
+
+a{
+    color:#e81c4f;
+    display: block;
+    text-decoration: none;
+    margin: 1em;
+}
+
+header{
+    background-image: url("fondo.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+header img{
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+    border-radius: 50%;
+}
+
+header h1 {
+    color: snow;
+    font-size: 3.5em;
+    font-weight: 500;
+  }
