@@ -1,0 +1,59 @@
+body {
+   background-color: white;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* reglas de la practica #! y ejercicios con clase
+section {
+   background: mediumpurple;
+}
+
+
+div {
+   background: PaleGoldenRod;
+   padding: 16px 32px;
+   margin: 20px;
+   border: 8px solid Orchid;
+}
+
+p {
+   background: PapayaWhip;
+   color: LightGray;
+}
+
+body {
+   background:white;
+}
+
+.abuelo {
+border: 1px dotted black;
+}
+
+p + p {
+   color: tomato;
+}
+
+.hermano > span {
+   color: rebeccapurple;
+}
+
+div span {
+   font-weight: bold ;
+}
+div ~ div {
+   color: teal;
+}
+reglas de la practica #!   */
+
+main {
+   width: 600px;
+}
+div {
+   padding: 20px;
+   border: 1px solid tomato;
+}
+.column {
+   display: inline-block;
+   width: calc(33.33% - 40px - 2px);
+}

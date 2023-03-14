@@ -5,7 +5,7 @@
 #### Graduado de gastronomia, tengo alrededor de 4 años de experiencia en el rubro.
 #### Gastronomia Italiana como base.
 
-**En mis tiempos libres estoy estudiando programacion, practicando mucho para desarrollar las conocimientos necesarios.**
+**En mis tiempos libres estoy estudiando programacion, practicando mucho para desarrollar los conocimientos necesarios.**
 
 ## Registro de comandos aprendidos:
 
