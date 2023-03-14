@@ -1,20 +1,14 @@
 @import "https://fonts.googleapis.com/css?family=Roboto:300,400,500";
 
 header,
-main {
+body {
   /* los elementos tipo bloque ocupan todo el width,
     por eso debemos colocar el max width
     y con margin 0 auto = es 0 top y bottom, y a los costados auto */
   margin: 0 auto;
-  max-width: 50em;
-}
-body {
-  margin: 0;
   padding: 0;
-}
-main {
-  padding: 2em 1em;
-}
+  max-width: 50em;
+} 
 header {
   background-image: url("bg-jean-pierre.jpg");
   background-position: center top;
@@ -32,19 +26,23 @@ img {
   max-width: 100%;
 }
 h2 {
-  margin-top: 1em;
-  padding-top: 1em;
+  margin-top: 0.5em;
+  padding-top: 0.5em;
 }
 h1,
 h2,
 strong {
   color: #333;
 }
+article,
+section{
+  margin: 0 0.5em;
+}
 body {
   margin: 0 auto;
   max-width: 50em;
   line-height: 1.5;
-  color: #566b78;
+  color: #4e5a61;
   background: linear-gradient(rgb(148, 209, 230), lightgrey);
   font-size: 18px;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -83,4 +81,21 @@ code {
 }
 a {
   color: #3763db;
+}
+nav{
+  padding-top: 1em;
+}
+footer{
+  padding: 1em;
+  text-align: center;
+  line-height: 1;
+  background: #333;
+}
+.sub,
+footer p,
+nav{
+  text-align: center;
+}
+p{
+  text-align: justify;
 }
