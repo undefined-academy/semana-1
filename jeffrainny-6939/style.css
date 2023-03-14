@@ -1,0 +1,59 @@
+/*{
+    border: 1px solid black;
+}*/
+body{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #dac9df;
+}
+.contenedor{
+    background-color: white;
+    margin: 100px;
+    border-radius: 8px;
+    padding: 15px;
+
+}
+
+img{
+    width: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p{
+ text-align: justify;
+}
+
+strong:hover{
+    color: blueviolet;
+    font-size: 24px;
+}
+
+em:hover{
+    font-size: 24px;
+}
+
+.title-2{
+    border-bottom: 1px dotted lightgray;
+}
+
+footer{
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+}
+.pie-de-pag{
+    text-align: center;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: violet;
+}
+
+a:hover{
+    color: black;
+    font-size: 25px;
+}
