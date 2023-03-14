@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    background: white;
+}
+header {
+    background-color: #263d36;
+    background-image: url("header.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    max-width: none;
+    padding: 10vw 2em;
+    text-align: center;
+    color:azure;
+  }
+  main{
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 4em 1em;
+    color:#566b78;
+  }
+
+    h1, h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+  header h1{
+    color :azure;
+  }
+
+ h2, strong, thead {
+    color: #333;
+  }
+
+code{
+    background: #eee;
+}
+
+#kitten{
+    display: block;
+    margin: 1.5em auto;
+}
+
+a {
+    color: #e81c4f;
+  }
