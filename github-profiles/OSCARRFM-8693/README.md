@@ -20,3 +20,29 @@ Soy un **ingeniero de sistemas y diseñador gráfico** con experiencia en admini
 
 ## Link GitHub OSCARRFM#8693 
 <a href="https://github.com/OscarFajardo">Github Oscar Fajardo</a>
+
+
+## Comandos Linux
+
+Lista de cinco comandos de la terminal Linux.
+
+| Nombre comando | Descripción |
+| ------ | ------ |
+| pwd | Muestra la ruta absoluta del directorio actual |
+| mkdir | Crea directorios |
+| cp | Copia carpetas |
+| rm -r | Remover carpeta de manera recursiva |
+| mv | Nos permite mover un archivo o carpeta dada una ruta inicial y una ruta final. También es el comando que nos permite cambiar el nombre de un archivo o carpeta.|
+| whoami | Muestra el nombre del usuario actual |
+
+## Comandos alias
+
+Lista de comandos alias.
+
+| Nombre comando | Descripción |
+| ------ | ------ |
+| alias rm="trash" | Sirve para evitar eliminar permanente archivos |
+| alias cl="clear" | Sirve para limpiar la pantalla |
+
+## Link GitHub OSCARRFM#8693 
+<a href="https://github.com/OscarFajardo">Github Oscar Fajardo</a>
