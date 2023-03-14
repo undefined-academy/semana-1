@@ -1,8 +1,6 @@
-# Hello, I'm Bautista Lonardi
+# Hello 👋, I'm Bautista Lonardi
 
 I'm a _Full Stack Javascript developer_ in progress from **Argentina** looking for a new experience on a company that helped me to be a **better developer**.
-
-# Hi there, I'm Bautista! 👋
 
 ## 🚀 About Me
 
