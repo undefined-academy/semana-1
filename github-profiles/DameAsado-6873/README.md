@@ -16,7 +16,7 @@ https://github.com/Wannmi
 
 🧰 Reparo o restauro aparatos.
 
-📱 Me gustaria desarrollar mis ideas.
+📱 Me gustaría desarrollar mis ideas.
 
 🌱 Me gustan las plantas.
 
@@ -24,8 +24,8 @@ https://github.com/Wannmi
 
 ### Los comandos que me parecen interesantes son:
 
-|Comando |        Descripcion       |               Accion               |
-|--------|:------------------------:|-----------------------------------:|
+|Comando |        Descripción       |               Acción               |
+|:------:|:------------------------:|:----------------------------------:|
 |   pwd  | Print Current Directory  | Muestra la ruta abs del directorio |
 |   ls   | List Directory Contents  |  Lista los archivos de la carpeta  |
 |   cd   | Change current Directory |   Cambia al directorio deseado     |
@@ -34,15 +34,11 @@ https://github.com/Wannmi
 | alias  |           Alias          | Crea un alias replicando un comando|
 
 
-
 ### Algunos alias útiles:
 
-Busca las carpetas que contengan una palabra:
-
-`alias findd="ls ~/ | grep $1"`
-
-Limpia la pantalla de la terminal:
- 
-`alias cl="clear"`
+|               Alias             |                    Acción                  |
+|:-------------------------------:|:------------------------------------------:|
+| `alias findd="ls ~/ \| grep $1"`|Busca las carpetas que contengan una palabra|
+|      `alias cl="clear"`         |      Limpia la pantalla de la terminal     |
 
     

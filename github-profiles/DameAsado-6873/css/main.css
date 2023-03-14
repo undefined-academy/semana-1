@@ -38,7 +38,15 @@ strong {
     color: #333;
 }
 
-.code {
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 5px;
+}
+td:first-child{
+    font-weight: 600;
     background: #e0e0e0;
     border-bottom: 1px solid #d8dee9;
     color: #6d6e72;
@@ -46,17 +54,28 @@ strong {
     vertical-align: text-bottom;
 }
 
-table .code {
-    padding: 5px 5px;
+table{
+    width: 100%;
+    text-align: center;
+}
+th {
+    color:#e81c4f;
+    height: 40px;
+    background-color: #e0e0e0;
+  }
+
+.code {
+    display: inline;
+    font-weight: 600;
+    background: #e0e0e0;
+    border-bottom: 1px solid #d8dee9;
+    color: #6d6e72;
+    padding: 10px 5px;
+    vertical-align: text-bottom;
+    box-shadow: 10px 10px 20px -10px rgb(187, 187, 187);
 }
 
 a {
     color: #e81c4f;
     text-decoration: none;
-}
-
-table,
-th,
-td {
-    border: 1px solid black;
 }
