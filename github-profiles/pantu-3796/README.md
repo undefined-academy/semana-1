@@ -21,3 +21,25 @@
  - ✉ **Gmail**: agusaudejaud@gmail.com
  - 🌐**Github**: https://github.com/agusaudejaud
 
+
+==================================================
+
+## Comandos terminal.
+
+
+| Comandos | Descripcion |
+| -- | -- |
+| `pwd` | Imprimir el directorio de trabajo actual |
+| `ls` | Listar el contenido del directorio |
+| `cd` | Cambiar directorio actual |
+| `mkdir` | Hacer un nuevo directorio |
+| `mv` | Mover (o renombrar) un archivo o una carpeta |
+
+
+## Comandos alias.
+
+| Comandos | Descripcion |
+| -- | -- |
+| `rm = 'trash'` | Evita la eliminación permanente al eliminar un archivo |
+| `cl= 'clear'` | Limpiar terminal |
+| `gh = 'history | grep'` | Ecuentra un comando en tu historial de grep |
