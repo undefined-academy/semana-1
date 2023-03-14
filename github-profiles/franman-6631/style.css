@@ -1,0 +1,36 @@
+header {
+  background-color: #263d36;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  padding-top: 4em 1em;
+  color: #2a3136;
+  background: rgb(90, 146, 146);
+}
+
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 0.5em;
+}
+
+
+a {
+  color: #2f29de;
+}
