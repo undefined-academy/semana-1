@@ -1,0 +1,242 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 15px;
+  border: 5px dotted cornflowerblue;
+  border-radius: 15px;
+  font-family:sans-serif;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  color:indigo;
+}
+
+li {
+  line-height: 2em;
+}
+
+li:hover {
+  font-size: large;
+}
+
+span {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color:cornflowerblue;
+}
+
+table {
+  border: 1px solid cornflowerblue;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: lighter;
+  border-right: 1px solid cornflowerblue;
+}
+
+th:hover {
+  background-color: lavender;
+}
+
+.table-type {
+  font-weight:bold;
+  color: indigo;
+  text-align: center;
+  border-bottom: 1px solid cornflowerblue;
+  padding: 0 15px;
+}
+
+.table-type:hover {
+  background-color: white;
+}
+
+.info {
+  background-color: lavender;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 340px;
+  padding-right: 340px;
+}
+
+.title {
+  color: indigo;
+}
+
+.skill {
+  border: 1px solid #5D2E46;
+  border-radius: 10px;
+  margin: 1em 0 1em 0;
+  height: 1em;
+}
+
+.skill-level {
+  height: 1em;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+}
+
+#html {
+  animation-name: htmlSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes htmlSkillLevel {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 90%;
+  }
+}
+
+#css {
+  animation-name: cssSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cssSkillLevel {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 70%;
+  }
+}
+
+#python {
+  animation-name: pythonSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pythonSkillLevel {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 35%;
+  }
+}
+
+#javascript {
+  animation-name: jsSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes jsSkillLevel {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 65%;
+  }
+}
+
+#react {
+  animation-name: reactSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes reactSkillLevel {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 30%;
+  }
+}
+
+#vue {
+  animation-name: vueSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes vueSkillLevel {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
+}
+
+#typescript {
+  animation-name: typescriptSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes typescriptSkillLevel {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+#node {
+  animation-name: nodeSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes nodeSkillLevel {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
+}
+
+#mongo {
+  animation-name: mongoSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mongoSkillLevel {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
+}
+
+#express {
+  animation-name: expressSkillLevel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes expressSkillLevel {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 45%;
+  }
+}
