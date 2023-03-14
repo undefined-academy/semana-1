@@ -1,0 +1,74 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #566b78;
+}
+
+header {
+  background-color: rgb(149, 149, 201);
+  background-position: center top;
+  background-repeat: no-repeat;
+  line-height: 1.2;
+  padding: 3em 1em;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+header a {
+  background-color: rgb(182, 182, 228);
+  border: 1px solid orange;
+  border-radius: 290486px;
+  color:white;
+  font-size: 0.7em;
+  letter-spacing: 0.4em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+header a:hover {
+  background:orange;
+  color: white;
+}
+
+h2 {
+  margin-top: 1em;
+  padding: 0 1em;
+  background-color: rgb(242, 216, 168);
+}
+
+h1, h2, strong {
+  color: #333;
+}
+
+a {
+  color: orange;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  text-align: center;
+  background-color: rgb(232, 230, 227);
+}
+
+th, tr, td {
+  padding: 0.5em 1em;
+  border: 1px solid;
+
+}
