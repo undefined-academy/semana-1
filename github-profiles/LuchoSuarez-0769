@@ -1,0 +1,30 @@
+https://github.com/luasuarez/
+
+# Luis Alberto Suarez
+
+Soy Ingeniero de Sistema con alto grado de compromiso, responsabilidad y honestidad, gran sentido pertenencia y facilidad para trabajo en equipos.
+
+### Referencias laborales
+
+1. Indra
+2. Arus
+3. Dataware
+4. Somos Suministro
+
+### Estos son los 5 comandos
+
+| Comandos | Descripción                                         |
+| -------- | --------------------------------------------------- |
+| pwd      | Muestra la ruta actual                              |
+| mkadir   | Crea directorio                                     |
+| touch    | Crea archivo                                        |
+| ls       | Lista los archivos y carpetas del directorio actual |
+| cp       | Copia archivo                                       |
+
+### 🌟 Los alias mas usados
+
+**alias cl = clear** Limpia pantalla
+
+**alias gs = git status** Status actual del repositorio
+
+**alias gint = git init** Inicia el repositorio
