@@ -18,6 +18,7 @@ Soy un **ingeniero de sistemas y diseñador gráfico** con experiencia en admini
 - 🥈Inglés (intermedio)
 
 
+
 ## Link GitHub OSCARRFM#8693 
 <a href="https://github.com/OscarFajardo">Github Oscar Fajardo</a>
 
