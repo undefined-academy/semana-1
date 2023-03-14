@@ -15,26 +15,26 @@
 
 ## ✔️Useful Terminal Commands ($)
 
-|Command | Description |
-|--------|-------------|
-| `ls`    |Lists files and directories in the current directory|
-|`cd`    |Changes the current directory|
-|`mkdir` |Creates a new directory      |
+|Command | Description                                                                 |
+|--------|-----------------------------------------------------------------------------|
+| `ls`   |Lists files and directories in the current directory                         |
+|`cd`    |Changes the current directory                                                |
+|`mkdir` |Creates a new directory                                                      |
 |`touch` |Creates a new empty file or updates the modification date of an existing file|
 
 ## 🥳Fun Commands ($)
 
-|Command | Description|
-|--------|------------|
-|`cowsay`|Makes a cow say whatever you want|
-|`fortune` |Displays a random quote|
+|Command   | Description                     |
+|----------|---------------------------------|
+|`cowsay`  |Makes a cow say whatever you want|
+|`fortune` |Displays a random quote          |
 
 
 ***
 
 ## 👓 Aliases Commands
 
-|Command         | Description |
-|----------------|------------|
-|`alias cl= 'clear'`| Clears the terminal screen. |
-|`alias gs= 'git status'`    | Displays the current status of the repository |
+|Command                 | Description                                  |
+|------------------------|----------------------------------------------|
+|`alias cl= 'clear'`     | Clears the terminal screen                   |
+|`alias gs= 'git status'`| Displays the current status of the repository|

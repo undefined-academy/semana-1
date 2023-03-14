@@ -79,7 +79,8 @@ a {
 
 a:hover{
     color: #5a15b5;
-    font-size: 99%;
+    transition: all 0.3s ease;
+    font-size: 1.05em;
 }
 
 .commands{
