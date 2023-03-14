@@ -1,97 +1,80 @@
-    body {
+body {
     background-color: cornsilk;
-
     margin: 0 auto;
     max-width: 60em;
     font-family: "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
     padding: 4em 1em;
     color: #555;
-    }
-
-    h1, 
-    h2,
-    strong  {
-        color: #333;  
-    }    
-  
-  h2 {
+}
+h1, h2, strong {
+    color: #333;
+}
+h2 {
     margin-top: 1em;
     padding-top: 1em;
-    }
-
-    code,
-    pre {
-     background: #eee;
-    }
-
-    code {
+}
+code, pre {
+    background: #eee;
+}
+code {
     padding: 2px 4px;
-     vertical-align: text-bottom;
-    }
-
-    pre {
+    vertical-align: text-bottom;
+}
+pre {
     padding: 1em;
-    }
+}
+a {
+    color: #7d73cb;
+}
+header {
+    background-color: #263d36;
+    background-image: url("header.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+}
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+header a {
+    border: 1px solid #e81c4f;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+header a:hover {
+    background: #8c81df;
+    color: white;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse 
+}
+th,td {
+    padding: 10px;
+}
+th{
+    text-align: left;
+}
 
-    a {
-        color: #7d73cb;
-      }
-
-     
-    header {
-        background-color: #263d36;
-        background-image: url("header.jpg");
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        line-height: 1.2;
-        padding: 10vw 2em;
-        text-align: center;
-      }
-
-      header img {
-        display: inline-block;
-        height: 120px;
-        vertical-align: top;
-        width: 120px;
-      }
-
-      header h1 {
-        color: white;
-        font-size: 2.5em;
-        font-weight: 300;
-      }
-      
-      header a {
-        border: 1px solid #e81c4f;
-        border-radius: 290486px;
-        color: white;
-        font-size: 0.6em;
-        letter-spacing: 0.2em;
-        padding: 1em 2em;
-        text-transform: uppercase;
-        text-decoration: none;
-        transition: none 200ms ease-out;
-        transition-property: color, background;
-      }
-      
-      header a:hover {
-        background:  #8c81df;
-        color: white;
-      }
-      table, th, td {
-        border: 1px solid black;
-        border-collapse: collapse
-      }
-
-      th,td {
-        padding: 10px;
-      }
-
-      th{
-        text-align: left;
-      }
         
 
   
