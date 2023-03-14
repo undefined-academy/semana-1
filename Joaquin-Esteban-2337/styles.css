@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* CLASES */
+.container{
+    max-width: 110rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+.red{
+    color: rgb(163, 39, 43);
+}
+
+.blue{
+    color: rgb(39, 23, 160);
+}
+
+.green{
+    color: rgb(30, 145, 30);
+}
+
+/* HEADER */
+header{
+    width:100% ;
+    height:50rem ;
+    margin-bottom: 4rem;
+    position: relative;
+}
+/*TERMINAR CON LANDING PAGE Y CAMBIAR MI FOTO DE PERFIL EN TODAS LAS REDES*/
+
+.profile{
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+
+.profile > .profile-img{
+    width: 15rem;
+    height: 15rem;
+    background-image: url('https://drive.google.com/uc?id=1Gv7DhO_2mBMhRbNa6sB9fv8AYyowDoBl');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.profile > a{
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    background-color: rgb(42, 39, 39);
+    color: rgb(76, 72, 72);
+    font-size: 2rem;
+    text-decoration: none;
+}
+.profile > a:hover{
+    cursor: pointer;
+    color: rgb(213, 222, 230);
+
+    
+}
+
+
+.img{
+
+    width: 100%;
+    height: inherit;
+    background-image: url('https://drive.google.com/uc?id=1ElfFTTl54dAARzTgCa8LHy_GDuLdWW8c');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/*MAIN*/
+main{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container > h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.container > h2{
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+.container > a{
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    background-color: rgb(42, 39, 39);
+    color: rgb(76, 72, 72);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.container > a:hover{
+    cursor: pointer;
+    color: rgb(213, 222, 230)
+}
+.container > .semana-1{
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+.container > p{
+    font-size: 2rem;
+}
+
+table{
+    
+    background-color: rgb(206, 204, 206);
+    font-size: 2rem;
+    padding: 3rem;
+    margin: 2rem 0;
+}
+
+.container > table,tr ,td {
+    padding: 2rem;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.semanas{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.semanas > h2{
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+
+.semanas > h3{
+font-size:2rem ;
+}
+
+.semanas > h1 {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+/* TERMINAR LO ULTIMO DE LA LANDING PAGE Y CAMBIAR LA FOTO DE PERFIL  */
+
+.cajas{
+    float: left;
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+}
