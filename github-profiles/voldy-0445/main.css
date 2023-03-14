@@ -1,0 +1,32 @@
+body {
+    max-width: 700px;
+    padding: 50px 80px 50px 80px;
+    margin: 30px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 17px;
+}
+
+a {
+    color: #7CFC00;
+
+}
+
+h1 {
+    color: #FF1493;
+    
+}
+
+strong {
+    color: #00CED1;
+
+}
+
+h2, h3 {
+    color: #663399;
+}
+
+ol {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
