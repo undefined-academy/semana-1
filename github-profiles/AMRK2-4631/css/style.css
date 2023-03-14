@@ -70,3 +70,128 @@
     justify-content: center;
   }
 }
+
+:root {
+  background-color: rgba(112, 111, 111, 0.081) !important;
+  color: rgb(75, 74, 74) !important;
+}
+
+[data-theme="dark"] {
+  background-color: #212529 !important;
+  color: rgb(180, 176, 176) !important;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] #dmode-d {
+  display: none;
+}
+
+#dmode-d {
+  display: var(--display);
+}
+
+[data-theme="light"] #dmode-l {
+  display: none;
+}
+
+#dmode-l {
+  display: var(--display);
+}
+
+[data-theme="dark"] #titulo {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#titulo {
+  background: var(--background);
+  background: var(--background-linear-gradient);
+}
+
+[data-theme="light"] #titulo {
+  padding-top: 20px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+#titulo {
+  background: var(--background);
+  background: var(--background-linear-gradient);
+}
+
+/*  Dark Mode */
+:root {
+  background-color: rgba(112, 111, 111, 0.081) !important;
+  color: rgb(75, 74, 74) !important;
+}
+
+[data-theme="dark"] {
+  background-color: #212529 !important;
+  color: rgb(180, 176, 176) !important;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+[data-theme="dark"] #dmode-d {
+  display: none;
+}
+
+#dmode-d {
+  display: var(--display);
+}
+
+[data-theme="light"] #dmode-l {
+  display: none;
+}
+
+#dmode-l {
+  display: var(--display);
+}
+
+[data-theme="dark"] #titulo {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#titulo {
+  background: var(--background);
+  background: var(--background-linear-gradient);
+}
+
+[data-theme="light"] #titulo {
+  padding-top: 20px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+#titulo {
+  background: var(--background);
+  background: var(--background-linear-gradient);
+}

@@ -10,63 +10,6 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="https://undefined.academy/assets/images/apple-touch-icon.png?v=88a0b070"
         type="image/x-icon">
-    <!--<script src="js/color-theme.js"></script>-->
-    <style>
-        :root {
-            background-color: rgba(112, 111, 111, 0.081) !important;
-            color: rgb(75, 74, 74) !important;
-        }
-
-        [data-theme="dark"] {
-            background-color: #212529 !important;
-            color: rgb(180, 176, 176) !important;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-        }
-
-        [data-theme="dark"] #dmode-d {
-            display: none;
-        }
-
-        #dmode-d {
-            display: var(--display);
-        }
-
-        [data-theme="light"] #dmode-l {
-            display: none;
-        }
-
-        #dmode-l {
-            display: var(--display);
-        }
-
-        [data-theme="dark"] #titulo {
-            background: rgb(2, 0, 36);
-            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-        }
-
-        #titulo {
-            background: var(--background);
-            background: var(--background-linear-gradient);
-        }
-
-        [data-theme="light"] #titulo {
-            padding-top: 20px;
-            background: rgb(131, 58, 180);
-            background: linear-gradient(90deg,
-                    rgba(131, 58, 180, 1) 0%,
-                    rgba(253, 29, 29, 1) 50%,
-                    rgba(252, 176, 69, 1) 100%);
-        }
-
-        #titulo {
-            background: var(--background);
-            background: var(--background-linear-gradient);
-        }
-    </style>
 </head>
 
 <body>
@@ -150,7 +93,9 @@
                             <p>
                             <h2>👨🏾Biografía</h2>
                             Soy de
-                            <a href="https://goo.gl/maps/avC1f8jxiWWHxVTi6" alt="Enlace google maps - Santa Marta, Colombia">Santa Marta, Colombia 🌅,</a> actualmente
+                            <a href="https://goo.gl/maps/avC1f8jxiWWHxVTi6"
+                                alt="Enlace google maps - Santa Marta, Colombia">Santa Marta, Colombia 🌅,</a>
+                            actualmente
                             vivo en Bogotá, D.C.
                             Trabajo como desarrollador junior GeneXus™, llevo
                             año y medio en esta tecnología que brinda muchas
@@ -158,7 +103,8 @@
                             manera agíl e integrada. Actualmente estoy aprendiendo
                             JavaScript a través de un bootcamp gratuito dictado por
                             Guillermo Rodas llamado
-                            <a href="https://undefined.academy/" alt="Enlace a bootcamp 'undefined.academy'">Undefined Academy</a>.<br /><br />
+                            <a href="https://undefined.academy/" alt="Enlace a bootcamp 'undefined.academy'">Undefined
+                                Academy</a>.<br /><br />
                             Me interesa mucho el desarrollo web tanto frontend y backend,
                             mi meta es poder aprender lo necesario para ser Dev Web
                             FullStack.
@@ -257,38 +203,6 @@
             <span class="mb-3 mb-md-0 text-muted">© 2023 Andres Mercado</span>
         </div>
     </footer>
-    <script>
-        // Obtenemos el botón y el elemento html
-        const button = document.getElementById("theme-button");
-        const html = document.documentElement;
-
-        // Escuchamos el evento click del botón
-        button.addEventListener("click", function () {
-            // Obtenemos el valor actual de la variable data-theme
-            const theme = html.getAttribute("data-theme");
-
-            // Si es light, lo cambiamos a dark, y viceversa
-            if (theme === "light") {
-                html.setAttribute("data-theme", "dark");
-            } else {
-                html.setAttribute("data-theme", "light");
-            }
-        });
-
-        function tMode(themeMode) {
-            if (themeMode.matches){
-                html.setAttribute("data-theme", "dark")
-                console.log("Mode: Dark")
-            }else{
-                html.setAttribute("data-theme", "light")
-                console.log("Mode: Light")
-            }
-        }
-
-        let themeMode = window.matchMedia("(prefers-color-scheme: dark)")
-        tMode(themeMode)
-        themeMode.addListener(tMode)
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
@@ -296,6 +210,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script>
+    <script src="js/color-theme.js"></script>
+
 </body>
 
 </html>

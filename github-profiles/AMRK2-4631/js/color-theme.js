@@ -14,3 +14,17 @@ button.addEventListener("click", function () {
     html.setAttribute("data-theme", "light");
   }
 });
+
+function tMode(themeMode) {
+  if (themeMode.matches) {
+    html.setAttribute("data-theme", "dark");
+    console.log("Mode: Dark");
+  } else {
+    html.setAttribute("data-theme", "light");
+    console.log("Mode: Light");
+  }
+}
+
+let themeMode = window.matchMedia("(prefers-color-scheme: dark)");
+tMode(themeMode);
+themeMode.addListener(tMode);
