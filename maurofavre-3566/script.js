@@ -1,4 +1,6 @@
-typeof arr === "object" 
+
+// Los array tienen .length a diferencia de los Object
+// typeof arr === "object" && arr.length != null
 
 // -----------------------------------------------------------------
 
