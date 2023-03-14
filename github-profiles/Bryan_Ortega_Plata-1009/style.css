@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container{
+    max-width: 40%;
+}
+.lista-tecnologias {
+    max-width: 50%;
+}
+.lista-tecnologias ul{
+display: flex;
+justify-content: baseline;
+align-items: center;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+table {
+    border: #b2b2b2 1px solid;
+}
+td,
+th {
+    border: black 1px solid;
+}
+td:first-child {
+    text-align: center;
+}
