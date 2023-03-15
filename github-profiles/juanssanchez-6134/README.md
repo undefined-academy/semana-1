@@ -29,22 +29,22 @@ Soy un ingeniero de Bogotá, Colombia.
 
 Tabla de comandos de la terminal útiles:
 
-| Comando | ¿Qué hace? |
-| ------ | ------ |
-| ``` ls -a ``` | Mostrar los contenidos del directorio actual incluyendo los que estan ocultos |
-| ``` clear ``` | Limpiar la ventana de comandos |
-| ``` man ``` | Ver manual de un comando |
-| ``` rm -rf ``` | Borrar archivos y carpetas |
-| ``` vim ``` | Abrir el editor Vim |
-| ``` env ``` | Mostrar las variables de entorno |
+| Comando        | ¿Qué hace?                                                                    |
+| ------         | ------                                                                        |
+| ``` ls -a ```  | Mostrar los contenidos del directorio actual incluyendo los que estan ocultos |
+| ``` clear ```  | Limpiar la ventana de comandos                                                |
+| ``` man ```    | Ver manual de un comando                                                      |
+| ``` rm -rf ``` | Borrar archivos y carpetas                                                    |
+| ``` vim ```    | Abrir el editor Vim                                                           |
+| ``` env ```    | Mostrar las variables de entorno                                              |
 
 
 ## Alias que me parecen interesantes
 
-| Alias | ¿Qué hace? |
-| ------ | ------ |
-| ``` alias apt-get='sudo apt-get'  ``` | Evitar tener que poner sudo cada vez |
-| ``` alias cl=clear ``` | Limpiar la ventana de commandos más rápido |
+| Alias                                 | ¿Qué hace?                                 |
+| ------                                | ------                                     |
+| ``` alias apt-get='sudo apt-get'  ``` | Evitar tener que poner sudo cada vez       |
+| ``` alias cl=clear ```                | Limpiar la ventana de commandos más rápido |
 
 ## Link a mi repositorio
 
