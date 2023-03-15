@@ -1,0 +1,59 @@
+body {
+  margin: 0 auto;
+  max-width: 52em;
+  background-color: #6d6875;
+  color: #ffcdb2;
+  line-height: 1.5;
+  padding: 3em 1em;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  background-color: #e5989b;
+  padding: 3.7em;
+  border-radius: 5%;
+}
+header {
+  background-color: #b5838d;
+  border-radius: 1em;
+  padding: 1em;
+}
+h1,
+h3 {
+  color: beige;
+}
+section {
+  margin-top: 1.5em;
+  border: 3px solid beige;
+  border-radius: 1em;
+  padding: 1em;
+}
+em{
+    padding-left: 1em;
+    color: #6d6875;
+}
+.items_tabla {
+  padding: 0.1em;  
+  border-radius: 7px;
+
+}
+#ls{
+    background-color: aquamarine;
+      color: #6d6875;
+}
+#cd{
+    background-color: hotpink;
+    color: beige;
+}
+#del{
+    background-color: darkseagreen;
+    color: beige;
+}
+#md{
+    background-color: burlywood;
+    color: #6d6875;
+}
+#cl, #gs{
+    background-color: #96919D;
+    color: beige;
+}
+
