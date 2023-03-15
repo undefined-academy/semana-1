@@ -3,7 +3,7 @@
 Systems engineering student and frontend developer who has experience in technologies such as linux, command terminal, html, css, javascript, react and figma.
 
 
-Github: **https://github.com/SantiagoZ13**
+[**⚡ My Github Profile ⚡**](https://github.com/SantiagoZ13) 
 
 
 ## And I'm passionate about technology
@@ -28,4 +28,4 @@ I enjoy learning ⚡ and hope to get the most out of this Bootcamp.
 | grep    | keyword search                     |
 
 
-Github: **https://github.com/SantiagoZ13**
+[**⚡ My Github Profile ⚡**](https://github.com/SantiagoZ13) 
