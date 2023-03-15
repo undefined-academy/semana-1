@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    background-color: #2C3333;
+    color: #CBE4DE;
+  }
+
+.span-name {
+    color: #0E8388;
+}
+
+.section-h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #0E8388;
+}
+
+.section-h3 {
+    color: #0E8388;
+}
+
+.image-link {
+    float: right;
+    cursor: pointer;
+}
+
+.image-link img{
+    opacity:0.5;
+    transition: 1s ease;
+}
+    
+.image-link img:hover{
+    opacity:1;
+    transition: 1s ease;
+}
