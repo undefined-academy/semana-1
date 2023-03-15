@@ -1,0 +1,122 @@
+body {
+  color: #555;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+  margin: 0;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+a {
+  color: #42b580;
+}
+
+ol {
+  font-size: 1.3rem;
+}
+
+table {
+  background-color: lightgray;
+  width: 300px;
+  text-align: center;
+  margin: 0;
+}
+
+table tr {
+  text-align: left;
+}
+
+table thead {
+  background-color: #42b580;
+  color: lightgray;
+  height: 4rem;
+}
+table thead th {
+  text-align: center;
+}
+table tbody td {
+  padding: 1rem 2rem;
+}
+
+header {
+  height: 70vh;
+  background-color: #263d36;
+  background-image: url(https://images.unsplash.com/photo-1678776682765-25854662bbdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #f2f2f2;
+  text-align: center;
+  line-height: 1.5;
+}
+
+header .opacity {
+  background-color: #00000060;
+  height: auto;
+  width: 100%;
+  padding-top: 15vh;
+}
+
+header h1 {
+  color: #f2f2f2;
+  text-align: center;
+}
+header .paragraf {
+  font-size: large;
+  font-weight: 800;
+}
+
+header strong {
+  color: aliceblue;
+  font-size: 1.4rem;
+  border-bottom: 1px dashed #f2f2f2;
+}
+
+main {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+header .redes-sociales {
+  margin: 4rem 0;
+}
+header .redes-sociales a {
+  border: 1px solid #42b580;
+  border-radius: 30px;
+  padding: 0.8rem 3rem;
+  margin: 12px;
+  color: #eee;
+  transition: none 0.4s ease-in-out;
+  transition-property: color, background;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header .redes-sociales a:hover {
+  background-color: #42b580;
+}
