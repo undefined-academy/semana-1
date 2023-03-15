@@ -1,0 +1,88 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Globals*/
+body{
+    color: #fff;
+    font-family: 'Oxygen Mono', monospace;
+    line-height: 1.5;
+}
+
+a{
+    color: #FF17E4;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+    color: #171321;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+.divider{
+    background: linear-gradient(
+        90deg,
+        rgba(255, 23, 228, 1) 0%,
+        rgba(134, 251, 251, 1) 100%
+      );
+
+      height: 3px;
+}
+
+/* Header styles */
+.header{
+    background-color: #171321;
+    padding: 5rem 0;
+}
+
+.main-heading{
+    font-size: 1rem;
+    margin-bottom: 1.5em;
+}
+
+.main-heading span{
+    color: #86FBFB;
+    font-size: 3.2rem;
+    display: block;
+}
+
+.secondary-heading{
+    font-size: 2.4rem;
+    margin-bottom: 0.5em;
+}
+
+.secondary-heading span{
+    color: #FF17E4;
+}
+
+/* About Me section styles */
+.about{
+    background-color: #0D314B;
+    padding: 5rem 0;
+}
+
+.about__list{
+    list-style: none;
+}
+
+.about__item:not(:last-child){
+    margin-bottom: 2em;
+}
+
+/* Contact me section styles */
+.contact{
+    background-color: #4B0D49;
+    padding: 5rem 0;
+}
+
+.contact__text:first-of-type{
+    margin-bottom: 2em;
+}
