@@ -22,10 +22,10 @@ a{
     color: rgb(0, 129, 129);
 }
 
-hr{
+.separator{
     border: 0.125px solid #69c;
 }
 
-h3:last-of-type, h4:last-of-type{
+.ending-text{
     margin: 3em 0em;
 }
