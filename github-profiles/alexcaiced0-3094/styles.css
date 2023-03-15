@@ -7,14 +7,18 @@
     --text-color: hsl(var(--hue-color), 8%, 75%);
 }
 
-
 body {
     background-color: var(--body-color);
+    padding: 0;
     margin: 0 auto;
-    max-width: 50em;
+    max-width: 60em;
     font-family: Poppins;
-    line-height: 1.5;
-    padding: 4em 1em;
+    color: hsl(var(--hue-color), 69%, 99%);
+}
+
+h1,
+h2,
+h3 {
     color: hsl(var(--hue-color), 69%, 99%);
 }
 
@@ -22,14 +26,8 @@ h1 {
     font-size: 40px;
 }
 
-h2 {
-    margin-top: 1em;
-    padding-top: 1em;
-}
-
-h1,
-h2 {
-    color: hsl(var(--hue-color), 69%, 99%);
+h3 {
+    color: var(--text-color);
 }
 
 strong {
@@ -43,8 +41,9 @@ img {
     height: 40%;
     margin-left: auto;
     margin-right: auto;
-    border: 7px solid whitesmoke;
+    border: 5px solid lightgreen;
     border-radius: 50%;
+    /* box-shadow: 10px 10px rgb(104, 104, 100); */
 }
 
 .social-icon {
