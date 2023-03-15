@@ -4,88 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <title>Aprendizajes</title>
+    <link href="style-fondoopacidad.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>
 
 <body>
-    <h1>Cosas que he aprendido hasta ahora </h1>
-    <ul>
-        <li>[x] Markdown</li>
-        <li>[x] HTML</li>
-        <li>[x] CSS</li>
-        <li>[x] Terminal</li>
-        <li>[x] Git</li>
-        <li>[x] Javascript (estoy dominandolo)</li>
-        <li>[ ] TypeScript</li>
-        <li>[ ] JSON</li>
-        <li>[ ] Base de datos</li>
-        <li>[ ] PHP</li>
-    </ul>
+    <header>Veysia<span class="punto">.</span>
+        <span class="titulito">Diseñadora gráfica, programadora y maestra.</span>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutme.html">About me</a></li>
+            <li><a href="Estudios.html">Estudios</a></li>
+            <li><a href="Aprendizajes.html">Aprendizajes</a></li>
+            <li><a href="Cheatsheets.html">Cheatsheets</a></li>
+        </ul>
+    </nav>
+        <h1>Cosas que he aprendido hasta ahora <span class="punto">.</span></h1>
+    <div class="aprendizajes">
+            <ul>
+                <li class="OK">Markdown</li>
+                <li class="OK">HTML</li>
+                <li class="OK">CSS</li>
+                <li class="OK">Terminal</li>
+                <li class="OK">Git</li>
+                <li class="OK">Javascript</li>
+                <li class="NO">TypeScript</li>
+                <li class="NO">JSON</li>
+                <li class="NO">Base de datos</li>
+                <li class="NO">PHP</li>
+            </ul>
+        <div>
+            <table cellspading="10px" border="1px" class="cmdterminal">
+                <tr>
+                    <thead>
+                        <th>Comandos de terminal</th>
+                        <th>Descripción</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="nombre">rm</td>
+                            <td>Nos permite eliminar un archivo</td>
+                        </tr>
+                        <tr>
+                            <td class="nombre">mkdir</td>
+                            <td>Crea una nueva carpeta</td>
+                        </tr>
+                        <tr>
+                            <td class="nombre">uptime</td>
+                            <td>Muestra el tiempo que ha pasado desde que se inició el equipo</td>
+                        </tr>
+                        <tr>
+                            <td class="nombre">date</td>
+                            <td>Muestra la fecha del sistema</td>
+                        </tr>
+                        <tr>
+                            <td class="nombre">mv</td>
+                            <td>Nos permite mover un archivo o cambiar el nombre del mismo</td>
+                        </tr>
+                    </tbody>
+                </tr>
+            </table>
+        </div>
+        <div>
 
-    <table cellspading="10px" border="1px">
-        <tr>
-            <thead>
-                <th>Comandos de terminal</th>
-                <th>Descripción</th>
-            </thead>
-            <tbody>
+            <table cellspading="10px" border="1px" class="cmdalias">
                 <tr>
-                    <td>rm</td>
-                    <td>Nos permite eliminar un archivo</td>
+                    <thead>
+                        <th>Comandos alias terminal</th>
+                        <th>Descripción</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="nombre">alias rm= "trash"</td>
+                            <td>Para que al borrar algun archivo lo pase a la papelera por si quieres recuperarlo</td>
+                        </tr>
+                        <tr>
+                            <td class="nombre">alias cl="clear</td>
+                            <td>Para limpiar la consola de comandos</td>
+                        </tr>
+                    </tbody>
                 </tr>
-                <tr>
-                    <td>mkdir</td>
-                    <td>Crea una nueva carpeta</td>
-                </tr>
-                <tr>
-                    <td>uptime</td>
-                    <td>Muestra el tiempo que ha pasado desde que se inició el equipo</td>
-                </tr>
-                <tr>
-                    <td>date</td>
-                    <td>Muestra la fecha del sistema</td>
-                </tr>
-                <tr>
-                    <td>mv</td>
-                    <td>Nos permite mover un archivo o cambiar el nombre del mismo</td>
-                </tr>
-            </tbody>
-        </tr>
-    </table>
-
-    </br>
-
-    <table cellspading="10px" border="1px">
-        <tr>
-            <thead>
-                <th>Comandos alias terminal</th>
-                <th>Descripción</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>alias rm= "trash"</td>
-                    <td>Para que al borrar algun archivo lo pase a la papelera por si quieres recuperarlo</td>
-                </tr>
-                <tr>
-                    <td>alias cl="clear</td>
-                    <td>Para limpiar la consola de comandos</td>
-                </tr>
-            </tbody>
-        </tr>
-    </table>
-
-    </br>
-
-    <a href="index.html">Atrás</a>
+            </table>
+        </div>
+    </div>
 
 </body>
 <footer>
     <nav>
         <ul>
-            <li><a href="https://github.com/Veysia"><img src="images/github-svg.webp" width="30px"></a></li>
-            <li><a href="https://discordapp.com/users/νєуѕια ⸸#8225"><img src="images/discord-svg.svg" width="30px"></a>
+            <li><a href="https://github.com/Veysia"><img src="images/github_neon.png" width="30px"></a>
             </li>
-            <li><a href="https://ko-fi.com/veysia"><img src="images/ko-fi-svg.png" width="30px"></a></li>
+            <li><a href="https://discordapp.com/users/νєуѕια ⸸#8225"><img src="images/discord_neon.png"
+                        width="30px"></a>
+            </li>
+            <li><a href="https://ko-fi.com/veysia"><img src="images/kofi_neon.png" width="30px"></a></li>
         </ul>
+        <span>@Veysia 2023.</span>
     </nav>
 </footer>
 
