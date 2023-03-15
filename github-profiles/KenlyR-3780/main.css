@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 800px;
+    font-family:Arial, Helvetica, sans-serif
+}
+h1, h2 {
+    letter-spacing: 2px;
+}
+ul {
+    list-style-type: square;
+}
+h1 {
+    margin-top: 40px;
+}
+a {
+    color: darkblue;
+}
+
+a:hover {
+    color: grey;
+}
