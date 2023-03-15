@@ -1,0 +1,68 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+header img { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    max-width: 800px;
+    margin-top: 20px; 
+    }
+  
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #333;
+    background-color: rgb(223, 229, 229);
+    }
+
+h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+    }
+
+.alias li {
+    font-family: monospace;
+    font-size: 15px;
+    border: solid rgb(182, 239, 225);
+    border-radius: 10px;
+    background-color: rgb(122, 201, 207);
+    padding: 10px;
+    list-style-type: none;
+    }
+ 
+code,
+pre {
+  background: #eee;
+    }
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+    }
+
+pre {
+  padding: 1em;
+    }
+
+a {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #3e1ce8;
+    border-radius: 10px;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background: #3e1ce8;
+    color: white;
+  }
+
+
