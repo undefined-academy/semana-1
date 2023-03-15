@@ -1,0 +1,60 @@
+body {
+    padding: 0 0 50px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.presentacion {
+    /* width: 600px; */
+    display: inline-block;
+    text-align: justify;
+    padding: 20px 100px 30px 100px;
+}
+
+.presentacion > p {
+    padding: 5px;
+}
+.presentacion h1 {
+    text-align: center;
+}
+
+.contacto {
+    padding: 10px 100px;
+    margin: 0px 0 -15px 0;
+}
+.contacto h2 {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.contacto ul {
+    display: inline-block;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+
+}
+.contacto a {
+    text-decoration: none;
+}
+
+
+.tablas {
+    padding: 10px 30% 20px 33%;
+    margin: -23px;
+    align-content: end ;
+    align-items: center;
+}
+.tablas h2 {
+    text-align: center;
+    padding: 20px 0 30px;
+}
+.comandos td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.alias td {
+    padding-left: 5px ;
+}
