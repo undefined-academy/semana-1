@@ -1,5 +1,3 @@
-https://github.com/KevinCastellanos1
-
 # Hi 👋, I'm Kevin
 I am a passionate industrial engineer in technology, always seeking new opportunities for growth and development in software analysis and development, as well as data science.
 
@@ -22,21 +20,23 @@ I am a passionate industrial engineer in technology, always seeking new opportun
      
 <div align="center">
 
-## Comandos mas usados
+## Most Used Commands
 
 | comando | Descripcion |
 |---------| ------------|
-| cd      | Cambiar entre directorios |
-| sudo    | Superusuario do           |
-| ls      | Lista el contenido de un Directorio |
-| apt-get | utilizado para instalar, actualizar y eliminar software en el sistema |
-| clear | Limpiar la terminal |
+| cd      | Change between directories       |
+| sudo    | Superuser do                     |
+| ls      | List the contents of a directory |
+| apt-get | Used to install, update, and remove software from the system |
+| clear   | Clear the terminal |
 
 ## Alias
-```
-alias agu='sudo apt-get update'
-alias agug='sudo apt-get upgrade' 
-```
+
+| Command                           | Description |
+| --------------------------------- |------------ |
+| alias agu='sudo apt-get update'   | will update the list of available packages |
+| alias agug='sudo apt-get upgrade' | will upgrade the installed packages to their latest versions. |
+
 
 ### Projects    
 | Proyecto | Link proyecto | Descripcion |
