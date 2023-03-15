@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Shadows+Into+Light&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    color: #566b78;
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+code,
+pre {
+    background: #f5f7f9;
+    border-bottom: 1px solid #d8dee9;
+    color: #3D0000;
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    padding: 1em;
+    border-left: 2px solid #69c;
+}
+
+a {
+    color: #e81c4f;
+}
+
+
+header {
+    background-color: white;
+    background-image: url("pc.jpg");
+    background-position: 0%;
+    background-repeat: 0%;
+    background-size: auto;
+    line-height: 1.2;
+    padding: 1vw 2em;
+    text-align: center;
+}
+
+header>h2,
+h1,
+strong {
+    color: white;
+    margin: 0px 0px 0px 0px;
+    text-rendering: geometricPrecision;
+}
+
+header img {
+    display: inline-block;
+    height: 160px;
+    vertical-align: center;
+    width: 120px;
+}
+
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+header a {
+    border: 1px solid #e81c4f;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+header a:hover {
+    background: #e81c4f;
+    color: white;
+}
+
+#ne {
+    color: #333;
+}
+
+table,
+th,
+td {
+    border: 2px solid;
+    border-collapse: collapse;
+}
