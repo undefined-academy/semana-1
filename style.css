@@ -1,0 +1,60 @@
+header {
+    background-color: #26283d;
+    background-image: url("teclado-celeste.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    line-height: 3.2;
+    padding: 10vw 2em;
+    text-align: center;
+  }
+
+  header h1 {
+    color: rgb(3, 2, 8);
+    font-size: 2.5em;
+    font-weight: 300;
+  }
+  
+
+
+body{
+    margin: 0 auto;
+    max-width: 50em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+    padding: 4em 1em;
+    color: #566b78;
+    background-color: rgb(222, 236, 253);
+}
+
+h2{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1{
+    background-color: #d3e7fb;
+    opacity: 0.6;
+}
+
+h1,
+h2,
+strong{
+    color: #0f1b46;
+}
+
+a{
+    color: #0436ac;
+}
+
+ul,
+li{
+    background: #d3e7fb;
+    padding: 0.5em;
+    
+}
+.warning {
+background-color: #5676c0;
+color: white;
+padding: 2px;;
+}
