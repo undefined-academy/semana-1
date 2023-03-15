@@ -4,8 +4,26 @@ Desarrollador **full-stack** con mas de un año de experiencia en el desarrollo 
 He participado en todas las fases de desarrollo de un proyecto, desde la concepcion inicial hasta el despliegue y la puesta en marcha.
 Me considero una persona apasionada por mi trabajo, y siempre estoy dispuesto a afrontar nuevos retos
 
-## GitHub
-https://github.com/NicolasSebastianEstigarribia
+## DATOS DE INTERES
 
-## Linkedin
-https://www.linkedin.com/in/nicolas-estigarribia/
+#### GitHub
+- https://github.com/NicolasSebastianEstigarribia
+
+#### Linkedin
+- https://www.linkedin.com/in/nicolas-estigarribia/
+
+
+Aquí hay algunos de los alias más comunes en Linux:  
+
+| Alias   | Utilidad |
+| ------  | ---------|
+| ll:     | alias de "ls -l", muestra el contenido de un directorio en formato largo.
+| la:     | alias de "ls -la", muestra todos los archivos y directorios, incluyendo los ocultos.
+| grep:   | alias de "grep --color=auto", resalta la salida de la búsqueda.
+| sudo:   | alias de "sudo ", permite al usuario ejecutar comandos con permisos de superusuario.
+| update: | alias de "sudo apt-get update", actualiza la lista de paquetes disponibles en el sistema.
+| upgrade:| alias de "sudo apt-get upgrade", actualiza los paquetes instalados en el sistema.
+| install:| alias de "sudo apt-get install", instala un nuevo paquete en el sistema.
+| remove: | alias de "sudo apt-get remove", desinstala un paquete del sistema.
+| cls:    | alias de "clear", limpia la pantalla de la terminal.
+| alias:  | muestra todos los alias definidos por el usuario.
