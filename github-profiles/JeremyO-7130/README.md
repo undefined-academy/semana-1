@@ -10,4 +10,22 @@ Anyway, I'm currently learning **React** ⚛️, I find it a delight to use, so 
 
 ---
 
+## 🐚️️ Table with five Terminal commands
+
+| Command | Description |
+| :---: | :---: |
+| *ls* | List directory contents |
+| *pwd* | Print working directory |
+| *cd* | Change current directory |
+| *cat* | concatenate and print files |
+| *man* |  General commands manual |
+
+## 🤓 Two util command alias
+| Alias | Description |
+| :---: | :---: |
+| *avenv* = **source venv/bin/activate** | Activate python virtual environment |
+| *ll* = **exa -al --icons --color-scale** | Lists all files and directories properly formatted with exa |
+
+---
+
 [My GitHub Profile](https://github.com/Jejorm).
