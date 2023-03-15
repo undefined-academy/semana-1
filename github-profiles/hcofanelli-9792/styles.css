@@ -1,0 +1,37 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: antiquewhite;
+    line-height: 1.5;
+    padding: 4em 1em;
+  }
+  h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+  a {
+    color: #e81c4f;
+  }
+  table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: #000;
+ }
+ th {
+    background: #eee;
+    text-align: center;
+ }
