@@ -1,6 +1,3 @@
-## Link de perfil 
-[Perfil en GitHub](https://github.com/DarKingSoul)
-
 # Hola, Soy Marvin Salcedo,
 
 ## *Ingeniero en Sistemas de Software*
@@ -41,10 +38,19 @@ Soy un estudiante de la **Universidad Central del Ecuador** que le gusta mucho l
 ## Comandos Alias
 ```sh
 alias cl=clear
+
+Descripción: permite limpiar la terminal de manera mucho más rápida.
 ```
 ```sh
 alias mostused='history | awk '\''{print $2}'\'' | sort | uniq -c | sort -nr | head -n 10'
+
+Descripción: permite buscar y ordenar los comandos más usados.
 ```
 ```sh
-alias gita=git add .
+alias gita=git add
+
+Descripción: permite agregar todos los archivos modificados a git del directorio actual.
 ```
+
+## Encontrarás más sobre mi en: 
+* [Perfil en GitHub](https://github.com/DarKingSoul)
