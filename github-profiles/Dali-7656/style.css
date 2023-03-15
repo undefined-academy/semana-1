@@ -1,0 +1,42 @@
+body {
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+
+header {
+    background-image: url("sky.avif");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 9vw;
+    text-align: center;
+    font-family: "Helvetica", sans-serif;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+header h2 {
+    color:rgb(214, 214, 214)
+}
+
+main {
+    background-color: rgba(233, 248, 255, 0.608);
+    margin: 0 auto;
+    max-width: 55em;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.5;
+    padding: 2em;
+    color: #333;
+}
+
+h3, 
+h4,
+strong {
+    color:rgb(12, 127, 156)
+}
+
