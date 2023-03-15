@@ -23,3 +23,34 @@ h2 {
     line-height: 1.5;
     margin-top: 50px;
 }
+
+/* Cambios adicionales de correccion de validator w3 */
+
+main {
+    text-align: center;
+    margin: 0 auto;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    /* width: 100%; */
+    margin-top: 30px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+footer {
+    text-align: center;
+}
