@@ -50,9 +50,8 @@ header {
     line-height: 1.9;
     padding: 10vw 2em;
     color: aliceblue;
-}
 
-header {
+
     display: inline-block;
     height: 120px;
     vertical-align: top;
