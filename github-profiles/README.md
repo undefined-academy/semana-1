@@ -12,17 +12,17 @@ ________________________________________________________________________________
 
 - 🌱 I’m currently learning JavaScript, CSS, Html and Java.
 
-### Estos Son los 5 comandos que más uso VSC
+### These are the most common command that i use in VSC
 
 | Comando | Descripción                |
 |---------|----------------------------|
-| cd      | Cambia Directorio          |
-| pwd     | Imprime la posicion actual |
-| ls      | Lista el contenido         |
-| git     | Crea un Repositorio        |
-| npx     | Despliega un local host    |
+| cd      | Change Directory          |
+| pwd     | Print actual position |
+| ls      | Content List         |
+| git     | Make a Repository        |
+| npx     | Show a local host    |
 
-### Este es el alias que he usado hasta el momento
+### The following command is the only alias I have used up to this momment
 ```
 alias mostused='history | awk '\''{print $2}'\''| sort | uniq -c | sort -nr | head -n 10'
 ```       
