@@ -1,0 +1,47 @@
+body {
+    /* To center the information on the page. */
+    margin: 0 auto;
+
+    background-color: azure;
+    
+    max-width: 50%;
+    
+    font-family: Verdana;
+    
+    font-size: 16px;
+    /* Setting the line height to 1.5 times the font size. */
+    line-height: 1.5;
+
+    color: darkslategrey;
+}
+h1 
+{
+    background: url(/github-profiles/Cristian07-6709/images/fondo_codigo.jpeg);
+    color:aqua;
+    font-size: 36px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 3em;
+}
+strong
+{
+    color:cornflowerblue;
+}
+
+h2
+{
+    padding-left: 5cm;
+}
+
+h3
+{
+    color:darkslateblue;
+    font-size: 20px;
+}
+ol{
+    line-height: 2;
+}
+a 
+{
+    color:blueviolet;  
+}
