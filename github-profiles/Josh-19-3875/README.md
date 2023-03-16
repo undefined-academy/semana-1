@@ -13,6 +13,7 @@ Hello World, welcome to my GitHub space!
 * Rightnow I'm studying my major (system engineering) at Mariano Gálvez 🎒
 
 [Visit my website 🗿  - ](https://josharfdev.github.io/portfolio-react/) 
+[Visit my Github Profile 🗿  - ](https://github.com/joshArfDev) 
 [ Visit my twitter 👌 - ](https://twitter.com/JoshArfa) 
 [ Visit my linkedin 🧑‍💼 ](www.linkedin.com/in/joshuaarfa)
 
