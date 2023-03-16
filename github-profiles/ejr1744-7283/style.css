@@ -49,6 +49,7 @@ border: 1px solid white;
 
 .cont-titulo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
     align-items: center;
