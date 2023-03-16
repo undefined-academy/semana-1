@@ -40,6 +40,7 @@ Antes de este Bootcamp, estudié por mi cuenta y en plataformas como [Platzi](ht
 
 - Mi [Github](https://github.com/DivPanda). Próximamente estaré haciendo proyectos para aplicar lo aprendido 🙌🏻.
 - Mi usuario en Discord @TeamPanda#5141 👾.
+- [Enlace](https://divpanda.github.io/semana-1/github-profiles/TeamPanda-5141/index.html) a mi página desplegada con [Github Pages](https://docs.github.com/es/enterprise-cloud@latest/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites "Github Docs: About Github Pages")
 
 ---------------------------------------------------------------------------------------------------
 
