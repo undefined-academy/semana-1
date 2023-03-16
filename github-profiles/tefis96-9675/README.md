@@ -1,7 +1,7 @@
 # Hola soy Stephany Castro, (Tefis 😁)
 
 #### Estoy iniciando en desarrollo, me estoy preparando para ser **FullStack** 
-> He participado en fundamentos de programación en MINTIC, donde desarrollamos pequeños proyectos usando diferentes tecnologias y metodologías agiles.
+> He participado en fundamentos de programación en *MINTIC* , donde desarrollamos pequeños proyectos usando diferentes tecnologias y metodologías agiles.
 
 
 
