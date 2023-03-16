@@ -1,0 +1,40 @@
+body{
+background-color: #c5e6ec;
+padding: 0px 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.icono-terminal{
+    font-size: 20px;
+}
+
+table  tr{
+    font-size: 18px;
+}
+
+code{
+    background-color: #747474;
+}
+
+a{
+    font-size: 18px;
+}
