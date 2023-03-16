@@ -1,7 +1,24 @@
 body {
     margin: 0 auto;
     width: 90%;
+    background-color: #D7C8B6;
     }
+    
+ul, h1, h2, .arreglo{
+    margin: 0;
+    }
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 30px;
+}
+nav ul li{
+    background-color: #F6E3CA;
+  border: #D7C8B6 2px solid;
+  display: inline;
+  margin-right: 10px;
+}
+
 header{
     display: block;
     margin-left: auto;
@@ -9,7 +26,7 @@ header{
     width: 90%;
     text-align: center;
     height: 300px;
-    background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-image: url(https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
     background-position: center;
     background-size: cover;
 }
@@ -18,14 +35,18 @@ header .primer_title{
     padding-top: 75px;  
 }
 
-div main{
+div main.main_index{
     display: block;
     margin-left: auto;
     margin-left: auto;
     width: 90%;
     text-align: center;
     height: auto;
-    background-color: rgb(250, 238, 220);
+    background-color:rgb(248, 245, 241);
+}
+main h2.second_title{
+    text-decoration: underline;
+    font-size: 30px;
 }
 
 div#study{
@@ -35,7 +56,13 @@ div#study{
     width: 90%;
     text-align: center;
     height: auto;
-    background-color: rgb(250, 238, 220);
+    background-color: rgb(248, 245, 241);
+}
+.text{
+    padding-top: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+
 }
 div.temarios{
     display: block;
@@ -44,7 +71,7 @@ div.temarios{
     width: 90%;
     text-align: center;
     height: auto;
-    background-image: url(https://images.unsplash.com/photo-1531346878377-a5be20888e57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-position: center;
     background-size: cover;
 }
@@ -56,6 +83,35 @@ footer{
     width: 90%;
     text-align: center;
     height: auto;
-    background-color: rgb(250, 238, 220);
+    background-color: rgb(248, 245, 241);
     padding-top: 50px;
+}
+
+.start{   
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+    width: 90%;
+    text-align: center;
+    height: auto;
+
+}
+
+div.fondo{
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+    width: 90%;
+    text-align: center;
+    height: auto;
+    background-color:rgb(250, 236, 219);
+}
+main.start{ 
+    margin-bottom: 45px;
+}
+article.tools, .find{
+    margin-bottom: 45px;
+}
+article p.text_term{
+    margin-bottom: 0;
 }
