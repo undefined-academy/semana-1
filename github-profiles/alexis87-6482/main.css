@@ -24,30 +24,6 @@ h3 {
     padding-top: 1em;
     }
 
-.alias li {
-    font-family: monospace;
-    font-size: 15px;
-    border: solid rgb(182, 239, 225);
-    border-radius: 10px;
-    background-color: rgb(122, 201, 207);
-    padding: 10px;
-    list-style-type: none;
-    }
- 
-code,
-pre {
-  background: #eee;
-    }
-
-code {
-  padding: 2px 4px;
-  vertical-align: text-bottom;
-    }
-
-pre {
-  padding: 1em;
-    }
-
 a {
     display: flex;
     justify-content: center;
@@ -65,4 +41,26 @@ a {
     color: white;
   }
 
+  code,
+pre {
+  background: #eee;
+    }
 
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+    }
+
+pre {
+  padding: 1em;
+    }
+
+  .alias li {
+    font-family: monospace;
+    font-size: 15px;
+    border: solid rgb(182, 239, 225);
+    border-radius: 10px;
+    background-color: rgb(122, 201, 207);
+    padding: 10px;
+    list-style-type: none;
+    }
