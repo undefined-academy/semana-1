@@ -20,14 +20,14 @@ Also, I am graduate from Oracle next education ONE program, where I 
 * SQL
 
 ## 🦺 Experience
-* Proyecto de una construccion de plataforma educativa para los colegios, el cual gestiona todos los procesos que se derivan en el ambito estudiantel
-* Landing page de una cafeteria, para ofrecer sus productos en linea
-* 
+* Project for the construction of an educational platform for schools, which manages all the processes that arise in the student environment
+* Landing page of a coffee shop, to offer its products online
+
 ## Tech
 
 Tabla de comandos de la terminal útiles:
 
-| Comando        | ¿Qué hace?                                                                    |
+| Comand        | What does that do?                                                         |
 | ------         | ------                                                                        |
 | ``` ls -a ```  | Mostrar los contenidos del directorio actual incluyendo los que estan ocultos |
 | ``` clear ```  | Limpiar la ventana de comandos                                                |
@@ -36,12 +36,12 @@ Tabla de comandos de la terminal útiles:
 | ``` vim ```    | Abrir el editor Vim                                                           |
 | ``` env ```    | Mostrar las variables de entorno
 
-## Alias que me parecen interesantes
+## Aliases that I find interesting
 
-| Alias                                 | ¿Qué hace?                                 |
+| Alias                                 | What does that do?                                 |
 | ------                                | ------                                     |
-| ``` alias apt-get='sudo apt-get'  ``` | Evitar tener que poner sudo cada vez       |
-| ``` alias cl=clear ```                | Limpiar la ventana de commandos más rápido |
+| ``` alias apt-get='sudo apt-get'  ``` | Avoid having to put sudo every time       |
+| ``` alias cl=clear ```                | Clean command window faster|
 |```alias dragon='cowsay -f dragon-and-cow'```|Muestra un dragon en la terminal
 |```alias animales='cowsay -l'```| Muestra un vaca en la terminal 🐮🐮
 ## 🔗 Links
@@ -49,7 +49,7 @@ Tabla de comandos de la terminal útiles:
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
 
-[![twitter](https://img.shields.io/github/followers/taliixer?label=My%20Profile&logoColor=black&style=social)](https://github.com/)
+[![github](https://img.shields.io/github/followers/taliixer?label=My%20Profile&logoColor=black&style=social)](https://github.com/)
 
 
 ## Used By
