@@ -5,84 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Profile</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Hello 👋  I'm Gabriel Chacon</h1>
-    <h2><b> Full-Stack Web Developer | Law student at the UCAT</b></h2>
-    <br>
-    <hr>
-    <h2>Skills 🛠</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>React JS</li>
-        <li>Node JS</li>
-        <li>Python</li>
-        <li>Git y GitHub</li>
-    </ul>
-    <hr>
-    <h2>Education📖</h2>
-    <ul>
-        <li>Course of HTML and CSS en <a href="http://www.ingenieriadigital.com.ve">Ingenieria Digital💻</a></li>
-        <li>student of <a href="https://platzi.com">Platzi</a></li>
-        <li>Bootcamp in <a href="https://undefined.academy">undefined Shell Academy</a> with <a href="https://www.youtube.com/@GuillermoRodas">Guillermo Rodas</a></li>
-        <li>Edx coure CS50 Python</li>
-        <li>SoyDalto <a href="https://www.youtube.com/@soydalto"> (info)</a></li>
-        <li>midudev <a href="https://www.youtube.com/@midudev"> (info)</a></li>
-        <li>Catolic University of Tachira UCAT <a href="https://www.ucat.edu.ve/web/">info</a></li>
-    </ul>
-    <hr>
-    <h2>Languages 🗣</h2>
-    <table>
-        <tr>
-            <td><b>Languages</b></td>
-            <td><b>Domain</b></td>
-            <td><b>Level</b></td>
-        </tr>
-        <tr>
-            <td>Español</td>
-            <td>Native</td>
-            <td style="text-align: center;"><b>C2</b></td>
-        </tr>
-        <tr>
-            <td>English</td>
-            <td>Intermediate</td>
-            <td style="text-align: center;"><b>B1</b></td>
-        </tr>
-        <tr>
-            <td>French</td>
-            <td>Basic</td>
-            <td style="text-align: center;"><b>A2</b></td>
-        </tr>
-    </table>
-    <hr>
-    <h2>Terminal Commands</h2>
-    <table>
-        <tr>
-            <td><b>Command</b></td>
-            <td style="text-align: center;"><b>Description</b></td>
-        </tr>
-        <tr>
-            <td style="text-align: center;">cd</td>
-            <td>Using the "cd" command we can change directories and move through the entire tree of our hard drive.</td>
-        </tr>
-        <tr>
-            <td style="text-align: center;">pwd</td>
-            <td>It shows us the directory in which we are working</td>
-        </tr>
-        <tr>
-            <td style="text-align: center;">ls</td>
-            <td>Once we are in the directory we want, we can use the "ls" command to list all the files in that directory.</td>
-        </tr>
-        <tr>
-            <td style="text-align: center;">mkdir</td>
-            <td>This command allows us to create a new folder in the directory in which we are located.</td>
-        </tr>
-        <tr>
-            <td style="text-align: center;">cp</td>
-            <td>With this command we can copy a file from one directory to another. We can use it to copy a file from the current directory to another directory, or by introducing two absolute paths</td>
-        </tr>
-    </table>
+    <header>
+        <h1>Mi perfil de GitHub</h1>
+        <a href="">Hecho por Gabriel Chacon</a>
+    </header>
+    <div class="container-body">
+        <h1>Hello 👋  I'm Gabriel Chacon</h1>
+        <h2><b><span> Jr Full-Stack Web Developer</span> || <span>Law student at the UCAT</span></b></h2>
+        <br>
+        <hr>
+        <section class="skills">
+        <h2>Skills 🛠</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>React JS</li>
+            <li>Node JS</li>
+            <li>Python</li>
+            <li>Git y GitHub</li>
+        </ul>
+        </section>
+        <hr>
+
+        <section class="education">
+        <h2>Education📖</h2>
+        <ul>
+            <li>Course of HTML and CSS en <a href="http://www.ingenieriadigital.com.ve" target="_blank">Ingenieria Digital💻</a></li>
+            <li>student of <a href="https://platzi.com" target="_blank">Platzi</a></li>
+            <li>Bootcamp in <a href="https://undefined.academy" target="_blank">undefined Shell Academy</a> with <a href="https://www.youtube.com/@GuillermoRodas">Guillermo Rodas</a></li>
+            <li>Edx coure CS50 Python</li>
+            <li>SoyDalto <a href="https://www.youtube.com/@soydalto" target="_blank"> (info)</a></li>
+            <li>midudev <a href="https://www.youtube.com/@midudev" target="_blank"> (info)</a></li>
+            <li>Catolic University of Tachira UCAT <a href="https://www.ucat.edu.ve/web/" target="_blank">info</a></li>
+        </ul>
+        </section>
+        <hr>
+
+        <section class="languages">
+        <h2>Languages 🗣</h2>
+        <table class="table">
+            <tr>
+                <td><b>Languages</b></td>
+                <td><b>Domain</b></td>
+                <td><b>Level</b></td>
+            </tr>
+            <tr>
+                <td>Español</td>
+                <td>Native</td>
+                <td class="table-center-level"><b>C2</b></td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Intermediate</td>
+                <td class="table-center-level"><b>B1</b></td>
+            </tr>
+            <tr>
+                <td>French</td>
+                <td>Basic</td>
+                <td class="table-center-level"><b>A2</b></td>
+            </tr>
+        </table>
+        </section>
+        <hr>
+
+        <section class="terminal-commands">
+        <h2>Terminal Commands</h2>
+        <table>
+            <tr>
+                <td><b>Command</b></td>
+                <td style="text-align: center;"><b>Description</b></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><b>cd</b></td>
+                <td>Using the "cd" command we can change directories and move through the entire tree of our hard drive.</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><b>pwd</b></td>
+                <td>It shows us the directory in which we are working</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><b>ls</b></td>
+                <td>Once we are in the directory we want, we can use the "ls" command to list all the files in that directory.</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><b>mkdir</b></td>
+                <td>This command allows us to create a new folder in the directory in which we are located.</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"><b>cp</b></td>
+                <td>With this command we can copy a file from one directory to another. We can use it to copy a file from the current directory to another directory, or by introducing two absolute paths</td>
+            </tr>
+        </table>
+        </section>
+    </div>
 </body>
 </html>

@@ -1,0 +1,114 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #474646f3;
+    background-color: #f0f0f0f3;;
+}
+
+.container-body{
+    margin: auto;
+    max-width: 60em;
+    line-height: 1.5;
+    padding: 3em 1em;
+}
+
+header{
+    background-image: url(https://images.pexels.com/photos/1476880/pexels-photo-1476880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+}
+
+header h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 300;
+    padding-top: 200px;
+    padding-bottom: 8px;
+  }
+  
+  header a {
+    border: 1px solid #e8451cec;
+    border-radius: 290486px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+  }
+  
+  header a:hover {
+    background:  #e8451cec;
+    color: white;
+  }
+
+h1, h2, strong {
+  color: #333;
+}
+
+h2{
+    margin: 12px;
+    padding: 5px;
+}
+
+a{
+    color:blue
+}
+
+.table-center-level{
+    text-align: center;
+}
+
+.skills{
+    margin: 8px;
+    padding-bottom: 12px;
+    padding-top: 8px;
+}
+
+.education{
+    margin: 8px;
+    padding-bottom: 12px;
+    padding-top: 8px;
+}
+
+h2 span{
+    color: rgba(13, 13, 231, 0.808);
+}
+
+span + span {
+    color: rgba(245, 5, 5, 0.808);
+}
+
+.languages{
+    padding-bottom: 12px;
+    padding-top: 8px;
+    margin-left: 25px;
+}
+
+.table{
+    width: 250px;
+    border: 2px solid black;
+    padding: 10px 18px 10px 12px;
+    text-align: center; 
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+.terminal-commands{
+    padding-bottom: 12px;
+    padding-top: 8px;
+    margin-left: 25px;
+}
+
+.terminal-commands table{
+    border: 2px solid black;
+    padding: 15px;
+}
+
+
+
