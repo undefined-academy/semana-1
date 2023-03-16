@@ -40,6 +40,20 @@ Aqui es donde subo los proyectos a medida que los voy realizando, también encon
 * ChatGPT 🤖
 
 ---
+
+| Terminal's commands  | Description |
+| ------               |      ------ |
+|*git status*          |Shows the state of the directory|
+|*ls -l*               |Shows each element the directory contains (in a list)|
+|*pwd*                 |Gives the path of the current directory|
+|*mkdir*               |Creates a new directory in the current location|
+|*touch*               |Creates a new file with its extension|
+
+|Alias|Description|
+| ------               |      ------ |
+|*cl* = clear     |Clear terminal|
+|*rmyarn*= rm -rf node_modules && yarn cache clean && yarn |Delete node_modules folder and reinstalls it with yarn|
+
 ## 📫 Encuéntrame en:
 <br>
 
