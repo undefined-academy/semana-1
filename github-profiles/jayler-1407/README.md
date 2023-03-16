@@ -14,10 +14,10 @@
 - Html 
 - Css
 ### Habilidades blandas
--Soy receptivo  a nuevas ideas y opiniones 
--Estoy dispuesto/a a brindar mi apoyo y consejo en todo momento
--Soy una persona empática y comprensiva que siempre escucha las necesidades de los demás.
--Tengo una mente abierta y estoy siempre dispuesto/a a aprender cosas nuevas.
+- Soy receptivo  a nuevas ideas y opiniones 
+- Estoy dispuesto/a a brindar mi apoyo y consejo en todo momento
+- Soy una persona empática y comprensiva que siempre escucha las necesidades de los demás.
+- Tengo una mente abierta y estoy siempre dispuesto/a a aprender cosas nuevas.
 
 ## Lista de 5 comandos 
 |Comanndo | Descripcion                                                                                                                     |
