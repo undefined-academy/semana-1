@@ -21,10 +21,11 @@ color: white;
 h1,
 h2,
 strong {
-  color: white;
+    color: white;
+    text-transform: uppercase;
 }
 
-.container{
+main{
 border: 1px solid white;
     width: 85%;
     margin: 20px auto;
@@ -56,4 +57,11 @@ border: 1px solid white;
 
 .cont-titulo h1 {
     margin-left: 30px;
+}
+
+.footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 15px ;
 }
