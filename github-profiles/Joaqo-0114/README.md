@@ -8,7 +8,7 @@
   #Some facts about me
 
 - I'm currently learning full-stack technologies on a bootcamp.
-  How to reach me: Joaquin Bianchi on every social. joaqobianchi13@gmail.com via email.
+  How to reach me: Joaquin Bianchi on every social. joaqobianchi13@gmail.com via email. and my github https://github.com/Joaquin-Bianchi
 
 ### 💻 Terminal Commands
 
