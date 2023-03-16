@@ -43,3 +43,39 @@ I'm also **learning full-stack development** by taking part on a Bootcamp from *
 ### 📊 Stats
 
 ![cristinacdm's github stats](https://github-readme-stats.vercel.app/api?username=cristinacdm&show_icons=true&theme=dracula)
+
+#
+
+### Terminal Commands
+
+Basic Terminal commands.
+
+
+| Command          | Description                              |
+|------------------|------------------------------------------|
+| **`pwd`**        |Show current directory.                  | 
+| **`grep`**       |Search text and strings in a given file.  |
+| **`mkdir`**      |Create new directory.                     |
+| **`cd`**         |Go up a directory.                        |
+| **`ls`**         |List files.                             |
+
+#### Alias
+
+ > Alias: ***findd***    
+ > Description: Allows us to filter folders by a given name.
+ ```sh
+  alias findd="ls ~/ | grep $1"
+  ```
+ 
+> Alias: ***c***  
+> Description: Clears the terminal.
+```sh
+`alias c="clear"
+ ```
+ 
+> Alias:  ***rm***      
+> Description: Archives go to the library called "trash" instead of being removed permanently.
+```sh
+alias rm="trash"
+```
+
