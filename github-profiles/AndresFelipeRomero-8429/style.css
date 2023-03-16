@@ -1,5 +1,5 @@
 :root {
-  --primaty-color: #15803d;
+  --primary-color: #15803d;
 }
 
 body {
@@ -21,6 +21,7 @@ h3 {
 h1 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  line-height: 1.9rem;
 }
 
 h2 {
@@ -33,8 +34,8 @@ h3 {
   margin-bottom: 0.5rem;
 }
 
-a {
-  color: var(--primaty-color);
+.github img {
+  width: 2rem;
 }
 
 .header {
