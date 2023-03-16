@@ -11,5 +11,10 @@
 |rm     | Eliminar archivos  |
 
 ## Estos son los alias más usados
-alias cl="clear",
-alias rm="trash"
+| Alias    | Descripción |
+|----------|-------------|
+| alias cl | ="clear"    |
+| alias rm | ="trash"    |
+
+## Mi perfil de GitHub
+https://github.com/Nicolina10
