@@ -1,4 +1,4 @@
-let total = hugo + paco + luis;
+let total;
 let hugo = 0;
 let paco = 0;
 let luis = 0;
