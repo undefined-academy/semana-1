@@ -32,12 +32,12 @@ search = 'ls ~/ | grep $1'
 ```
 ### **Alias principales usados**
 
-| Comando| Descripción |
-| --------| ----------- |
-| cl | Limpia la terminal |
-| npmd| Realiza la compilación de los comandos desde el objeto script|
-| npms| Realiza la ejecución del comando start desde el objeto "scripts" de un paquete|
-| search| Permite buscar de acuerdo al filtro que le pasemos como parametro |
+| Comando | Descripción                                                                   |
+| --------| ----------------------------------------------------------------------------- |
+| cl      | Limpia la terminal                                                            |
+| npmd    | Realiza la compilación de los comandos desde el objeto script                 |
+| npms    | Realiza la ejecución del comando start desde el objeto "scripts" de un paquete|
+| search  | Permite buscar de acuerdo al filtro que le pasemos como parametro             |
 
 ## comando para clonar repositorio y ejecutarlo
 ```bash
