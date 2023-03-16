@@ -11,7 +11,7 @@ Para introducirme en **Frontend** he realizado varios cursos y un bootcamp donde
 
 
 | Comandos         | Descripción|
-|   :---           |   :---     |
+|   ---            |    ---     |
 | touch            |Crea un archivo nuevo dada una ruta o solo el nombre si la ruta es donde estás ejecutando el comando|
 |  more            |Es muy similar a **cat**<sup>1</sup> solo que nos permite navegar usando controles tipo Vim.  |
 | cp -r            | Nos permite copiar una carpeta dada una ruta inicial y una ruta final.|
@@ -22,7 +22,7 @@ Para introducirme en **Frontend** he realizado varios cursos y un bootcamp donde
 </br>
 
 |   Alias                  |Descripción|
-|   :---                   |   :---   |
+|    ---                   |     ---   |
 | alias npmd="npm run dev" |Para levantar el entorno de desarrollo en modo DEV|
 |  alias npms="npm start"  |Para levantar el entorno de desarrollo estandar  |
 | findd="ls ~/ \| grep $1" | Filtra las carpetas de nuestro directorio de usuario dada una palabra. |
