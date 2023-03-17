@@ -76,8 +76,9 @@ h3{
   font-size: 0.9rem;
 }
 
-.link-container p{
+.link-container h4{
   text-align: center;
+  font-size: 1.3rem;
 }
 
 .link-container div {
