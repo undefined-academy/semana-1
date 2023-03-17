@@ -42,15 +42,15 @@ My favourite videogames are:
 
 For this first exercise I have to create a tablet with 5 commands and 2 alias commands I find usefull.
 
-| Command | Description |
-|--------:|-----------|
-|     ls| Show all the files in the current folder|
-|    cd| We move between folders   |
-|     mkdir + folder_name| Creates a new folder with the name that we give to the command      |
-|rm| It deletes a file|
-|mv| We can use it to move a file from a folder to another, or to rename a file|
+| Command            | Description                                                                |
+|-------------------:|----------------------------------------------------------------------------|
+|ls                  | Show all the files in the current folder                                   |
+|cd                  | We move between folders                                                    |
+|mkdir + folder_name | Creates a new folder with the name that we give to the command             |
+|rm                  | It deletes a file                                                          |
+|mv                  | We can use it to move a file from a folder to another, or to rename a file |
 
-| Alias commands | Description |
-|--------:|-----------|
-|     alias findd="ls ~/ | grep $1" | Find a file by the name|
-|    alias cl="clear"| It clears the terminal   |
+| Alias commands               | Description             |
+|-----------------------------:|-------------------------|
+|alias findd="ls ~/ | grep $1" | Find a file by the name |
+|alias cl="clear"              | It clears the terminal  |
