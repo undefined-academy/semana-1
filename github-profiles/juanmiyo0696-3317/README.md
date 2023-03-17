@@ -1,5 +1,3 @@
-https://github.com/Juanmiyo0696
-
 # Hola soy **Juan Manuel Sanchez Garcia**
 ## **Front end developer** en proceso
 
@@ -21,3 +19,5 @@ En este momento estoy aprendiendo para ser un desarrollador Full Stack, ademas s
 |----------------------|---------------------------------------------------------------------------|
 | alias cl="clear"     | Limpia la terminal                                                        | 
 | alias rm="trash"     | No elimina permanentemente los archivos sino que los envía a la papelera  | 
+
+https://github.com/Juanmiyo0696
