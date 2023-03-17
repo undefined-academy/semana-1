@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #555;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  padding: 3em 1em;
+}
+
+main {
+  max-width: 45em;
+  margin: 0 auto;
+  font-size: 16px;
+  /*border: 2px solid red;*/
+}
+
+h2 {
+  margin-top: 1.5rem;
+  padding-top: 24px;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+li {
+  margin-bottom: 0.5em;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 1.5em; 
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 0.5em; 
+}
+
+th {
+  background-color: lightgray;
+  font-weight: bold; 
+}
