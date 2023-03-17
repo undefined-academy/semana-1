@@ -11,8 +11,8 @@ bases de datos como SQL y ACCESS y conocimiento básico en HTML, CSS, JS
 |     ls     |Listar archivos de la carpeta actual|
 |     mkdir  |Crear carpeta   |
 |     cd     |Navegar entre carpetas|
-|     pwd     |Muestra ruta absoluta|
-|     rm -r     |Elimina carpeta dada una ruta|
+|     pwd    |Muestra ruta absoluta|
+|     rm -r  |Elimina carpeta dada una ruta|
 
 
 **Listado de Alias**
