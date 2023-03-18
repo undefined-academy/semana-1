@@ -54,6 +54,8 @@ html{
    
    table{
      font-family: "Century Gothic", sans-serif;
+     border: 1;
+     border-color: #000000;
    }
 
    ul{
@@ -76,7 +78,7 @@ html{
    max-width: 100%;
    }
    
-   .table{
+   .tabla{
      margin-bottom: 40px;
    }
 
