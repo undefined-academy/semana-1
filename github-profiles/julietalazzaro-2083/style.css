@@ -47,6 +47,11 @@ header img {
   background-color: #333;
   padding: 2em;
   border-radius: 50%;
+  transition: 250ms ease-in-out;
+}
+
+header img:hover {
+  transform: rotate(180deg);
 }
 
 header h1 {
