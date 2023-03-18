@@ -1,0 +1,45 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body{
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    
+}
+
+h3{
+    border-top: 1px solid coral;
+}
+p{
+    border-bottom: 1px solid coral;
+}
+
+h1{
+    background-color: #0f0f3b;
+   color: white; 
+   text-align: center;
+}
+
+#master-_guillermo-rodas_- {
+    text-align: center;
+    background: #eee;
+}
+
+#create-_jorge-ceron_- {
+    text-align: center;
+    background: #eee;
+}
+
+table{
+    border: 1px solid;
+    max-width: 0 auto;
+}
+
+th{
+    border: 1px solid;
+}
+
+td{
+    border-right: 1px solid black;
+}
