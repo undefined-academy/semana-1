@@ -1,0 +1,39 @@
+h1 {
+    background-color: #263d36;
+    background-image: url("image.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+  }
+
+h1 img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    background: rgb(161, 224, 43);
+}
+
+h1 {
+    color: black;
+    text-shadow: 2px 3px 0 rgb(100, 250, 213);
+}
+
+p {
+    color: rgb(100, 95, 95);
+}
+
+a {
+    color: blue;
+}
