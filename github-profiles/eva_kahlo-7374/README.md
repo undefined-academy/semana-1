@@ -7,7 +7,7 @@ https://github.com/EvanaSabatella1989
 ❤️Soy una persona apasionada por el desarrollo de páginas Web, me gusta la enseñanza autodidacta pero cuando hago algún 🎓curso pongo mi mayor esfuerzo por seguir el paso a paso y cumplir con las propuestas planteadas.
 👨‍💻 Disfruto de la tecnología y me gusta siempre estar aprendiendo nuevos temas. Tengo algunos 🛠️conocimientos en Python, Java, MySQL, HTML5, CSS y JS, entre otros.
 En esta ocasión estoy cursando el Bootcamp de JS de *Undefined Academy*, donde debo cumplir con la siguiente tarea:
-- [x] Crear un Github Profile README[1]
+- [x] Crear un Github Profile README
 - [x] Este debe tener una pequeña descripción tuya tipo CV.
 - [x] Añade una tabla en Markdown (Obviamente) con al menos 5 comandos de la Terminal que hayas aprendido, de forma que tenga nombre del comando y descripción en columnas separadas.
 - [x] Añade una sección con al menos 2 comandos alias que te parezcan útiles incluyendo columna de descripción.
@@ -15,20 +15,20 @@ En esta ocasión estoy cursando el Bootcamp de JS de *Undefined Academy*, donde 
 
 ### Comandos de la terminal
 
-|   Comando   |    Descripción   |
-|-------------|------------------|
-|    ls       | Lista el contenido de un directorio |
-|    cd       | Cambia en directorio |
-|    rm       | Elimina archivos o directorios |
-|    mv       | Mueve archivos o directorios   |
-|    date     | Desliega la fecha|
+|   Comando   |    Descripción                      |
+|-------------|-------------------------------------|
+| ```ls ```   | Lista el contenido de un directorio |
+| ```cd ```   | Cambia en directorio                |
+| ```rm ```   | Elimina archivos o directorios      |
+| ```mv ```   | Mueve archivos o directorios        |
+| ```date ``` | Desliega la fecha                   |
 
 ### Comandos alias para la terminal
 
-|   Comando   |    Descripción   |
-|-------------|------------------|
-|alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'|crea un directorio y accede directamente al directorio creado
-|alias count="find . -type f wc -l"|cuenta los ficheros que contiene un directorio
+|                          Comando                                            |                          Descripción                        |
+|-----------------------------------------------------------------------------|-------------------------------------------------------------|
+|```alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'```|crea un directorio y accede directamente al directorio creado|
+|```alias count="find . -type f wc -l" ```                                    |cuenta los ficheros que contiene un directorio               |
 
 📫 Puedes encontrarme
 * GitHub 🖥️
