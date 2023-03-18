@@ -1,14 +1,14 @@
-# Undefined Academy - Semana 1 - Markdown
+# Undefined Academy - Fullstack Bootcamp - Semana 1
 
 ---
 
 # Hola! Soy _Julieta Lazzaro_
 
-## Soy de Buenos Aires, Argentina y soy programadora Fullstack
-
-[https://github.com/julietalazzaro](https://github.com/julietalazzaro)
+## Programadora Fullstack de Buenos Aires, Argentina
 
 Estudié programación en la Universidad Tecnológica Nacional pero sigo aprendiendo cada día por mi cuenta.
+
+[https://github.com/julietalazzaro](https://github.com/julietalazzaro)
 
 ## Terminal
 
