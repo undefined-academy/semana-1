@@ -63,10 +63,23 @@ header h1 {
 section {
   padding: 4em 1em;
   margin: 0 auto;
-  max-width: 50em;
+  max-inline-size: 50em;
 }
 
 h3,
 h4 {
   color: #96c7bc;
+}
+th,
+td {
+  padding: 5px 10px;
+  margin-block-end: 10px;
+  border-block-end: 1px solid #bbb;
+}
+
+tr:hover {
+  background-color: #444;
+}
+tr:hover td {
+  border-block-end-color: #839c96;
 }
