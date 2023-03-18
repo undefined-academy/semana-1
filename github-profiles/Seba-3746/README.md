@@ -1,9 +1,9 @@
 ## 👋 👋 Me llamo Sebastián, soy estudiante de programación y vivo en Argentina.
 
 ### 💻 Lista de 5 comandos en linux
-| Comando |                                   Descripción                                                        |                  
+| Comando |                                         Descripción                                                  |
 | :-----: | -----------------------------------------------------------------------------------------------------|
-|   CUT   | Extrae lineas de texto de un archivo                                                                 |           
+|   CUT   | Extrae lineas de texto de un archivo                                                                 |
 |   MV    | Muevo un archivo o directorio hacia otra dirección. También permite renombrar archivos y directorios |
 |   LS    | Lista el contenido de un directorio/s                                                                |
 |  GREP   | Buscar las lineas de un texto que contengan una palabra especifica                                   |
