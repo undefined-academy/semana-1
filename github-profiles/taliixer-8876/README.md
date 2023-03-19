@@ -54,5 +54,3 @@ Tabla de comandos de la terminal útiles:
 
 ## Used By
 *__Soon__*
-
-Link to my profile https://github.com/taliixer
