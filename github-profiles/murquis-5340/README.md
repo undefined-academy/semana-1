@@ -7,15 +7,15 @@
 - 💞️ I’m looking to collaborate on desing webs
 - 📫 How to reach me marcospenalosa@gmail.com
 
-| Comando | Descripción |
-| ------- | ----------- |
-| ```ls``` | List directoy, lista los archivos y carpetas |
-| ```mkdir``` | Make directory, crea una carpeta |
-| ```cp```| copy , copia archivos |
-| ```rm``` | remove, elimina un archivo |
-| ```mv``` | mueve o renombra un archivo o carpeta |
+| Comando     | Descripción                                  |
+| ----------- | -------------------------------------------- |
+| ```ls```    | List directoy, lista los archivos y carpetas |
+| ```mkdir``` | Make directory, crea una carpeta             |
+| ```cp```    | copy , copia archivos                        |
+| ```rm```    | remove, elimina un archivo                   |
+| ```mv```    | mueve o renombra un archivo o carpeta        |
 
-| Alias | Descripción |
-|------ | ----------- |
-| ```alias npmd="npm run dev"```| Comando utilizado para ejecutar el script definido  en package.json de un proyecto |
-| ```alias npms="npm start"```| Indicamos a npm que ejecute el comando start |
+| Alias                          | Descripción                                                                        |
+|------------------------------- | ---------------------------------------------------------------------------------- |
+| ```alias npmd="npm run dev"``` | Comando utilizado para ejecutar el script definido  en package.json de un proyecto |
+| ```alias npms="npm start"```   | Indicamos a npm que ejecute el comando start                                       |
