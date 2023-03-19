@@ -26,5 +26,5 @@ Para introducirme en **Frontend** he realizado varios cursos y un bootcamp donde
 | findd="ls ~/ \| grep $1" | Filtra las carpetas de nuestro directorio de usuario dada una palabra. |
 
 
-1:cat: Imprime el contenido de un archivo dada su ruta.</br>
-2:mv: También es el comando que nos permite cambiar el nombre de un archivo o carpeta.
+1- **cat**: Imprime el contenido de un archivo dada su ruta.</br>
+2- **mv**: También es el comando que nos permite cambiar el nombre de un archivo o carpeta.
