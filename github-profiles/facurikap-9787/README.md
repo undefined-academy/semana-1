@@ -1,5 +1,3 @@
-https://github.com/facurikap
-
 <!-- http://localhost:8080/frikap/index.html -->
 <!-- npx @11ty/eleventy --serve -->
 # 👋 I´m Facundo Rikap
@@ -9,6 +7,7 @@ I'm from Argentina. I am passionate about technology and I am constantly looking
 I am currently studying Systems Engineering at UTN
 ### 📢 Contacts
 * 💻 [LinkedIn](https://www.linkedin.com/in/facundo-perez-rikap-530562171/)
+* 🐈‍⬛ [Github](https://github.com/facurikap)
 #### ⌨ Most used commands
 | Commands | Description |
 | -------- | ----------- |
