@@ -23,13 +23,13 @@ https://github.com/ldrl
 
 ### Los comandos que he utilizado ultimamente son los siguientes
 
-|Comandos|          Descripción            |
-|--------|----------------------------------|
-|docker-compose| Ejecutar aplicaciones dockerizadas, pudiendo manejar múltiples contenedores|
-|ls|Enumera el contenido del directorio que desee, archivos y otros directorios anidados |
-|sudo| Permite a los usuarios no root ejecutar otros comandos Linux que norlamente requeririan privilegios de superusuario. |
-|cd| Navega por los archivos y directorios |
-|git| Utilizado para tener el control de versiones |
+|Comandos      |                                               Descripción                                                            |
+|--------------|----------------------------------------------------------------------------------------------------------------------|
+|docker-compose| Ejecutar aplicaciones dockerizadas, pudiendo manejar múltiples contenedores                                          |
+|ls            |Enumera el contenido del directorio que desee, archivos y otros directorios anidados                                  |
+|sudo          | Permite a los usuarios no root ejecutar otros comandos Linux que norlamente requeririan privilegios de superusuario. |
+|cd            | Navega por los archivos y directorios                                                                                |
+|git           | Utilizado para tener el control de versiones                                                                         |
 
 ### Listado de commandos alias
 ```
