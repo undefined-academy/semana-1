@@ -17,24 +17,24 @@
 
 ## 🖥️ Comandos de Terminal
 
-| Comando | Descripción |
-| --- | --- |
-| cd | Comando para moverse por los diferentes directorios desde la terminal. |
-| ls -l | Comando que muestra los archivos de un directorio en formato de lista. |
-| history | muestra el historial de comandos utilizados y un numero asociado para usarlos de nuevo si ingresamos ese numero con un signo de exclamación antes, por ejemplo: `!15`. |
-| rm | Borra un archivo especificando su nombre. |
-| rm -r | Borra un directorio especificando su nombre. |
-| cp | Copia un archivo especificando su ruta inicial y la ruta de destino. |
-| cp -r | Copia un directorio dado especificando su ruta inicial y la ruta de destino. |
-| mv | Sirve para mover/renombrar directorios y/o archivos. |
-| clear | limpia la pantalla de la terminal. |
+| Comando | Descripción                                                                   |
+| ------- | ----------------------------------------------------------------------------  |
+| cd      | moverse por directorios desde la terminal.                                    |
+| ls -l   | muestra los archivos de un directorio en formato de lista.                    |
+| history | historial de comandos utilizados ese numero con un signo de exclamación antes.|
+| rm      | Borra un archivo especificando su nombre.                                     |
+| rm -r   | Borra un directorio especificando su nombre.                                  |
+| cp      | Copia un archivo especificando su ruta inicial y la ruta de destino.          |
+| cp -r   | Copia un directorio dado especificando su ruta inicial y la ruta de destino.  |
+| mv      | Sirve para mover/renombrar directorios y/o archivos.                          |
+| clear   | limpia la pantalla de la terminal.                                            |
 
 ---
 
 ## 🧰 Comandos Alias Útiles
 
-| Alias | Descripción |
-| --- | --- |
-| cp= "cp -i" | Pide información antes de sobre-escribir el archivo que se esta copiando. |
-| mv="mv -i" | Pide información antes de sobre-escribir el archivo que se esta moviendo. |
-| .2="cd ../.." | Retrocede 2 niveles desde el directorio actual. |
+|      Alias    | Descripción                                                               |
+| ------------- | ------------------------------------------------------------------------- |
+| cp= "cp -i"   | Pide información antes de sobre-escribir el archivo que se esta copiando. |
+| mv="mv -i"    | Pide información antes de sobre-escribir el archivo que se esta moviendo. |
+| .2="cd ../.." | Retrocede 2 niveles desde el directorio actual.                           |
