@@ -33,7 +33,7 @@ header a {
   text-transform: uppercase;
   text-decoration: none;
   transition: none 200ms ease-out;
-  transition-property: color, background;
+  transition-property: color;
 }
 
 header a:hover {
@@ -94,4 +94,43 @@ pre {
 a {
   color: #e81c4f;
   ;
+}
+
+
+
+table {
+  border-spacing: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8em;
+  width: 100%;
+}
+
+table thead {
+  background-color: chocolate;
+  border: 1px solid gray;
+  color: whitesmoke;
+  text-align: center;
+}
+
+table tbody tr td {
+  border: 0.01em solid lightgray;
+}
+
+table tbody tr td.principal {
+  font-weight: bold;
+}
+
+ol li {
+  font-size: 0.8em;
+}
+
+ol li div {
+  background: lightgray;
+  color: brown;
+  font-size: 1.2em;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  text-align: center;
+  max-width: 200px;
+  padding: 0.5em;
 }
