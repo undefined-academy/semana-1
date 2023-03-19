@@ -44,18 +44,13 @@ b. Tecnicatura en Telecomunicaciones y Redes (2023 - actualidad).
 # Comandos 💻
 ## Comandos de la terminal más usados:
 
-|       Comandos        |       Descripción
-   |
+|       Comandos        |       Descripción                      |
 |-----------------------|----------------------------------------|
-|         git           | Comando para manejar Git
-   |
-|         cd            | Cambiar de directorio
-   |
+|         git           | Comando para manejar Git               |
+|         cd            | Cambiar de directorio                  |
 |         ls            | Listar contenido del directorio actual |
-|         mkdir         | Útil para crear directorios
-   |
-|         clear         | Limpiar la terminal
-   |
+|         mkdir         | Útil para crear directorios            |
+|         clear         | Limpiar la terminal                    |
 
 ## Comandos *Alias* más usados
 ### Estos son mis alias más usados:
