@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
-header {
+.header {
     background-color: #263d36;
     background-image: url("bg-image.jpg");
     background-position: center top;
@@ -9,6 +9,10 @@ header {
     line-height: 1.2;
     padding: 10vw 2em;
     text-align: center;
+}
+
+.header h2 {
+    color: #FF5722;
 }
 
 body {
@@ -20,45 +24,18 @@ body {
     color: #555;
 }
 
+h1 {
+    font-size: 1.5em;
+}
 h2 {
     margin-top: 1em;
     padding-top: 1em;
 }
 
-h1,
-h2,
-strong {
+h1,h2,strong {
     color: #333;
 }
 
 a {
     color: #e81c4f;
-}
-
-code,
-pre {
-    background: #eee;
-}
-
-code {
-    padding: 2px 4px;
-    vertical-align: text-bottom;
-}
-
-pre {
-    padding: 1em;
-}
-
-thead {
-    background-color: #e81c4f;
-    color: #eee;
-}
-
-tbody {
-    background-color:aliceblue;
-    
-}
-
-td {
-    padding: 4px;
 }
