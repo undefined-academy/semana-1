@@ -53,7 +53,7 @@ RECORDAR!!! vercel solo permite caracteres alfanuméricos en minúsculas y guion
 - Cuál es la diferencia entre un sistema de control de versiones distribuido y uno centralizado?
 La principal diferencia entre ambos, es la forma en que se manejan las copias locales de los repositorios. En el 1ro cada desarrollador tiene una copia local completa del repositorio, es decir, un acceso completo al historial de cambios del proyecto, lo que facilita el trabajo de equipo y la colaboración. El 2do es el punto central de control para todas las versiones del código fuente y es necesario tenr acceso a él para trabajar en el proyecto.
 
-Diferencia entre los comandos git checkout y git switch?
+- Diferencia entre los comandos git checkout y git switch?
 Ambos sirven para cambiar entre ramas o versiones de un repositorio. La diferencia principal entre ambos comandos radica en la forma en que se utilizan y en su comportamiento en algunas situaciones específicas, a continuación se enumeran las sig diferencias:
 1. La sintaxis: 'git checkout' / 'git switch'
 2. Comportamiento con archivos modificados: git checkout, si hay archivos modificados en la rama actual que son diferentes a los de la rama a la que se quiere cambiar, Git te obligará a guardar los cambios antes de cambiar / git switch, Git no te permitirá cambiar de rama si hay archivos modificados que puedan entrar en conflicto con la nueva rama.
