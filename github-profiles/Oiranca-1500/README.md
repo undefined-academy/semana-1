@@ -10,13 +10,13 @@ Actualmente, he terminado el **Ciclo Superior de Desarrollo de Aplicaciones Mult
 Para introducirme en **Frontend** he realizado varios cursos y un bootcamp donde he podido adquirir conocimientos de **JavaScript, Angular, HTML5, CSS3 y React** .
 
 
-| Comandos         | Descripción|
-|   ---            |    ---     |
-| touch            |Crea un archivo nuevo dada una ruta o solo el nombre si la ruta es donde estás ejecutando el comando|
-|  more            |Es muy similar a **cat**<sup>1</sup> solo que nos permite navegar usando controles tipo Vim.  |
-| cp -r            | Nos permite copiar una carpeta dada una ruta inicial y una ruta final.|
-|  mv<sup>2</sup>  |Comando para mover arcvhivo o carpeta dada una ruta inicial y una ruta final  |
-| rm -r    |Nos permite eliminar una carpeta dada una ruta.|
+|                    Comandos                        | Descripción|
+|                      ---                           |    ---     |
+| touch <options> <file or directory name>           |Crea un archivo nuevo dada una ruta o solo el nombre si la ruta es donde estás ejecutando el comando|
+|  more                                              |Es muy similar a **cat**<sup>1</sup> solo que nos permite navegar usando controles tipo Vim.  |
+| cp -r                                              | Nos permite copiar una carpeta dada una ruta inicial y una ruta final.|
+|  mv<sup>2</sup>                                    |Comando para mover arcvhivo o carpeta dada una ruta inicial y una ruta final  |
+| rm -r                                              |Nos permite eliminar una carpeta dada una ruta.|
 
 </br>
 </br>
