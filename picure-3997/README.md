@@ -14,7 +14,7 @@
 
 
 
-| Comando | Descripcion |
+| Comando | Descripcion probando |
 | ------ | ------ |
 | mkdir | para crear una carpeta en el directorio donde te encuentres ubicado |
 | cd | para cambiar de directorio |
