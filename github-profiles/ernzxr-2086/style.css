@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+
+header {
+    background-color: #263d36;
+    background-image: url('https://media.licdn.com/dms/image/C4D16AQEICEw8f7xnow/profile-displaybackgroundimage-shrink_350_1400/0/1614815470835?e=1683763200&v=beta&t=wajMvQ96VPSHYCnKLXZKnBaLMIUe6vj2gAuAfKDqNcs');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 30px 2em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+header .logo {
+    display: inline-block;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+header a {
+    display: inline-block;
+    border: 1px solid #ff16d8;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 10px;
+}
+
+header a:hover {
+    background: #ff16d8;
+    color: white;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #566b78;
+}
+
+h2, strong {
+    color: #333;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3, h4 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+code, pre {
+    background: white;
+    color: #a7adba;
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    padding: 0.3em;
+    border-bottom: 1px solid #d8dee9;
+    border-left: 2px solid rgb(121, 121, 121);
+}
+
+a {
+    color: #e81c4f;
+}
+
+.table {
+    margin-top: 1em;
+}
+
+table {
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+th {
+    background-color: #a94dff;
+    border-bottom: solid 2px #741ec4;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #fcf6ff;
+}
+
+tr:hover td {
+    background-color: #edd7ff;
+}
