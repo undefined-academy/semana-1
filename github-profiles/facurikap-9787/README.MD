@@ -19,3 +19,4 @@ I am currently studying Systems Engineering at UTN
 | `touch` | Create a new file given a path and/or name |
 #### 🖱 Alias commands
 * cl = `"clear"` **Abbreviation for clear**
+* rm = `"trash"` **Avoid deleting files permanently**
