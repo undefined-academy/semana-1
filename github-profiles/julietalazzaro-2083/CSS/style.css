@@ -83,3 +83,16 @@ tr:hover {
 tr:hover td {
   border-block-end-color: #839c96;
 }
+
+/* .align-center {
+  text-align: center;
+}
+.align-lefnt {
+  text-align: left;
+} */
+tr td:first-child {
+  text-align: center;
+}
+tr td:last-child {
+  text-align: left;
+}
