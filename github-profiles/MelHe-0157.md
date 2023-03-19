@@ -30,8 +30,8 @@ Se usa porque las carpetas son tratadas como archivos y, al usar el comando para
 
 | Comandos Alias para la Terminal |                           Descripción                         |
 |            ------               |                             ------                            |
-|          rm = "trash"           | Este comando muestra la fecha y hora del sistema actual       |
-|          cl = "clear"           | Este comando muestra el espacio libre actual en el disco duro |
+|          rm = "trash"           | Este comando nos permite eliminar un archivo dada una ruta    |
+|          cl = "clear"           | Este comando limpia la pantalla dejándola en blanco           |
 
 4. (Opcional) Clona tu repositorio y ejecuta '@11ty/elventy --serve' como en la práctica.
 
