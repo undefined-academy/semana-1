@@ -13,7 +13,7 @@ Me considero una persona apasionada por mi trabajo, y siempre estoy dispuesto a 
 - https://www.linkedin.com/in/nicolas-estigarribia/
 
 
-Aquí hay algunos de los alias más comunes en Linux:  
+## Comandos Alias:  
 
 | Alias   | Utilidad |
 | ------  | ---------|
@@ -27,3 +27,12 @@ Aquí hay algunos de los alias más comunes en Linux:
 | remove: | alias de ``` sudo apt-get remove ``` , desinstala un paquete del sistema.
 | cls:    | alias de ``` clear ``` , limpia la pantalla de la terminal.
 | alias:  | muestra todos los alias definidos por el usuario.
+
+## Comando que mas utilizo:
+| Comando | Descripción                                                 |
+| ------  | ------                                                      |
+| cp -r   | Copiar carpeta de la ruta inicial a la ruta final.          |
+| cd      | Cambiar de directorio o volver a la carpeta principal.      |
+| find    | Busca archivos y directorios según su tipo, tamaño, etc.    |
+| mkdir   | Permite crear directorios (carpetas).                       |
+| diff    | Compara dos archivos línea por línea y muestra diferencias. |
