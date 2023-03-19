@@ -44,7 +44,7 @@
 
 ##### Alias importantes para la terminal
 
-| Alias   | Descripción                                                                |
+| Alias              | Descripción                                                                |
 |--------------------| ----------------------------------------------------------------|
 |npmd="npm run dev"  | Para poder correr proyectos en modo desarrollo de forma corta   |
 |rm="trash"          | Para evitar eliminar permanente los archivos                    |
