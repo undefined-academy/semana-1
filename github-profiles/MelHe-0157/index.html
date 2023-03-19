@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <a href="https://github.com/Melisa-Herrera">GitHub</a>
+        <p><em>Semana 1; Clase 1</em></p>
+        <tittle>
+            <h1>Melisa Herrera</h1>
+        </tittle>
+    </head>
+    <body>
+        <h4>
+            <strong>Estudiante y empleada de comercio</strong>
+        </h4>
+        <p>Hola, este es mi espacio de resolución de actividades del bootcamp <strong>JavaScript Full-Stack</strong> de <strong>Undefined-Academy</strong>.</p>
+        <h3>
+            <strong>Clase 1 Markdown & Terminal:</strong>
+        </h3>
+        <p><strong>Preguntas:</strong></p>
+        <ul>
+            <li>Diferencia entre ¨Terminal Application¨ y ¨Terminal Emulator¨? La diferencia entre ambos, es que el 1ro se utiliza para acceder a la línea de comandos en sistemas opeativos que no tienen interfaz gráfica. Mientras que el 2do se utiliza para acceder a la línea de comandos en un entorno de sistema operativo con interfaz gráfica, emulando la funcionabilidad de la terminal de texto.</li>
+            <br>
+            <li>Por qué mv (mover) se usa para renombrar carpetas? Se usa porque las carpetas son tratadas como archivos y, al usar el comando para renombrar, lo que en realidad sucede es que se está moviendo el archivo que representa la carpeta de su nombre anterior al nuevo nombre.</li>
+        </ul>
+        <p><strong>Ejercicios:</strong></p>
+        <ol>
+            <li>Crear un Github Profile. Este debe tener una pequeña descripción tuya tipo CV.</li>
+            <br>
+            <li>Añade una tabla en Markdown (Obviamente) con al menos 5 comandos de la Terminal que hayas aprendido, de forma que tenga nombre del comando y descripción en columnas separadas.</li>
+            <br>
+            <table>
+                    <tr>
+                        <td><strong>Comandos de la Terminal</td></strong></td>
+                        <td><strong>Descripción</strong></td>
+                    </tr>
+                    <tr>
+                        <td>date</td>
+                        <td>Este comando muestra la fecha y hora del sistema actual</td>
+                    </tr>
+                    <tr>
+                        <td>df</td>
+                        <td>Este comando muestra el espacio libre actual en el disco duro</td>
+                    </tr>
+                        <td>touch</td>
+                        <td>Este comando crea un archivo nuevo dada una ruta y/o nombre</td>
+                    </tr>
+                    <tr>
+                        <td>cat</td>
+                        <td>Este comando imprime el contenido de un archivo dada su ruta</td>
+                    </tr>
+                    <tr>
+                        <td>mkdir</td>
+                        <td>Este comando crea un nuevo directorio</td>
+                    </tr>
+                    <tr>
+                        <td>pwd</td>
+                        <td>Este comando nos muestra la ruta absoluta del directorio actual</td>
+                    </tr>
+                </table>
+            <br>
+            <li>Añade una sección con al menos 2 comandos alias que te parezcan útiles incluyendo columna de descripción.</li>
+                <br>
+                    <table>
+                        <tr>
+                            <td><strong>Comandos Alias para la Terminal</td></strong></td>
+                            <td><strong>Descripción</strong></td>
+                        </tr>
+                        <tr>
+                            <td>rm = "trash"</td>
+                            <td>Este comando nos permite eliminar un archivo dada una ruta</td>
+                        </tr>
+                        <tr>
+                            <td>cl = "clear"</td>
+                            <td>Este comando limpia la pantalla dejándola en blanco</td>
+                        </tr>
+                    </table>
+                <br>
+            <li>(Opcional) Clona tu repositorio y ejecuta '@11ty/elventy --serve' como en la práctica.</li>
+        </ol>
+        <p>Extra: Desplegar sitio web usando comandos _site / vercel / (loguearse) / https://(nombre del archivo md).vercel.app/(nombre de la carpeta contenedora)</p>
+        <p>
+            <em>NOTAS: Instalar en la terminal npm install -g vercel. Loguearse. Uso de comando vercel</em>
+        </p>
+        <p>RECORDAR!!! vercel solo permite caracteres alfanuméricos en minúsculas y guiones</p>
+        <p>
+            <em>Semana 1; Clase 2</em>
+        </p>
+        <h3>
+            <strong>Clase 2 GIT Control de Versiones:</strong>
+        </h3>
+        <p>
+            <strong>Preguntas:</strong>
+        </p>
+        <ul>
+            <li>Cuál es la diferencia entre un sistema de control de versiones distribuido y uno centralizado? La principal diferencia entre ambos, es la forma en que se manejan las copias locales de los repositorios. En el 1ro cada desarrollador tiene una copia local completa del repositorio, es decir, un acceso completo al historial de cambios del proyecto, lo que facilita el trabajo de equipo y la colaboración. El 2do es el punto central de control para todas las versiones del código fuente y es necesario tenr acceso a él para trabajar en el proyecto.</li>
+            <br>
+            <li>Diferencia entre los comandos git checkout y git switch? Ambos sirven para cambiar entre ramas o versiones de un repositorio. La diferencia principal entre ambos comandos radica en la forma en que se utilizan y en su comportamiento en algunas situaciones específicas, a continuación se enumeran las sig diferencias:</li>
+        </ul>
+        <ol>
+            <li>La sintaxis: 'git checkout' / 'git switch'</li>
+            <br>
+            <li>Comportamiento con archivos modificados: git checkout, si hay archivos modificados en la rama actual que son diferentes a los de la rama a la que se quiere cambiar, Git te obligará a guardar los cambios antes de cambiar / git switch, Git no te permitirá cambiar de rama si hay archivos modificados que puedan entrar en conflicto con la nueva rama.</li>
+            <br>
+            <li>Comportamiento con ramas nuevas: git checkout, es necesario crear la nueva rama y luego cambiar a ella en (2)dos pasos seprados git branch < > --> git checkout < > / git switch, te permite crear una nueva rama y cambiar a ella en un solo comando, utilizando la git switch -c < ></li>
+            <br>
+            <li>Compatibilidad: git checkout, siempre será una opción segura y confiable / git switch, relativamente nueva, puede que algunos sistemas antiguos no la admitan.</li>
+        </ol>
+        <p>
+            <strong>Ejercicios:</strong>
+        </p>
+        <ol>
+            <li>Hacer un fork del repositorio <a href="https://github.com/undefined-academy/semana-1">https://github.com/undefined-academy/semana-1</a></li>
+            <br>
+            <li>Clonar tu repositorio "forked" en tu carpeta de HOME.</li>
+            <br>
+            <li>Agregar allí un archivo markdown de tu perfil de GitHub, dentro de la carpeta github-profiles y el nombre de archivo debe ser tu usuario de Discord incluyendo el tagnumérico.</li>
+            <br>
+            <li>Incluye dentro del archivo un link que nos lleve directamente a tu perfil de GitHub.</li>
+            <br>
+            <li>Haz commit de dicho archivo.</li>
+            <br>
+            <li>Ve al repositorio del paso 1 y crea tu primer Pull Request.</li>
+            <br>
+            <li>No dejes la descripción del Pull Request vacia, escribe cómo fue el proceso de resolver este ejercicio, usar Markdown.</li>
+        </ol>
+    </body>
+    </html>
