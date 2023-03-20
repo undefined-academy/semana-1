@@ -8,21 +8,19 @@ Manejo **JavaScript, CSS, HTML**
 
 ### Sobre mí:
 
-**Nací y crecí en *México, Ciudad de México* y hace unos años me mudé a Perú. 
-<br>
-**Soy licenciada en economía, graduada de la UNAM, una de las mejores universidades a nivel mundial, y la más grande de America Látina.
-<br>
-**Llevo desde diciembre 2022 estudiando en Alura Latam, programa ONE de **Oracle**.
+* Nací y crecí en *México, Ciudad de México* y hace unos años me mudé a Perú. 
+* Soy licenciada en economía, graduada de la UNAM, una de las mejores universidades a nivel mundial, y la más grande de America Látina.
+* Llevo desde diciembre 2022 estudiando en Alura Latam, programa ONE de **Oracle**.
 
 --------------------------------------------------------------------------------------------
 
 ### Tabla de habilidades
 
 | Habilidades | Nivel de habilidades |
------------------------------------
-| HTML       | Básico | <br>
-| CSS        | Aprendiz | <br>
-| JavaScript | Aprendiz | <br>
+|-------------|----------------------|
+| HTML        | Básico               |
+| CSS         | Aprendiz             |
+| JavaScript  | Aprendiz             |
 
 :tent:
 
@@ -33,7 +31,7 @@ Manejo **JavaScript, CSS, HTML**
 - ⚡ Mis hobbies son: leer, escribir novelas, juegar a videojuegos, jardinería y todo lo que implique crear algo. 
 - :blush: Me gusta la puntualidad, amo los retos constructivos, soy sincera y proactiva.
 
-###Comandos de la terminal de windows
+### Comandos de la terminal de windows
 
 | Comando  | Como se implementa       | Para qué sirve                         |
 |----------|--------------------------|----------------------------------------|
@@ -41,7 +39,7 @@ Manejo **JavaScript, CSS, HTML**
 | DIR      | DIR                      | Te muestra en dónde te encuentras      |
 | CLS      | CLS                      | Limpia la ventana de la consola        |
 | HELP     | HELP                     | Muestra todos los comandos disponibles |
-| MD       | MD "NOMBREDECARPETA"     | Crea una carpeta donde te encuentres   |
+| MD       | MD "NombreDeCarpeta"     | Crea una carpeta donde te encuentres   |
 
 ### Comandos alias
 
