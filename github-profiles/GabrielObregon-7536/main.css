@@ -1,0 +1,44 @@
+header img {
+    width: auto;
+    max-width: 800px;
+}
+
+body {
+    background-color: #9ca3af;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #404040;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+code,
+pre {
+    background: #eee;
+    border-bottom: 1px solid #d8dee9;
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    padding: 1em;
+    border-left: 2px solid #69c;
+}
+
+
