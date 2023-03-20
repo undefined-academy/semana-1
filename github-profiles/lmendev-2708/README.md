@@ -17,18 +17,18 @@ https://github.com/Lmendev
 
 ## Last learned commands
 
-| Command | Description |
-|-|-|
-| `cal` | Displays current month's calendar with current day highlighted |
-| `uptime` | Show uptime |
-| `unalias` | Remove an alias from the already defined aliases |
-| `cd -` | Return to the previous directory |
-| `history` | Shows a list of previous commands |
+| Command   | Description                                                    |
+|-----------|----------------------------------------------------------------|
+| `cal`     | Displays current month's calendar with current day highlighted |
+| `uptime`  | Show uptime                                                    |
+| `unalias` | Remove an alias from the already defined aliases               |
+| `cd -`    | Return to the previous directory                               |
+| `history` | Shows a list of previous commands                              |
 
 ## Useful aliases
 
 | Alias | Command | Description |
-|-|-|-|
+|-------|---------|-------------|
 | [dcupd](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose) | `docker-compose up -d` | Build, (re)create, start, and attach to containers for a service as daemon |
 | [gswm](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) | `git switch $(git_main_branch)` | Switch to *git_main_branch* (usually main or master) |
 
