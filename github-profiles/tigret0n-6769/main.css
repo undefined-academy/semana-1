@@ -1,0 +1,32 @@
+body {
+   margin: 0 auto;
+   max-width: 50em;
+}
+
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.5;
+    color: #555;
+    padding: 1em 1em;
+ }
+ 
+ h1, h2 {
+   margin-bottom: 1em;
+ }
+ 
+ h1, h2, p {
+   color: #333;
+ }
+ 
+ ul {
+   background: #eee;
+   padding: 2px 4px;
+   vertical-align: text-bottom;
+   list-style-position: inside;
+ }
+ 
+ 
+ 
