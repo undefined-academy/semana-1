@@ -1,0 +1,76 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+body {
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: justify;
+}
+
+
+a:hover {
+    color: red;
+    background-color: yellow;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: green;
+}
+
+a {
+    border-bottom: 1px solid blue;
+}
+
+table {
+    border: 1px solid black; /* Agrega un borde de 1px a la tabla */
+    border-collapse: collapse; /* Combina los bordes de las celdas adyacentes en una sola línea */
+    width: 100%; /* Ancho de la tabla al 100% */
+}
+
+td, th {
+    border: 1px solid black; /* Agrega un borde de 1px a las celdas */
+    padding: 10px; /* Agrega un espacio de relleno de 10px alrededor del contenido de la celda */
+}
+
+th {
+    background-color: #f2f2f2; /* Cambia el color de fondo de los encabezados de columna */
+}
