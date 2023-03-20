@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
+
 body {
     margin: 0 auto;
     max-width: 50em;
@@ -25,9 +26,9 @@ body {
 }
 
 img {
-    max-width: 50%;
-    max-height: 50%;
-   }
+    height: 200px;
+    width: 100%;
+}
 
 a {
     color: #e81c4f;
