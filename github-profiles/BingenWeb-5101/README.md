@@ -17,7 +17,7 @@
 | Etc. | ... |
 
 # ✨Para el bootcamp UDS✨
-# 👀Comandos terminal
+## 👀Comandos terminal
 | Comando | Descripción|
 | ------  | ------ |
 | Clear   |  Limpia el terminal|
@@ -26,7 +26,7 @@
 | pwd     |  ¿Dónde estoy?|
 | code .  |  Abrir VSC |
 
-# ⌨Alias para el terminal
+## ⌨Alias para el terminal
 | Alias |Descripción|
 |-------|-----------|
 |w="echo '`pwd`@`hostname`'"|Ver donde estoy, útil para sesiones remotas por SSH|
