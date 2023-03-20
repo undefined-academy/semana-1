@@ -23,4 +23,12 @@ This is my GitHub profile where I share my projects so you can take a look to my
 |   Clear  |   Clear the Terminal screen                                            |
 
 
+### Useful Commands Alias
+
+| Alias | Command |          Description        |
+| ----- | ------- | --------------------------- |
+|   cl  | `clear` | Clean terminal.             |
+|   ..  |  `cd..` | Back to parent directory.   |
+
+
 This is my GitHub profile: [camilasilvab](https://github.com/camilasilvab)
