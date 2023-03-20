@@ -39,3 +39,23 @@ a:hover {
     text-decoration: underline;
     color: #555;
 }
+
+table { 
+  border-collapse: collapse; 
+  margin: 25px 0; 
+  font-size: 1em; 
+  font-family: sans-serif; 
+  min-width: 600px;
+}
+tr { 
+  background-color: #BDC3C7; 
+  color: #1B2631; 
+  text-align: middle;
+  border: black;
+  border: 1px solid black;
+}
+
+th, td { 
+  padding: 12px 15px;
+  border: 1px solid black;
+}
