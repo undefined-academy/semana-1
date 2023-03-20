@@ -4,7 +4,7 @@
 
 ## :large_orange_diamond: *Estos son los comandos más usados*
 
-|Comando| Descripción        |
+|**Comando| Descripción**    |
 |-------|------------------- |
 |cd     | Cambiar directorio |
 |pwd    | Muestra donde estoy|
@@ -14,11 +14,11 @@
 
 ## :large_orange_diamond: *Estos son los alias*
 
-| Alias    | Descripción |
-|----------|-------------|
-| alias cl | ="clear"    |
-| alias rm | ="trash"    |
-| alias mv | ="move"     |
+|**Alias   | Descripción**|
+|----------|--------------|
+| alias cl | ="clear"     |
+| alias rm | ="trash"     |
+| alias mv | ="move"      |
 
 ## :link: *Mi perfil de GitHub* 
 https://github.com/Nicolina10
