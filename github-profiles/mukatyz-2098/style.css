@@ -33,6 +33,14 @@ ul{
     background-color: #e1dee7;
 }
 
+tr>th, tr>td {
+    border: 2px solid white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
 tr:nth-of-type(1)
 {
     background-color: #e1dee7;
