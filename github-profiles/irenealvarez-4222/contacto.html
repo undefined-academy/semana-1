@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+     <head>
+        <meta charset="utf-8">
+        <title>Irene Alvarez</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Hola, soy Irene Álvarez</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="sobremi.html">Sobre mí</a></li>
+                        <li><a href="formacion.html">Formación</a></li>
+                        <li><a href="experiencia.html">Experiencia profesional</a></li>
+                        <li><a href="comandos.html">Mis comandos más usados</a></li>
+                        <li><a href="alias.html">Mis alias más usados</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <main>
+            <h1>Contacto</h1>
+            <form>
+                <div class="form">
+                    <label for="name">Nombre</label>
+                    <input id="name" type="text" placeholder="Introduzca su nombre completo" required> 
+                </div>  
+                
+                <div class="form">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="Introduzca su email" required>
+                </div>
+
+                <div class="form">
+                    <fieldset>
+                        <legend>Presupuesto</legend>
+                        <input id="1000" name="budget" type="radio" required>
+                        <label for="1000">1.000€</label>
+
+                        <input id="3000" name="budget" type="radio" required>
+                        <label for="3000">3.000€</label>
+
+                        <input id="5000" name="budget" type="radio" required>
+                        <label for="5000">5.000€</label>
+                    </fieldset>                 
+                </div>
+
+                <div class="form">
+                    <label for="type">Tipo de proyecto</label>
+                    <select id="type" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="1">Website</option>
+                        <option value="2">Webapp</option>
+                        <option value="3">Mobile app</option>
+                    </select>
+                </div>
+
+                <div class="form">
+                    <label for="description">Descripción</label>
+                    <textarea id="description" required rows="5"></textarea>
+                    <div>Describe la idea del proyecto en al menos 500 palabras</div>
+                </div>
+
+                <div class="form">
+                    <label for="terms">
+                        <input id="terms" type="checkbox" required>
+                        <span>Acepto los términos y condiciones</span>
+                    </label>
+                </div>
+
+                <div class="form">
+                    <input type="submit" value="Enviar">
+               </div>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2023</p>
+        </footer>
+    </body>
+</html>
