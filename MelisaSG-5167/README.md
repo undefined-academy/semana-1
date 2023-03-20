@@ -4,7 +4,7 @@
 
 #### Este es mi **primer** commit en Github 
 
-#### _¿Como será el último?_   
+#### _¿Como será el ultimo commit del curso?_   
 
 #### Comandos de terminal que aprendí
 
@@ -18,15 +18,9 @@
 
 #### Alias utiles para la terminal
 
-```
-    alias gmg = "git merge"
+` alias gmg = "git merge" `
 
-```
-
-```
-    alias ce = "code ."
-
-```
+` alias ce = "code ." `
 
 
 #### Mi perfil GitHub-----> [✨🐣✨](https://github.com/MelisaSG)
