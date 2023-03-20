@@ -11,7 +11,7 @@
 
 ## Terminal Commands
 | Command | Description |
-| ----------- | ----------- |
+| ------- | ----------- |
 |`uptime`| shows how much time the computer has been on|
 |`date`| shows the date and time of the current system|
 |`touch` | creates a new file|
@@ -20,11 +20,11 @@
 
 ## Alias Commands
 | Alias | Description |
-| ----------- | ----------- |
+| ----- | ----------- |
 |`cl`| clear the terminal|
 |`npmd`| run `npm run dev`|
 |`ga`| runs `git add .`|
-|`gc`| runds `git commit -m`|
+|`gc`| runs `git commit -m`|
 
 
 
