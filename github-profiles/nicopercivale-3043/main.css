@@ -1,0 +1,33 @@
+
+    body {
+        max-width: 900px;
+        margin: 25px;
+        border: 2px dashed thistle;
+        background-color: aquamarine;
+        font-size: 13px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    ul {
+        color: black;
+        background: tomato;
+    }
+
+    P {
+        line-height: 0, 5;
+        color: brown;
+        font-size: medium;
+    }
+    footer {
+        color: blueviolet;
+
+    }
+
+
+
+
+    table,
+    th,
+    td {
+        border: 1px solid black
+    }
