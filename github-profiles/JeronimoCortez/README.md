@@ -9,13 +9,13 @@ https://github.com/JeronimoCortez
  
  **A continuacion voy a listar algunos comando que aprendi en la clase 1 del bootcamp**
  
- | Comando | Accion|
- |-------- | ----- |
- |cp -r | copia una carpeta |
- |rm -r | elimina una carpeta|
- | mkdir | crea una carpeta|
- | ls | lista archivos de la carpeta actual|
- | cal | muestra un calendario |
+ | Comando | Accion                             |
+ |-------- | -----                              |
+ |cp -r    | copia una carpeta                  |
+ |rm -r    | elimina una carpeta                |
+ | mkdir   | crea una carpeta                   |
+ | ls      | lista archivos de la carpeta actual|
+ | cal     | muestra un calendario              |
  
  **_Dos comandos alias recomendados vistos en la clase 1_**
  
