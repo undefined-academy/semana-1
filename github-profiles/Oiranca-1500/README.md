@@ -10,25 +10,26 @@ Actualmente, he terminado el **Ciclo Superior de Desarrollo de Aplicaciones Mult
 Para introducirme en **Frontend** he realizado varios cursos y un bootcamp donde he podido adquirir conocimientos de **JavaScript, Angular, HTML5, CSS3 y React** .
 
 
-|            Comandos                            | Descripción|
-|              ---                               |   ---   |
-| touch touch <options> <file or directory name> |Crea un archivo nuevo dada una ruta o solo el nombre si la ruta es donde estás ejecutando el comando|
-|  more                                          |Es muy similar a cat<sup>1</sup> solo que nos permite navegar usando controles tipo Vim.  |
-| cp -r                                          | Nos permite copiar una carpeta dada una ruta inicial y una ruta final.|
-|  mv <sup>2</sup>                               |Comando para mover arcvhivo o carpeta dada una ruta inicial y una ruta final  |
-| rm -r                                          |Nos permite eliminar una carpeta dada una ruta.|
+|     Comandos       |                                      Descripción                                                   |
+|       ---          |                                          ---                                                       |
+| touch <sup>1</sup> |Crea un archivo nuevo dada una ruta o solo el nombre si la ruta es donde estás ejecutando el comando|
+| more               |Es muy similar a cat<sup>2</sup> solo que nos permite navegar usando controles tipo Vim.            |
+| cp -r              | Nos permite copiar una carpeta dada una ruta inicial y una ruta final.                             |
+| mv <sup>3</sup>    |Comando para mover arcvhivo o carpeta dada una ruta inicial y una ruta final                        |
+| rm -r              |Nos permite eliminar una carpeta dada una ruta.                                                     |
 
 
-|             Alias        |Descripción|
-|              ---         |   ---   |
-| alias npmd="npm run dev" |Para levantar el entorno de desarrollo en modo DEV|
-| alias npms="npm start"   |Para levantar el entorno de desarrollo estandar  |
+|           Alias          |                     Descripción                                        |
+|            ---           |                         ---                                            |
+| alias npmd="npm run dev" |Para levantar el entorno de desarrollo en modo DEV                      |
+| alias npms="npm start"   |Para levantar el entorno de desarrollo estandar                         |
 | findd="ls ~/ \| grep $1" | Filtra las carpetas de nuestro directorio de usuario dada una palabra. |
 
+1- **touch**: Hay que usa la sintaxys ` touch <options> <file or directory name>` para que no de error.
 
-1- **cat**: Imprime el contenido de un archivo dada su ruta.
+2- **cat**: Imprime el contenido de un archivo dada su ruta.
 
-2- **mv**: También es el comando que nos permite cambiar el nombre de un archivo o carpeta.
+3- **mv**: También es el comando que nos permite cambiar el nombre de un archivo o carpeta.
 
 ## Mi perfil de Github
 

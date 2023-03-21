@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 auto;
+    max-width: 80em;
+    line-height: 1.25;
+}
+
+#title {
+    margin: 12px auto;
+    width: 200px;
+    padding: 0.5rem;
+    border-bottom: 2px solid lightblue;
+    background-image: url("img/resume.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 32px;
+}
+
+table {
+    margin: auto;
+    padding: 0.5rem;
+
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 0.5rem;
+
+}
+
+td>sup {
+    background: lightgoldenrodyellow !important;
+}
+
+tbody>tr :nth-child(1) {
+    background-color: lightcyan;
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody>tr :nth-child(2) {
+    background-color: lightpink;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.table-title {
+    text-align: center;
+    background: lightblue;
+}
+
+#github-seccion {
+    margin: 12px auto;
+    width: 250px;
+    padding: 0.5rem;
+    border-bottom: 2px solid lightblue;
+    background-image: url("img/github.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 32px;
+}
