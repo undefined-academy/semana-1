@@ -15,14 +15,14 @@
 ### 🔷 Estudios:
   - Analista de sistemas - Instituto "Sedes Sapientiae" (75 Avenida Primera Junta, Gualeguaychú, Argentina) Periodo: 2007 - 2010.
 
-### 🔷 Comandos Markdown:
-| Comandos      | Descripcion                                                |
-|---------------|------------------------------------------------------------|
-| #             | Se utiliza de forma predeterminada para crear un titulo    |
-| -             | Se utiliza para crear listas no ordenadas                  |
-| 1, 2, 3...    | Se utilizan para crear listas ordenadas                    |
-|>              | Genera una cita colocandolo al principo delbloque de texto |
-|<>             | Se utilizan para crear hipervínculos seleccionables        |
+### 🔷 Comandos Linux:
+| Comandos      | Descripcion                                                        |
+|---------------|--------------------------------------------------------------------|
+| touch         | Se usa para crear cualquier tipo nuevo de archivo                  |
+| cd            | Permite navegar por todos los directorios del sistema              |
+| ls            | Enumera el contenido de directorios y archivos anidados            |
+| pwd           | se usa para mostrar la ruta del directorio en el que te encuentras |
+| mkdir         | Permite a los usuarios crear directorios (carpetas)                |
 
 ### 🔷 Comandos alias:
 | Comandos             | Descripcion                                 |
