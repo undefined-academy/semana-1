@@ -12,3 +12,24 @@
 - Mis pronombres son "he/they" en inglés, "él" en español
 - Entre mis pasatiempos se encuentran: hacer calistenia, aprender cosas nuevas (nutrición, física, historia...), cocinar y leer (especialmente literatura rusa) 😊
 
+***
+
+## Mis comandos
+
+**5 comandos de la Terminal:**
+| Comando | Descripción |
+|:-------------------:|---|
+| ls | List: lista los archivos de la ruta dada |
+| cd | Cambiar de carpeta |
+| pwd| Print Working Directory: muestra la ruta absoluta del directorio actual |
+| cat | Concatenate and Print Files: imprime el contenido de un archivo dada su ruta |
+| df | Disc Free: muestra el espacio de disco que queda libre |
+
+
+**2 comandos alias:**
+| Alias | Comando del que es Alias | Descripción |
+|:-------------------:|---|---|
+| c | alias c='clear' | Limpia la terminal |
+| gld | alias gld='git log -oneline -decorate -graph -all' | Muestra los commits en oneline en formato gráfico-árbol |
+
+***
