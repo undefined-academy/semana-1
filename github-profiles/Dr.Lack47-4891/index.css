@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap');
+body {
+    margin:0 auto;
+    max-width:30em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #616A6B;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+strong {
+    color: #1C2833;
+}
+a {
+    color: #16A085;
+}
+header {
+    background-color: antiquewhite;
+    background-image: url("/o/back.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+img {
+    width:500px ; 
+}
+
+
+
+
+
+
