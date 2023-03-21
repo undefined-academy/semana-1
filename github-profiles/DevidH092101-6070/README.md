@@ -5,7 +5,7 @@
 
 Soy ingeniero en sistemas apasionado por el mundo de la tecnología. He adquirido solidos conocimientos en programación y resolución de problemas. Tengo un fuerte interés en aprender y desarrollarme como ingeniero en sistemas y asumiré cualquier desafío que me permita crecer en mi carrera.
 
-### [_Link perfil de github_] (https://github.com/davidherrera0921)
+### [_Link perfil de github_](https://github.com/davidherrera0921)
 
 ## EXPERIENCIA LABORAL
 ### Pasante
