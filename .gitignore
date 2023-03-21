@@ -1,2 +1,11 @@
-#VSCode
-.
+# VSCode
+.vscode
+
+# Vite
+.vite
+
+# MacOS
+.DS_Store
+
+# General
+.gitkeep
