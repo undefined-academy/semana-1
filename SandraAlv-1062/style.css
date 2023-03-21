@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=VT323&display=swap');
+
+* {
+  box-sizing: border-box;
+  background-color: #e0d8d8;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.25);
+  background-image: url(/SandraAlv-1062/IMG/Mdd.jpg); 
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 8em 2em;
+  text-align: center;  
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  letter-spacing: 0.2em;
+  padding: 0.5em 1.5em;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #474343;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+  
+}
+
+h1, h2, h3, strong {
+  color: #333;
+  font-family: 'Indie Flower', cursive;
+}
+
+a {
+  color: #4553a1;
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th, td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;  
+  padding: 0.3em;
+  caption-side: bottom;
+}
+
+th {
+  background: #aec9db;
+}
