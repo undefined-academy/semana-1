@@ -1,0 +1,84 @@
+
+body {
+  background-color: #CBE4DE;
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 2em 5em;
+  /* text-align: center; */
+  /* Para color de fuente color: #555; */
+}
+
+h1 {
+  text-align: center;
+}
+h1, h2, strong {
+  margin-top: 1em;
+  padding-top: 1em;
+  color: #000000;
+}
+
+/* Un codigo en especifico */
+code, pre {
+  background: #567189;
+  border-bottom: 0.1px #BAD7E9;
+  color: #BAD7E9;
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 14px;
+  vertical-align: text-bottom;
+}
+
+pre{
+  border-left: 15px solid #69c;
+}
+
+/* para los link o ENLACES */
+a {
+  color: #F94A29;
+}
+
+hr{
+    border: 2px initial #65647C;
+    width: 50em;
+    margin: auto;
+}
+
+.encuentra {
+  text-align: center;
+}
+
+.contac {
+  text-align: center;
+}
+.sugerencias {
+  text-align: center;
+}
+
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt', cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 3px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
