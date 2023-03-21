@@ -40,7 +40,7 @@
 |pwd      | Muestra la ruta al directorio actual                            |
 |mv       |Mueve o renombra archivos y directorios                          |
 |man      |Muestra el manual del comando que le indiquemos                  |
-|tree	  | Muestra la estructura de directorios y archivos en forma gráfica|
+|tree	    | Muestra la estructura de directorios y archivos en forma gráfica|
 
 ##### Alias importantes para la terminal
 
@@ -51,4 +51,3 @@
 
 #Perfil de GitHub
 [Este es el enlace de mi perfil de GitHub](https://github.com/veacosta13)
-
