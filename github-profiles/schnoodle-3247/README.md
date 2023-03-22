@@ -1,7 +1,7 @@
 > Cv-Markdown.
 > Ejercico de la primera semana del **Bootcamp** de ***Guillermo Rodas***.
 
-# Hello World 👋 I’m Luis Dávila 
+# Hello World 👋 I’m Luis Dávila .
 
 - 📧 smluisedavila@gmail.com
 - ☎ 3127428625
