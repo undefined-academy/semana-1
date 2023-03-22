@@ -62,3 +62,8 @@ section {
 .img1 {
     margin: 0px 10px;
 }
+
+.tabla-leng, th, td{
+    border: rgb(9, 9, 82) 2px solid ;
+    border-collapse: collapse;
+}
