@@ -38,8 +38,8 @@
 |-------- | ----------------------------------------------------------------|
 |ls       | Lista los archivos y directorios                                |
 |pwd      | Muestra la ruta al directorio actual                            |
-|mv       |Mueve o renombra archivos y directorios                          |
-|man      |Muestra el manual del comando que le indiquemos                  |
+|mv       | Mueve o renombra archivos y directorios                         |
+|man      | Muestra el manual del comando que le indiquemos                 |
 |tree	    | Muestra la estructura de directorios y archivos en forma gráfica|
 
 ##### Alias importantes para la terminal
