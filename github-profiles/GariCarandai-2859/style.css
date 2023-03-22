@@ -73,39 +73,6 @@ header{
   text-align: center;
 }
 
-/* header::before{
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -2;
-}
-header::after{
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  background-image: url("img/header.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  animation: rotate 10s linear infinite;
-  rotate: 0deg;
-} */
-
-@keyframes rotate{
-  to{
-    rotate: -360deg;
-  }
-}
-
 header h1 {
   margin-bottom: 0em;
   color: white;
@@ -151,7 +118,6 @@ ul{
 .habilidades-listas div{
   width: calc(100% / 4);
   padding: 1em;
-  /*border: 2px solid #c9c9c9;*/
   border-radius: 1em;
   background: #fbfbfb;
 }
