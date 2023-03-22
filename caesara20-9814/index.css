@@ -10,6 +10,7 @@ body {
   padding: 3em 1em;
   color: #566b78;
   font-family: "Roboto", "Arial", "Helvetica", "sans-serif";
+  font-size: 1em;
 }
 
 h2 {
@@ -33,9 +34,21 @@ pre {
   padding: 8px 22px;
 }
 
-#code {
-  background: #f5f7f9;
-  color: #5a57df;
+#code, #code1, #code2, #code3, #code4 {
+    background: #f5f7f9;
+    color: #5a57df;
+  }
+
+.default, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 2px 12px;
+    font-size: 15.5px;
+    line-height: 1.7;
+}
+
+table {
+    font-family: 'Roboto', "Arial", "Helvetica", "sans-serif";
 }
 
 ul, ol {
@@ -92,4 +105,3 @@ header {
   background:  #e81c4f;
   color: white;
 }
-
