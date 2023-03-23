@@ -5,7 +5,7 @@ https://github.com/Tec-ProGdl
 # Teodoro Alejandro Casados Flores
 ## Ingeniero en mecatronica y emprendedor
 
-##### Egresado del Centor de enseñanza tecnico industrial hace 7 años, me desempeñé como ingeniero de mantenimciento para una empresa nacional con presencia en todo el pais, para posteriormente emprender junto con un socio mas, una empresa dedicada al diseño y manufactura industrial, habiendo desarrollado proyectos para milicia, gobiendo y diferentes empresas del ambito manufacturero.
+##### Egresado del Centor de enseñanza tecnico industrial hace 7 años, me desempeñé como ingeniero de mantenimiento para una empresa nacional con presencia en todo el pais, para posteriormente emprender junto con un socio mas, una empresa dedicada al diseño y manufactura industrial, habiendo desarrollado proyectos para milicia, gobiendo y diferentes empresas del ambito manufacturero.
 
 
 ## Comando interesantes
