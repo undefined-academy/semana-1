@@ -5,19 +5,19 @@ I'm Peruvian and I'm a web programming student. I want to become a fullstack pro
 
 ***
 ##  Terminal commands learned   
-| Comands | Description |
-|----------|-------------|
-| ls       | List current directory or or given path|
-| pwd      | Print working directory or current path| 
-| cd       | Allow us to move between directories or given paths |
-| rm -r    | Allow us to remove a folder given a path |
-| mkdir    | Allow us to create a folder given the name of that folder|
+| Comands  | Description                                                |
+|----------|------------------------------------------------------------|
+| ls       | List current directory or or given path                    |
+| pwd      | Print working directory or current path                    | 
+| cd       | Allow us to move between directories or given paths        |
+| rm -r    | Allow us to remove a folder given a path                   |
+| mkdir    | Allow us to create a folder given the name of that folder  |
 
 ***   
 ## Useful Alias commands
 
-| Comands | Description |
-|---------|-------------|
-| alias cl="clear" | Clean command line |
-|alias npms="npm start" | Execute the start script to start the application with npm |
+| Comands                  | Description                                                |
+|--------------------------|------------------------------------------------------------|
+| alias cl="clear"         | Clean command line                                         |
+|alias npms="npm start"    | Execute the start script to start the application with npm |
 
