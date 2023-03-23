@@ -15,9 +15,9 @@ I love to teach what I´ve learned in this path. Something you can ask me is abo
 ### Reach me here:
 :mailbox: angeloramirez.dev@gmail.com
 
-[Twittter] (https://twitter.com/AngeloRmz)
+[Twittter](https://twitter.com/AngeloRmz)
 
-[Linkedin] (https://www.linkedin.com/in/angelormz/)
+[Linkedin](https://www.linkedin.com/in/angelormz/)
 
 ### Comandos de la Terminal que Aprendí
 
