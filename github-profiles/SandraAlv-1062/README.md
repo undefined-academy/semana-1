@@ -39,4 +39,4 @@ Right now I'm taking the *Full-stack JavaScript Bootcamp* at Undefined Academy.
 | *actualizar="sudo apt update && sudo apt dist-upgrade -y"*  | Updating the operating system.            |
 | *count="find . -type f* / *wc -l"*                          | Counts the files contained in a directory.|
 
-You can find out more about me at: https://github.com/SandryVets
+You can find out more about me at: [My GitHub profile](https://github.com/SandryVets)
