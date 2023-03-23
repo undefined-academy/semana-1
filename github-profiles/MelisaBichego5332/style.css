@@ -1,0 +1,101 @@
+body {
+  margin: 0 auto;
+  max-width: 60em;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #7259a8;
+  background-color: #f9f1ff;
+}
+header {  
+  background-image: url("fondopagina.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding-top: 30px ;
+  padding-bottom: 30px;
+  text-align: center;    
+}
+header h1 {color: #7259a8 ;
+  text-align: center;}
+
+
+body {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+a {
+  color: #c700a6;
+}
+
+button {
+  background: #8467c5;
+  color: #bbecec;
+  border: 2cm;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+
+code,
+pre {
+  background: #8467c5;
+  border-bottom: 1px solid #f15ec5;
+  color: #bbecec;
+}
+
+pre {
+  border-left: 2px solid #69c;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+header img {
+  height: 170px;
+  width: 170px;
+}
+.titulos {text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+header a {
+  border-radius: 290486px;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+header a:hover {
+
+  color: white;
+}
