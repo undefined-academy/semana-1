@@ -1,0 +1,49 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 4em 1em;
+    background: #566b78;
+  }
+
+  h2{
+    margin-top: 1.5;
+    padding-top: 2px 4px;
+    vertical-align: text-bottom;
+    background: #f5f7f9;
+  }
+
+  h1,h2,strong{
+    color: #333;
+    padding: 1em;
+    border-left: 2px solid #69c;
+  }
+
+  a{
+    color: #e81c4f;
+  }
+
+  header{
+    background-color: #253d36;
+    background-image: url("Horses.jpg");
+    background-position: center top;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+  }
+  
+  header img{
+    display: inline-block;
+    vertical-align: top;
+    height: 120px;
+    width: 130px;
+  }
+
+  header h1{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+  }
