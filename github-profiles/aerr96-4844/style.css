@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+body {
+    line-height: 1.5;
+    color: #555;
+    background: rgba(150, 175, 215, 0.721);
+    padding: 4em 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 50em;
+}
+header {
+    background-color: #26273d;
+    background-image: url("header.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+  }
+  header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3.5em;
+    font-weight: 300;
+  }
+  header img {
+    text-shadow: #333;
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+  }
+  header a {
+    border: 1px solid #0e185b;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+  }
+  
+  header a:hover {
+    background:  #0e185b;
+    color: white;
+  }
+h2 {
+    margin: 0 auto;
+    max-width: 50em;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+/*code,
+p {
+    background: #84a5c7;
+    border-bottom: 1px solid #d8dee9;
+    color: #a7adba;
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    border-left: 2px solid #69c;
+    padding: 1em;
+}
+*/
+/*
+a {
+    color: #0b5b12;
+}
+*/
