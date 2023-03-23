@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    max-width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+    background-color: #a1d3d5;
+
+}
+
+h1, h2 {
+    color:#333;
+    text-align: center;
+}
+
+a{
+    color:#e81c4f;
+}
+
+table{
+    table-layout: fixed;
+    width: 75%;
+    border-collapse: collapse;
+    border: 2px solid #ff8cff;
+}
+
+thead{
+    background-color: #ff8cff;
+}
+
+tr, td{
+    border:1px solid #ff8cff;
+}
+
