@@ -1,20 +1,27 @@
+:root{
+  --main-color:#66347F;
+  --main-color-font:whitesmoke;
+  --main-font:'Poppins',
+    sans-serif;
+}
+
 body{
  margin:0;
  padding:0;
  background-color:#F9F7FE;
  font-size: 62.5%;
- font-family: 'Poppins', sans-serif;
- color:whitesmoke;
+ font-family: var(--main-font);
+ color:var(--main-color-font);
 }
 
 .profile-container{
   margin: 0 auto;
   max-width: 800px;
   height: 1450px;
-  background-color: #66347F;
+  background-color: var(--main-color);
   border-radius: 8px;
   box-sizing: border-box;
-  border: 1px solid whitesmoke;
+  border: 1px solid var(--main-color-font);
   box-shadow: 7px 17px 34px -6px rgba(99, 97, 99, 1);
 }
 
