@@ -1,0 +1,2354 @@
+[33mcommit b7e5d2be149184be08dae38c85250242daeab096[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Victor <unne.vdt@gmail.com>
+Date:   Tue Mar 21 10:32:30 2023 -0300
+
+    add index.html file
+
+[33mcommit f797d862c16cc85710d25f61bcc4a5c0260b3902[m
+Author: VIKTOR <105324390+VIKDUART@users.noreply.github.com>
+Date:   Fri Mar 17 22:50:08 2023 -0300
+
+    Rename Victor_D-4044.md to README.md
+
+[33mcommit fe493eb5e2dd5ab266a778ad7f6ed0d6049c07d8[m
+Author: VIKTOR <105324390+VIKDUART@users.noreply.github.com>
+Date:   Fri Mar 17 21:11:04 2023 -0300
+
+    Rename github-profiles/Victor_D-4044.md to github-profiles/Victor_D-4044/Victor_D-4044.md
+
+[33mcommit e63962859de55167e3f4ede11e505ea70425d60e[m
+Author: Victor <unne.vdt@gmail.com>
+Date:   Fri Mar 17 20:41:09 2023 -0300
+
+    Mi perfil de Git Hub
+
+[33mcommit b35baf639f96e4bc028d150e34b94a0835d4d9fc[m
+Merge: ffb9990 acee001
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Fri Mar 17 13:49:57 2023 +0100
+
+    Merge pull request #52 from IDKJesBen/main
+    
+    Actividades Semana 1
+
+[33mcommit ffb9990fc226ef52adcbfa8132f47b5390c804eb[m
+Merge: 0e4238a a9fba1a
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Fri Mar 17 13:49:29 2023 +0100
+
+    Merge pull request #49 from juanssanchezv/ejercicio
+    
+    Ejercicio
+
+[33mcommit 0e4238a3f31857b5b06423e0f307fabb0a07c347[m
+Merge: a070c63 5e0a136
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Fri Mar 17 13:48:06 2023 +0100
+
+    Merge pull request #33 from alexcaicedo/main
+    
+    alexcaiced0#3094
+
+[33mcommit a070c630c706a982d97da66f4ae4c80fca7410fe[m
+Merge: 5b00578 9d60eb1
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Fri Mar 17 13:43:06 2023 +0100
+
+    Merge pull request #10 from aitorias/main
+    
+    Aitorias#9443
+
+[33mcommit 5b005783f14a1ad3ae9ce6c9cdf195349a09ffc3[m
+Merge: 510374a 3469523
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Fri Mar 17 13:42:40 2023 +0100
+
+    Merge pull request #7 from davidacs10/main
+    
+    d4vidwp-3213
+
+[33mcommit 510374aa1233d1ca958440e1318dff67561b33d6[m
+Merge: 2fc1e02 6caf7c5
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Fri Mar 17 13:33:10 2023 +0100
+
+    Merge pull request #5 from brianbrallard/briann
+    
+    github profile added brianbr#3719
+
+[33mcommit 5e0a136ff389b28273a31889e1c4a58b1639ca00[m
+Author: Alex Caicedo <107496630+alexcaicedo@users.noreply.github.com>
+Date:   Wed Mar 15 19:55:49 2023 -0500
+
+    Delete outer README.md
+
+[33mcommit 2fc1e02e4b72e96d569c2c6f48a05910dec878b1[m
+Merge: a542589 864c19e
+Author: Fernando Montoya <dfm556@gmail.com>
+Date:   Wed Mar 15 18:55:44 2023 -0500
+
+    Merge pull request #231 from matiioj/main
+    
+    Add my github profile
+
+[33mcommit 864c19ebef122ea66d7053057ff378385b339230[m
+Author: matias <matiiojj@gmail.com>
+Date:   Wed Mar 15 19:43:19 2023 -0300
+
+    Agregado README.md correcto
+
+[33mcommit b65a6ede3b19d5e9edf12496b51eb6076d6fb7ea[m
+Author: matias <matiiojj@gmail.com>
+Date:   Wed Mar 15 19:26:29 2023 -0300
+
+    Agregado nuevamente README.md
+
+[33mcommit f80d376fffeb23c5d5b1cc0d4c1327da70eea0c0[m
+Author: matias <matiiojj@gmail.com>
+Date:   Wed Mar 15 19:22:04 2023 -0300
+
+    Agregadas clases a los estilos
+
+[33mcommit bd8ad62ba9fab0b1b568ee765ac21ca0afa4d088[m
+Author: matias <matiiojj@gmail.com>
+Date:   Wed Mar 15 19:16:12 2023 -0300
+
+    Borrado README.md
+
+[33mcommit d41e65b925560489de17bf5cf1234fe346394063[m
+Author: matias <matiiojj@gmail.com>
+Date:   Wed Mar 15 19:01:41 2023 -0300
+
+    Agregar la carpeta github-profiles borrada por error
+
+[33mcommit ab4126292f17549b0cccc09b6a6f4113be469e9b[m
+Author: matias <matiiojj@gmail.com>
+Date:   Wed Mar 15 18:36:51 2023 -0300
+
+    Added styles.css
+
+[33mcommit acee0011ece1a7e4d1845fe69b752be9a5540f0d[m
+Author: IDKJesBen <jesusalbertobr95@gmail.com>
+Date:   Wed Mar 15 01:33:36 2023 -0600
+
+    Actualizacion
+
+[33mcommit a9fba1af5aa16ca5b0558a5f5ea6991c8c4d28ab[m
+Author: Juan <js.sanchez130@gmail.com>
+Date:   Tue Mar 14 21:24:55 2023 -0500
+
+    Fix page based on recommendations
+
+[33mcommit 857c3f3f3aed29214c635ea4b3f99ae7ed207c75[m
+Author: alex_caicedo <a.caicedo_g@hotmail.com>
+Date:   Tue Mar 14 21:05:09 2023 -0500
+
+    updating changes
+
+[33mcommit a542589f7855f7a53f0933451c61f89741d9146d[m
+Merge: d93c124 d065b9d
+Author: Fernando Montoya <dfm556@gmail.com>
+Date:   Tue Mar 14 16:20:36 2023 -0500
+
+    Merge pull request #248 from marisolSv22/main
+    
+    Mi perfil de GitHub
+
+[33mcommit d065b9d989366fbf36fbb84580a64cf847cd1f8b[m
+Author: Marisol Salazar <salazarvalenciamarisol@gmail.com>
+Date:   Tue Mar 14 16:17:59 2023 -0500
+
+    changes
+
+[33mcommit 2936910a5b97bcab381cd630fdba4a0a9852c314[m
+Author: Marisol Salazar <salazarvalenciamarisol@gmail.com>
+Date:   Tue Mar 14 16:16:14 2023 -0500
+
+    changes on main.css
+
+[33mcommit d93c124b8a829c9e2c59323d3382f9498a11f94f[m
+Merge: f1eb067 0457802
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Tue Mar 14 22:07:26 2023 +0100
+
+    Merge pull request #29 from MauBedoya/main
+    
+    GitHub profile -> Mau1-5427.md
+
+[33mcommit f1eb0672b42ad7d2b0bd38e8b3493f145f07b698[m
+Merge: a34e897 b912f73
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Tue Mar 14 22:06:21 2023 +0100
+
+    Merge pull request #21 from Legnaleugim/main
+    
+    add profile .,#4737
+
+[33mcommit a34e897e1af51f47ebe5efd4149f90ec015d2e52[m
+Merge: 77aaa53 fb67bcf
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Tue Mar 14 22:04:36 2023 +0100
+
+    Merge pull request #14 from pintor32/main
+    
+    Add Leonardo Pintor profile
+
+[33mcommit 77aaa53d8a02ea637fec125bfc1abf90e69fb843[m
+Merge: c4bd824 1652ac0
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Tue Mar 14 22:03:57 2023 +0100
+
+    Merge pull request #11 from Aeternus185/main
+    
+    Add Profile AETERNUS#9050
+
+[33mcommit c4bd8249dd478c3a22a47475b72862fe8c737ac9[m
+Merge: df85533 0feb742
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Tue Mar 14 22:02:20 2023 +0100
+
+    Merge pull request #8 from Cristianp9927/cristianp
+    
+    cristianpb#4535
+
+[33mcommit df85533fcd70e46df1277fbcb767d051e525ee5e[m
+Merge: 4bfc68e 87a3363
+Author: Manu Castrillon <hello@manuela.dev>
+Date:   Tue Mar 14 21:55:51 2023 +0100
+
+    Merge pull request #2 from luciaaldana/main
+    
+    LuciaAldana#5957
+
+[33mcommit 4bfc68eec2c6ff03e906ce180ceb4c9889da60ec[m
+Merge: 77c8d13 11faad4
+Author: Fernando Montoya <dfm556@gmail.com>
+Date:   Tue Mar 14 15:01:18 2023 -0500
+
+    Merge pull request #50 from Jorem999/main
+    
+    ejercicio 1
+
+[33mcommit 11faad4aa061883d6aa033619ba292fe80950f7e[m
+Author: Jorem999 <jm786ec@gmail.com>
+Date:   Tue Mar 14 14:41:01 2023 -0500
+
+    Cambios sugeridos por dfm555
+
+[33mcommit 4b9384a8921d0fa084c72de1b6c27ada0b7ac69b[m
+Author: Jorem999 <jm786ec@gmail.com>
+Date:   Tue Mar 14 12:46:22 2023 -0500
+
+    Delete .gitignore
+
+[33mcommit 77c8d137a6487acc1d0487153f1512ae60e676c6[m
+Merge: 47b888b a9634b1
+Author: Fernando Montoya <dfm556@gmail.com>
+Date:   Tue Mar 14 12:18:49 2023 -0500
+
+    Merge pull request #153 from ggomez1403/main
+    
+    add github profile file using markdown
+
+[33mcommit c06744de232a97da2453ec1f49495059a5847ebb[m
+Author: Jorem999 <jm786ec@gmail.com>
+Date:   Tue Mar 14 12:15:58 2023 -0500
+
+    Update .gitignore
+
+[33mcommit fb67bcfed42b57ccf7674f774315c2d1e5b5d18a[m
+Author: Leonardo Pintor <90740282+pintor32@users.noreply.github.com>
+Date:   Tue Mar 14 09:56:54 2023 -0500
+
+    Update README.md
+    
+    Se realiza corrección en link a Github
+
+[33mcommit b37176ccb17a77e310b1c53783d6dc5a4ba21ebe[m
+Author: Leonardo Pintor <90740282+pintor32@users.noreply.github.com>
+Date:   Tue Mar 14 09:55:06 2023 -0500
+
+    Update README.md
+
+[33mcommit e732fb218efd50b18266018ceb55c28f577ca1f1[m
+Author: Leonardo Pintor <90740282+pintor32@users.noreply.github.com>
+Date:   Tue Mar 14 09:50:27 2023 -0500
+
+    Update github-profiles/Leonardo Pintor-6833/README.md
+    
+    Aplicando cambios sugeridos por Agustina
+    
+    Co-authored-by: Agustina <119085363+Romero-Agustina@users.noreply.github.com>
+
+[33mcommit 9d60eb12df6ca3895fbc246925fcb2281d23cfe7[m
+Author: Aitorias <aitordediego23@gmail.com>
+Date:   Tue Mar 14 12:15:16 2023 +0100
+
+    Correcciones semánticas y accesibilidad
+
+[33mcommit 47b888bcea0fc10dbae769d924339a2777c24835[m
+Merge: d2e9566 03babc2
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:53:51 2023 -0300
+
+    Merge pull request #76 from luanarmo/main
+    
+    Adding luanarmo-7586 Profile
+
+[33mcommit d2e9566c4bb217c55476b5cb40a39f2eb3e8d8fe[m
+Merge: 134113a 735ba12
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:53:07 2023 -0300
+
+    Merge pull request #152 from Danielisho/main
+    
+    👉 Pull Request Danielisho-3816 👈
+
+[33mcommit 134113a3fa70066bfa1d99e690c8b4cfc47835b3[m
+Merge: c459c0f 03095f2
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:52:43 2023 -0300
+
+    Merge pull request #13 from Alexis033/main
+    
+    Agregando archivo Maikcol-2796.md
+
+[33mcommit c459c0fd704dc55b3fe953b1b77d9cd8fdbd1432[m
+Merge: c95437d ac7779f
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:52:18 2023 -0300
+
+    Merge pull request #195 from fedegomezc/Ejercicio2
+    
+    Ejercicio Clase 2 - Fede.GC#5692
+
+[33mcommit c95437d9c63fbc4f76291a9a531f572f2a692a2c[m
+Merge: 1272719 ae1670e
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:51:46 2023 -0300
+
+    Merge pull request #173 from matidsv/main
+    
+    My profile
+
+[33mcommit 1272719d836e16fae4f53fc8f0a678847b63903a[m
+Merge: 315af8b 77bc779
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:51:13 2023 -0300
+
+    Merge pull request #236 from dlozanoc82/main
+    
+    Add GitHub Profile: DCoder82
+
+[33mcommit 315af8b769a3eb3af6022a3046a830a3cbccba51[m
+Merge: 125064a f8693cf
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:50:06 2023 -0300
+
+    Merge pull request #24 from Seujumon/main
+    
+    ejercicio fork
+
+[33mcommit 125064a7e29fd7732a4d4d8cd2a27d5f836fd845[m
+Merge: 5f92ae8 d467592
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:49:08 2023 -0300
+
+    Merge pull request #171 from GuishePR/main
+    
+    GuishePR
+
+[33mcommit 5f92ae8f10cd66959df0e53d5d12609bd5d128fd[m
+Merge: 9a94794 e263eae
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:44:31 2023 -0300
+
+    Merge pull request #114 from andrealarroza/main
+    
+    Add andrealarroza profile
+
+[33mcommit 9a94794def2c970a7dc2c69f34f3ca313123fb95[m
+Merge: fdbadbf 6e3b0d5
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:44:00 2023 -0300
+
+    Merge pull request #25 from k4dm3l/main
+    
+    [SEMANA-1] - Added .MD file to GitHub profile folder
+
+[33mcommit fdbadbfd23290806e24b4ac9b2d08d03ee052785[m
+Merge: 3b8ded4 2b5bcec
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:43:50 2023 -0300
+
+    Merge pull request #121 from AliannaFormoso/main
+    
+    docs: week1 JS-FS bootcamp assignments/files
+
+[33mcommit 3b8ded4883dc2014cd23887bccdb6d103e97b903[m
+Merge: a71574e 1631afb
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:43:13 2023 -0300
+
+    Merge pull request #65 from MariaSolArroyo/main
+    
+    Ejercicio-Semana-1
+
+[33mcommit a71574e25376fc544154f556962f800475553e4e[m
+Merge: 1f2b8c1 32b143d
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:42:02 2023 -0300
+
+    Merge pull request #239 from CardonaEA/main
+    
+    Pull request: commit github profile
+
+[33mcommit 1f2b8c12873d67a86a9f2443d829c54df622ec7b[m
+Merge: d92a4d0 e1cd195
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:41:38 2023 -0300
+
+    Merge pull request #215 from deinsandbox/main
+    
+    S01E02 exercise
+
+[33mcommit d92a4d0d54036e3e1724755dfef155afc41c552e[m
+Merge: 6d64e49 a595750
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:41:13 2023 -0300
+
+    Merge pull request #101 from fjquants/main
+    
+    Datos de Felipe Quant
+
+[33mcommit 6d64e49166f73eac9feea58bf35f1263079847f4[m
+Merge: 50ccc14 480bfbe
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:39:46 2023 -0300
+
+    Merge pull request #109 from gabobregon89/main
+    
+    Primer commit del fork GabrielObregon#7536
+
+[33mcommit 50ccc147fa20799910d3b76335180028cadad007[m
+Merge: 63aa4e1 cf48b02
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:38:59 2023 -0300
+
+    Merge pull request #334 from ernzxr/main
+    
+    Mi perfil de GitHub: ernzxr
+
+[33mcommit 63aa4e101e9e6bfa99f320998a522181c6f4f5f1[m
+Merge: bb7465f 758cad4
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:37:33 2023 -0300
+
+    Merge pull request #91 from DevOld112/main
+    
+    Mi perfil de Github.
+
+[33mcommit bb7465fb525e9c48eaa8904cb543e710a25ae0d2[m
+Merge: 14fd599 7db56e2
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:36:26 2023 -0300
+
+    Merge pull request #54 from Mfassi96/main
+    
+    Agregando nuevas instrucciones
+
+[33mcommit 14fd59988db4784ea7b26f6a5ca7bd82a0366dcd[m
+Merge: 6900779 98a2e04
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:34:41 2023 -0300
+
+    Merge pull request #9 from Alexander-Solis-Brenes/main
+    
+    Pagliuca#6408
+
+[33mcommit 690077915b4a2fb27f352475cae1c12ebdcaedff[m
+Merge: e48d200 5f599d1
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:33:28 2023 -0300
+
+    Merge pull request #3 from joseandresgavilanes/main
+    
+    josé andrés gavilanes (smileyyy)#6269
+
+[33mcommit e48d2005c81c237ee2aca017c1d6b407b58f1a66[m
+Merge: 001c5c1 b5f92a2
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:29:02 2023 -0300
+
+    Merge pull request #281 from nobody-redhawk/main
+    
+    Mi perfil de Github
+
+[33mcommit 001c5c1d647f0481bdb701e2cac32cb07407d11d[m
+Merge: aeb2cc5 3d4519f
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Tue Mar 14 06:27:15 2023 -0300
+
+    Merge pull request #278 from OrcaCl/main
+    
+    Mi Perfil GitHub
+
+[33mcommit 3d4519f78a59e0501adfd4220812e4649e44b310[m
+Author: OrcaCL <orlando.caffarena@gmail.com>
+Date:   Tue Mar 14 01:15:43 2023 -0300
+
+    corregido error de Vite que me cambió la ruta de estilos.css a localhost
+
+[33mcommit 480bfbe7888141271062db84d93416270a08b786[m
+Author: gabobregon89 <gab.obregon89@gmail.com>
+Date:   Mon Mar 13 22:19:09 2023 -0300
+
+    Eliminando archivo .md innecesario
+
+[33mcommit aeb2cc58a57cf5f5321429f4ff495053307f908d[m
+Merge: 7b4c1ea a5c8468
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Mon Mar 13 21:59:15 2023 -0300
+
+    Merge pull request #313 from RomiCode/main
+    
+    Mi perfil de Github
+
+[33mcommit a4db998118e4527f61bfb8eab4961e4d55eae283[m
+Merge: f513e6b 7b4c1ea
+Author: Leonardo Pintor <90740282+pintor32@users.noreply.github.com>
+Date:   Mon Mar 13 18:01:59 2023 -0500
+
+    Merge branch 'undefined-academy:main' into main
+
+[33mcommit 03095f26ae90dd4393ed07c0ac04d61540263615[m
+Merge: 032fa14 7b4c1ea
+Author: Maikcol <110948692+Alexis033@users.noreply.github.com>
+Date:   Mon Mar 13 17:34:50 2023 -0500
+
+    Merge branch 'undefined-academy:main' into main
+
+[33mcommit a5c84689d77c857f7794354eb3571deec2b344a3[m
+Author: Romina <rocapeto@DESKTOP-3R8M1CA.localdomain>
+Date:   Mon Mar 13 18:35:51 2023 -0300
+
+    actualizando cambios
+
+[33mcommit 6e3b0d52c49d11392e3a1422e750c62bcb8a71f4[m
+Author: Camilo <c.acevedo1993@gmail.com>
+Date:   Mon Mar 13 16:22:42 2023 -0500
+
+    moved location files
+
+[33mcommit 64289a5a4558828dfd1e6563a2d0ccd5c79db37e[m
+Author: Camilo <c.acevedo1993@gmail.com>
+Date:   Mon Mar 13 16:22:09 2023 -0500
+
+    Updated files location
+
+[33mcommit 032fa14f85da89baef6dfa117688fa747e8c9be5[m
+Author: Alexis033 <10guevarafm1102@gmail.com>
+Date:   Mon Mar 13 14:25:17 2023 -0500
+
+    change style and text content
+
+[33mcommit 7b4c1ea1432fbf393b0248f15aecb994d6cc9350[m
+Merge: d0bdd01 6b5a43b
+Author: Fernando Montoya <dfm556@gmail.com>
+Date:   Mon Mar 13 11:17:46 2023 -0500
+
+    Merge pull request #160 from Romeo-Zulu/main
+    
+    Romeo_Zulu-8290
+
+[33mcommit d0bdd019728c1a69677d3085f505a6d31031a0f5[m
+Merge: 4ad7c40 e374fc0
+Author: Carlos Difilippo <cadifilippo@gmail.com>
+Date:   Mon Mar 13 12:51:30 2023 -0300
+
+    Merge pull request #310 from achequisde/main
+    
+    Add markdown with my Github profile
+
+[33mcommit ca9636bcc14c64807ced2a6a0edf693bdc783d8a[m
+Author: OrcaCL <orlando.caffarena@gmail.com>
+Date:   Mon Mar 13 05:06:31 2023 -0300
+
+    terminando ejercicio Semana 1 Clase 4
+
+[33mcommit 6fdf45b04a90313c0e79f3844764dd38d2e368b3[m
+Author: OrcaCl <124632805+OrcaCl@users.noreply.github.com>
+Date:   Sun Mar 12 23:49:08 2023 -0300
+
+    me rindo. Lo borro.
+
+[33mcommit 612f2ad42e53967f9da3addafec35e87c166e104[m
+Author: OrcaCL <orlando.caffarena@gmail.com>
+Date:   Sun Mar 12 23:45:11 2023 -0300
+
+    probando si se baja .gitignore
+
+[33mcommit 758cad4ae9fca06cc7babe5bff69769ba2d77ab8[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Sun Mar 12 21:38:25 2023 -0500
+
+    Ejercicio 02 - semana 02
+
+[33mcommit 30718e4d26fac3bfa5fc59f1c5fdd14ed9410d84[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Sun Mar 12 21:10:38 2023 -0500
+
+    Ejercicio 01-Semana 02
+
+[33mcommit 2b5bcecc1126ce18329d53257147192191e5c0a7[m
+Author: ali <alianncomp@gmail.com>
+Date:   Sun Mar 12 18:00:44 2023 -0500
+
+    style: minor styles
+
+[33mcommit 70cb2f3e0c6943d9991121a48dbb7b40fd4b035d[m
+Author: ali <alianncomp@gmail.com>
+Date:   Sun Mar 12 15:08:49 2023 -0500
+
+    formatting: applying Reviewers' suggestions
+
+[33mcommit 44e32e546682738cb617bc9a812957cef38bc722[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Sun Mar 12 13:23:55 2023 -0500
+
+    modificacion definitiva para VERCEL xd
+
+[33mcommit 6ea59d4cb3799c857769f7f545d5a9dc465b78f0[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Sun Mar 12 09:42:08 2023 -0500
+
+    Modificaciones para deployar en vercel-2
+
+[33mcommit 9c417937e653f7bdadbe1564fb79a2a23352d7f0[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Sun Mar 12 09:28:30 2023 -0500
+
+    Modificaciones para poder deployar en Vercel
+
+[33mcommit e671ab12ae73400aee1f62e31e086285f3d9c3d6[m
+Author: OrcaCL <orlando.caffarena@gmail.com>
+Date:   Sun Mar 12 03:23:03 2023 -0300
+
+    mejorando y limpiando el index
+
+[33mcommit 5cced776d278b637c8a7a767b5c004840009e038[m
+Author: ali <alianncomp@gmail.com>
+Date:   Sat Mar 11 23:24:15 2023 -0600
+
+    style/chore: formatting
+
+[33mcommit f59d33b61ca2e4e3a508aa4ea91e4a718a50a48c[m
+Author: OrcaCL <orlando.caffarena@gmail.com>
+Date:   Sun Mar 12 01:07:25 2023 -0300
+
+    Quité algo de más. Volví a agregar la url de github
+
+[33mcommit bbd5c060844409871fbb5688923345a19335ffea[m
+Author: OrcaCL <orlando.caffarena@gmail.com>
+Date:   Sun Mar 12 01:01:03 2023 -0300
+
+    Reeditado todo, Agregada la info faltante del Ejercicio 1
+
+[33mcommit cf48b0224265e22b49572cab33e86021108ac3e7[m
+Author: ernzxr <ernesto.riveiro@outlook.com>
+Date:   Sat Mar 11 23:32:27 2023 -0300
+
+    Spelling Update 11/03
+
+[33mcommit 8b29443493f3f08d51b5ffd5e206ceda6fe5b488[m
+Author: ernzxr <ernesto.riveiro@outlook.com>
+Date:   Sat Mar 11 23:24:43 2023 -0300
+
+    Updates Reviews 11/03
+
+[33mcommit 49e6c372bf0fe9b66d21f54fcf0180f68b87b7d6[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Sat Mar 11 15:36:06 2023 -0500
+
+    Correcciones solicitadas por los compañeros del bootcamp
+
+[33mcommit 32b143d4a66ce3c480afe905a7b14b90d7fee461[m
+Author: Andres Cardona <andresce68@gmail.com>
+Date:   Sat Mar 11 18:41:45 2023 +0100
+
+    html styled with CSS v2
+
+[33mcommit f9860f645370367c58c12888c5305b034dcf14e9[m
+Author: Romina <rocapeto@DESKTOP-3R8M1CA.localdomain>
+Date:   Sat Mar 11 14:21:08 2023 -0300
+
+    Archivo index.html
+
+[33mcommit 1433f767046851b9e26cb04caf8ea550bafd6bc5[m
+Author: Andres Cardona <andresce68@gmail.com>
+Date:   Sat Mar 11 17:36:10 2023 +0100
+
+    README modifications 2
+
+[33mcommit 6099fc8f020b4dbfbc32e99e01a8ab108ee740b6[m
+Author: Andres Cardona <andresce68@gmail.com>
+Date:   Sat Mar 11 17:32:00 2023 +0100
+
+    README modifications
+
+[33mcommit e374fc083ef39f8acd7acfc4c0be77e371f0d508[m
+Author: Humberto José <therealhjrp@gmail.com>
+Date:   Sat Mar 11 12:26:48 2023 -0400
+
+    Move image to assets, add code tags and update styles
+
+[33mcommit 25f6889fba70820b0eb703a93bf11355e1dd67af[m
+Author: Andres Cardona <andresce68@gmail.com>
+Date:   Sat Mar 11 16:34:09 2023 +0100
+
+    html styled with CSS
+
+[33mcommit d30650f657e6fdc4641710d092f8375cb1b915e5[m
+Author: Humberto José <therealhjrp@gmail.com>
+Date:   Sat Mar 11 11:20:32 2023 -0400
+
+    Fix formatting issues with Prettify
+
+[33mcommit 9d42104271b2a19ac7b7105efe3e2f935650b8bb[m
+Author: ernzxr <ernesto.riveiro@outlook.com>
+Date:   Sat Mar 11 02:18:18 2023 -0300
+
+    Creación de style.css: ernzxr
+
+[33mcommit 8a9a516d06cb0ee4ae12fcbe23aa9b300869ee10[m
+Author: ernzxr <ernesto.riveiro@outlook.com>
+Date:   Thu Mar 9 19:29:19 2023 -0300
+
+    Creación de index.html: ernzxr
+
+[33mcommit 03babc2c8d9a482eb5bb579f286ad86b15a6f6d9[m
+Author: luanarmo <ang3l_morales800@live.com>
+Date:   Sat Mar 11 00:03:21 2023 -0600
+
+    segunda correccion
+
+[33mcommit 02fc0a08a29e796f66541e3f6c93982a1c5a5cd3[m
+Author: OrcaCL <orlando.caffarena@gmail.com>
+Date:   Sat Mar 11 03:01:12 2023 -0300
+
+    Realizados ajustes según opinion de usuario de discord
+
+[33mcommit 0e2750101aa552c5b3000f8a8b496c14fcd32f42[m
+Author: luanarmo <ang3l_morales800@live.com>
+Date:   Fri Mar 10 23:59:14 2023 -0600
+
+    Correccion
+
+[33mcommit 939d81a0e7cd49270361989781cdb2f477aea0c6[m
+Author: ali <alianncomp@gmail.com>
+Date:   Fri Mar 10 21:32:10 2023 -0600
+
+    adding style
+
+[33mcommit 043e94e3496ddba1b22a455cdb4deb33cb86386f[m
+Author: Jorem999 <jm786ec@gmail.com>
+Date:   Fri Mar 10 19:58:27 2023 -0500
+
+    arreglando pequeñas cosas en index
+
+[33mcommit a786dfee1928b227a23ef53dc2de3b48e9f5f75d[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Fri Mar 10 19:42:08 2023 -0500
+
+    Ejercicio 4 del bootcamp de Guillermo Rodas
+
+[33mcommit 4e110cc46d9b4b5bd93d809e9e75829623415352[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Fri Mar 10 19:20:03 2023 -0500
+
+    Ejercicio 3 del bootcamp
+
+[33mcommit 36b2e6f50b758019b7df91d109cfeeeb945bdfb4[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Fri Mar 10 19:17:13 2023 -0500
+
+    Ejercicio 3 del bootcamp
+
+[33mcommit ae1670ef3c0b91138856df02fe304c3647942f0e[m
+Author: Matias Da Silva <matidasilva145@outlook.com>
+Date:   Fri Mar 10 20:19:47 2023 -0300
+
+    Update index.html
+
+[33mcommit 01a6c337060f030c12f7c6cb54d5e83f76410dcb[m
+Author: Matias Da Silva <matidasilva145@outlook.com>
+Date:   Fri Mar 10 20:18:34 2023 -0300
+
+    Update index.html
+
+[33mcommit ead3490ac079d560b96b99d0e79f76c5b43be1f6[m
+Author: ali <alianncomp@gmail.com>
+Date:   Fri Mar 10 17:02:05 2023 -0600
+
+    adding html files
+
+[33mcommit a0c613adb4fe28f61fb41eddb7f8b36137771f45[m
+Author: Jorem999 <jm786ec@gmail.com>
+Date:   Fri Mar 10 18:01:26 2023 -0500
+
+    Probando archivo vacio
+
+[33mcommit b63934efad4bc85642ed47fa7c35dbd186276699[m
+Author: Jorem999 <jm786ec@gmail.com>
+Date:   Fri Mar 10 16:46:31 2023 -0500
+
+    semana 1 index y CCS
+
+[33mcommit 384b3fc3043be3e5608e587ecbc61f5fd9c7b08a[m
+Author: Juan <js.sanchez130@gmail.com>
+Date:   Fri Mar 10 16:04:34 2023 -0500
+
+    Add styling to the page using CSS
+
+[33mcommit 416714c72bebfede67e8b753f32e3fcc01eca964[m
+Author: Romina <rocapeto@DESKTOP-3R8M1CA.localdomain>
+Date:   Fri Mar 10 17:42:06 2023 -0300
+
+    Realizando arreglos en el perfil
+
+[33mcommit 00d83df2ec6c3a24886ffd8f7d195b5da529fe92[m
+Author: Matias <matidasilva145@outlook.com>
+Date:   Fri Mar 10 17:33:38 2023 -0300
+
+    archivo css y link en html
+
+[33mcommit 00c0aa7996bcb04d623a923e9d1b774e6f6b3e1b[m
+Author: Romina <rocapeto@DESKTOP-3R8M1CA.localdomain>
+Date:   Fri Mar 10 17:32:29 2023 -0300
+
+    Agregue los alias que me faltaron
+
+[33mcommit 6b5a43b2911280e9d555afce918ffb9855534483[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Fri Mar 10 14:14:26 2023 -0300
+
+    4-correcion-ejercicio-clase-4
+
+[33mcommit ba1c76369c18e8d936a5272d7f660fc4bad66012[m
+Author: Alexis033 <10guevarafm1102@gmail.com>
+Date:   Fri Mar 10 11:22:02 2023 -0500
+
+    add: estudios change: paleta de colores
+
+[33mcommit 19b8785347f3326ad93f15fda745fa1edb982b71[m
+Author: Humberto José <therealhjrp@gmail.com>
+Date:   Fri Mar 10 11:14:10 2023 -0400
+
+    Clase 4, CSS agregado
+
+[33mcommit 1652ac03cae3d672cde6e0ecd8fa27b372161ed7[m
+Author: Aeternus185 <andryp_@hotmail.com>
+Date:   Fri Mar 10 04:57:34 2023 -0400
+
+    style: 💄 Added all UI styles
+
+[33mcommit 76780b7714ebfed1bbf9099cbaba43b9b1442e45[m
+Author: Aeternus185 <andryp_@hotmail.com>
+Date:   Fri Mar 10 04:57:03 2023 -0400
+
+    style: 💄 Normalize.css
+
+[33mcommit 745c09480bc1b6392f7340a214c64cd14ae39f2a[m
+Author: Aeternus185 <andryp_@hotmail.com>
+Date:   Fri Mar 10 04:55:51 2023 -0400
+
+    refactor: ♻️ Change code to work with css styles
+    
+    Added Normalize CSS Added Styles CSS Added Google Fonts Added Font Awesome Improved HTML Semantics
+
+[33mcommit e3a0ea615acd74978d63d60d4d27f10e08283a8f[m
+Author: Aeternus185 <andryp_@hotmail.com>
+Date:   Fri Mar 10 03:26:28 2023 -0400
+
+    feat: ✨ Created Index.html based on README.md
+
+[33mcommit 98a2e04a9ab5766e5c2e82bf49d5fcb1fdaa4b31[m
+Author: pagliuca <breakingsoft@hotmail.com>
+Date:   Fri Mar 10 01:20:48 2023 -0600
+
+    Se crea archivo CSS para estilos basicos, y se modifica HTML con imagen que faltaba
+
+[33mcommit 2b2bced1600096381055d3a40df9985d4dd34d01[m
+Author: pagliuca <breakingsoft@hotmail.com>
+Date:   Thu Mar 9 22:59:14 2023 -0600
+
+    Se eliminan .MD que estaban de más
+
+[33mcommit 0feb742d373b8cab38ba972e86c41ef636748e32[m
+Author: cristianpolo <axelpolo9927@gmail.com>
+Date:   Fri Mar 10 01:56:55 2023 -0300
+
+    agregue ejercicios nuevos js
+
+[33mcommit 6caf7c55ba4a9deed6153fe45c461ad9a020edc1[m
+Author: Brian <polobrallardbrian@gmail.com>
+Date:   Fri Mar 10 01:46:56 2023 -0300
+
+    added js new exercises
+
+[33mcommit 39c6bfc7801092dac33d16211ac58ae193d99c59[m
+Author: gabobregon89 <gab.obregon89@gmail.com>
+Date:   Fri Mar 10 00:38:07 2023 -0300
+
+    Aplicando modificaciones recomendadas
+
+[33mcommit e1cd195e8ceb35244ad76d5bb81a37bdedadcd09[m
+Author: equiman <equiman@users.noreply.github.com>
+Date:   Thu Mar 9 21:51:34 2023 -0500
+
+    S01E04
+
+[33mcommit e263eaebfc8c20fad70f67f5d7a330b55b858118[m
+Author: andrealarroza <sugartney@gmail.com>
+Date:   Thu Mar 9 23:35:58 2023 -0300
+
+    Add styles
+
+[33mcommit 1b13a888c2f2dd05cc99319b10c04db85ce3cc55[m
+Merge: 0e13751 fa29e9f
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Thu Mar 9 21:33:46 2023 -0500
+
+    Merge remote-tracking branch 'semana-1/main'
+
+[33mcommit d4675926c57fa1002f26798ca60ea50e8a86c8f0[m
+Author: GuishePR <guisheperez2507@gmail.com>
+Date:   Thu Mar 9 23:13:33 2023 -0300
+
+    Cambiando id a class
+
+[33mcommit 0e1375185340ccfa69998c86cebb5bf8569ae62d[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Thu Mar 9 21:11:14 2023 -0500
+
+    Ejercicio 3 Del Bootcamp de Guillermo Rodas
+
+[33mcommit d52185a861b5f0fef52aefd3bafc269b02de919f[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Thu Mar 9 20:58:09 2023 -0500
+
+    Ejercicio 3
+
+[33mcommit 987901f9aeb1bbc67ffbcdb2426b805662a73c66[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Thu Mar 9 20:40:59 2023 -0500
+
+    Ejercicio 3 del Bootcamp de Guillermo Rodas
+
+[33mcommit eaf4276bba96cd3e99b5439b9036a1ee83f0ae81[m
+Author: andrealarroza <sugartney@gmail.com>
+Date:   Thu Mar 9 22:32:50 2023 -0300
+
+    Add html file
+
+[33mcommit 6e695ec1b8b3fe776d3417dfec77a9f867e9d0fb[m
+Merge: 5ccfe47 20fe12f
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Thu Mar 9 20:27:58 2023 -0500
+
+    Merge branch 'main' of https://github.com/DevOld112/DevOld112
+
+[33mcommit 02fd910e7c1bdc5a6744060f15af8cb0937331d6[m
+Author: matias <matiiojj@gmail.com>
+Date:   Thu Mar 9 21:54:28 2023 -0300
+
+    Delete old files
+
+[33mcommit 1631afba3b96066160d9edb714fb22c62d427998[m
+Author: Maria Sol Arroyo <mariasolarroyoc@gmail.com>
+Date:   Thu Mar 9 21:42:44 2023 -0300
+
+    Cambios Review
+
+[33mcommit 7db56e27a211e24b7f4a49116930d8c3c19a549b[m
+Author: Mauro Fassi <maurofassi17@gmail.com>
+Date:   Thu Mar 9 20:29:45 2023 -0300
+
+    cambios recomendados en la PR 2
+
+[33mcommit 0b3a063fb33fcfba892714d76cfa2a8ac1692858[m
+Author: matias <matiiojj@gmail.com>
+Date:   Thu Mar 9 20:23:45 2023 -0300
+
+    Change dir, README name and add index.html
+
+[33mcommit b5f92a24d76a2156aee80e58f1d4c1cf07246468[m
+Author: Wilmer Gulcochia <karlwgs1989@gmail.com>
+Date:   Thu Mar 9 18:22:43 2023 -0500
+
+    Se modificó el index.html y el README.md
+
+[33mcommit b912f7355edb1bcec95d9057e05f6c56f0036ab7[m
+Author: Legnaleugim <panzoft@gmail.com>
+Date:   Thu Mar 9 18:23:53 2023 -0400
+
+    Separating CSS styles from index.html to main.css
+
+[33mcommit a5957507f0c0d57b7980b44dcd08f4d3e39d49cb[m
+Author: Felipe <fjquants@gmail.com>
+Date:   Thu Mar 9 16:10:22 2023 -0600
+
+    aplicando recomendaciones de MauBedoya
+
+[33mcommit a9431b1a98dd68b3605c261fcb21967ed6fc6e3b[m
+Author: Wilmer Gulcochia <karlwgs1989@gmail.com>
+Date:   Thu Mar 9 16:49:05 2023 -0500
+
+    Se agregó un archivo styles.css, se modifió el index.html y el README.md
+
+[33mcommit b81dec09874c6960227f9c10f133050cc3bf722e[m
+Author: Humberto José <therealhjrp@gmail.com>
+Date:   Thu Mar 9 17:47:57 2023 -0400
+
+    Practica clase 3, HTML
+
+[33mcommit c0f5b5bbc73bc1d4f422565cbf08e48aa06006bc[m
+Author: Brian <polobrallardbrian@gmail.com>
+Date:   Thu Mar 9 18:25:25 2023 -0300
+
+    fixed index.js
+
+[33mcommit ee10a8b94706eaefe06780032ec4272fab41dea1[m
+Author: alex_caicedo <a.caicedo_g@hotmail.com>
+Date:   Thu Mar 9 15:51:37 2023 -0500
+
+    Updating changes o README.md and website
+
+[33mcommit 14f4db1842978fe8573ab13a66350eafbdb71986[m
+Author: Marisol Salazar <salazarvalenciamarisol@gmail.com>
+Date:   Thu Mar 9 15:49:33 2023 -0500
+
+    changes
+
+[33mcommit a410ca1e641fd614db92e1ffa0cc7ae59a9a1306[m
+Author: GuishePR <guisheperez2507@gmail.com>
+Date:   Thu Mar 9 17:22:16 2023 -0300
+
+    Modificaciones
+
+[33mcommit ac7779fb47856d4cb6dd3f926341a3614ef71116[m
+Author: Federico Gomez Conde <fedeic8@gmail.com>
+Date:   Thu Mar 9 17:07:38 2023 -0300
+
+    add Linux commands and aliases
+
+[33mcommit 0a97635218292efc2b617cb371788ab22a6559f3[m
+Author: Felipe <fjquants@gmail.com>
+Date:   Thu Mar 9 13:57:08 2023 -0600
+
+    actualizar archivo index.html
+
+[33mcommit 63bcc9e415061e3c02ec4fde004c268884d1cfe4[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:51:04 2023 -0500
+
+    Update README.md
+
+[33mcommit c3bdc717efb130fd521e25c4df9de439931b562b[m
+Author: Marisol Salazar <salazarvalenciamarisol@gmail.com>
+Date:   Thu Mar 9 14:39:57 2023 -0500
+
+    changes on the information
+
+[33mcommit 7da3d8b7cce67c66d854324f77a95623d6a970ca[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:36:02 2023 -0500
+
+    Update README.md
+
+[33mcommit af84308162201bb50cc4c88f224e2fd62d3254ae[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:35:33 2023 -0500
+
+    Update README.md
+
+[33mcommit f17608e69b5777be2bf980d71dec3c65579dad5b[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:33:22 2023 -0500
+
+    Update README.md
+
+[33mcommit 42a3563289f6f5a14235a48f6ddd91c5dae42f7a[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:32:51 2023 -0500
+
+    Update README.md
+
+[33mcommit 7c79e644c7cebe300d5f48ef991fff60a82a6d71[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:20:19 2023 -0500
+
+    Update README.md
+
+[33mcommit fdb4e4b9afdc63eabd4c75ff3f89a6bc21dd5c05[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:19:43 2023 -0500
+
+    Update README.md
+
+[33mcommit 08ee4d0d86711863a6fd0cd50bbe077f53cce621[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:18:38 2023 -0500
+
+    Update README.md
+
+[33mcommit 33875149b184f0f92802adef18d6516cc7080da9[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Thu Mar 9 16:18:23 2023 -0300
+
+    2-correcion-ejercicio-dia-4
+
+[33mcommit f9588543ee754b66d6fc54b53d7bf95f295e8280[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:18:23 2023 -0500
+
+    Update README.md
+
+[33mcommit a67dc90532e8f79f35379adde81054f081eaf27e[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:16:11 2023 -0500
+
+    Update README.md
+
+[33mcommit 4e3796773a34bcffb6ba1329a70c381406d57044[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:15:48 2023 -0500
+
+    Update README.md
+
+[33mcommit e60f0f31cf0907c508d1af319ca67c574c8ce353[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Thu Mar 9 14:15:24 2023 -0500
+
+    Update README.md
+
+[33mcommit 77bc779facda75aff3d3378212cc48ec369f256f[m
+Author: Daniel Lozano <dlozanoc862@gmail.com>
+Date:   Thu Mar 9 14:00:13 2023 -0500
+
+    [UPDATE] Change in the lang property of the HTML tag, and better Indentation
+
+[33mcommit a2854a02c5db1f20f703f1e9e300313da8344d03[m
+Author: Felipe <fjquants@gmail.com>
+Date:   Thu Mar 9 12:24:25 2023 -0600
+
+    correcciones sugeridas por compañero
+
+[33mcommit e98ded2cb31b5bb43327a641e99c1a27abdde64b[m
+Author: Felipe <fjquants@gmail.com>
+Date:   Thu Mar 9 12:15:59 2023 -0600
+
+    Agregando stilo a mi index.html
+
+[33mcommit f8d93997173258fdde383dad0d15d01cd159fa24[m
+Author: Federico Gomez Conde <fedeic8@gmail.com>
+Date:   Thu Mar 9 14:56:04 2023 -0300
+
+    add styles and gitignore
+
+[33mcommit b8ff2e76a4f88d5ba6e6848b4b792629e90e1a3f[m
+Author: Daniel Lozano <dlozanoc862@gmail.com>
+Date:   Thu Mar 9 12:53:14 2023 -0500
+
+    [ADD] Added css styles
+
+[33mcommit ae2aabbce10e1ea7e2af4a6347528535361f60a8[m
+Author: Mauro Fassi <maurofassi17@gmail.com>
+Date:   Thu Mar 9 14:40:53 2023 -0300
+
+    Reparando errores encontrados en la PR
+
+[33mcommit 7da2d1a23d2750685197f5e390fd49dc3de7c83f[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Thu Mar 9 14:40:48 2023 -0300
+
+    correcion-sugerida-ejercicio-dia-4
+
+[33mcommit f513e6b581b73f6d48fc63807c00779a1552dd4a[m
+Author: Leonardo Pintor <jpintormore@uniminuto.edu.co>
+Date:   Thu Mar 9 12:25:50 2023 -0500
+
+    Se adicionan tablas faltantes de comandos y alias
+
+[33mcommit b755c59af1332c005b24c85d0499f79096edc3f0[m
+Author: Maikcol <110948692+Alexis033@users.noreply.github.com>
+Date:   Thu Mar 9 09:03:57 2023 -0500
+
+    Update README.md
+
+[33mcommit d848d25f519ddce10fbbd7f4c93d1ce9ededafe5[m
+Author: IDKJesBen <jesusalbertobr95@gmail.com>
+Date:   Thu Mar 9 05:07:48 2023 -0600
+
+    Actualizacion Actividad 4
+
+[33mcommit 5966f7fdf9a1a15c5eb8580d9dd53ce601877685[m
+Author: ernzxr <ernesto.riveiro@outlook.com>
+Date:   Thu Mar 9 04:11:38 2023 -0300
+
+    Mi perfil de GitHub: ernzxr
+
+[33mcommit 5f599d1c5082ca94e802944c72e88c0009800df1[m
+Author: joseandresgavilanes <joseandresgavilanes2012@gmail.com>
+Date:   Thu Mar 9 00:56:57 2023 -0500
+
+    adding style to my page
+
+[33mcommit dfd614cd4141db5920a9e595bb6a6ab5b23bf7e8[m
+Author: GuishePR <guisheperez2507@gmail.com>
+Date:   Thu Mar 9 02:13:39 2023 -0300
+
+    Ordenando los archivos
+
+[33mcommit 8ad9565e0d8f781af5bce7b8462b482cdd0acf8f[m
+Author: cristianpolo <axelpolo9927@gmail.com>
+Date:   Thu Mar 9 01:59:26 2023 -0300
+
+    agregue ejercicio de js
+
+[33mcommit df2f704e681af5a85b7494b0a84606b55e133cb0[m
+Author: joseandresgavilanes <joseandresgavilanes2012@gmail.com>
+Date:   Wed Mar 8 23:57:39 2023 -0500
+
+    markdown to html github profile
+
+[33mcommit 2890184cb80a3cd619094736e1e4856f4a397c0d[m
+Author: Brian <polobrallardbrian@gmail.com>
+Date:   Thu Mar 9 01:33:22 2023 -0300
+
+    added js exercises
+
+[33mcommit 12b9d8526ed3e965c4f6ba6d33f4c61120e4bf77[m
+Author: Maria Sol Arroyo <mariasolarroyoc@gmail.com>
+Date:   Thu Mar 9 01:13:53 2023 -0300
+
+    Agregado de CSS
+
+[33mcommit bf68145e139880e00d4396b2faeb2f6961c98a83[m
+Author: gabobregon89 <gab.obregon89@gmail.com>
+Date:   Thu Mar 9 00:50:43 2023 -0300
+
+    Agregando archivo css
+
+[33mcommit c9e58cfec15523ae7e2abe090aaaf0813b36afd2[m
+Author: Daniel Lozano <dlozanoc862@gmail.com>
+Date:   Wed Mar 8 22:16:58 2023 -0500
+
+    [UPDATE] Rename file dynamite-4370 to README.md
+    [ADD] Create index.html and pass the Markdown structure in HTML
+
+[33mcommit d504f20f05439333a3811910b6ef1568f729938e[m
+Merge: 08db2d7 e624fed
+Author: Camilo <c.acevedo1993@gmail.com>
+Date:   Wed Mar 8 22:11:04 2023 -0500
+
+    fixing conflicts
+
+[33mcommit 08db2d7b8e5daa5300c98d0b95817a678b035cc1[m
+Author: Camilo <c.acevedo1993@gmail.com>
+Date:   Wed Mar 8 22:09:44 2023 -0500
+
+    Update readme
+
+[33mcommit e624fed0bdb28df75de24e9f253d1106bfaef880[m
+Author: Camilo <c.acevedo1993@gmail.com>
+Date:   Wed Mar 8 22:08:44 2023 -0500
+
+    Update README.md
+
+[33mcommit d2834de5d1ce95263ad895ba6ac5d4c1b051d8b8[m
+Author: GuishePR <guisheperez2507@gmail.com>
+Date:   Thu Mar 9 00:03:53 2023 -0300
+
+    Modificacion de CSS
+
+[33mcommit 8c850d00bd78d09ab26abef2aa5f0e3ba943a334[m
+Author: Juan <js.sanchez130@gmail.com>
+Date:   Wed Mar 8 21:55:35 2023 -0500
+
+    Add ejercicio html and css
+
+[33mcommit 72c81e28b4ed28838066529da7b7ad371d799288[m
+Author: Juan <js.sanchez130@gmail.com>
+Date:   Wed Mar 8 21:54:55 2023 -0500
+
+    Move files
+
+[33mcommit 346952349c847d35ac85fd7cbb1734ee99c0c77d[m
+Merge: 8acd43c 1a4c160
+Author: davidacs10 <davidacs10.08@gmail.com>
+Date:   Wed Mar 8 22:32:24 2023 -0400
+
+    Merge remote-tracking branch 'origin/main'
+
+[33mcommit 8acd43c8c898f0473263f9390505061ab0403940[m
+Author: davidacs10 <davidacs10.08@gmail.com>
+Date:   Wed Mar 8 22:23:34 2023 -0400
+
+    add css
+
+[33mcommit 1a4c16089e43cb5322da97b025e0f7af392d3bf8[m
+Author: davidacs10 <davidacs10.08@gmail.com>
+Date:   Wed Mar 8 22:23:34 2023 -0400
+
+    add css
+
+[33mcommit ac6bff73d9adea151d406a76f4dc5befe9dd43e0[m
+Author: davidacs10 <davidacs10.08@gmail.com>
+Date:   Wed Mar 8 21:53:02 2023 -0400
+
+    index.html
+
+[33mcommit 27350cf106286225d66fb04f6e5d80259318fc35[m
+Author: davidacs10 <davidacs10.08@gmail.com>
+Date:   Wed Mar 8 21:52:26 2023 -0400
+
+    rename d4vidwp-3213.md to README.md
+
+[33mcommit a9634b16b76a1b66f73f78b3e37886335315abdc[m
+Author: Geraldine Gomez Romero <geralgomez1403@gmail.com>
+Date:   Wed Mar 8 20:38:25 2023 -0500
+
+    add CSS styles to HTML file
+
+[33mcommit 87fe736069255b14a850b9bcea80f0fd7ab403bc[m
+Author: davidacs10 <davidacs10.08@gmail.com>
+Date:   Wed Mar 8 21:11:56 2023 -0400
+
+    d4vidwp.md v.01
+
+[33mcommit 92305209535b2c00f2e1fd992b3478849b931db0[m
+Author: Alexis033 <10guevarafm1102@gmail.com>
+Date:   Wed Mar 8 20:11:00 2023 -0500
+
+    fix: responsive tag projects in html
+
+[33mcommit 87a336318600aabbe57a3ca08cd447afc14d2ca4[m
+Author: luciaaldana <luciaaldanacastillo@gmail.com>
+Date:   Wed Mar 8 22:01:58 2023 -0300
+
+    added styles in the index.html
+
+[33mcommit 84c1facf3eb66beab23aa469c0b7710904af2714[m
+Author: Romina <rocapeto@DESKTOP-3R8M1CA.localdomain>
+Date:   Wed Mar 8 22:01:10 2023 -0300
+
+    Mi perfil de Github
+
+[33mcommit 66e68d1421b1b47898af8941360b866d7d244969[m
+Author: Legnaleugim <panzoft@gmail.com>
+Date:   Wed Mar 8 20:34:55 2023 -0400
+
+    Exercise 3. CSS modified to make it a little better and some minor corrections to the HTML
+
+[33mcommit 41ac2c0ac7aa656f9203528c1aa30503fd623524[m
+Author: Humberto José <therealhjrp@gmail.com>
+Date:   Wed Mar 8 20:29:18 2023 -0400
+
+    Add markdown with my Github profile
+
+[33mcommit 4584ed4ea28d01d5e0bdad9106ec0d0fba8bd16f[m
+Author: alex_caicedo <a.caicedo_g@hotmail.com>
+Date:   Wed Mar 8 19:25:12 2023 -0500
+
+    styling - intro-to-css
+
+[33mcommit 02b2c29358227e33eccff67f7f05885565ef5118[m
+Author: Matias <matidasilva145@outlook.com>
+Date:   Wed Mar 8 21:08:40 2023 -0300
+
+    introduccion CSS
+
+[33mcommit 5ccfe4778dad45662f655c290fafb36e7a3ee663[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Wed Mar 8 18:54:48 2023 -0500
+
+    Este es el ejercicio de CSS del bootcamp de Guillermo Rodas
+
+[33mcommit e8368f60075a3dda6b91dbd58257af673a22484c[m
+Author: Camilo <c.acevedo1993@gmail.com>
+Date:   Wed Mar 8 18:32:39 2023 -0500
+
+    Added CSS
+
+[33mcommit ce51caa88fc900e621a46a6f8cf1e4c71bc69760[m
+Author: Jorem999 <jm786ec@gmail.com>
+Date:   Wed Mar 8 18:09:55 2023 -0500
+
+    little changes to profile in md
+
+[33mcommit 0c73a9afa9f59a11d7f9fb8fac28aa34f11b2fe4[m
+Author: Jorem999 <jm786ec@gmail.com>
+Date:   Wed Mar 8 17:50:34 2023 -0500
+
+    Semana 1 Ejercicio 3
+
+[33mcommit 04578023145171f9ca32e324697ea3e2308d09f1[m
+Author: Mauricio Bedoya <bedoyadehezamauricio@gmail.com>
+Date:   Wed Mar 8 18:33:22 2023 -0400
+
+    adding styles to index.html
+
+[33mcommit c62dae3d0197b19f864a718fdbf490511e9b2afb[m
+Author: Maria Sol Arroyo <mariasolarroyoc@gmail.com>
+Date:   Wed Mar 8 18:58:43 2023 -0300
+
+    Agregado de HTML
+
+[33mcommit e884cb9c37bcad3226b8353b99c3094afbcfa88a[m
+Author: Federico Gomez Conde <fedeic8@gmail.com>
+Date:   Wed Mar 8 18:20:21 2023 -0300
+
+    add index.html
+
+[33mcommit b418f5892df2c35398c403de03bb5dd88371e173[m
+Author: GuishePR <guisheperez2507@gmail.com>
+Date:   Wed Mar 8 17:09:21 2023 -0300
+
+    Modificacion de HTML y CSS
+
+[33mcommit 7f0f8b3909139da2ab67c964937cf4705f94d992[m
+Author: Alexis033 <10guevarafm1102@gmail.com>
+Date:   Wed Mar 8 15:05:55 2023 -0500
+
+    Agregando style.css
+
+[33mcommit ddb1201139d2f5ff5ee72a9855cb236f9b544d7b[m
+Author: OrcaCL <orlando.caffarena@gmail.com>
+Date:   Wed Mar 8 16:09:45 2023 -0300
+
+    me faltó cambiar la info de las tareas
+
+[33mcommit d478b058fbce488b7175433d6c07e7fc2b325414[m
+Author: OrcaCL <orlando.caffarena@gmail.com>
+Date:   Wed Mar 8 16:04:23 2023 -0300
+
+    ejercicio de convertir markdown a html, lista
+
+[33mcommit 332604a4b014a6cdde71ee1e1fd99b965006c9f7[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Wed Mar 8 15:44:31 2023 -0300
+
+    3-correcion-ejercicio-clase-4
+
+[33mcommit 23d72759f7def62f8b0ddf541f5ed4734bb3050d[m
+Author: OrcaCL <orlando.caffarena@gmail.com>
+Date:   Wed Mar 8 15:40:10 2023 -0300
+
+    Avances de ejercicio clase 3 - HTML
+
+[33mcommit a5e3a441b1c06bd4e2ffe476163b3cc78c8efae1[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Wed Mar 8 15:36:46 2023 -0300
+
+    2-correcion-ejercicio-clase-4
+
+[33mcommit 674ab6f840b4af32fa432eddde3d50650e34f8f7[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Wed Mar 8 11:41:03 2023 -0500
+
+    Update index.html
+
+[33mcommit b3b761d4f54a19bec40b4afcdcf1c53cd504db15[m
+Merge: 6ca46b0 8f86434
+Author: Marisol Salazar <salazarvalenciamarisol@gmail.com>
+Date:   Wed Mar 8 11:26:10 2023 -0500
+
+    Merge branch 'main' of https://github.com/marisolSv22/semana-1
+
+[33mcommit 6ca46b0715976dfd7965bb219164308a4a2a3c6d[m
+Author: Marisol Salazar <salazarvalenciamarisol@gmail.com>
+Date:   Wed Mar 8 11:23:15 2023 -0500
+
+    add css to html
+
+[33mcommit 916d2950b1f50d4922deb15f3c60268a8561b6a6[m
+Author: Marisol Salazar <salazarvalenciamarisol@gmail.com>
+Date:   Wed Mar 8 11:19:54 2023 -0500
+
+    add css to html
+
+[33mcommit eab0b277831b6a56661311fd04f915b4e978fac0[m
+Author: Leonardo Pintor <jpintormore@uniminuto.edu.co>
+Date:   Wed Mar 8 10:49:17 2023 -0500
+
+    Se agrega archivo de estilo para el index
+
+[33mcommit 2387a1c4ee2d9b3072f68cca84c5a8f0b81f190a[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Wed Mar 8 12:08:10 2023 -0300
+
+    correcion-ejercicio-clase-4
+
+[33mcommit 2543d730e7470c8dfbb0a881f998d2dac66040b0[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Wed Mar 8 12:00:37 2023 -0300
+
+    ejercicio-clase-4
+
+[33mcommit 3bcbb5e1b63e2d2adf056111d35dc17b34e7b69d[m
+Author: luanarmo <ang3l_morales800@live.com>
+Date:   Wed Mar 8 09:00:27 2023 -0600
+
+    Agregando CSS al perfil de HTML
+
+[33mcommit f8693cffee402ad0906b1f857229a5ed7ddb51bf[m
+Author: Seujumon <jseura@gmail.com>
+Date:   Wed Mar 8 11:40:24 2023 -0300
+
+    Agregado archivo CSS
+
+[33mcommit 735ba12148fb4f8ac35f975fefa1fee6641eb8e9[m
+Author: Danielisho <78takeshi@gmail.com>
+Date:   Wed Mar 8 10:39:37 2023 -0400
+
+    Estilización de archivo index.html
+
+[33mcommit 950b704415a3e3fdb4e0c01c711cea83c0b24537[m
+Author: Wilmer Gulcochia <karlwgs1989@gmail.com>
+Date:   Wed Mar 8 09:23:50 2023 -0500
+
+    Se agregó el archivo index.html
+
+[33mcommit a0435eb3cea73e5a472d17ef5f5c499bf13f890b[m
+Author: IDKJesBen <jesusalbertobr95@gmail.com>
+Date:   Wed Mar 8 07:14:29 2023 -0600
+
+    Actividad 4
+
+[33mcommit 51d0f38a44176dc1fd816dba387bb34919547d66[m
+Author: Mauro Fassi <maurofassi17@gmail.com>
+Date:   Wed Mar 8 09:35:11 2023 -0300
+
+    Agregando CSS
+
+[33mcommit d3f07a4ead1c2c1d610bb120317aa93d65939989[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Wed Mar 8 09:24:04 2023 -0300
+
+    test clase 4
+
+[33mcommit 60eca04c6e03cf2f5ba4e45f2058460ea564db7b[m
+Author: IDKJesBen <jesusalbertobr95@gmail.com>
+Date:   Wed Mar 8 06:15:57 2023 -0600
+
+    Actividad 4
+
+[33mcommit 778665ae2ce0135abfdb495dc3fe1c21b8894ff1[m
+Merge: 3c5adf3 18e533e
+Author: IDKJesBen <jesusalbertobr95@gmail.com>
+Date:   Wed Mar 8 06:10:03 2023 -0600
+
+    Merge remote-tracking branch 'refs/remotes/origin/main'
+
+[33mcommit 378fa5ae38914475094c0f6ef7a6605c589e1c5a[m
+Author: Andres <andresce68@gmail.com>
+Date:   Wed Mar 8 13:06:07 2023 +0100
+
+    github profile md -> html
+
+[33mcommit 3c5adf3106473f8c7b1156dc9079e85d8408b061[m
+Author: IDKJesBen <jesusalbertobr95@gmail.com>
+Date:   Wed Mar 8 05:48:24 2023 -0600
+
+    Actividad 4
+
+[33mcommit a89dfa304b8f32450c468240f1ef50086ad3144a[m
+Author: Mauricio Bedoya <bedoyadehezamauricio@gmail.com>
+Date:   Wed Mar 8 07:26:52 2023 -0400
+
+    moving Mau-5427 folder into github-profiles
+
+[33mcommit 4e4b8cec97a847936727f200b60a2ac4a0f4d412[m
+Author: gabobregon89 <gab.obregon89@gmail.com>
+Date:   Wed Mar 8 08:23:10 2023 -0300
+
+    Carpeta nueva y archivo index.html
+
+[33mcommit 7b52a7bab3e3b1d19d9ceff6758d5e51f69d78a8[m
+Author: Aitorias <aitordediego23@gmail.com>
+Date:   Wed Mar 8 10:43:02 2023 +0100
+
+    Correcciones css y cambio del idioma del HTML
+
+[33mcommit 3b422ae41caf425dde5d2db11cf24baf541ec4a5[m
+Author: Aitorias <aitordediego23@gmail.com>
+Date:   Wed Mar 8 10:35:30 2023 +0100
+
+    Añadir archivo styles.css y correcciones HTML
+
+[33mcommit a8a1d11ce1685c39775d25d4bafcd3d4bab6a777[m
+Author: GuishePR <87788269+GuishePR@users.noreply.github.com>
+Date:   Wed Mar 8 05:19:13 2023 -0300
+
+    Delete github-profiles/_site directory
+
+[33mcommit 12702fe77626689875bc75dbe3858a1fb014b3b8[m
+Author: GuishePR <guisheperez2507@gmail.com>
+Date:   Wed Mar 8 05:16:14 2023 -0300
+
+    Modificacion de HTML y CSS
+
+[33mcommit d5eec1f998ae215b646ae3b9d1f29f8c813d23aa[m
+Author: GuishePR <guisheperez2507@gmail.com>
+Date:   Wed Mar 8 03:19:26 2023 -0300
+
+    Agregando css al html
+
+[33mcommit e8e9ddf6140cb9112d4b8b76be8bc3cf6f277134[m
+Author: luanarmo <ang3l_morales800@live.com>
+Date:   Wed Mar 8 00:05:36 2023 -0600
+
+    Perfil de github en markdown a HTML
+
+[33mcommit cb6656d60d963140b312bbb237719cc4accd6682[m
+Author: cristianpolo <axelpolo9927@gmail.com>
+Date:   Wed Mar 8 02:40:03 2023 -0300
+
+    agregue CSS
+
+[33mcommit 68a789a7691a950382cc4c437d1bf9402efbcd2a[m
+Author: cristianpolo <axelpolo9927@gmail.com>
+Date:   Wed Mar 8 02:35:16 2023 -0300
+
+    agregué CSS
+
+[33mcommit ccfd2ec86e62c5cb6691c7cbd2965f2abf4b06e3[m
+Author: Brian <polobrallardbrian@gmail.com>
+Date:   Wed Mar 8 02:29:27 2023 -0300
+
+    added css styles to index.html
+
+[33mcommit 46dc75378507bfdced21c23e626ee15dad341049[m
+Author: Wilmer Gulcochia <karlwgs1989@gmail.com>
+Date:   Tue Mar 7 23:40:07 2023 -0500
+
+    Mi perfil de Github
+
+[33mcommit fbb3e6b79f118a816710d0efbc0f91f2c4d71e82[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Tue Mar 7 21:07:57 2023 -0500
+
+    Commit de testeo
+
+[33mcommit 18e533e2624706c43dfe84b7c0631a90f063e38b[m
+Author: Jesús Benitez <101899506+IDKJesBen@users.noreply.github.com>
+Date:   Tue Mar 7 19:48:32 2023 -0600
+
+    Update README.md
+
+[33mcommit 7dbf18db6cc743c7022733e5361524187f61be01[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Tue Mar 7 22:46:25 2023 -0300
+
+    4 commit
+
+[33mcommit 37339439a3723584f6a48a1b31fac763ce71ebe5[m
+Author: IDKJesBen <jesusalbertobr95@gmail.com>
+Date:   Tue Mar 7 19:27:08 2023 -0600
+
+    Actividad 3
+
+[33mcommit bacf20194d2c32ade676eac020aae4734366b214[m
+Author: Matias <matidasilva145@outlook.com>
+Date:   Tue Mar 7 21:53:55 2023 -0300
+
+    "rm archivo"
+
+[33mcommit 7e2a0f17a1445f7c484ec58c02f11e16f2f4dd60[m
+Author: breakingsoft <breakingsoft@hotmail.com>
+Date:   Tue Mar 7 18:40:04 2023 -0600
+
+    Practica 3 creacion index.html y README.MD
+
+[33mcommit 4d0889732bdceaa70cedcddbdd65abb65f63f0ce[m
+Author: Matias <matidasilva145@outlook.com>
+Date:   Tue Mar 7 21:38:27 2023 -0300
+
+    ejercicio html
+
+[33mcommit 20fe12f1b99c341fc9fd19ce2d129ec6e42419a2[m
+Author: Wilmer Lopez <32624313+DevOld112@users.noreply.github.com>
+Date:   Tue Mar 7 19:24:45 2023 -0500
+
+    Update README.md
+
+[33mcommit bc00a5a26a3450362b84d1928f5b5c0d269f50bd[m
+Author: Camilo <c.acevedo1993@gmail.com>
+Date:   Tue Mar 7 19:08:16 2023 -0500
+
+    Added index.html file, rename md file and moved inside new folder
+
+[33mcommit c8c66087269df1d7badf70ea2e02c6e3b7699cc1[m
+Author: Mauricio Bedoya <bedoyadehezamauricio@gmail.com>
+Date:   Tue Mar 7 19:48:06 2023 -0400
+
+    user folder created, this contains readme.md and index.html
+
+[33mcommit 32af06fb5941951cd4dc478d0d5764e9fb2b0f3f[m
+Author: Danielisho <78takeshi@gmail.com>
+Date:   Tue Mar 7 19:39:37 2023 -0400
+
+    Actualización para asignación de HTML - clase n°3
+
+[33mcommit f70b5dbdb7be4cda0177034d9a77eb501c97095c[m
+Author: Marisol Salazar <salazarvalenciamarisol@gmail.com>
+Date:   Tue Mar 7 17:13:26 2023 -0500
+
+    new changes for link github
+
+[33mcommit 26dba3011fcff94b62f517b3dc3e7cbaf793a731[m
+Author: alex_caicedo <a.caicedo_g@hotmail.com>
+Date:   Tue Mar 7 17:04:58 2023 -0500
+
+    Adding README.md
+
+[33mcommit 8f86434979bfca2815934515befcd33241a6af38[m
+Author: Marisol Salazar Valencia <118550920+marisolSv22@users.noreply.github.com>
+Date:   Tue Mar 7 17:02:35 2023 -0500
+
+    update link github
+
+[33mcommit c6845520ad68c294e8ab6888e0a514be40c9197a[m
+Author: alex_caicedo <a.caicedo_g@hotmail.com>
+Date:   Tue Mar 7 16:58:21 2023 -0500
+
+    intro-to-html
+
+[33mcommit f9db73c43035ceb61c296538f5c4e4a20b52b5be[m
+Author: Marisol Salazar <salazarvalenciamarisol@gmail.com>
+Date:   Tue Mar 7 16:22:13 2023 -0500
+
+    add index.html
+
+[33mcommit 788717ee277fcc44892f2f6814ce7c8a0a7be608[m
+Author: Marisol Salazar <salazarvalenciamarisol@gmail.com>
+Date:   Tue Mar 7 15:29:41 2023 -0500
+
+    Mi perfil de GitHub
+
+[33mcommit 1e85ab8ca67570f75f5c5521c2749558c109f82d[m
+Author: Geraldine Gomez Romero <geralgomez1403@gmail.com>
+Date:   Tue Mar 7 15:11:33 2023 -0500
+
+    add GitHub Profile using HTML
+
+[33mcommit 75e7b249bbb0f03bdcd3eac02cfaf55ed37b6076[m
+Author: equiman <equiman@users.noreply.github.com>
+Date:   Tue Mar 7 14:53:45 2023 -0500
+
+    S01E03 exercise
+
+[33mcommit b1c2250059578ca3bde0e2efc29fcd807e26d267[m
+Author: luciaaldana <luciaaldanacastillo@gmail.com>
+Date:   Tue Mar 7 16:49:19 2023 -0300
+
+    user folder created and index.html and README.md files added to the folder
+
+[33mcommit 65e4fcf0dfecef243575ce044dda24bbdef74e12[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Tue Mar 7 16:40:45 2023 -0300
+
+    3 commit
+
+[33mcommit 7de45bc2cf84ee22dc90449df922aeb092dc175d[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Tue Mar 7 16:30:20 2023 -0300
+
+    2 commit
+
+[33mcommit 6a4dc16f0aa0ba6d1422bb498a80dfa4d09f5099[m
+Author: Seujumon <jseura@gmail.com>
+Date:   Tue Mar 7 14:28:01 2023 -0300
+
+    actividad clase3 HTML
+
+[33mcommit 1773df4860173767e4357b304cdd7397ffd84b6d[m
+Author: Andres <andresce68@gmail.com>
+Date:   Tue Mar 7 18:02:44 2023 +0100
+
+    commit github profile
+
+[33mcommit 4e635cdb710d49d9230ab57b7190a3a494bd4fd3[m
+Author: Leonardo Pintor <jpintormore@uniminuto.edu.co>
+Date:   Tue Mar 7 11:53:52 2023 -0500
+
+    Se modifica para dejar todo en inglés
+
+[33mcommit 0429250b225380755d665df64d0cf0bf66be1130[m
+Author: Leonardo Pintor <jpintormore@uniminuto.edu.co>
+Date:   Tue Mar 7 11:48:30 2023 -0500
+
+    Se corrige nombre de carpeta
+
+[33mcommit 0e7a9f30ac11c2eb572b1b44ff9c716ebe0a13e9[m
+Author: Leonardo Pintor <jpintormore@uniminuto.edu.co>
+Date:   Tue Mar 7 11:46:18 2023 -0500
+
+    Ejercicio clase 3
+
+[33mcommit 6600b51fa5e8cdc0309611871681a7d283f2acc0[m
+Author: Andres <andresce68@gmail.com>
+Date:   Tue Mar 7 17:41:30 2023 +0100
+
+    commit github profile
+
+[33mcommit 8a374e77909e17f11e8a530a5ec1627e20fb3c61[m
+Author: Daniel Lozano <dlozanoc862@gmail.com>
+Date:   Tue Mar 7 11:26:00 2023 -0500
+
+    Add GitHub Profile: DCoder82
+
+[33mcommit 10ff787c49a4a3908acf04159b612e1767f5655c[m
+Author: Aitorias <aitordediego23@gmail.com>
+Date:   Tue Mar 7 16:57:53 2023 +0100
+
+    Archivo index.html +renombrar archivo y carpeta
+
+[33mcommit 3bb9ea34c1c111377caa2b52c96f3ae51d4f4e06[m
+Author: alex_caicedo <a.caicedo_g@hotmail.com>
+Date:   Tue Mar 7 10:47:40 2023 -0500
+
+    intro-to-html
+
+[33mcommit 968704e6f74bc621d6b44ba0ee19ab1bbbe2bb86[m
+Author: mati <matiiojj@gmail.com>
+Date:   Tue Mar 7 11:48:07 2023 -0300
+
+    Add github profile
+
+[33mcommit b338b5a0412b1efff1551065c834f7648c7e1d29[m
+Author: Felipe <fjquants@gmail.com>
+Date:   Tue Mar 7 08:43:51 2023 -0600
+
+    cambio de nombre y de directorio
+
+[33mcommit 9f7885fa7d5ae86c96539891afd4a5e94b470c49[m
+Author: Felipe <fjquants@gmail.com>
+Date:   Tue Mar 7 08:40:57 2023 -0600
+
+    cambio de nombre y de directorio
+
+[33mcommit 7ec9f02c330faa46ad9dd2e4e8023415203e02c7[m
+Author: Felipe <fjquants@gmail.com>
+Date:   Tue Mar 7 08:10:48 2023 -0600
+
+    archivo html
+
+[33mcommit a2f3c8670da5e037ff5845fec77f4a928b688c45[m
+Author: IDKJesBen <jesusalbertobr95@gmail.com>
+Date:   Tue Mar 7 08:06:11 2023 -0600
+
+    Actividad 3
+
+[33mcommit f84970e4aad3a4333de8c625053fa4ade5a604ef[m
+Author: Mauro Fassi <maurofassi17@gmail.com>
+Date:   Tue Mar 7 10:20:21 2023 -0300
+
+    ejercicio clase 3
+
+[33mcommit 6de8e26c6fbfa6960e77094e7368c5701dc80bfe[m
+Author: GuishePR <guisheperez2507@gmail.com>
+Date:   Tue Mar 7 07:14:15 2023 -0300
+
+    Correccion
+
+[33mcommit 2eb47d84d938b348bcb4933df515693bffe0cf66[m
+Author: GuishePR <guisheperez2507@gmail.com>
+Date:   Tue Mar 7 06:13:31 2023 -0300
+
+    Ejercicio 2
+
+[33mcommit 344da8c1efe521732f50cc5efbd3de95f8b86599[m
+Author: OrcaCL <orlando.caffarena@gmail.com>
+Date:   Tue Mar 7 05:18:31 2023 -0300
+
+    Ejercicio 2
+
+[33mcommit 4e977b6c8a275ec1dca8d25d8d27fbad3e4fd55d[m
+Author: Legnaleugim <panzoft@gmail.com>
+Date:   Tue Mar 7 01:38:45 2023 -0400
+
+    Rename {.,}-{4737}.md to README.md and create index.html
+
+[33mcommit 7a358b358964a0715d1710b2d814242c2c479da0[m
+Merge: e0d3445 030dc7a
+Author: cristianpolo <axelpolo9927@gmail.com>
+Date:   Tue Mar 7 02:11:54 2023 -0300
+
+    agregue README.md a la  cristianp-4535
+
+[33mcommit faa1e8d469b1b3789c3d32b129d1fb650b65bbc8[m
+Author: equiman <equiman@users.noreply.github.com>
+Date:   Mon Mar 6 23:56:59 2023 -0500
+
+    S01E02 exercise
+
+[33mcommit 0ce1f34309d6f01706b683d8c2802b136bff9565[m
+Author: Brian <polobrallardbrian@gmail.com>
+Date:   Tue Mar 7 01:56:39 2023 -0300
+
+    error
+
+[33mcommit 9229a5b3e7ffe46978955467593884f492f9a734[m
+Merge: 7b27dfe 736c74a
+Author: Brian <polobrallardbrian@gmail.com>
+Date:   Tue Mar 7 01:52:43 2023 -0300
+
+    added html
+
+[33mcommit 7b27dfeb7e94f32322393dad358ebbbfc98b77bc[m
+Author: Brian <polobrallardbrian@gmail.com>
+Date:   Tue Mar 7 01:48:26 2023 -0300
+
+    added html
+
+[33mcommit e0d3445d69be4cf5cf60be4fff5277e0b6ad2760[m
+Author: cristianpolo <axelpolo9927@gmail.com>
+Date:   Tue Mar 7 01:46:11 2023 -0300
+
+    agregue html
+
+[33mcommit ad5e637ce469b98f60f002bc4b7ba7e46a9a34f8[m
+Author: Juan <js.sanchez130@gmail.com>
+Date:   Mon Mar 6 23:27:42 2023 -0500
+
+    Create html code for ejercicio 2
+
+[33mcommit 70969873a6023c85bc61579cfb80b984b396c84a[m
+Author: Juan <js.sanchez130@gmail.com>
+Date:   Mon Mar 6 23:12:47 2023 -0500
+
+    Add new directory and files for ejercicio2
+
+[33mcommit 532d6ae5e63bfc7bb30000d057b9213ca888239a[m
+Author: Maikcol <110948692+Alexis033@users.noreply.github.com>
+Date:   Mon Mar 6 23:11:29 2023 -0500
+
+    Delete Maikcol-2796.md
+
+[33mcommit a4487489c8a1c5a01d5e0557c100930a6afcbc97[m
+Author: Alexis033 <10guevarafm1102@gmail.com>
+Date:   Mon Mar 6 23:09:49 2023 -0500
+
+    Actividad 2 carpeta con perfil html
+
+[33mcommit 4d645c38f83ef983f5e98b9eb39104495f76cc4f[m
+Author: Wilmer Lopez <32624313+DevOld112@users.noreply.github.com>
+Date:   Mon Mar 6 22:38:16 2023 -0500
+
+    Update README.md
+
+[33mcommit 030dc7aa77218d574af99982b0319372faac3d41[m
+Author: Cristianp9927 <106997073+Cristianp9927@users.noreply.github.com>
+Date:   Mon Mar 6 23:35:35 2023 -0300
+
+    Update cristianpb-4535.md
+
+[33mcommit 736c74a273d5bfb5bc074d4cb2cf56214f8d4e6a[m
+Author: brianbrallard <96666145+brianbrallard@users.noreply.github.com>
+Date:   Mon Mar 6 23:34:22 2023 -0300
+
+    Update brianbr-3719.md
+
+[33mcommit b25e55bf5801c028b734fdc9ed466080990cbdee[m
+Author: Federico Gomez Conde <fedeic8@gmail.com>
+Date:   Mon Mar 6 21:48:23 2023 -0300
+
+    Ejercicio Clase 2
+
+[33mcommit 02e2ee4b74e8a2d6e9eca1fd13efdb243787cc75[m
+Author: Matias <matidasilva145@outlook.com>
+Date:   Mon Mar 6 18:57:24 2023 -0300
+
+    perfil_matidsv
+
+[33mcommit b79581345cb10cb14da2ed0b0e8036f85e73e742[m
+Author: GuishePR <guisheperez2507@gmail.com>
+Date:   Mon Mar 6 18:35:36 2023 -0300
+
+    Correccion
+
+[33mcommit da3ce8421c348dcf07128d21feda7b448be901a9[m
+Author: GuishePR <guisheperez2507@gmail.com>
+Date:   Mon Mar 6 18:27:35 2023 -0300
+
+    Ejercicio
+
+[33mcommit cdb11618d71082e1d2e5113db5b61dc125029c01[m
+Author: romeo-zulu <jorgariet@gmail.comm>
+Date:   Mon Mar 6 16:49:45 2023 -0300
+
+    1 commit
+
+[33mcommit 4d75d0f102e27c5bd9df9460eb1ff9fc7ba15bed[m
+Author: Geraldine Gomez Romero <geralgomez1403@gmail.com>
+Date:   Mon Mar 6 12:10:14 2023 -0500
+
+    add github profile markdown file
+
+[33mcommit 4cc724cc359b40bdd0d7503ff0c55117b06ff941[m
+Author: Danielisho <78takeshi@gmail.com>
+Date:   Mon Mar 6 13:00:37 2023 -0400
+
+    actualización
+
+[33mcommit ddb656a82db9d139d95c636499461201b5ae5763[m
+Author: Danielisho <78takeshi@gmail.com>
+Date:   Mon Mar 6 10:33:36 2023 -0400
+
+    actualización de archivo
+
+[33mcommit 26e25e068b3845c00d58a60c79992ec49b243f44[m
+Author: ali <alianncomp@gmail.com>
+Date:   Sun Mar 5 18:51:21 2023 -0600
+
+    docs: adding week1 C2's file
+
+[33mcommit 8e88723f540eba37b8e01492a7dc9515e75f66ab[m
+Author: andrealarroza <sugartney@gmail.com>
+Date:   Sun Mar 5 18:48:15 2023 -0300
+
+    Add andrealarroza profile
+
+[33mcommit 50b6f8e71482c8ea6294c4c9c642281ce1069607[m
+Author: gabobregon89 <gab.obregon89@gmail.com>
+Date:   Sun Mar 5 16:39:22 2023 -0300
+
+    Primer commit del fork
+
+[33mcommit 75fa010fed3ea3c673a53d553bd507b934c8a71c[m
+Author: Felipe <fjquants@gmail.com>
+Date:   Sun Mar 5 12:19:04 2023 -0600
+
+    Datos de Felipe Quant
+
+[33mcommit fa29e9f2cb8b4bb55a2ecc93f092219472a849a5[m
+Merge: 4259a6e 4412cf2
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Sun Mar 5 08:49:15 2023 -0500
+
+    Merge branch 'main' of https://github.com/DevOld112/semana-1
+
+[33mcommit 4259a6e2e5cd33323f1d19ededfde75d21768c35[m
+Author: DevOld112 <XwilmerX53@gmail.com>
+Date:   Sun Mar 5 08:48:02 2023 -0500
+
+    Nuevos archivos en la rama principal
+
+[33mcommit 4412cf237173b9971b23815868ea646d7e12c8df[m
+Author: Wilmer Lopez <32624313+DevOld112@users.noreply.github.com>
+Date:   Sun Mar 5 08:25:34 2023 -0500
+
+    Rename README.md to Wilmer-8071
+
+[33mcommit 5b524dc471cc36e4a22863ba29b2da4cd9e0a08b[m
+Author: Wilmer Lopez <32624313+DevOld112@users.noreply.github.com>
+Date:   Sun Mar 5 08:23:30 2023 -0500
+
+    Update README.md
+
+[33mcommit 703f5fc1f13fe7334bfcddb23651acd66b98ee77[m
+Author: luanarmo <ang3l_morales800@live.com>
+Date:   Sat Mar 4 18:35:07 2023 -0600
+
+    Adding luanarmo-7586 Profile
+
+[33mcommit 2523bf69228fc07f989b38771bf654829d910e30[m
+Author: Wilmer Lopez <32624313+DevOld112@users.noreply.github.com>
+Date:   Sat Mar 4 18:17:09 2023 -0500
+
+    Update README.md
+
+[33mcommit 115ee52a9fd635ffec3db050e434c4b275d14b2e[m
+Author: Maria Sol Arroyo <mariasolarroyoc@gmail.com>
+Date:   Sat Mar 4 18:52:47 2023 -0300
+
+    Ejercicio-Semana-1
+
+[33mcommit 1225c1245ef8aef81ca7d9bd63772ef492fff332[m
+Author: Mauro Fassi <maurofassi17@gmail.com>
+Date:   Sat Mar 4 08:45:10 2023 -0300
+
+    Instrucciones para los alias
+
+[33mcommit e37d379c300d3e949ffac68335e1024ac6426a53[m
+Author: IDKJesBen <jesusalbertobr95@gmail.com>
+Date:   Sat Mar 4 01:01:13 2023 -0600
+
+    Actividad 2
+
+[33mcommit fa1d354ae11959858add432a60637b7f3649d772[m
+Author: IDKJesBen <jesusalbertobr95@gmail.com>
+Date:   Sat Mar 4 00:35:16 2023 -0600
+
+    Actividad 2
+
+[33mcommit 00f6b69fefa0d92a8dadcdfd8ab4a08d5a80ad92[m
+Author: Jorem999 <jm786ec@gmail.com>
+Date:   Fri Mar 3 23:02:05 2023 -0500
+
+    ejercicio 1
+
+[33mcommit 1c15c266e83ac5d8137ea50bbdb96e8d49c1df31[m
+Author: Juan <js.sanchez130@gmail.com>
+Date:   Fri Mar 3 22:18:11 2023 -0500
+
+    Add link
+
+[33mcommit e621fe072d031046ceaec9efbad902e16c593615[m
+Author: Juan <js.sanchez130@gmail.com>
+Date:   Fri Mar 3 22:16:31 2023 -0500
+
+    Update ejercicio1
+
+[33mcommit 49c39b6fbb9c9fcdb546fa0d9ec4fa4f7eadf1a5[m
+Author: Mauro Fassi <maurofassi17@gmail.com>
+Date:   Fri Mar 3 22:41:34 2023 -0300
+
+    El mundo del markdown Mfassi2651
+
+[33mcommit 3bd49b658adc2bd09b75c7f9e48331239c597103[m
+Author: Alex Caicedo <a.caicedo_g@hotmail.com>
+Date:   Fri Mar 3 17:29:47 2023 -0500
+
+    Adding github profile discord user alexcaiced0-3094
+
+[33mcommit afe4d4bbe9ab2ec469b1024cb328b08306218856[m
+Author: Alex Caicedo <a.caicedo_g@hotmail.com>
+Date:   Fri Mar 3 17:21:18 2023 -0500
+
+    Adding profile alexcaiced0#3094
+
+[33mcommit 58ba5f0332947a05e059b191c84a4097e550a664[m
+Author: Wilmer Lopez <32624313+DevOld112@users.noreply.github.com>
+Date:   Fri Mar 3 16:59:41 2023 -0500
+
+    Update README.md
+
+[33mcommit 55f0e76e6a248a17b390cdfff899bcdf89b92736[m
+Author: Mauricio Bedoya <bedoyadehezamauricio@gmail.com>
+Date:   Fri Mar 3 16:52:57 2023 -0400
+
+    add git exercise
+
+[33mcommit 73812d31164223ff720d5074fc7f69b8ff402928[m
+Author: Camilo <c.acevedo1993@gmail.com>
+Date:   Fri Mar 3 13:56:42 2023 -0500
+
+    Fork project. Added small profile description file using markdown and also added link to GitHub profile
+
+[33mcommit 8331ffceb69384e561df0d6e2c0f331b35f8e3e3[m
+Author: Seujumon <jseura@gmail.com>
+Date:   Fri Mar 3 15:03:43 2023 -0300
+
+    ejercicio fork
+
+[33mcommit 3e50ae1ec5ddcc171c056d7aecf10d65014be6b8[m
+Author: Legnaleugim <panzoft@gmail.com>
+Date:   Fri Mar 3 12:49:27 2023 -0400
+
+    Adding my custom profile readme
+
+[33mcommit 56c32db20aeb1f93fbfd5e7b735504d942feac90[m
+Author: Leonardo Pintor <pintor32@LEONARDO>
+Date:   Fri Mar 3 10:29:32 2023 -0500
+
+    Add Leonardo Pintor profile
+
+[33mcommit ce995fc4ad0ae2fa1d65f4bbdb48e811f461af50[m
+Author: Alexis033 <10guevarafm1102@gmail.com>
+Date:   Fri Mar 3 09:38:36 2023 -0500
+
+    Agregando archivo .md
+
+[33mcommit 406b05fe26243e724c1ae4d186920c25b5f8afb4[m
+Author: Aeternus185 <andryp_@hotmail.com>
+Date:   Fri Mar 3 08:28:34 2023 -0400
+
+    docs: 📝 Add AETERNUS#9050 Profile
+
+[33mcommit b4c4f5d7d62980f1556851e7833eb22222090e7b[m
+Author: Aitorias <aitordediego23@gmail.com>
+Date:   Fri Mar 3 11:54:44 2023 +0100
+
+    Creación del archivo réplica de mi README.md
+
+[33mcommit c286c25f2b85e446dc0e281ee9439021fd4c13c6[m
+Author: pagliuca <breakingsoft@hotmail.com>
+Date:   Fri Mar 3 02:18:35 2023 -0600
+
+    Revision ortografica
+
+[33mcommit bc1433cf286062d691025c547703e80f4c4eda81[m
+Author: pagliuca <breakingsoft@hotmail.com>
+Date:   Fri Mar 3 02:14:08 2023 -0600
+
+    El proceso estuvo bien, un par de cosas que indagar, pero listo
+
+[33mcommit 23c293a992e5ebfc39972d70d728ff7ed1618fb3[m
+Author: d4vidwp <davidacs10.08@gmail.com>
+Date:   Fri Mar 3 01:50:29 2023 -0400
+
+    d4vidwp-3213
+
+[33mcommit 984a921e0d55b08a364a95196352b8fd27818e3f[m
+Author: cristianpolo <axelpolo9927@gmail.com>
+Date:   Fri Mar 3 02:48:30 2023 -0300
+
+    agregue perfil de github
+
+[33mcommit 76f0273ccb78882a3236e51d21764b5c380b4d51[m
+Author: Cristianp9927 <106997073+Cristianp9927@users.noreply.github.com>
+Date:   Fri Mar 3 02:31:20 2023 -0300
+
+    Update README.md
+
+[33mcommit 50cec83ab637e24be4ed713f58bf532a4e3f79a4[m
+Author: Cristianp9927 <106997073+Cristianp9927@users.noreply.github.com>
+Date:   Fri Mar 3 02:30:12 2023 -0300
+
+    Update README.md
+
+[33mcommit 27dec7ce677566ad84f2a5633fab5f42846c3720[m
+Author: Brian <polobrallardbrian@gmail.com>
+Date:   Fri Mar 3 02:03:23 2023 -0300
+
+    github profile added
+
+[33mcommit dd6d56abb25b8aa308a972dd634342e2d9d03b6e[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:45:41 2023 -0800
+
+    Update joséandrésgavilanes(smileyyy)-6269.md
+
+[33mcommit 98ac75263ebcaaac66971e1ed0f445b845eadc93[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:45:20 2023 -0800
+
+    Update joséandrésgavilanes(smileyyy)-6269.md
+
+[33mcommit 8616e5635d88d38632952c27d14b08ffbf35fef3[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:44:52 2023 -0800
+
+    Update joséandrésgavilanes(smileyyy)-6269.md
+
+[33mcommit 60302043ddfff16110094b22d3e504c8d140389d[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:44:20 2023 -0800
+
+    Update joséandrésgavilanes(smileyyy)-6269.md
+
+[33mcommit ec7129fcc73495ef3d1b18e82416b73eb384e3c8[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:43:52 2023 -0800
+
+    Update joséandrésgavilanes(smileyyy)-6269.md
+
+[33mcommit 7ba55d670727814d9744429527d4e39b6cad75af[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:42:47 2023 -0800
+
+    Update joséandrésgavilanes(smileyyy)-6269.md
+
+[33mcommit de6e56f02343f4f978544813712685cb15873cc5[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:42:25 2023 -0800
+
+    Update joséandrésgavilanes(smileyyy)-6269.md
+
+[33mcommit 68ef04918a3895fc74559ed99c6629f69823a223[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:39:50 2023 -0800
+
+    Update joséandrésgavilanes(smileyyy)-6269.md
+
+[33mcommit fc495fc5cb7a5507463b66948953ba89d6357670[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:39:33 2023 -0800
+
+    Update joséandrésgavilanes(smileyyy)-6269.md
+
+[33mcommit 5390287faf5fbe27b2c219f824635d8cc27cabf7[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:38:08 2023 -0800
+
+    Update joséandrésgavilanes(smileyyy)-6269.md
+
+[33mcommit 7e2e0c7215335c7c547fd59076f726aeea6e2337[m
+Author: joseandresgavilanes <joseandresgavilanes2012@gmail.com>
+Date:   Thu Mar 2 20:32:35 2023 -0800
+
+    adding github profile link
+
+[33mcommit 2782832c861947cf714b1c0462516ee5665d1581[m
+Merge: 65a71ad c18a12d
+Author: joseandresgavilanes <joseandresgavilanes2012@gmail.com>
+Date:   Thu Mar 2 20:28:28 2023 -0800
+
+    adding final details
+
+[33mcommit 65a71adccb049a325e0217e6a5bfc7b6d1b330f2[m
+Author: joseandresgavilanes <joseandresgavilanes2012@gmail.com>
+Date:   Thu Mar 2 20:27:48 2023 -0800
+
+    details readme
+
+[33mcommit c18a12dfec2d0b007dde8acbb215faac4209abf8[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:27:01 2023 -0800
+
+    Update joséandrésgavilanes(smileyyy)-6269.md
+
+[33mcommit 4c472ba491547747a85c4dc07d6499a0f8107bdb[m
+Author: smiley_12_2 <76002851+joseandresgavilanes@users.noreply.github.com>
+Date:   Thu Mar 2 20:26:33 2023 -0800
+
+    Adding an extra gift
+
+[33mcommit c20c9148c5a9122b67c8026cad76f263c1e5a104[m
+Author: joseandresgavilanes <joseandresgavilanes2012@gmail.com>
+Date:   Thu Mar 2 20:25:40 2023 -0800
+
+    uploading github profile for udac week1
+
+[33mcommit 7e827a7c693866a0ddbf8ea5cdfdfb5fa08f4118[m
+Author: luciaaldana <luciaaldanacastillo@gmail.com>
+Date:   Fri Mar 3 01:24:11 2023 -0300
+
+    LuciaAldana#5957 markdown GitHub profile
+
+[33mcommit 280fe72aa92c4a8076e524a2bf6c91560cb80549[m
+Author: Wilmer Lopez <32624313+Devolper112@users.noreply.github.com>
+Date:   Thu Mar 2 15:12:48 2023 -0500
+
+    Update README.md
+
+[33mcommit 20917283481383ece3a3e95347016f4b621178fc[m
+Author: Wilmer Lopez <32624313+Devolper112@users.noreply.github.com>
+Date:   Thu Mar 2 15:12:05 2023 -0500
+
+    Create README.md
+
+[33mcommit 4ad7c4032702cbfe28673701a687de2575525c08[m
+Author: Guillermo Rodas <me@guillermorodas.com>
+Date:   Thu Mar 2 19:48:52 2023 +0100
+
+    Add folder GitHub profiles
+
+[33mcommit a61173561cba8ec00f7b7da3d325a73dd2d92af5[m
+Author: Guillermo Rodas <glrodasz@users.noreply.github.com>
+Date:   Thu Mar 2 19:46:03 2023 +0100
+
+    Initial commit

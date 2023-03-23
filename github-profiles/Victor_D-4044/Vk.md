@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 # ¡Hi! I'm Victor 🖐👨‍
 ![banner 4](https://user-images.githubusercontent.com/105324390/226381424-0570bf8d-1cf6-43ad-889e-55bb7730de9d.jpg)
 
-=======
-
-# ¡Hi! I'm Victor 🖐👨‍
-![banner 4](https://user-images.githubusercontent.com/105324390/226381424-0570bf8d-1cf6-43ad-889e-55bb7730de9d.jpg)
-
->>>>>>> b7e5d2b (add index.html file)
 # Victor A. Duarte
 ## _Programador Web FullStack Java_
 
