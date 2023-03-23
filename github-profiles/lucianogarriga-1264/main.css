@@ -1,0 +1,101 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500";
+
+header,
+body {
+  /* los elementos tipo bloque ocupan todo el width,
+    por eso debemos colocar el max width
+    y con margin 0 auto = es 0 top y bottom, y a los costados auto */
+  margin: 0 auto;
+  padding: 0;
+  max-width: 50em;
+} 
+header {
+  background-image: url("bg-jean-pierre.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+a strong {
+  color: inherit;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+h2 {
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+}
+h1,
+h2,
+strong {
+  color: #333;
+}
+article,
+section{
+  margin: 0 0.5em;
+}
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  color: #4e5a61;
+  background: linear-gradient(rgb(148, 209, 230), lightgrey);
+  font-size: 18px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+header img {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+header h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+header a {
+  color: rgb(39, 72, 143);
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+  padding: 8px 8px;
+}
+header a:hover {
+  background: #333;
+  color: #d8dee9;
+  border-radius: 10px;
+}
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+a {
+  color: #3763db;
+}
+nav{
+  padding-top: 1em;
+}
+footer{
+  padding: 1em;
+  text-align: center;
+  line-height: 1;
+  background: #333;
+}
+.sub,
+footer p,
+nav{
+  text-align: center;
+}
+p{
+  text-align: justify;
+}
