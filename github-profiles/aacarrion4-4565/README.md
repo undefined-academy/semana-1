@@ -37,6 +37,6 @@ Soy de Ecuador y mi objetivo, es convertirme en programador web Fullstack.
 | ``` alias rm="rm -i" ```| Permite reemplazar ``` ls ``` por ``` exa ```. Es preciso instalar ``` exa ``` |
 | ``` alias cp="cp -i" ``` | Antes de sobreescribir un fichero nos pedirá confirmación. |
 
-> npx @11y/elventy --serve
+> npx @11ty/eleventy --serve
 
 > http://localhost:8080/acarrion/index.html
