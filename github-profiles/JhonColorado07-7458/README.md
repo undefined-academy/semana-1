@@ -11,22 +11,21 @@ Passionate about technology 💻, I am always interacting, reading and researchi
 
 ## Learned commands:
 
-| Command | Description | 
-|----------|----------|
-| ls   | List the files in the current folder, or in the given path.  |
+| Command   | Description                                                  | 
+|-----------|--------------------------------------------------------------|
+| ls        | List the files in the current folder, or in the given path.  |
 | whoami    | Shows the name of the current user.   |
-| uptime   | Shows the time elapsed since you last started the computer.   |
-| pwd   | It shows us the absolute path of the current directory.   |
-| cal   | Displays a calendar for the current month.  |
+| uptime    | Shows the time elapsed since you last started the computer.  |
+| pwd       | It shows us the absolute path of the current directory.      |
+| cal       | Displays a calendar for the current month.                   |
 
 
 ## Aliases in terminal:
 
-| Command | Description | 
-|----------|----------|
+| Command            | Description                         | 
+|--------------------|-------------------------------------|
 | alias rm="trash"   | Send the files to the recycle bin.  |
-| alias cl="clear"  | Clean the terminal   |
-
+| alias cl="clear"   | Clean the terminal                  |
 
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/jcolorado19)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/jhoncarloscolorado/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/jhoncolorado07)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://jhoncolorado.com/)  
