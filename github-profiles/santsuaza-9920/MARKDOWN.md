@@ -26,3 +26,6 @@ i took this bootcamp because, i want to velop myself as a programmer and i know 
  |--------|------------|
  | crn    |This alias command use for crate a new folder|
  | cl     |This alias command use for clean to the terminal|
+
+# perfil  github
+## [github] (https://github.com/SantiSua18)
