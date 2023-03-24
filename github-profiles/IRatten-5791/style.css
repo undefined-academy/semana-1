@@ -1,0 +1,43 @@
+body{
+  margin: auto;
+  max-width: 50em;
+  font-family: 'Cascadia Code', "Arial", sans-serif;
+  line-height: 1.5;
+  background-color: #e5e5e5;
+  font-size: 1.1em;
+}
+
+.header-title{
+  text-align: center;
+}
+
+main > section{
+  margin-bottom: 2em;
+}
+
+.profile-about_description{
+  line-height: 2;
+  word-spacing: 5px;
+  font-size: 1.1em;
+}
+
+.profile-contact_container{
+  text-align: center;
+} 
+
+.profile-contact_container > a{
+  height: 48px;
+  display: inline-block;
+}
+
+.profile-skills_container{
+  padding-left: 2em;
+}
+
+.profile-skills_container > p {
+  text-align: center;
+}
+
+.profile-githubstats_container{
+  text-align: center;
+}
