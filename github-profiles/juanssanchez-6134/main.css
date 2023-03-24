@@ -1,0 +1,59 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    line-height: 1.5;
+    padding: 4em 1em;
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 50em;
+    border: 4px dashed orangered;
+    background: indigo;
+    color: papayawhip;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+div {
+    margin-left: 35px;
+    margin-right: 40px;
+}
+
+p {
+    line-height: 1.1;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+h1 {
+    color: rgb(156, 233, 3);
+}
+
+h2 {
+    color: orangered;
+    margin-left: 25px;
+}
+table {
+    border: 4px dotted gold;
+    width: max-content;
+}
+
+code,
+pre {
+  background: rebeccapurple;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+  border-left: 2px solid #69c;
+}
+
+a {
+    color: papayawhip;
+    
+  }

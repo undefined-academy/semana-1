@@ -1,0 +1,51 @@
+body{
+    margin: 0 auto;
+    max-width: 50em;
+    
+    font-family: "Georgia", "Helvetica", "Arial", sans-serif;
+
+    line-height: 1.5;
+    padding: 4em 1em;
+    
+    background-color: #f3f4f6 ;
+    color: #566b78;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,h2,h3{
+    color: #333;
+}
+
+a {
+    color: #e81c4f;
+}
+
+.titulos{
+    display: inline-block;
+    padding: 5px;
+    width: 300px;
+    height: 40px;  
+    background-color: aqua;
+    font-size: 30px;
+    text-align: center;
+}
+.propiedades {
+    display: inline-block;
+    padding: 5px;
+    width: 300px;
+    height: 30px;  
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+ul {
+    list-style: none;
+}
+ol {
+    list-style: none;
+}
