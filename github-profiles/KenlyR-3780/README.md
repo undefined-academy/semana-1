@@ -2,7 +2,7 @@
 
 https://github.com/kenlyjr
 
-# Hi, I'm Kenly Rojas
+# ¡Hola!, soy Kenly Rojas
 ## Actualmente trabajo en una start up de tecnología como Analista de implementación.
 Mi aspiración es ser **Frontend Developer.**
 
