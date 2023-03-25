@@ -18,7 +18,7 @@ i took this bootcamp because, i want to velop myself as a programmer and i know 
 | mkdir  | This command will allow you to create a directory (folder) right from the CLI|
 
 -----------------------------------------------------------------------------------------------------------------
- 
+
  
  Alias commands
  
