@@ -1,0 +1,64 @@
+@import 'https://fonts.googleapis.com/css?family=Sono:300,400,500';
+
+body {
+    margin: 0 auto;
+    font-family: 'Sono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: #566b78;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 4em 1em;
+}
+
+header {
+    background-color: #263d36;
+    background-image: linear-gradient(rgba(105, 100, 100, 0.5), rgba(133, 110, 110, 0.5)), url(header.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+}
+
+header h1 {
+    color: #ffffff;
+    margin-top: 1em;
+    padding-top: 1em;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+header h2{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+h2,
+h3,
+strong,
+th {
+    color: rgb(43, 108, 108);
+}
+
+table,
+th,
+td {
+    border: 1px solid #493f3f;
+}
+
+code {
+    background: #eee;
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    border-left: 2px solid #69c;
+}
