@@ -2,7 +2,8 @@
 
 
 ### Git Hub Profile
-    https://github.com/ManuelArmando
+
+https://github.com/ManuelArmando
 
 🙋🏽‍♂️Soy un joven de 26 años, proveniente de **Venezuela, Edo. Anzoategui** gracias a Dios, soy capaz de aprender y adaptarme a cualquier entorno de una manera bastante rapida! Actualmente desempeño mi labor en una empresa de servicios petroleros como **Analista Administrativo** 
 Tambien en tiempos libres trabajo como **Musico** especificamente de guitarrista🎸 para algunos grupos de la zona.
