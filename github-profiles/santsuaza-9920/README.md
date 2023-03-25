@@ -1,6 +1,6 @@
 # Hi welcome to my CV,
 
-##who am i?
+## who am i?
 
 
 I am Santiago Suarez a junior programmer in Javascript, I want to be a full stack programmer in this language, not only I want but I will be because I have the motivation and the desire to lear, i have a knowledge in the world of programming, but where i have the most knowledge is on the front (js,css,html5)
