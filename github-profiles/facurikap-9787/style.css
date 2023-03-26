@@ -1,35 +1,42 @@
-strong {
-    color: #000000;
-  }
-
 body {
-    line-height: 1.3;
-    padding: 12px 75px; 
+    max-width: 600px;
+    font-size: 15px;
     margin: 0 auto;
-    max-width: 50em;
+    border: 2px dashed tomato;
+    background: white;
+    color: #333;
     font-family: Arial, Helvetica, sans-serif;
-    color: #352a2a;
   }
 
+p {
+    line-height: 1.1;  
+}
+
+h1, 
 h2 {
-    margin-top: 25px;
-    padding-top: 25px;  
-  }
+    line-height: 1.5;
+    margin-top: 32px;
+}
 
-  code,
-  pre {
-    background: #eee;
-  }
-  
-  code {
-    padding: 2px 4px;
-    vertical-align: text-bottom;
-  }
+strong {
+    color: black;
+}
 
-a {
+a{
     color: blue;
 }
 
+code,
+pre {
+  background: #eee;
+}
 
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
 
+pre {
+  padding: 16px;
+}
   
