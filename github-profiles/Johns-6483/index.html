@@ -4,40 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/index.css">
     <title>Johns-6483.md</title>
 </head>
 <body>
-    <main>
-        <h1>Hola,👋 Soy John un Desarrollador web</h1>
+    <main class="main">
+        <h1 class="main__title">Hola,👋 Soy John un Desarrollador web</h1>
 
-        <div>
-            <h2>Me dedico al Desarrollo de aplicaciones web con tecnologías como</h2>
+        <div class="container">
+            <p class="container__text">Me dedico al Desarrollo de aplicaciones web con tecnologías como</p>
             
-            <u>
-                <li>HTML</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>NPM</li>
-                <li>ReactJS</li>
-            </u>
+            <ul class="Order1">
+                <div class="Order1-img">
+                    <li class="Order1__list">HTML </li>
+                    <img src="./utils/html-5 (1).png" alt="">
+                </div>
 
-            <h2>Mis Estudios y Hobbies </h2>
+                <div class="Order1-img">
+                    <li class="Order1__list" >CSS3 </li>
+                    <img src="./utils/css-3.png" alt="">
+                </div>
 
-            <u>
-                <li>🎓 Estudiante de Técnico Profesional en Informática en el Instituto Dr. Genaro Muñoz Hernández</li>
-                <li>🎓 Cursos de Desarrollo web en linea con Platzi</li>
-                <li>📚 Me encanta la lectura</li>
-                <li>🧠 Los Puzzles y hacer ejercicio 🦾</li>
-            </u>
+                <div class="Order1-img">
+                    <li class="Order1__list">JavaScript </li>
+                    <img src="./utils/js.png" alt="">
+                </div>
+
+                <div class="Order1-img">
+                    <li class="Order1__list">NPM</li>
+                    <img src="./utils/icons8-ngp-96.png" alt="">
+                </div>
+
+                <div class="Order1-img">
+                    <li class="Order1__list">ReactJS</li>
+                    <img src="./utils/react.png" alt="">
+                </div>
+
+            </ul>
+
+            <h2 class="container__title-sub">Mis Estudios y Hobbies </h2>
+
+            <ul class="Order2">
+                <li class="Order2__list">🎓 Estudiante de Técnico Profesional en Informática en el Instituto Dr. Genaro Muñoz Hernández</li>
+                <li class="Order2__list">🎓 Cursos de Desarrollo web en linea con Platzi</li>
+                <li class="Order2__list">📚 Me encanta la lectura</li>
+                <li class="Order2__list">🧠 Los Puzzles y hacer ejercicio 🦾</li>
+            </ul>
+
+            <div class="into">
+                <h2 class="container__contact">Contacto</h2>
+                <div class="into2">
+                    <div class="into-wrap1">
+                        <img src="./utils/github.png" alt="logo de Github">
+                        <a class="container__link" href="https://github.com/johns70">Github </a>
+                    </div>
+
+                    <div class="into-wrap2">
+                        <img src="./utils/linkedin.png" alt="">
+                        <a class="container__link"  href="linkedin.com/in/john-jesús-orellana-salazar-dev">Linkedin</a>
+                    </div>
+
+                </div>
+            </div>
 
 
-            <h2>Contacto</h2>
-            <a href="https://github.com/johns70">Github</a>
-            <a href="linkedin.com/in/john-jesús-orellana-salazar-dev">Linkedin</a>
+
+
+            <h2 class="command__title">Comandos Linux</h2>
+
+            <table class="linux">
+                <tr>
+                    <th>Comando</th><th>Alias</th>
+                </tr>
+                <tr>
+                    <td>ls</td><td>ls="color=auto"</td>
+                </tr>
+                <tr>
+                    <td>rm</td><td>rm-hard="rm -rf"</td>
+                </tr>
+                <tr>
+                    <td>cd</td><td>cd1="cd .."</td>
+                </tr>
+            </table>
         </div>
+        <footer class="site__footer">
+            <h3>!Saludos y Gracias por pasarte por mi Aquí🙃¡</h3>
+        </footer>
     </main>
-    <footer>
-        <h3>!Saludos y Gracias por pasarte por mi Aquí🙃¡</h3>
-    </footer>
 </body>
 </html>
