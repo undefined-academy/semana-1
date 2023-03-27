@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 
 body {
+    background-color: beige;
     color: #555;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     line-height: 1.5;
     margin: 0 auto;
     max-width: 50em;
     padding: 4em 1 em;
+}
+
+main {
+    border-radius: 15px;
+    background-color: bisque;
+    margin-top: 25px;
+    padding: 10px 20px;
+    box-shadow: -10px 10px #cdcdcd;
 }
 
 h2 {
