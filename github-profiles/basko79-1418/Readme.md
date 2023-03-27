@@ -10,7 +10,7 @@ Futuro programador Full-Stack
 - [node.js] - evented I/O for the backend
 - [Express] - fast node.js network app framework [@tjholowaychuk]
 
- * perfil Github : https://github.com/basco1979
+ * [Mi perfil Github] (https://github.com/basco1979)
 
 | Comando | Descripcion |
 | ----------- | ----------- |
@@ -20,7 +20,7 @@ Futuro programador Full-Stack
 | cp | Es el comando que nos permite copiar archivos dada una ruta inicial y una ruta final  |
 | rm | Nos permite eliminar un archivo dada una ruta  |
 
-# Alias
+## Alias
 -------------------
 |Alias | Descripcion|
 |-------------------|------------|
