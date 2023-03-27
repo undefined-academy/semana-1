@@ -6,8 +6,7 @@
 
 - 🔭 I’m currently working on **mobility consultancies**
 
-- 🌱 I’m currently learning **Full-stack JavaScript developer**
-
+- 🌱 I’m currently learning **Full-stack Javascript developer**
 
 - 🎮 I’m currently playing **Howarts Legacy**
 
@@ -26,4 +25,4 @@
 Command | Description|
 | ------ | ------ |
 | alias cl=clear| is often used  a lot 😂 |
-| alias rm=trash| permanently delete the files��️ |
+| alias rm=trash| permanently delete the files|
