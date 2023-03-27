@@ -6,7 +6,8 @@
 
 - 🔭 I’m currently working on **mobility consultancies**
 
-- 🌱 I’m currently learning **Full-stack Javascrip developer**
+- 🌱 I’m currently learning **Full-stack JavaScript developer**
+
 
 - 🎮 I’m currently playing **Howarts Legacy**
 
