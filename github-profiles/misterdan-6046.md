@@ -31,3 +31,21 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+### Comandos en terminal
+| COMANDOS | DESCRIPCION                                                           |
+| -------- | --------------------------------------------------------------------- |
+| pwd     | Imprimir directorio de trabajo.                                        |
+| ls      | lista directorios (list directory contents)                            |
+| mkdir   | crear directorio (make directory)                                      |
+| cp -r   | copiar de manera recursiva (copy)                                      |
+| rm -r   | eliminar de manera recursiva (remove)                                  |
+| cat     | mostrar contenido de un archivo                                        |
+| mv      | mover un archivo de un lugar a otro / cambiar el nombre de un archivo. |
+| cd ~    | Ir al home                                                             |
+
+### Atajos en la terminal
+| COMANDO                                                | DESCRIPCION                                                   |
+| ------------------------------------------------------ | ------------------------------------------------------------- |
+| alias gfl="git log --all --oneline --decorate --graph" | Muestra el historial de git resumida y con grafico de braches |
+| alias cl="clear"                                       | Limpiar pantalla                                              |
