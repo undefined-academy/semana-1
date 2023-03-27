@@ -1,3 +1,6 @@
+* {
+  text-decoration: none;
+}
 body {
   max-width: 800px;
   font-size: 14px;
@@ -14,4 +17,8 @@ h1,
 h2 {
   line-height: 1.5;
   margin-top: 50px;
+}
+#footer {
+  margin: 0 auto;
+  text-align: center;
 }
