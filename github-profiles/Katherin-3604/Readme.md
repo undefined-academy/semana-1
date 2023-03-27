@@ -7,8 +7,6 @@ para reforzar mis conocimientos y adquirir unos nuevos y llegar hacer una **Full
 
 [ Mi perfil de github ]( https://github.com/ktlamas29 )
 
-
-
 ## comandos aprendidos 
 
 |  comandos |                descripción                     |
