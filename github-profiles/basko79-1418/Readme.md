@@ -10,7 +10,7 @@ Futuro programador Full-Stack
 - [node.js] - evented I/O for the backend
 - [Express] - fast node.js network app framework [@tjholowaychuk]
 
- * [Mi perfil Github] (https://github.com/basco1979)
+ [Mi perfil Github] (https://github.com/basco1979)
 
 | Comando | Descripcion |
 | ----------- | ----------- |
