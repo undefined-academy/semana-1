@@ -14,15 +14,15 @@
 
 | Command | Description|
 | --- | --- |
-| ls | Lista los archivos de la carpeta actual |
-| cd | permite navegar entre carpetas |
-| pwd | Muestra la ruta absoluta del directorio actual |
-| mkdir | Crea una nueva carpeta dando un nombre para la carpeta |
-| cp| permite copiar una carpeta dada una ruta inicial y final |
+| ls | List the files in the current folder |
+| cd | allows you to navigate between folders |
+| pwd | Showsthe absolute path  of the  currentdirectory |
+| mkdir | Createa new foldergiving  aname  forthe folder |
+| cp| Allows copyng a foldergiven a start and end path |
 
 ### _Alias 💻_
 
 Command | Description|
 | ------ | ------ |
-| alias cl=clear| Se suele utilizar mucho 😂 |
-| alias rm=trash| eliminar permanentemente los archivos��️ |
+| alias cl=clear| is often used  a lot 😂 |
+| alias rm=trash| permanently delete the files��️ |
