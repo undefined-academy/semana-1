@@ -10,6 +10,14 @@ h1 {
   font-size: 40px;
 }
 
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 13px;
+}
+
 .container {
   max-width: 60%;
 }
@@ -43,6 +51,7 @@ ul {
 
 table {
   border: #b2b2b2 1px solid;
+  border-collapse: collapse;
 }
 
 td,
