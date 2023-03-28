@@ -1,0 +1,25 @@
+body {
+    background: burlywood;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width:800px;
+    margin: 5;
+    border: 2px dashed rgb(162, 2, 255);
+}
+h1 {color: red;
+
+}
+
+h2 {
+    color:aquamarine
+
+}
+
+p {
+    color: aquamarine;
+
+}
+
+ul {
+    color: aquamarine
+}
