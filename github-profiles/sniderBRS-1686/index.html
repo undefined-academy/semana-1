@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi perfil de github</title>
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <h1>CV</h1>
+    <header>
+      <h1>Mi Perfil de GitHub</h1>
+    </header>
     <p>
       Soy una persona con muchas ganas de aprender desarrollo web para poderlo
       aplicar laboralmente y sobre todo disfrutar de ello
@@ -28,38 +31,34 @@
           </td>
         </tr>
         <tr>
-          <td>ls</td>
+          <td>pwd</td>
           <td>
-            Lista los directorios y archivos en la ruta donde estemos ubicados
+            Imprime el nombre del directorio donde nos encontramos actualmente
           </td>
         </tr>
         <tr>
-          <td>ls</td>
-          <td>
-            Lista los directorios y archivos en la ruta donde estemos ubicados
-          </td>
+          <td>cd</td>
+          <td>Cambia entre directorios</td>
         </tr>
         <tr>
-          <td>ls</td>
-          <td>
-            Lista los directorios y archivos en la ruta donde estemos ubicados
-          </td>
+          <td>mkdir</td>
+          <td>Crea carpetas</td>
         </tr>
         <tr>
-          <td>ls</td>
-          <td>
-            Lista los directorios y archivos en la ruta donde estemos ubicados
-          </td>
+          <td>touch</td>
+          <td>Crea archivos</td>
         </tr>
       </tbody>
     </table>
     <h2>Alias</h2>
-    <p>git config —global alias.s "status —short"</p>
+    <p>git config —global alias.s <strong>"status —short"</strong></p>
     <p>
-      git config --global alias.lg "log --graph --abbrev-commit --decorate
-      --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset)
-      %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold
-      yellow)%d%C(reset)' --all”
+      git config --global alias.lg
+      <strong
+        >"log --graph --abbrev-commit --decorate --format=format:'%C(bold
+        blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset)
+        %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all”</strong
+      >
     </p>
   </body>
 </html>

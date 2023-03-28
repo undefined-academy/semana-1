@@ -1,6 +1,6 @@
 https://github.com/snayder1900
 
-# CV
+# Mi Perfil de GitHub
 
 Soy una persona con muchas ganas de aprender desarrollo web para poderlo aplicar laboralmente y sobre todo disfrutar de ello
 
@@ -12,7 +12,7 @@ Soy una persona con muchas ganas de aprender desarrollo web para poderlo aplicar
 |                pwd | Imprime el nombre del directorio donde nos encontramos actualmente |
 |                 cd | Cambia entre directorios                                           |
 |              mkdir | Crea carpetas                                                      |
-|              touch | Crea archvios                                                      |
+|              touch | Crea archivos                                                      |
 
 ## Alias
 
