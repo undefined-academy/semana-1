@@ -5,9 +5,13 @@ https://github.com/lschoonewolff-link
 ### Soy colombiano, nacido en Barranquilla 😁
 
 **Tecnólogo en Análisis y Desarrollo de Sistemas de Información:** Con conocimientos básicos recién adquiridos en **HTML / CSS / JAVASCRIPT / PHP / PHPadmin / MYSQL / BOOTSTRAP**, en entornos de desarrollo como: **Sublime text, Visual Studio Code.**
+
 ## El Bootcamp que estoy aprendiendo: Undefined Shell Academy
+
 ### Semana 1, el mundo del Markdown
+
 ### Comandos de la Terminal
+
 | Comando |Descripcion|
 |---------|-----------|
 |**ls**|Lista los archivos de la carpeta actual|
@@ -17,6 +21,7 @@ https://github.com/lschoonewolff-link
 |**touch**|Crea un nuevo archivo|
 -------------------------------------------------------------
 ### Comandos Alias utiles
+
 |Comando|Descripcion|
 |-------|-----------|
 |**alias rm="trash"**|Para evitar eliminar permanente los archivos|
