@@ -4,17 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      th, td {
-        border: 1px solid black;
-        text-align: initial;
-        padding: .3em 1em;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
     <title>Ignacio Henríquez</title>
   </head>
   <body>
-    <a href="https://github.com/kiltro-dev">Mi perfil de GitHub</a>
+    <a href="https://github.com/kiltro-dev">Ir a mi perfil de GitHub</a>
 
     <h1>Hola, qué tal!. Soy Ignacio Henríquez, JavaScript Developer</h1>
     <p>
@@ -78,12 +72,14 @@
     </table>
 
     <h2>Estos son mis alias mas usados:</h2>
-    <code>
-      <p>alias findd="ls ~/ | grep $1"</p>
-      <p>
-        alias mostused='history | awk '\''{print $2}'\'' | sort | uniq -c | sort
-        -nr | head -n 10'
-      </p>
-    </code>
+    <div>
+      <code>
+        <p>alias findd="ls ~/ | grep $1"</p>
+        <p>
+          alias mostused='history | awk '\''{print $2}'\'' | sort | uniq -c |
+          sort -nr | head -n 10'
+        </p>
+      </code>
+    </div>
   </body>
 </html>
