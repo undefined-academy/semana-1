@@ -1,82 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>Perfil profesional</title>
 </head>
+
 <body>
-    <div class="header">
-    <h1><strong>Hi There</strong></h1>
-    </div>
+    <header class="header">
+        <div>
+            <h1>Hola a todos!</h1>
+        </div>
+        <!-- <nav class="nav">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">Bootcamp</a></li>
+                <li><a href="../contacto.html">Contato</a></li>
+            </ul>
+        </nav> -->
+    </header>
     <hr>
-   <!-- <dl>
-        <a href="#about"><h3><dt>About me</dt></h3></a>
-        <a href="#week1"><h3><dt>Bootcamp first week</dt></h3></a>
-        <h3><dd>- Creating alias for use in terminal</dd></h3>
-        <h3><dd>- Most used command in terminal</dd></h3>
-        <h3><dd>- HTML</dd></h3>
-    </dl>
+    <main class="container">
+        <article class="about me">
+            <h2>Acerca de mi</h2>
+            <p>
+                <strong>Me llamo Alfonso Tovar</strong>, Colombiano de nacimiento y residente de este bello pais.
+                En mi experiencia como <strong>Analista y desarrollador en sistemas de información</strong>
+                , me he enfocado en <strong>Soporte especializado</strong> a usuarios en tanto hardware
+                como software y en el uso de heramientas y aplicaciones; tengo gran pasión por la programacion y quiero
+                aprender mas sobre el mundo de la programación, y poder aplicar los conocimientos como progamador.
+            <ul>
+                <li> Busco cambiar mi perfil profecional he iniciar como programador</li>
+                <li> He participado en programas como <strong>TIC 2022 </strong></li>
+                <li> Soy Tecnologo en <strong>Analisis y desarrollo de sitemas de información</strong></li>
+                <li> Estoy terminando la carrera de <strong>Ingenieria de ssitemas en curso</strong></li>
+                <li> Estoy participando en el <strong>Bootcamp 2023</strong> en el canal de Twitch
+                    <strong>https://www.twitch.tv/guillermorodas</strong> y YouTube
+                    <strong>https://www.youtube.com/@GuillermoRodas</strong>
+                </li>
+                </p>
+        </article>
+        <hr>
+        <article class="bootcamp">
+            <h3>Bootcamp semana 1</h3>
+            <p><strong>Alias creados para usar en un CLI linux</strong><br></p>
+            <p>Dependiendo del tipo de trabajo que realice en su sistema Linux, es posible que deba ingresar los mismos
+                comandos largos y complicados con frecuencia.
+                El comando alias le permite crear accesos directos para estos comandos, lo que facilita su recuerdo y
+                uso.<br>
+            <h5><i>* Tomado de "https://phoenixnap.com/kb/linux-alias-command"</i></h5>
+            </p>
+            <table class="semana -1">
+                <tr>
+                    <th>Alias</th>
+                    <th>Comando</th>
+                </tr>
+                <tr>
+                    <td>bootcamp</td>
+                    <td>cd ~/Code/el-mundo-de-markdown</td>
+                </tr>
+                <tr>
+                    <td>actualizar</td>
+                    <td>sudo apt-get update && sudo apt upgrade</td>
+                </tr>
+                <tr>
+                    <td>status</td>
+                    <td>git status</td>
+                </tr>
+            </table>
+
+            <p><strong>Comando que mas uso en la terminal</strong></p>
+            <table>
+                <tr>
+                    <th>Comando</th>
+                    <th>Descripcion</th>
+                </tr>
+                <tr>
+                    <td>ls</td>
+                    <td>lista los directorios en el cual este ubicado en el CLI.</td>
+                </tr>
+                <tr>
+                    <td>pwd</td>
+                    <td>Muestra en el CLI la ubicación en la cual se encuentra ubicado.</td>
+                </tr>
+                <tr>
+                    <td>cd</td>
+                    <td>Se usa para navegar entre directorio, combinado con ".." se devuelve un directorio, "/" va al
+                        directorio raiz, entre otros</td>
+                </tr>
+                <tr>
+                    <td>clear</td>
+                    <td>usado para limpiar la pantalla de la Terminal</td>
+                </tr>
+            </table>
+            </p>
+        </article>
+    </main>
     <hr>
--->
-    <h3 id="about">About me:</h3>
-    <p>
-    <strong>My name is Alfonso Tovar</strong>, 🇨🇴 Colombian, in my career as a in <strong>Analysis and development of information systems
-    </strong>, I focus on<strong>specialized support</strong> to users in the use of ICT, but I like to learn topics about}
-    <b>programming language</b>, and 🧰<b>for development</b>
-    <i><dt>- 👀 Looking to work in development companies.</dt> </i>
-    <i><dt>- 💻 I'm currently learning about being a at<strong>bootcamp 2023 on the Twitch channel</strong></dt> </i>
-    <strong>//www.twitch.tv/guillermorodas</strong>.
-    <i><dt>- ✋I participated in the <strong>2022 mission</strong> program of the <strong>Ministerio de las TIC, Government of Colombia</strong></dt></i>
-    </p>
-<h3 id="week1" >📆 BootCamp week 1</h3>
-<p>
-<strong>🚧Creating alias for use in terminal 🚧</strong><br> 
-<table>
-    <tr>
-        <th>Alias</th>
-        <th>Command</th>
-    </tr>
-    <tr>
-        <td>bootcamp</td>
-        <td>cd ~/Code/el-mundo-de-markdown</td>
-    </tr>
-    <tr>
-        <td>actualizar</td>
-        <td>sudo apt-get update && sudo apt upgrade</td>
-    </tr>
-    <tr>
-        <td>status</td>
-        <td>git status</td>
-    </tr>
-</table>	
-<p>
-<strong>🚧Most used command in terminal</strong><br>
-<table>
-    <tr>
-        <th>Command</th>
-        <th>Decriptions</th>
-    </tr>
-    <tr>
-        <td>ls</td>
-        <td>List files or directories from the CLI.</td>
-    </tr>
-    <tr>
-        <td>pwd</td>
-        <td>Print Working Directory. It prints the path of the working directory.</td>
-    </tr>
-    <tr>
-        <td>cd</td>
-        <td>used to clear the terminal screen.</td>
-    </tr>
-    <tr>
-        <td>clear</td>
-        <td>used to clear the terminal screen.</td>
-    </tr>
-</table>
-</p><h5>
-<strong><i>My social media</i></strong><br>
-<strong><i>Github: https://github.com/AlfonsoIng .</i></strong><br>
-<strong><i>Linkeid: https://www.linkedin.com/in/alfonso-tovar-78b442b6/ .</i></strong><br>
-</h5></p>
+    <footer>
+        <ol>
+            <li><strong><i>Redes sociales</i></strong><br></li><br>
+            <li><strong><i>Github: https://github.com/AlfonsoIng.</i></strong><br></li>
+            <li><strong><i>Linkeid: https://www.linkedin.com/in/alfonso-tovar-78b442b6/.</i></strong><br></li>
+        </ol>
+    </footer>
 </body>
+
 </html>
