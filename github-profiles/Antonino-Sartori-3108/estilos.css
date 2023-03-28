@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Cascadia Code', monospace;
+}
+
+body{
+    background-color: #ffd8d8;
+}
+
+section{
+    padding: 50px 0;
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+ul li:nth-child(even) > p {
+    text-align: right;
+}
+
+ul li:nth-child(odd) > p {
+    text-align: left;
+}
+
+li > a {
+    color: #fff;
+    background-color: #ff4e4e;
+    padding: 10px 20px;
+}
+
+table{
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+    outline: 5px solid #ff4e4e;
+}
+
+table thead tr{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #ff4e4e;
+}
+
+table tbody tr td {
+    padding: 5px;
+}
