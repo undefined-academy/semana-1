@@ -27,3 +27,12 @@ Os dejo enlace a mis redes sociales para que podamos compartir nuestros conocimi
 | mv| Permite mover o cambiar el nombre de un archivo o carpeta |
 ***
 
+### ✔ Alias Preferidos
+
+| Comando| Descripción|
+| ------ | ------ |
+| npmd | npm run dev|
+| nvmu| nvm use |
+| cl | clear |
+| gc | git commit -m |
+***
