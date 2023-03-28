@@ -42,6 +42,7 @@ Algunos ejemplos de los comandos en Terminal.
 | RM | [Nos permite eliminar un archivo dada una ruta.] | [RM TEST.DOCX] |
 
 ## Comandos Alias 🚀
-|Item | Alias            |
-|---- | -------          |
-| 1.  | alias cl='clear' |
+|Item | Alias                      |
+|---- | -------                    |
+| 1.  | alias cl='clear'           |
+| 2.  | alias ls='Listar archivos' |
