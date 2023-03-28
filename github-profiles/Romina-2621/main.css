@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+    padding: 4px;
+    background-color: #ffe4c4;
+    border: 2px solid #deb887;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #374151;
+}
+.title,h2{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #deb887;
+    margin: 0;
+}
+p{
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.education{
+    background-color: #deb887;
+    width: 49%;
+    height: 150px;
+    margin: 2px 7px 2px 0px;
+    border-radius: 10px;
+}
+.languages,.contact{
+    background-color: #deb887;
+    width: 49%;
+    height: 150px;
+    margin: 2px 0px 2px 7px;
+    border-radius: 10px;
+}
+.technologies{
+    background-color: #deb887;
+    width: 49%;
+    height: 210px;
+    margin: 2px 7px 2px 0px;
+    border-radius: 10px;
+}

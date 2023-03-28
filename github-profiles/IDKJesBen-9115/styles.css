@@ -1,0 +1,52 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+body {
+  margin: 0 auto;
+  background-color: #333;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  color: #ffffff;
+}
+strong {
+  font-weight: 590;
+}
+h1, h2, h3, h4 ,h5 ,h6{
+  font-weight: 200;
+}
+a {
+  color: #be7474;
+}
+header {
+  background-color: #f3f3f3;
+  background-image: url("./img/bgimg.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1;
+  padding: 4vw 2em;
+  text-align: center;
+}
+header h1 {
+  color: white;
+  font-size: 2em;
+  font-weight: 300;
+}  
+article {
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 25px;
+}
+#fotoperfil img {
+  display: inline-block;
+  height: 200px;
+  vertical-align: top;
+  width: 200px;
+}
+#widgets {
+  max-width: 55em;
+  margin: 0 auto ;
+}
+#presentacion {
+  max-width: 50em;
+  margin: 0 auto;
+  padding-top: 50px;  
+}
