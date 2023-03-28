@@ -49,6 +49,8 @@
        - alias gst="git status"
        - alias gadd="git add ."
 =======
+=======
+
 # ⛺ Semana 1
 
 > 🏕️ [Base de conocimientos.](https://undefinedshell.notion.site/Semana-1-1cd3b0f777a44b4894456521cc0e649c#627a510ea8514e5fbd4cf6b206dc2048)
@@ -99,5 +101,6 @@ Ejercicios de la primera semana.
 2. Aplicar lo aprendido a tu `index.html`.
 3. No tiene que ser literal, solo asegúrate de que tu archivo `index.html` sea visualmente agradable
 4. Hacer commit y push.
+
 
 [1] [https://jgthms.com/web-design-in-4-minutes](https://jgthms.com/web-design-in-4-minutes)
