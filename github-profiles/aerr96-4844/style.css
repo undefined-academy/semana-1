@@ -60,25 +60,15 @@ strong {
     color: #333;
 }
 
-/*code,
-p {
-    background: #84a5c7;
-    border-bottom: 1px solid #d8dee9;
-    color: #a7adba;
+table, th, td {
+  border: 1px solid black;
+}
+td {
+  text-align: center;
+  
 }
 
-code {
-    padding: 2px 4px;
-    vertical-align: text-bottom;
-}
+th {
 
-pre {
-    border-left: 2px solid #69c;
-    padding: 1em;
+  text-align: center;
 }
-*/
-/*
-a {
-    color: #0b5b12;
-}
-*/
