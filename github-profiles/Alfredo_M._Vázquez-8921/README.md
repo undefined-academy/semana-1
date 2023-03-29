@@ -1,3 +1,5 @@
+https://github.com/fredyMX
+
 # 👀 ¿Quién soy yo? 👀
 ## _Hola, soy Alfredo M. Vázquez_ 
 *Descrición sobre mi:*
@@ -17,14 +19,9 @@ Como hobby toco en una banda, la alineación está conformada por: Danyaell Mart
         Istagram LGDS
     </a>
 </li>
-<li>
-    <a href="https://github.com/fredyMX" rel="nofollow">
-        Github
-    </a>
-</li>
 
 #
-## _Ejercicio 1 bootcamp_ 🤖
+## _Ejercicio bootcamp_ 🤖
 
 ### Tabla uno.
 
@@ -38,7 +35,7 @@ Como hobby toco en una banda, la alineación está conformada por: Danyaell Mart
 
 ### Tabla dos.
 
-| N° | Alias             | Descrición                                             |
-| -- | ----------------- | ------------------------------------------------------ |
-| 1  | alias cl="clear"  | Limpia la terminal.                                    |
-| 2  | alias rm="trash"  | Todo lo que borre lo manda a la papelera de reciclaje. |
+| N° | Alias            | Descrición                                             |
+| -- | ---------------- | ------------------------------------------------------ |
+| 1  | alias cl="clear" | Limpia la terminal.                                    |
+| 2  | alias rm="trash" | Todo lo que borre lo manda a la papelera de reciclaje. |
