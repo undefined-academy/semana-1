@@ -16,4 +16,4 @@ const skills = {
 ### 🌱 I’m currently learning ReactJS
 
 
-#### My GitHub: https://github.com/DSinisterra
+#### My GitHub profile is: https://github.com/DSinisterra
