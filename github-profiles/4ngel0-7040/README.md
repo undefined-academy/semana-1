@@ -72,5 +72,8 @@ I'm a student of Systems Engineering and a passionate about technology who also 
 
 | **Commands** | **Description**                        |
 | ------------ | -------------------------------------- |
-| ```alias npms = "npm start" ```    | Tells npm (Node package manager) to run the start command         |
-| ```alias cl = "clear"```           | It is used to clear the terminal                                  |
+| ```alias npms = 'npm start' ```    | Tells npm (Node package manager) to run the start command         |
+| ```alias cl = 'clear'```           | It is used to clear the terminal                                  |
+| ```alias ..='cd ..'```             | It is used to go back to the previous directory                   |
+| ```alias gaa='git add .'```        | It is used to add all the files to the staging area               |
+| ```alias gc='git commit -m'```     | It is used to create a commit                                     |

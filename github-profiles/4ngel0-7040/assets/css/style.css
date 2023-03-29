@@ -1,0 +1,83 @@
+/* Estilos Globales*/
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #e6e3dc;
+}
+
+h1, h2, h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p, li, table {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8rem;
+}
+
+th, td {
+    padding: 0 2rem;
+}
+
+th {
+    font-size: 2rem;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+/* Utilidades*/
+
+.centrar {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Estilos para la Tabla*/
+
+.tabla {
+    margin: auto;
+    border: black 1px solid;
+    margin-bottom: 2rem;
+}
+
+th, td {
+    border: black 1px solid;
+    border-style: double;
+}

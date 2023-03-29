@@ -6,27 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Perfil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Nunito+Sans&family=Work+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <h1>Hola 👋, mi nombre es Angelo Casapaico </h1>
+    <header class="header">
+        <h1 class="centrar">Hola 👋, mi nombre es Angelo Casapaico </h1>
+    </header>
 
-    <main>
+    <main class="contenedor">
         <section>
             <h2>Acerca de mí 🧑‍💻</h2>
 
-            <p>I'm a student of Systems Engineering and a passionate about technology who also loves learning new
-                things. I'm currently learning Full Stack Development and I'm looking for opportunities to improve my
-                skills.</p>
+            <p>Soy un estudiante de Ingeniería de Sistemas y un apasionado por la tecnología que también ama aprender
+                cosas nuevas.
+                Actualemente me encuentro aprendiendo desarrollo FullStack and buscando oportunidades para poner a
+                prueba mis habilidades</p>
         </section>
 
         <section>
             <h2>Educación 🎓</h2>
 
             <ul>
-                <li>Carrera de Ingeniería de Sistemas en la universidad César Vallejo - <strong>en progreso</strong>.
+                <li>Carrera de Ingeniería de Sistemas en la universidad César Vallejo - <span class="bold">en
+                        progreso</span>.
                 </li>
-                <li>BootCamp <strong>FullStack Developer</strong> en Undefined Shell - <strong>en progreso</strong>.
+                <li>BootCamp FullStack Developer en Undefined Shell - <span class="bold">en
+                        progreso</span>.
                 </li>
             </ul>
         </section>
@@ -90,7 +102,7 @@
             <h2>Mis Proyectos 📚</h2>
 
             <ul>
-                <li><strong>Trabajo en Progreso ⏳</strong></li>
+                <li><span class="bold">Trabajo en Progreso ⏳</span></li>
             </ul>
         </section>
 
@@ -111,62 +123,76 @@
         </section>
     </main>
 
-    <div>
-        <table>
-            <tr>
-                <th><strong>Comandos</strong></th>
-                <th><Strong>Descripción</Strong></th>
-            </tr>
+    <div class="contenedor">
+        <div >
+            <table class="tabla t-1">
+                <tbody>
+                    <tr>
+                        <th><span class="bold">Comandos</span></th>
+                        <th><span class="bold">Descripción</span></th>
+                    </tr>
 
-            <tr>
-                <td>cd</td>
-                <td>Permite cambiar de directorio</td>
-            </tr>
+                    <tr>
+                        <td>cd</td>
+                        <td>Permite cambiar de directorio</td>
+                    </tr>
 
-            <tr>
-                <td>mkdir</td>
-                <td>Sirve para crear una nueva carpeta o directorio</td>
-            </tr>
+                    <tr>
+                        <td>mkdir</td>
+                        <td>Sirve para crear una nueva carpeta o directorio</td>
+                    </tr>
 
-            <tr>
-                <td>pwd</td>
-                <td>Imprime la dirección del directorio actual</td>
-            </tr>
+                    <tr>
+                        <td>pwd</td>
+                        <td>Imprime la dirección del directorio actual</td>
+                    </tr>
 
-            <tr>
-                <td>rm</td>
-                <td>Permite eliminar archivos brindando una ruta</td>
-            </tr>
+                    <tr>
+                        <td>rm</td>
+                        <td>Permite eliminar archivos brindando una ruta</td>
+                    </tr>
 
-            <tr>
-                <td>Ctrl + u</td>
-                <td>Elimina una linea entera</td>
-            </tr>
-        </table>
-    </div>
+                    <tr>
+                        <td>Ctrl + u</td>
+                        <td>Elimina una linea entera</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <div>
-        <table>
-            <tr>
-                <th><strong>Comandos</strong></th>
-                <th><Strong>Descripción</Strong></th>
-            </tr>
+        <div>
+            <table class="tabla">
+                <tr>
+                    <th><span class="bold">Comandos</span></th>
+                    <th><span class="bold">Descripción</span></th>
+                </tr>
 
-            <tr>
-                <td>alias npms='npm start'</td>
-                <td>Llama un npm para ejecutar comandos de node</td>
-            </tr>
+                <tr>
+                    <td>alias npms='npm start'</td>
+                    <td>Llama un npm para ejecutar comandos de node</td>
+                </tr>
 
-            <tr>
-                <td>alias cl='clear'</td>
-                <td>Sirve para limpiar la terminal</td>
-            </tr>
+                <tr>
+                    <td>alias cl='clear'</td>
+                    <td>Sirve para limpiar la terminal</td>
+                </tr>
 
-            <tr>
-                <td>alias ..='cd ..'</td>
-                <td>Sirve para retroceder dentro de un directorio</td>
-            </tr>
-        </table>
+                <tr>
+                    <td>alias ..='cd ..'</td>
+                    <td>Sirve para retroceder dentro de un directorio</td>
+                </tr>
+
+                <tr>
+                    <td>alias gaa='git add .'</td>
+                    <td>Sirve agregar todos los archivos al staging area</td>
+                </tr>
+
+                <tr>
+                    <td>alias gc='git commit -m'</td>
+                    <td>Permite crear un nuevo commit</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </body>
 
