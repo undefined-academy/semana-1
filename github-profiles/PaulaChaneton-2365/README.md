@@ -1,6 +1,6 @@
-Mi github -> <https://github.com/mpchaneton>
+[Mi github](https://github.com/mpchaneton)
 
-# Paula Chaneton  
+# Paula Chaneton ] 
 
 ### _Curriculum Vitae_
 Soy Argentina, vivo  en **Buenos Aires**.
