@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: Lato, "Arial", sans-serif;
+    padding: 4em 1em;
+    color: #333;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+    
+}
+p{
+    line-height: 1.5;
+}
+h1,
+h2,
+strong {
+  color: #222;
+}
+h1,h2{
+    text-align: center;
+}
+code,
+pre {
+  background: #eee;
+}
+pre {
+  padding: 1em;
+}
+a {
+    color: #9b193a;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+table,
+th,
+td {
+    border: 5px groove rgb(24, 10, 37);
+}
+div{
+    margin: 0 auto;
+    max-width: 400px;
+}
