@@ -1,0 +1,70 @@
+header {
+    background-color: #263d36;
+    background-image: url(imagenes/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 7vw 2em;
+    text-align: center;
+    opacity: 75%;
+    border-bottom: 3px solid black;
+}
+
+body {
+    background-color: antiquewhite;
+    color: #555;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    
+}
+
+main {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 4em 1em;
+}
+
+h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.tit {
+    letter-spacing: 2px;
+    color: tomato;
+    font-size: 25px;
+    
+}
+
+h1, h2, h3, strong {
+    color: black;
+}
+
+ul {
+    border-radius: 5px;
+    border-left: solid lightgray 2px;
+    background-color: lightgoldenrodyellow;
+}
+
+
+
+
+
+
+/* .prueba {
+    background-color: blue;
+    height: 100px;
+    width: 700px;
+    border-radius: 5px;
+} */
