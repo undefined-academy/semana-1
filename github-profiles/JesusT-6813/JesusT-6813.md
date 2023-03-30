@@ -1,8 +1,5 @@
 https://github.com/JesusToledo4
 
-# Hello, I´m Jesús Toledo.
-## Frontend developer.
-
 I´m a **Frontend developer**, IT support and Photopher Living in México
 
 ## 🖥️My carreer
