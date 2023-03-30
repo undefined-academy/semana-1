@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'TriviaGrotesk';
+  src: url('fonts/TriviaGroteskR1/TriviaGroteskR1.otf');
+}
+@font-face {
+  font-family: 'MixtaEss';
+  src: url('fonts/MixtaEss/Demo_Fonts/Fontspring-DEMO-mixtaessdidone-bold.otf');
+}
+code,
+pre {
+    background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+body{
+  background-image: url('img/bg.jpg');
+  background-repeat: repeat;
+  opacity: 0.8;
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 4rem 1rem;
+  font-family:'TriviaGrotesk';
+  font-weight:bold;
+  color: #0da359;
+}
+h1{
+  font-size:5em;
+  display: inline;
+}
+h2{
+  font-size:2em;
+}
+h1, h2{
+  margin-top:0.5rem;
+  padding: 0.5rem;
+  font-family:'MixtaEss', cursive;
+  color: #279959;
+}
+.separador {
+  border-top: 1px solid green;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #279959;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
