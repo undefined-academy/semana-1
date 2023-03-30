@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="light-mode.css" media="(prefers-color-scheme: light)">
+    <link rel="stylesheet" href="dark-mode.css" media="(prefers-color-scheme: dark)">
     <title>Denis Sinisterra</title>
+    
 </head>
 <body>
+    <div class="toggle">  
+        <input type="checkbox" id="mode" />
+        <label for="mode"></label>
+    </div>
     <h2>Hi there 👋</h2>
-    <h2>I'm Denis Sinisterra</h2>
+    <h2>I'm <em>Denis Sinisterra</em></h2>
     <h2>a passionate FullStack developer 👨‍💻.</h2>
 
     <pre>
@@ -24,5 +32,16 @@
 
     <h4>My GitHub profile is: <a href="https://github.com/DSinisterra"> DSinisterra </a></h4>
 
+    <script>
+        let mode = document.getElementById('mode');
+        
+        mode.addEventListener('change', () => {
+            if (mode.checked) {
+                mode.classList.add("dark");
+            } else {
+                mode.classList.remove("dark");
+            }
+        })
+    </script>
 </body>
 </html>

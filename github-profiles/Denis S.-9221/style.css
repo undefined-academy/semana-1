@@ -1,0 +1,101 @@
+@import url("dark.css");
+@import url("light.css");
+
+
+:root {
+    color-scheme: light dark;
+}
+
+* {
+    background-color: var(--background-color);
+}
+
+.toggle {
+    width: 83px;
+    height: 26px;
+    background: #4e4343;
+    margin: 20px auto;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px 2px var(--shadow-color);;   
+}
+
+.toggle:after {
+    content: 'Dark';
+    color: #000;
+    position: absolute;
+    right: 10px;
+    z-index: 0;
+    font: 12px/26px Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px var(--shadow-color);
+}
+
+.toggle:before {
+    content: 'Light';
+    color: #FFE5D9;
+    position: absolute;
+    left: 10px;
+    z-index: 0;
+    font: 12px/26px Arial, sans-serif;
+    font-weight: bold;
+}
+
+.toggle > label {
+    display: block;
+    width: 37px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 1;
+    background: #FFE5D9;
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    border-radius: 50px;
+    transition: all 0.4s ease;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+} 
+
+input:checked + label {
+    left: 43px;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 2em;
+    line-height: 1.5;
+    color: var(--body-color);
+}
+
+em {
+    color: var(--em-color);
+    font-size: 1.2em;
+    box-shadow: 2px 2px 2px 1px var(--shadow-color);
+}
+
+pre, code {
+    background-color: var(--background-code);
+    font-size: 1.2em;
+    color: var(--code-color);
+}
+
+pre {
+    box-shadow: 5px 0px 5px 3px var(--shadow-color);
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: var(--a-color);
+}
+
+a:hover, a:active {
+    color: var(--a-hover-color);
+}
