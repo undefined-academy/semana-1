@@ -1,0 +1,78 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+
+body{  
+
+    text-align: center;
+    margin: 0 auto;
+    max-width: 50ex;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #000;
+    background-image: linear-gradient(135deg, #00B7D4, #5054, rgb(168, 14, 1379), rgb(23, 64, 141));
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+h1,h2 strong{
+    color: 000;
+}
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+#iconos a{
+    width: 100%;
+    transition: all 300ms;
+    position: relative;
+    
+}
+#iconos a :hover{
+    transform: scale(1,15);
+}
+#iconos{
+    height: 50px;
+}
+.tabla{
+    width: 90%;
+    margin: 30px;
+    padding: 20px; 
+    border: black;
+    background-color: #eee;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+th,tr,td{
+    border: solid 1px black;
+    padding: 6px;
+      
+}
+thead{
+    background-color: mediumaquamarine;
+    border-bottom: solid 2px;
+}
+td{
+    background-color: mintcream;
+}
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
