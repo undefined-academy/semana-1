@@ -31,17 +31,35 @@ code {
   padding: 2px 4px;
   vertical-align: text-bottom;
 }
-#iconos a{
-    width: 100%;
-    transition: all 300ms;
-    position: relative;
-    
-}
-#iconos a :hover{
-    transform: scale(1,15);
-}
-#iconos{
+.iconos{
     height: 50px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+.icon a{
+    margin: 0 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20%;
+}
+
+.icon a:hover {
+    transform: scale(1.15);
+    transition:50ms;
+  }
+
+.imagenes {
+    height: 60px;
+    width: 60px;
 }
 .tabla{
     width: 90%;
