@@ -33,4 +33,5 @@ Until now in this bootcamp I've learned:
 > npx @11ty/eleventy --serve
 > http://localhost:8080/liliagarcia/index.html
 
-Perfil de Github ➡ >https://github.com/LiliaG-hiramatsu
+Perfil de Github:
+> https://github.com/LiliaG-hiramatsu
