@@ -48,5 +48,5 @@ const waseidel = {
 | lla   | lsd -lha --group-dirs=first |
 | v     | nvim    |
 | cat   | bat     |
-| sail  | [ -f sail ] && sh sail || sh vendor/bin/sail |
+| sail  | [ -f sail ] && sh sail \|\| sh vendor/bin/sail |
 
