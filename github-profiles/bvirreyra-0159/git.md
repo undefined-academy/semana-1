@@ -256,6 +256,7 @@ Github permite a los desarrolladores colaborar en proyectos por medio de esta he
 
 ### Pasos
 
+~~~
 * Hacer fork de un repositorio
 * Hacer clone local
 * Crear una rama nueva
@@ -263,3 +264,4 @@ Github permite a los desarrolladores colaborar en proyectos por medio de esta he
 * Hacer push (a nuetro repositorio)
 * Abrir pull request (me da la opcion de elegir una rama en mi repositorio y una rama donde quiero hacer merge en el repositorio origina)
 * El administrador del repositorio original revisara el pull request, pedira cambios o aprobara para hacer merge.
+~~~
