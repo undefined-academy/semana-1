@@ -94,3 +94,12 @@ td{
         background-position: 0% 50%;
     }
 }
+h1,h2{
+    line-height: 1.5;
+    color: #333;
+
+}
+p{
+    line-height: 1.5;
+    color: #333;
+}
