@@ -8,8 +8,8 @@
 ```javascript
 const waseidel = {
     pronouns: "He" | "Him",
-    code: {"Javascript": "", "Python": "", "php": ""},
-    frameworks: { "React": "", "VueJS": "󰡄" "Laravel": "" },
+    code: ["Javascript", "Python", "php"],
+    frameworks: [ "React", "VueJS", "Laravel" ],
     askMeAbout: ["web dev", "tech", "backend"],
     technologies: {
         frontEnd: {
