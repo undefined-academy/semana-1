@@ -39,4 +39,5 @@ Soy una persi¿ona bastante amigable, me gusta ayudar a otros en lo que puedo y 
 |------------------|:----------:|
 | ls ~/ grep palabra| "Para filtrar una carpeta de nuestro directorio de usuario dada una palabra"|
 |la bergulilla "~"|es el alias del "home"|
+
  
