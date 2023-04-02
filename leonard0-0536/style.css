@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,600;1,100;1,700&display=swap');
 
 :root {
-    --color-principal : #584ea4;
+    --color-principal : #897de9;
     --color-secundario : #66347F;
     --color-letter : #4D455D;
 
@@ -36,4 +36,20 @@ body {
     align-self: flex-end;
     width: 40px;
     cursor: pointer;
+}
+
+.content {
+    background-color: #9e93ef;
+    padding: 30px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    font-size: larger;
+}
+
+li {
+    list-style: none;
 }
