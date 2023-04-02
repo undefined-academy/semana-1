@@ -1,4 +1,4 @@
-Full-stack (*Descarrollador Web*)💻.
+### Full-stack (*Descarrollador Web*)💻.
 
 <a href="https://github.com/ivanpachecos"><img src="https://img.shields.io/static/v1?label=&message=github profile&color=fbfbfb&logo=github&logoColor=black&style=social"></a>
 
@@ -20,7 +20,7 @@ Soy un apasionado por las tecnologías, me considero una persona que le gustan l
 
 
 
-### Mis 5 comados mas usados en WSL🎆
+### 🎆Mis 5 comados mas usados en WSL🎆
 
 | Comandos | Descripcion                            |
 | -------- | -------------------------------------- |
@@ -30,7 +30,7 @@ Soy un apasionado por las tecnologías, me considero una persona que le gustan l
 | cat      | Imprime el contenido de un archivo     |
 | rm       | Permite remover archivos segun su ruta |
 
-### Estos son los comandos alias
+### 🎇Estos son los comandos alias🎇
 |**Alias**  | **Comando**    |
 |-----------|----------------|
 | cs        | clear          |
