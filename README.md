@@ -20,7 +20,7 @@ Soy un apasionado por las tecnologías, me considero una persona que le gustan l
 
 
 
-### Mis 5 comados mas usados en WSL
+### Mis 5 comados mas usados en WSL🎆
 
 | Comandos | Descripcion                            |
 | -------- | -------------------------------------- |
