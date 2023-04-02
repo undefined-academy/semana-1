@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="git-desarrollo-colaborativo">GIT DESARROLLO COLABORATIVO</h1>
+<h2 id="configuraci-n-inicial">Configuración inicial</h2>
+<p>Luego de instalar se debe realizar la configuracion inicial (nombre / email).</p>
+<p>Tres coniguraciones:</p>
+<ul>
+<li>--system : para todos los usuarios del sistema</li>
+<li>--global : especifica para mi usuario</li>
+<li>--local : especifico para el repositorio de git en el que trabaje actualmente</li>
+</ul>
+<p>git config --opcion user.name &quot;Nombre&quot;
+git config --opcion user.email &quot;email@email.com&quot;</p>
+<p>Se recomienda hacer la configuracion global y luego alguna local para un proyecto en particular</p>
+<h3 id="ejemplo-de-configuraci-n-">Ejemplo de configuración:</h3>
+<p>git config --global user.name &quot;Boris&quot;
+git config --global user.email &quot;email@email.com&quot;</p>
+<h3 id="c-mo-verifico-mi-configuraci-n-actual-">Cómo verifico mi configuración actual?</h3>
+<p>git config user.name
+git config user.email
+git config --list</p>
+<h3 id="puedo-cambiar-el-editor-de-texto-para-git-">Puedo cambiar el editor de texto para Git?</h3>
+<ul>
+<li>Ejemplo para Visual Studio en Windows (es un ejemplo, hay que poner la ruta donde esté instalado en la PC de cada uno):</li>
+</ul>
+<p>$ git config --global core.editor &quot;C:\Users[Usuario]\AppData\Local\Programs\Microsoft VS Code\Code.exe&quot; --wait</p>
+<ul>
+<li>A veces si agregan varias veces los editores, quedan todos en la configuración y hay errores. Podemos “limpiar” los editores con:</li>
+</ul>
+<p>git config --unset-all core.editor
+Inicializar Repositorio (en mi máquina local)</p>
+<p>Tenemos que acceder a la carpeta que hayamos creado:</p>
+<blockquote>
+<blockquote>
+<p>git init</p>
+<p>Initialized empty Git repository in ....</p>
+</blockquote>
+</blockquote>
+<p>Esto crea un subdirectorio llamado .git que contiene toda la informacion necesario para el seguimiento de los archivos.</p>
+<h2 id="qu-es-un-repositorio-">Qué es un repositorio?</h2>
+<p>Es la carpeta .git dentro de un proyecto.
+Áreas de un Repositorio</p>
+<p>GIT tiene tres estados principales: staged , modified , commited</p>
+<ul>
+<li>staged: marco un archivo modificado para que sea un cambio en un commit</li>
+<li>modified: cuando cambio un archivo</li>
+<li>commited: los datos se guardan en el historial</li>
+</ul>
+<p>Esto nos lleva a tres secciones:</p>
+<p>[<img src="1.avif" alt="imagen">]</p>
+<h2 id="-rea-de-staging-preparaci-n-">Área de Staging (Preparación)</h2>
+<p>Para pasar un archivo a la zona de staging uso el comando add</p>
+<p>Hay algunas opciones:</p>
+<ul>
+<li>git add -A pasa todos los archivos modificados</li>
+<li>git add . todos los archivos (pero no cuenta si borramo un archivo)</li>
+<li><p>git add nombre_archivo paso 1 archivo solo</p>
+</li>
+<li><p>Ejercicio:</p>
+<ul>
+<li>Crear una carpeta nueva</li>
+<li>Inicializar el repositorio .git dentro de ella</li>
+<li>Crear un archivo nuevo dentro de la carpeta principal (puede ser texto o html por ejemplo)</li>
+<li>Escribir algo dentro del archivo creado</li>
+<li>Agregarlo a la zona de staging mediante comandos de git</li>
+</ul>
+</li>
+</ul>
+<h2 id="chequear-estado">Chequear Estado</h2>
+<p>En todo momento podemos verificar en que estado estan nuestros archivos</p>
+<blockquote>
+<blockquote>
+<p>git status</p>
+</blockquote>
+</blockquote>
+<p>On branch master</p>
+<p>No commits yet</p>
+<p>Changes to be committed:
+  (use &quot;git rm --cached <file>...&quot; to unstage)
+        new file:   index.html</p>
+<p><img src="2.avif" alt="imagen"></p>
+<h2 id="remover-de-staging">Remover de Staging</h2>
+<p>Luego de realizar un cambio, podemos pasarlo a la zona de staging como ya vimos. Y si deseamos regresarlo:</p>
+<blockquote>
+<blockquote>
+<p>git rm --cached index.html</p>
+</blockquote>
+</blockquote>
+<p>Si ahora chequeamos el estado:</p>
+<blockquote>
+<blockquote>
+<p>git status</p>
+</blockquote>
+</blockquote>
+<p>On branch master</p>
+<p>No commits yet</p>
+<p>Untracked files:
+  (use &quot;git add <file>...&quot; to include in what will be committed)
+        index.html</p>
+<h2 id="crear-un-commit-foto-">Crear un commit (Foto)</h2>
+<p>Cuando creamos un commit, generamos un registro en la historia del arbol de seguimientos de git.</p>
+<blockquote>
+<blockquote>
+<p>git commit      #  se abre el editor y queda a la espera</p>
+</blockquote>
+</blockquote>
+<p>hint: Waiting for your editor to close the file...</p>
+<p>Podemos agregar un mensaje en el commit, guardamos el archivo, y lo cerramos:</p>
+<p>[master (root-commit) 0dccb56] Primer commit
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html</p>
+<p>Luego si chequeo el estado:</p>
+<blockquote>
+<blockquote>
+<p>git status</p>
+</blockquote>
+</blockquote>
+<p>On branch master
+nothing to commit, working tree clean</p>
+<h2 id="commit-versi-n-corta">Commit - Versión corta</h2>
+<p>Para evitar que se abra el editor, podemos agregar una opcion al comando</p>
+<blockquote>
+<blockquote>
+<p>git commit -m &quot;Agregar cambio&quot; </p>
+</blockquote>
+</blockquote>
+<h2 id="modificar-ltimo-commit">Modificar último commit</h2>
+<p>En caso que quiera corregir el mensaje del ultimo commit</p>
+<blockquote>
+<blockquote>
+<p>git commit --amend</p>
+</blockquote>
+</blockquote>
+<ul>
+<li>Para ver el historial de commits, usamos el comando log</li>
+</ul>
+<blockquote>
+<blockquote>
+<p>git log</p>
+</blockquote>
+</blockquote>
+<p>Hay algunas opciones para usar:</p>
+<blockquote>
+<blockquote>
+<p>git log -n    # muestas los n ultimos commits</p>
+<p>git log --oneline   # da una version simplificada de los commits</p>
+</blockquote>
+</blockquote>
+<h2 id="repositorio-remoto-github-">Repositorio Remoto (Github)</h2>
+<p>Github es el host de almacenamiento de repositorios GIT mas grande.</p>
+<p>Que es un Repositorio Remoto?</p>
+<ul>
+<li>Son versiones del proyecto que se encuentran alojados en Internet o en algun punto de la red.</li>
+<li>Nos va a servir no solo para llevar control del proyecto, sino para trabajar de forma colaborativa</li>
+</ul>
+<p><img src="3.avif" alt="imagen"></p>
+<h2 id="crear-un-repositorio-remoto">Crear un Repositorio Remoto</h2>
+<p>Desde la interfaz de Github vamos a Respositories → New</p>
+<ul>
+<li>Elegimos el nombre y creamos el repo</li>
+<li>Si no elegimos agregar nada por defecto, el repo va estar vacio y github no da unos recomendados</li>
+<li>Primero creamos un proyecto nuevo localmente (e inicializamos git)</li>
+<li>Agregamos algun archivo y hacemos commit</li>
+</ul>
+<p>git remote add origin <a href="https://github.com/XXX/XXXXX.git">https://github.com/XXX/XXXXX.git</a>  # aca poner su direccion https
+git push -u origin master</p>
+<h2 id="clonar-un-repositorio-remoto">Clonar un Repositorio Remoto</h2>
+<blockquote>
+<blockquote>
+<p>git clone <a href="https://github.com/usuario/nombre_repo.git">https://github.com/usuario/nombre_repo.git</a></p>
+</blockquote>
+</blockquote>
+<p>Para clonar crear el nombre de carpeta deseado:</p>
+<blockquote>
+<blockquote>
+<p>git clone <a href="https://github.com/usuario/nombre_repo.git">https://github.com/usuario/nombre_repo.git</a> nuevo_nombre</p>
+</blockquote>
+</blockquote>
+<h2 id="mostrar-repositorios-remotos">Mostrar Repositorios Remotos</h2>
+<p>Podemos listar las direcciones remotas que tengamos</p>
+<blockquote>
+<blockquote>
+<p>git remote -v</p>
+</blockquote>
+</blockquote>
+<p>origin  <a href="https://github.com/xxx/xxxx.git">https://github.com/xxx/xxxx.git</a> (fetch)</p>
+<p>origin  <a href="https://github.com/xxx/xxxx.git">https://github.com/xxx/xxxx.git</a> (push)</p>
+<h2 id="agregar-un-repositorio-remoto">Agregar un Repositorio Remoto</h2>
+<blockquote>
+<blockquote>
+<p>git remote add [nombr][url]       # nombre se suele tomar origin por defecto</p>
+</blockquote>
+</blockquote>
+<h2 id="eliminar-v-nculo-a-repositorio-remoto">Eliminar Vínculo a Repositorio Remoto</h2>
+<blockquote>
+<blockquote>
+<p>git remote rm [nombre]</p>
+</blockquote>
+</blockquote>
+<h3 id="c-mo-obtengo-la-informaci-n-del-repositorio-remoto-">Cómo obtengo la información del Repositorio Remoto?</h3>
+<p>Para recuperar datos de los repositorios remotos </p>
+<blockquote>
+<blockquote>
+<p>git fetch nombre_remoto</p>
+</blockquote>
+</blockquote>
+<ul>
+<li>Trae los cambio que haya en remoto que no tenga todavia en el local</li>
+<li>Este comando solo trae la informacion y la deja disponible en el repo local.</li>
+</ul>
+<h3 id="cu-l-es-la-diferencia-entre-fetch-pull-">Cuál es la diferencia entre fetch / pull ?</h3>
+<ul>
+<li>git fetch me guarda los cambios en una carpeta interna oculta (origin/master )</li>
+<li>La podemos ver con git branch -a </li>
+<li>Pero esto no me agrega los cambios automaticamente.</li>
+<li>En cambio el comando git pull origin  realiza esa descarga de los cambio en el remoto y tambien me los agrega localmente.</li>
+</ul>
+<h3 id="c-mo-env-o-la-informaci-n-al-repositorio-remoto-">Cómo envío la información al Repositorio Remoto?</h3>
+<p>Cuando estamos contentos con los cambios locales (commits) , los podemos compartir al repo remoto.</p>
+<blockquote>
+<blockquote>
+<p>git push [nombre_remoto] [nombre_rama]</p>
+</blockquote>
+</blockquote>
+<h3 id="ejemplo">Ejemplo</h3>
+<blockquote>
+<blockquote>
+<p>git push origin master</p>
+</blockquote>
+</blockquote>
+<h3 id="comando-corto-">Comando corto:</h3>
+<blockquote>
+<blockquote>
+<p>git push   # usa por defecto origin y la rama en la que este, por defecto master</p>
+</blockquote>
+</blockquote>
+<h2 id="fork">Fork</h2>
+<p>Github permite a los desarrolladores colaborar en proyectos por medio de esta herramienta.</p>
+<ul>
+<li>Al hacer fork de un repo, se nos copia a nuestro github.</li>
+</ul>
+<h3 id="pasos">Pasos</h3>
+<ul>
+<li>Hacer fork de un repositorio</li>
+<li>Hacer clone local</li>
+<li>Crear una rama nueva</li>
+<li>Generar cambios y commits</li>
+<li>Hacer push (a nuetro repositorio)</li>
+<li>Abrir pull request (me da la opcion de elegir una rama en mi repositorio y una rama donde quiero hacer merge en el repositorio origina)</li>
+<li>El administrador del repositorio original revisara el pull request, pedira cambios o aprobara para hacer merge.</li>
+</ul>
+
+</body>
+</html>

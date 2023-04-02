@@ -1,34 +1,36 @@
 # GIT DESARROLLO COLABORATIVO
 
+---
+
 ## Configuración inicial
 
 Luego de instalar se debe realizar la configuracion inicial (nombre / email).
 
 Tres coniguraciones:
 
-```
+``` text
 --system : para todos los usuarios del sistema
 --global : especifica para mi usuario
 --local : especifico para el repositorio de git en el que trabaje actualmente
 ```
 
-```
+``` git
 git config --opcion user.name "Nombre"
 git config --opcion user.email "email@email.com"
 ```
 
 Se recomienda hacer la configuracion global y luego alguna local para un proyecto en particular
 
-## Ejemplo de configuración:
+## Ejemplo de configuración
 
-```
+```git
 git config --global user.name "Boris"
 git config --global user.email "email@email.com"
 ```
 
 ### Cómo verifico mi configuración actual?
 
-```
+``` git
 git config user.name
 
 git config user.email
@@ -38,7 +40,7 @@ git config --list
 
 ### Puedo cambiar el editor de texto para Git?
 
-```
+``` git
 Ejemplo para Visual Studio en Windows (es un ejemplo, hay que poner la ruta donde esté instalado en la PC de cada uno):
 
 $ git config --global core.editor "C:\Users\[Usuario]\AppData\Local\Programs\Microsoft VS Code\Code.exe" --wait
@@ -51,9 +53,9 @@ Inicializar Repositorio (en mi máquina local)
 
 Tenemos que acceder a la carpeta que hayamos creado:
 
-```
-> > git init
-> > Initialized empty Git repository in ....
+``` git
+>> git init
+>> Initialized empty Git repository in ....
 ```
 
 Esto crea un subdirectorio llamado .git que contiene toda la informacion necesario para el seguimiento de los archivos.
@@ -65,7 +67,7 @@ Es la carpeta .git dentro de un proyecto.
 
 GIT tiene tres estados principales: staged , modified , commited
 
-```
+``` text
 staged: marco un archivo modificado para que sea un cambio en un commit
 modified: cuando cambio un archivo
 commited: los datos se guardan en el historial
@@ -81,7 +83,7 @@ Para pasar un archivo a la zona de staging uso el comando add
 
 Hay algunas opciones:
 
-```
+``` git
 git add -A pasa todos los archivos modificados
 git add . todos los archivos (pero no cuenta si borramo un archivo)
 git add nombre_archivo paso 1 archivo solo
@@ -91,7 +93,7 @@ git add nombre_archivo paso 1 archivo solo
 
 En todo momento podemos verificar en que estado estan nuestros archivos
 
-```
+``` git
 >> git status
 
 On branch master
@@ -108,13 +110,13 @@ Changes to be committed:
 
 Luego de realizar un cambio, podemos pasarlo a la zona de staging como ya vimos. Y si deseamos regresarlo:
 
-```
+``` git
 >> git rm --cached index.html
 ```
 
 Si ahora chequeamos el estado:
 
-```
+``` git
 >> git status
 
 On branch master
@@ -129,7 +131,7 @@ Untracked files:
 
 Cuando creamos un commit, generamos un registro en la historia del arbol de seguimientos de git.
 
-```
+``` git
 >> git commit      #  se abre el editor y queda a la espera
 ```
 
@@ -143,7 +145,7 @@ create mode 100644 index.html
 
 Luego si chequeo el estado:
 
-```
+``` git
 >> git status
 ```
 
@@ -154,7 +156,7 @@ nothing to commit, working tree clean
 
 Para evitar que se abra el editor, podemos agregar una opcion al comando
 
-```
+``` git
 >> git commit -m "Agregar cambio"
 ```
 
@@ -162,19 +164,19 @@ Para evitar que se abra el editor, podemos agregar una opcion al comando
 
 En caso que quiera corregir el mensaje del ultimo commit
 
-```
+``` git
 >> git commit --amend
 ```
 
 ## Para ver el historial de commits, usamos el comando log
 
-```
+``` git
 >> git log
 ```
 
 Hay algunas opciones para usar:
 
-```
+``` git
 >> git log -n    # muestas los n ultimos commits
 
 >> git log --oneline   # da una version simplificada de los commits
@@ -186,7 +188,7 @@ Github es el host de almacenamiento de repositorios GIT mas grande.
 
 Que es un Repositorio Remoto?
 
-```
+``` text
 * Son versiones del proyecto que se encuentran alojados en Internet o en algun punto de la red.
 * Nos va a servir no solo para llevar control del proyecto, sino para trabajar de forma colaborativa
 ```
@@ -197,27 +199,27 @@ Que es un Repositorio Remoto?
 
 Desde la interfaz de Github vamos a Respositories → New
 
-```
+``` text
 * Elegimos el nombre y creamos el repo
 * Si no elegimos agregar nada por defecto, el repo va estar vacio y github no da unos recomendados
 * Primero creamos un proyecto nuevo localmente (e inicializamos git)
 * Agregamos algun archivo y hacemos commit
 ```
 
-```
-git remote add origin https://github.com/XXX/XXXXX.git  # aca poner su direccion https
-git push -u origin master
+``` git
+>> git remote add origin https://github.com/XXX/XXXXX.git  # aca poner su direccion https
+>> git push -u origin master
 ```
 
 ## Clonar un Repositorio Remoto
 
-```
+``` git
 >> git clone https://github.com/usuario/nombre_repo.git
 ```
 
 Para clonar crear el nombre de carpeta deseado:
 
-```
+``` git
 >> git clone https://github.com/usuario/nombre_repo.git nuevo_nombre
 ```
 
@@ -225,7 +227,7 @@ Para clonar crear el nombre de carpeta deseado:
 
 Podemos listar las direcciones remotas que tengamos
 
-```
+``` git
 >> git remote -v
 
 origin  https://github.com/xxx/xxxx.git (fetch)
@@ -235,13 +237,13 @@ origin  https://github.com/xxx/xxxx.git (push)
 
 ## Agregar un Repositorio Remoto
 
-```
+``` git
 >> git remote add [nombr][url]       # nombre se suele tomar origin por defecto
 ```
 
 ## Eliminar Vínculo a Repositorio Remoto
 
-```
+``` git
 >> git remote rm [nombre]
 ```
 
@@ -249,7 +251,7 @@ origin  https://github.com/xxx/xxxx.git (push)
 
 Para recuperar datos de los repositorios remotos
 
-```
+``` git
 >> git fetch nombre_remoto
 * Trae los cambio que haya en remoto que no tenga todavia en el local
 * Este comando solo trae la informacion y la deja disponible en el repo local.
@@ -257,7 +259,7 @@ Para recuperar datos de los repositorios remotos
 
 ### Cuál es la diferencia entre fetch / pull ?
 
-```
+``` text
 * git fetch me guarda los cambios en una carpeta interna oculta (origin/master )
 * La podemos ver con git branch -a
 * Pero esto no me agrega los cambios automaticamente.
@@ -268,19 +270,19 @@ Para recuperar datos de los repositorios remotos
 
 Cuando estamos contentos con los cambios locales (commits) , los podemos compartir al repo remoto.
 
-```
+``` git
 >> git push [nombre_remoto] [nombre_rama]
 ```
 
 ### Ejemplo
 
-```
+``` git
 >> git push origin master
 ```
 
-### Comando corto:
+### Comando corto
 
-```
+``` git
 >> git push   # usa por defecto origin y la rama en la que este, por defecto master
 ```
 
@@ -288,13 +290,13 @@ Cuando estamos contentos con los cambios locales (commits) , los podemos compart
 
 Github permite a los desarrolladores colaborar en proyectos por medio de esta herramienta.
 
-```
+``` text
 * Al hacer fork de un repo, se nos copia a nuestro github.
 ```
 
 ### Pasos
 
-```
+``` text
 * Hacer fork de un repositorio
 * Hacer clone local
 * Crear una rama nueva
