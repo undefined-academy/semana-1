@@ -27,3 +27,15 @@
         justify-content: center;
         align-items: center;
       } 
+     #tabla2 {
+        position:absolute;  
+        top: 200%;
+          
+        }
+        #tabla2 th {
+           background-color: silver;
+            color:rgb(11, 12, 12);
+            }
+            #tabla2 td {
+                font-family: Arial, Helvetica, sans-serif;
+                 }
