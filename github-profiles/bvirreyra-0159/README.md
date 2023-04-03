@@ -11,13 +11,13 @@ Mi objetivo es proporcionar soluciones de comunicación innovadoras y de alta ca
 ## **Interés**
 
 Tengo un marcado interés por la **_programación_** por lo que quiero aprender a utilizar la consola, para ello los siguientes comandos son necesarios:
-| Comando | Descripción |
-| ------------ | ---------------- |
-| cd | Cambio de directorio |
-| mkdir | Crear una carpeta |
-| touch | Crear uno o varios archivos vacios |
-| pwd | Mustra la ruta absoluta |
-| cp | Copia archivos o carpeta |
+| Comando | Descripción                        |
+| ------- | ---------------------------------- |
+| cd      | Cambio de directorio               |
+| mkdir   | Crear una carpeta                  |
+| touch   | Crear uno o varios archivos vacios |
+| pwd     | Mustra la ruta absoluta            |
+| cp      | Copia archivos o carpeta           |
 
 # ALIAS DE COMANDOS
 
