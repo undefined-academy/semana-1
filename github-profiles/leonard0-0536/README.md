@@ -18,20 +18,19 @@ Soy un apasionado por las tecnologías, me considero una persona que le gustan l
 - Angular JS
 - Express
 
+### 🎆Mis 5 comados mas usados en WSL
 
+| *Comandos*     | *Descripcion*                          |
+| -------------- | -------------------------------------- |
+| ```ls```       | Lista de carpetas actuales             |
+| ```cd```       | Nos permite navegar entre carpetas     |
+| ```mkdir```    | Crea una carpeta nueva                 |
+| ```cat```      | Imprime el contenido de un archivo     |
+| ```rm```       | Permite remover archivos segun su ruta |
 
-### Mis 5 comados mas usados en WSL
-
-| Comandos | Descripcion                            |
-| -------- | -------------------------------------- |
-| ls       | Lista de carpetas actuales             |
-| cd       | Nos permite navegar entre carpetas     |
-| mkdir    | Crea una carpeta nueva                 |
-| cat      | Imprime el contenido de un archivo     |
-| rm       | Permite remover archivos segun su ruta |
-
-### Estos son los comandos alias
-|**Alias**  | **Comando**    |
-|-----------|----------------|
-| cs        | clear          |
-| rm        | trash          |
+### 🎆Estos son los comandos alias
+|*Comandos*                 | *Descripcion*                     |
+|---------------------------|-----------------------------------|
+| ```alias tch = "touch"``` | Crea un archivo nuevo             |
+| ```alias ct = "cat"```    | Muestra el resultado por consola  |
+| ```alias cl = "clear"```  | Limpiar la consola                |
