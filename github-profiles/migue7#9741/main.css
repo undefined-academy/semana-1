@@ -1,0 +1,29 @@
+
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+    th, td{
+        text-align: left;
+        padding: 8px;
+        border: 1px solid #3d7e1c;
+    }
+    th { 
+     background-color: rgb(12, 70, 102);
+     }  
+     body { 
+        color :darkkhaki;
+        background-color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     } 
+
+     td{ 
+        font-family: monospace;
+        font-size: medium ;
+     } 
+     img{
+        width: 170px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      } 
