@@ -1,0 +1,65 @@
+/* CSS principal*/
+
+body{
+    margin: 0px;
+    font-family: 'Indie Flower', cursive;
+}
+
+header{
+    background-image: url("image_header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    line-height: 1.2;
+    padding: 15vw 0em;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+.container{
+    padding: 10px 50px;
+    background-color: blanchedalmond;
+}
+
+.comandos{
+    padding: 10px 80px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0em;
+    text-align: left;
+    width: 60%;
+}
+
+td{
+    padding: 1px 10px;
+}
+
+.tableComandos th{
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 5px;
+}
+
+.thComandos{
+    width: 20%;
+}
+
+.tableComandos tr:nth-child(odd) {
+    background-color:#fff
+}
+
+.tableComandos tr:nth-child(even) {
+    background-color: #E7E9EB
+}
+
+.alias{
+    padding-bottom: 14px;
+}
+code{
+    background: #eee;
+    padding: 2px 4px;
+}
