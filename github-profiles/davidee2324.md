@@ -12,3 +12,7 @@ https://github.com/davidee2324
  | clear  | limpiar                     |
  | cp     | copiar                      |
  | mv     | mover                       |
+
+# ESTOS SON MIS ALIAS MAS USADOS:
+<pre>cl = clear</pre>
+      <pre><span>mkdircd = 'function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd' -> Crear un directorio y acceder directamente.</span></pre>
