@@ -23,9 +23,12 @@ h2{
     padding-top: 1em;
 }
 
-h1,
-h2,{
-    color: #333
+h1{
+    font-size: 50px;
+}
+
+.sub{
+    font-size: 40px;
 }
 
 strong{
