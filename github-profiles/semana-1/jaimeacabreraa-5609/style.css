@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E9F8F9;
+}
+
+body {
+    margin: 80px 200px
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid {
+    margin-bottom: 50px;
+}
+
+#names {
+    font-size: 5em;
+    font-weight: bold;
+    color: #18122B;
+
+}
+
+#surnames {
+    font-size: 5em;
+    font-weight: bold;
+    color: #443C68;
+    margin-bottom: 50px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+#names,
+#surnames,
+h2,
+h3 {
+    font-family: 'Tilt Warp', cursive !important;
+}
+
+h2,
+h3 {
+    color: #443C68
+}
