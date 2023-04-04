@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+  }
+  body {
+    font-family: "Helvetica", "Arial", sans-serif;
+  }
+  body {
+    line-height: 1.5;
+    padding: 4em 1em;
+  }
+
+  h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+  body {
+    color: #555;
+  }
+  h1,
+h2,
+strong {
+  color: #333;
+}
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+.encabezado-img {
+  background-color: #263d36;
+  background-image: url("imagenes/paisaje.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+
