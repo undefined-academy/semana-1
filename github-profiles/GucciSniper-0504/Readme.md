@@ -5,7 +5,7 @@
 ### ***Mi perfil de GitHub es [enlace en línea](https://github.com/idkwrld)*** 
 *** 
 ### Como es la primera vez que uso la terminal no tengo comandos que use frecuentemente, por lo que
-### decidi mejor hacer una lista de comandos mas basicos, por si alguna vez necesito alguno.
+### decidi mejor hacer una lista de los comandos mas basicos, por si alguna vez necesito alguno.
 ***
 # Comandos Ubuntu  o WSL
 
