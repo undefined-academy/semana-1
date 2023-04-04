@@ -1,0 +1,81 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+
+
+
+body {
+    
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    
+    background: linear-gradient(105deg, rgba(230, 6, 43, 0.2) 39%, rgb(2, 44, 53) 96%) center center / 100% 100% no-repeat,
+                
+                rgb(7, 38, 139);
+    color: rgb(239, 245, 160);
+   
+}
+
+main{
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 4em 1em;
+}
+header {
+    background-color: #263d36;
+    background-image: url("header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+    max-width: none;
+  }
+header h1{
+    margin: 0 auto;
+    margin-top: 5em;
+    text-align: center;
+    background-color:rgba(7, 8, 8, 0.753) ;
+    max-width: 40%;
+    color: aliceblue;
+}
+
+
+.git {
+    color: rgb(238, 255, 0);
+    font-weight: bolder;
+    background-color: rgba(7, 8, 8, 0.753);
+    padding: 1em;
+    display: block;
+    margin: 2em auto;
+    width: 20%;
+ 
+    text-align: center;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+h1,
+h2,
+strong {
+  color: #e8ff16;
+}
+
+.loquemegusta{
+    background-color: rgba(7, 8, 8, 0.753);
+    padding: 1em;
+    color: #fcfa82;
+    margin: 2em auto;
+    font-size: 0.8em;
+    width: 80%;
+    border-left: #fcfa82 ridge 7px;
+    
+}
+
+.loquemegusta>h3{
+    text-align: center;
+}
