@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de vida </title>
+    <H1>Jairo Garcia Centeno</H1>
+   
+</head>
+<body>
+
+    
+    <h2> 🎓 tecnólogo en analisis y desarrollo de sitemas de información</h2>
+    <h2>Perfil Profesional</h2>
+    <h3>Hola, soy estudiante de ingeniería de software, tengo 29 años y vivo en la ciudad de Bogota - Colombia,
+        actualmente me desempeño como tecnólogo en sistema para la compañia Global Knowledge colombia S.A.S., Soy apasionado
+        por la tecnologia y el desarrollo, de los cuales he aprendido sobre el manejo de bases de datos y lenguaje PHP, en este Bootcamp
+        quiero desarrollar nuevas habilidades y conocimiento para seguir creciendo en este mundo tan amplio hasta tornarme un desarrollador
+        full stack.</h3>
+
+        
+        <hr><strong>Habilidades - Conocimientos 🧠  </strong><hr>  
+
+        <ol> 
+            <li>Trabajo en equipo</li>   
+            <li>Puntualidad</li>   
+            <li>Compromiso</li>   
+            <li>Dinamismo</li>   
+            <li>Escucha activa </li>   
+            <li>Creatividad</li>           
+
+        </ol>
+
+        <img src="Jairog.jpeg"  with="300px" height="200" alt="esto es una foto de jairo">
