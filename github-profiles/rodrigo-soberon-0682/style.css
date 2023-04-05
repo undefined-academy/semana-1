@@ -1,0 +1,38 @@
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	margin: 0 auto;
+	max-width: 50em;
+	line-height: 2;
+	padding: 4em 1em;
+	color: dimgrey;
+}
+
+h1,
+h2,
+h3,
+strong {
+	font-family: 'Work Sans', sans-serif;
+	padding-top: 1em;
+	color: crimson;
+}
+
+a {
+	color: rgba(220, 20, 60, 0.676);
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	text-align: left;
+}
+
+tr:nth-child(even) {
+	background-color: rgba(149, 149, 149, 0.173);
+}
+
+th,
+td {
+	padding: 0.5em;
+}
