@@ -1,0 +1,37 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    padding: 2em 1em;
+    color: rgb(55 65 81);
+}
+
+h1, h2 {
+    color: rgb(17 24 39);
+}
+
+p {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+table {
+    width: 100%;
+    margin: .5em;
+    border-collapse: collapse;
+}
+table, thead,th, td {
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
+code {
+    padding: 0.5em;
+    background:	rgb(226 232 240);
+    border-radius: .5em;
+}
+
+a {
+    color: rgb(13 148 136);
+}
