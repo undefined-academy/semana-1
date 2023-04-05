@@ -1,0 +1,58 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Georgia", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 2em 1em;
+    background: #eee;
+    color: #333;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h3 {
+    margin-top: 0.75em;
+    padding-top: 1em;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+}
+
+a:visited {
+    color: #333;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    display: inline; 
+    margin: 0 10px;
+    vertical-align: middle;
+    border-radius: 150px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

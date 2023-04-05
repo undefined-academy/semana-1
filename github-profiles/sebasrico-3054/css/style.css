@@ -1,0 +1,22 @@
+body {
+    background: rgb(71, 66, 55);
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #d2dde4;
+}
+
+h1,
+h2,
+strong {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: rgb(185, 178, 178);
+}
+
+
+a {
+    color: #0d852b;
+}
