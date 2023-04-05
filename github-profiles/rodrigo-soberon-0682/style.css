@@ -1,0 +1,26 @@
+body {
+	margin: 0 auto;
+	max-width: 50em;
+	font-family: 'Merriweather Sans', sans-serif;
+	line-height: 1.8;
+	color: darkslategrey;
+}
+
+h1,
+h2 {
+	font-family: 'Work Sans', sans-serif;
+	margin-top: 1em;
+	padding-top: 1em;
+}
+
+strong {
+	color: crimson;
+}
+
+table {
+	width: 100%;
+}
+
+thead {
+	font-family: 'Work Sans', sans-serif;
+}
