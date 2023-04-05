@@ -1,6 +1,6 @@
 # Rodrigo Soberon 🧑🏻‍💻🇦🇷
 
-`developer `
+`developer`
 
 ---
 
@@ -14,13 +14,15 @@ I have experience in business processes and leading projects with multicultural 
 - Computer Systems Analyst | Universidad Abierta Interamericana (UAI) - 2022
 - Full Stack Web Developer | Coderhouse - 2023
 
-## Most use commands
+---
+
+## Most used commands
 
 | Command | Description             |
 | ------- | ----------------------- |
-| ls      | List files in directory |
-| pwd     | Print working directory |
-| clear   | Clean terminal          |
+| `ls`    | List files in directory |
+| `pwd`   | Print working directory |
+| `clear` | Clean terminal          |
 
 ## My Aliases
 
