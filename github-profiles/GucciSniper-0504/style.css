@@ -1,0 +1,44 @@
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    background-color: rgb(53,53,53);
+    color: rgba(255, 255, 255, 0.952);
+    
+  }
+
+  h1 {
+    margin-top: 0.15em;
+    padding-top: 0.25em;
+  }
+
+  h1, strong {
+    color:white;
+  }
+
+  .Comentario{
+
+    color: rgba(255, 255, 255, 0.966);
+
+  }
+
+  .Link{
+
+   color:rgb(224, 147, 255);
+
+  }
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 5px solid rgb(14, 34, 212);
+  }
+  
+  th, td {
+    padding: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
