@@ -1,5 +1,3 @@
-https://github.com/CamachoDaniela
-
 # Hello😊, I'm Daniela Camacho
 
 ## I'm improve my skills to create quality products.
@@ -9,6 +7,11 @@ I'm a **Full stack developer** from **Colombia**.
 I'm in two courses:
 - Bootcamp Javascript full-stack By _Guillermo Rodas_
 - Front end development by _Jump_ in association with _Nearsure_
+
+Social network:
+[Linkedin](https://www.linkedin.com/in/daniela-c-08b7b5127/)
+[Github](https://github.com/CamachoDaniela)
+
 
 -------------------------------------------------------------
 
@@ -26,4 +29,9 @@ I'm in two courses:
 |--------------------------|------------|
 |  alias cl="clear"        |clear       |
 |  alias npms="npm start"  |start       |
+
+
+
+
+
 
