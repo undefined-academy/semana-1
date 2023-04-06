@@ -1,4 +1,5 @@
 <!-- http://localhost:8080/redu/index.html -->
+<!-- https://github.com/MrRedu -->
 
 # ✌🏼 ***Sup!*** Redu is here 👾
 ## Eduardo Rodríguez
@@ -44,8 +45,6 @@ data: {
 | :---                  |  :---:          |                     ---:               |
 | `limpiartodito` [^5]  |     `clear`     |  Aplica la misma función de `clear`    |
 |          `h`          |    `history` [^6]    | Cuando se invoca sin ninguna opción o argumento, *muestra toda la lista de historial* con números de línea. | 
-
-URL a perfil de GitHub: https://github.com/MrRedu
 
 FAQ:
 1. ¿Qué es ***el directorio de trabajo actual***? [^1]
