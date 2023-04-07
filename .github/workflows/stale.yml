@@ -1,0 +1,15 @@
+name: "Close stale issues and PRs"
+on:
+  schedule:
+    - cron: "30 1 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v7
+        with:
+          stale-issue-message: 'Este issue está obsoleto porque ha estado abierto 10 días sin actividad. Elimine la etiqueta o el comentario "stale" o se cerrará en 5 días.'
+          stale-pr-message: 'Este pull request está obsoleto porque ha estado abierto 10 días sin actividad. Elimine la etiqueta o el comentario "stale" o se cerrará en 5 días.'
+          days-before-stale: 10
+          days-before-close: 5
