@@ -94,3 +94,13 @@ header a:hover {
   background: #e81c4f;
   color: white;
 }
+
+table {
+  border: 1px solid #e81c4f;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #e81c4f;
+}
