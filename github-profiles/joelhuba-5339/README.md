@@ -20,18 +20,18 @@ orientación al detalle, creatividad e innovación. Interés ocupacional en sect
 * ABR 2020 - SEP 2021   **TELEPERFORMANCE** 
 
 #### COMANDOS TERMINAL
-|COMANDOS   |DEFINICION   |
-|-----------|-------------|
-| ls|Sirve para listar archivos en un directorio|
-|PWD|muestra en que carpeta de encuentras|
-|cd| cambiar de carpeta|
-|cat| concatenar|
+|COMANDOS   |DEFINICION                                 |
+|-----------|-------------------------------------------|
+| ls        |Sirve para listar archivos en un directorio|
+|PWD        |muestra en que carpeta de encuentras       |
+|cd         | cambiar de carpeta                        |
+|cat        | concatenar                                |
 
 #### COMANDOS ALIAS
 |ALIAS| DESPRCION|
-|-----|----------|
-|LS| CLEAR|
-|RM| EVITAR BORRAR PERMANENTEMENTE LOS ARCHIVOS|
+|-------------------|-------------------------------------------|
+|LS                 | CLEAR                                     |
+|RM                 | EVITAR BORRAR PERMANENTEMENTE LOS ARCHIVOS|
 
 
 
