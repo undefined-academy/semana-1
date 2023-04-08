@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 50em;
+    background-color: #282828;
+    font-family: sans-serif;
+    color: #d1d1d1;
+}
+
+h2, h3, h4, h5 {
+    font-size: 16px;
+}
+
+.header h1 {
+    text-align: center;
+    margin-top: 42px;
+
+}
+.header h1 strong {
+    color: rgb(136,108,228);
+    text-shadow: 2px 2px 10px black;
+}
+.header h1:hover em {
+    color: #282828;
+}
+.slogan {
+    margin-top: 42px;
+}
+.slogan h2 a {
+    text-decoration: none;
+    color: rgb(49,210,247);
+    text-shadow: 2px 2px 10px black;
+    font-size: 22px;
+}
+.slogan .parrafos {
+    background-color: #313131;
+    padding: 2px;
+    padding-left: 15px;
+    border-left: 2px solid rgb(49,210,247);
+    margin-top: -10px;
+}
+.slogan p{
+    line-height: 0.3;
+    font-weight: bold;
+}
+.slogan p:hover{
+    color: rgb(49,210,247);
+}
+.data h4{
+    margin-top: 32px;
+}
+.data h4 em::after {
+    content: "*";
+    color: rgb(184, 24, 24);
+}
+.data .code{
+    background-color: #202020;
+    border-left: 2px solid rgb(136,108,228);
+    border-radius: 10px;
+    padding: 2px 0 2px 15px;
+    margin-top: -15px;
+}
+.data .code p {
+    line-height: 0.3;
+}
+.data .code .espacio {
+    padding-left: 25px;
+}
+
+.data h4 em {
+    color: #979797;
+}
+.data:hover h4 em {
+    color: rgb(136,108,228);
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.skills ul {
+    list-style: none;
+}
+.skills ul li {
+    line-height: 1.2;
+}
+.footer {
+    text-align: center;
+    margin: 20px 0 0;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(136,108,228);
+    font-weight: bold;
+}
+
+.building {
+    color: #707070;
+    float: right;
+}
