@@ -1,8 +1,8 @@
 # Hey, what's up!!
 
-##I'm Mauricio Coronado
+##I'm Mauricio Coronado##
 
-##I'm a project management engineer
+##I'm a project management engineer##
 from the construction area with civil, hydraulic and paviment engineering, now learning new skills in the programming.
 ***
 I'm currently learning HTML, CSS, JavaScript, and other related languages...
