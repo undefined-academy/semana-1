@@ -1,6 +1,6 @@
 # Hola, soy nencodev
 
-Este es mi perfil en Github [nencodev](https://github.com/nencodev)
+https://github.com/nencodev
 
 🔭 Trabajo como Diseñador Web Freelance.
 
