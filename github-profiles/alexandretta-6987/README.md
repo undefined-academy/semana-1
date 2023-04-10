@@ -1,4 +1,4 @@
-# **ALEXANDRA SALAZAR D**
+# **ALEXANDRA SALAZAR DOMINGUEZ**
 >## _Kniting code and coding therapy._
 I'm a web developer. I'm a cat lover who enjoys music, movies, and crocheting. I'm good at listening to people and working in a team. I believe that helping others makes the world a more beautiful place, and that making an effort to care for the planet has an impact.
 
@@ -9,7 +9,7 @@ I was an occupational therapist until 2020, when the pandemic and some personal 
 
 ## Terminal Command
 
-The next tables are a code exercise for **Undefined Academy Full Stack Bootcamp**
+The next tables are a coding exercise for **Undefined Academy Full Stack Bootcamp**
 
 | **command** | **Description**|
 | ------ | ------ |
@@ -27,7 +27,7 @@ The next tables are a code exercise for **Undefined Academy Full Stack Bootcamp*
 | **Alias** | **Command**|
 | ------ | ------ |
 | cl: clear | cleans the screen |
-| stop: ctrl + c| stops a process |
+| findir: 'ls ~/ \| grep $1'| Looks for a coincident directory |
 | | |
 
 >Come and watch my projects by clicking in the next link: [alesalazard projects](https://github.com/alesalazard/)
