@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+}
+
+header {
+  background-image: url(/code-by-Markus-Spiske-from-unplash.jpg);
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#header-title, .header-subtitle, .header-quote {
+  color: mintcream;
+  background-color: #555555d4;
+  text-shadow: 2px 2px black;
+  border-radius: 10px;
+  padding-top: 0;
+  margin: 0 auto;
+}
+
+#header-title {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.header-quote {
+  color:rgb(244, 91, 168);
+  text-shadow: 1px 1px rgb(29, 28, 28);
+  font-size: 1.5em;
+}
+
+
+
+h1 {
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1, h2, strong {
+  color: #333;
+}
+
+pre {
+  display: flex;
+  background: #eee;
+  justify-content: center;
+}
+
+a {
+  color: chocolate;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #555555c9;
+  padding: 20px 150px;
+  color: mintcream;
+  border-radius: 10px;
+}
+
+.social-logo {
+  width: 100px;
+  padding: 20px;
+}

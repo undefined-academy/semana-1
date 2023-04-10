@@ -1,107 +1,134 @@
 <!DOCTYPE html>
-<html lang='en'>
-<head>
-  <meta charset='UTF-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <title>Alexandra Salazar D</title>
-</head>
-<body>
-  <header>
-    <h1>Alexandra Salazar Domínguez</h1>
-    <h2><em>Kniting code and coding therapy</em></h2>
-    Come and watch my projects by clicking the next<a href="https://github.com/alesalazard/"> link</a>
-  </header>
-  <section>
-    <p>
-      I'm a web developer. I'm a cat lover who enjoys music, movies, and crocheting. I'm good at listening to people and working in a team. I believe that helping others makes the world a more beautiful place, and that making an effort to care for the planet has an impact.
-
-    </p>
-    <p>
-      I have knowledge in <strong>frontend development</strong> with <strong>React.js</strong>, acquired at <Laboratoria>, an intensive programming bootcamp where I not only gained basic knowledge but also developed many <strong>personal skills</strong>. During the bootcamp, I worked on real projects using <strong>agile methodologies</strong>. After completing the bootcamp, I have continued my learning independently through various means, including new projects, courses, and certifications. <strong>Learning new things is my passion</strong>.
-    </p>
-    <p>
-      I was an occupational therapist until 2020, when the pandemic and some personal issues made me reconsider my career path, and I discovered that programming was much more than a hobby and now<strong> I am hopelessly in love with code</strong>.
-    </p>
-</section>
-<section>
-  <h1>Terminal Command</h1>
-  <p>
-    The next tables are a coding exercise for <strong>Undefined Academy Full Stack Bootcamp</strong>
-  </p>
-  <p>
-    My favourite Terminal commands:
-  </p>
-  <table>
-    <thead>
-      <tr>
-        <th>Command</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>ls-la</td>
-        <td>Lists the directory elements, even the hidden ones</td>
-      </tr>
-      <tr>
-        <td>mkdir</td>
-        <td>Creates a new directory</td>
-      </tr>
-      <tr>
-        <td>touch</td>
-        <td>Creates a new file</td>
-      </tr>
-      <tr>
-        <td>rm -i</td>
-        <td>Removes a file asking before do it</td>
-      </tr>
-      <tr>
-        <td>rm -r</td>
-        <td>Removes a directory</td>
-      </tr>
-      <tr>
-        <td>pwd</td>
-        <td>Prints the actual route</td>
-      </tr>
-      <tr>
-        <td>code .</td>
-        <td>Opens a new VScode session with the actual file</td>
-      </tr>
-      <tr>
-        <td>clear</td>
-        <td>Cleans the content printed in the screen</td>
-      </tr>
-    </tbody>
-  </table>
-  <h2>Practical Alias</h2>
-  <p>
-    Sometimes we want to save time when coding, so, we can asign some short alias to the commands in order to do it, there are some of my own:
-  </p>
-  <table>
-    <thead>
-      <th>Alias</th>
-      <th>Command</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>cl: 'clear'</td>
-        <td>Cleans the screen</td>
-      </tr>
-      <tr>
-        <td>findir: 'ls ~/ \| grep $1'</td>
-        <td>Find a coincident directory</td>
-      </tr>
-      <tr>
-        <td>run: 'npm run dev'</td>
-        <td>Runs a development server in local host in Vite</td>
-      </tr>
-      <tr>
-        <td>start: 'npm run start'</td>
-        <td>Runs a development server in local host in JS and CRA</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ale Salazar D</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="header-title">Ale Salazar Domínguez</h1>
+      <h2 class="header-subtitle">Web Developer</h2>
+      <h3 class="header-quote"><em>{ Kniting code and coding therapy }</em></h3>
+    </header>
+    <hr />
+    <section>
+      <p>
+        I'm a cat lover who enjoys music, movies, and crocheting. I'm good at
+        listening to people and working in a team. I believe that helping others
+        makes the world a more beautiful place, and that making an effort to
+        care for the planet has an impact.
+      </p>
+      <p>
+        I have knowledge in <strong>frontend development</strong> with
+        <strong>React.js</strong>, acquired at Laboratoria, an intensive
+        programming bootcamp where I not only gained basic knowledge but also
+        developed many <strong>personal skills</strong>. During the bootcamp, I
+        worked on real projects using <strong>agile methodologies</strong>.
+        After completing the bootcamp, I have continued my learning
+        independently through different ways, including new projects, courses,
+        and certifications. <strong>Learning new things is my passion</strong>.
+      </p>
+      <p>
+        I was an occupational therapist until 2020, when the pandemic and some
+        personal issues made me reconsider my career path, and I discovered that
+        programming was much more than a hobby and now<strong>
+          I am hopelessly in love with code</strong
+        >.
+      </p>
+      <hr />
+    </section>
+    <section>
+      <h1>Terminal Commands</h1>
+      <p>My favourite Terminal commands:</p>
+      <pre>
+    <code>
+      <table border='1'>
+        <thead>
+          <tr>
+            <th>Command</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ls-la</td>
+            <td>Lists the directory elements, even the hidden ones</td>
+          </tr>
+          <tr>
+            <td>mkdir</td>
+            <td>Creates a new directory</td>
+          </tr>
+          <tr>
+            <td>touch</td>
+            <td>Creates a new file</td>
+          </tr>
+          <tr>
+            <td>rm -i</td>
+            <td>Removes a file asking before do it</td>
+          </tr>
+          <tr>
+            <td>rm -r</td>
+            <td>Removes a directory</td>
+          </tr>
+          <tr>
+            <td>pwd</td>
+            <td>Prints the actual route</td>
+          </tr>
+          <tr>
+            <td>code .</td>
+            <td>Opens a new VScode session with the actual file</td>
+          </tr>
+          <tr>
+            <td>clear</td>
+            <td>Cleans the content printed in the screen</td>
+          </tr>
+        </tbody>
+      </table>
+    </code>
+  </pre>
+      <h2>Practical Alias</h2>
+      <p>
+        Want to save time when coding? Then asign some short alias to the
+        commands in order to do it, there are some of my own:
+      </p>
+      <pre>
+    <code>
+      <table border='1'>
+        <thead>
+          <th>Alias</th>
+          <th>Command</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>cl: 'clear'</td>
+            <td>Cleans the screen</td>
+          </tr>
+          <tr>
+            <td>findir: 'ls ~/ \| grep $1'</td>
+            <td>Find a coincident directory</td>
+          </tr>
+          <tr>
+            <td>run: 'npm run dev'</td>
+            <td>Runs a development server in local host in Vite</td>
+          </tr>
+          <tr>
+            <td>start: 'npm run start'</td>
+            <td>Runs a development server in local host in JS and CRA</td>
+          </tr>
+        </tbody>
+      </table>
+    </code>
+  </pre>
+    </section>
+    <hr />
+    <footer>
+      <p>Look for my Projects:</p>
+      <a href="https://github.com/alesalazard"
+        ><img src="/github.png" alt="github-logo" class="social-logo"
+      /></a>
+    </footer>
+  </body>
 </html>
