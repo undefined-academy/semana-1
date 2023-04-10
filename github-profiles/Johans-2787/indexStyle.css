@@ -91,7 +91,3 @@ header img {
     transition-property: color, background;
   }
   
-  header a:hover {
-    background:  #e81c4f;
-    color: white;
-  }
