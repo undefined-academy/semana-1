@@ -1,5 +1,7 @@
 ### Hola soy Felipe Gironza 👋
 
+Mi perfil de Github es: https://github.com/FelipeGironza
+
 - 🌱 Actualmente estoy aprendiendo a programar Full Stack para desempeñarme en cualquier ambito laboral de programacion
 - 🌱 Al mismo tiempo, estoy aprendiendo ingles 
 
