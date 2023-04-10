@@ -1,5 +1,7 @@
 # Luis D. Garcia Amaya  :grinning: :computer:
 
+## [Github profile](https://github.com/Luisdgamaya "Luisdgamaya") :computer: :neckbeard:
+
 ## Desarrollador web FullStack en preparacion
 :bank: Actualmente trabajo como asesor en un banco
 :family: Tengo una hermosa familia de tres integrantes
@@ -31,4 +33,3 @@
 |-|-|
 |`alias actualizar="sudo apt update && sudo apt dist-upgrade -y"`|Sirve para actualizar el sistema operativo.|
 |`alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'`|Sirve para crear un directorio y acceder directamente al directorio creado.|
-
