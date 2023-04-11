@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@400;700&family=Seaweed+Script&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  background-image: url("../asset/img/fondo.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  /* background: #7F4D99;  */
+  background: transparent;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 10px;
+  border: solid 1px white;
+  box-shadow: 5px 5px 10px rgb(179, 124, 179);
+}
+
+.link-a:hover {
+  background: linear-gradient(
+    30deg,
+    rgb(220, 20, 180),
+    rgb(45, 156, 160),
+    rgb(65, 225, 142),
+    indianred,
+    purple
+  );
+}
+
+/**********************************/
+
+body {
+  background: gray;
+}
+
+.readme {
+  font-family: "Poppins", sans-serif;
+  width: 400px;
+  margin: 10px auto;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+
+  box-shadow: 10px 10px 15px #2626267d;
+}
+
+.perfil-img {
+  width: 100%;
+  border-radius: 25px 25px 0px 0px;
+  -webkit-border-radius: 25px 25px 0px 0px;
+  -moz-border-radius: 25px 25px 0px 0px;
+  -ms-border-radius: 25px 25px 0px 0px;
+  -o-border-radius: 25px 25px 0px 0px;
+  display: block;
+}
+
+.content-body {
+  background: white;
+  padding: 15px;
+  color: #262626;
+}
+
+h1 {
+  color: #ea1889;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 175px;
+  height: 6px;
+  left: 88px;
+  background: #ea1889;
+  
+  transition:all .3s linear ;
+  -webkit-transition:all .3s linear ;
+  -moz-transition:all .3s linear ;
+  -ms-transition:all .3s linear ;
+  -o-transition:all .3s linear ;
+}
+
+h1:hover::after{
+  background: linear-gradient(
+    30deg,
+    rgb(220, 20, 180),
+    rgb(45, 156, 160),
+    rgb(65, 225, 142),
+    indianred,
+    purple
+  );
+
+}
+
+.footer-card {
+  background: black;
+  border-radius: 0px 0px 25px 25px;
+  -webkit-border-radius: 0px 0px 25px 25px;
+  -moz-border-radius: 0px 0px 25px 25px;
+  -ms-border-radius: 0px 0px 25px 25px;
+  -o-border-radius: 0px 0px 25px 25px;
+  /* color: white; */
+  position: relative;
+  padding-bottom: 12px;
+  
+}
+
+.rayo-footer {
+  position: absolute;
+  background-color: transparent;
+  left: 50%;
+  top: 0px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+
+}
+
+.img-rayo {
+  border: 0;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.img-github{
+  border: 0px;
+  display: block;
+  width: 40px; 
+}
+
+ul{
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+}
