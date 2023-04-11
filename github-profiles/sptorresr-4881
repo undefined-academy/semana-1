@@ -1,0 +1,43 @@
+https://github.com/sptorresr
+
+## Hola soy Sandra Patricia Torres 👋
+
+###  Estudiante Bootcamp Guillermo Rodas
+
+Vivo en Bogota Colombia, actualmente trabajo en una empresa de insumos agricolas *Gruposys*, en el area de soporte de sistemas, su pagina es [Gruposys](https://gruposys.com.co/)
+
+####  Cursos Realizados y/o Cursando
+
+- Programación desde cero en **EGG**
+- Boostrap principiantes en **Udemy**
+
+### Tabla Comandos **Linux**
+| Comando |Descripción |
+|:-------------------:|---|
+| pwd |Donde estoy ubicada |
+| ls |Listar el contenido de donde estoy |
+| cd |Cambiar de carpeta |
+| touch |Crear un archivo |
+| cat |Mostrar el contenido de un archivo |
+| mv |Mover un archivo a otro directorio y/o carpeta |
+
+### Tabla Alias usados en  **Linux**
+| nombre |comando |función |
+|:-------------------:|---|---|
+| actualizar |sudo apt update && sudo apt dist-upgrade -y |actualizar el sistema |
+| cp |cp -i |antes de sobreescribir archivo pide confirmación |
+| ip |curl icanhazip.com |Saber mi ip publica |
+<!--
+**sptorresr/sptorresr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
