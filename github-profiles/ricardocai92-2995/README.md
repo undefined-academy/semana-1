@@ -1,20 +1,25 @@
-### Hi there 👋, I'm Ricardo.
+## Hi there 👋, I'm Ricardo Gutierrez.
 
-I'm an Argentine student 🇦🇷 *looking to collaborate with the Open Source community in the future* ⚡
+I'm an Argentine student 🇦🇷 [GitHub profile](https://github.com/gutierrezricardo92)
+___
 
-- I'm currently learning **JavaScript** 🌱
+*I'm currently attending the **[Undefined Academy's Full-stack JavaScript Developer Bootcamp](https://undefined.academy)** with [Guillermo Rodas](https://github.com/glrodasz "Tutor")*
 
-<!--
-**gutierrezricardo92/gutierrezricardo92** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Some Linux Terminal commands
 
-Here are some ideas to get you started:
+| Command | Description                                            |
+|---------|--------------------------------------------------------|
+|  `ls `  | Show the contents of the directory in use              |
+| `mkdir` | Makes a new directory                                  |
+| `cd`    | Change to a specific directory                         |
+| `sudo`  | Grants temporary privileged access to system resources |
+| `alias` | Create a shortcut name for a command                   |
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Some useful aliases
+
+| Alias | Command            | Description                                                             |
+| ------|--------------------|-------------------------------------------------------------------------|
+| cl    | `clear`            | Clear the terminal screen                                               |
+| upd   | `sudo pacman -Syu` | Synchronizes the repository databases and updates the system's packages |
+
+
