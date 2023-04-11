@@ -1,0 +1,27 @@
+body {
+	background: gray;
+	margin: 0 auto;
+	max-width: 50em;
+	font-family: "Helvetica", "Arial", sans-serif;
+	line-height: 1.5;
+	padding: 4em 1em;
+}
+
+h1 {
+	margin: 0 auto;
+	max-width: 15em;
+}
+
+h2 {
+	margin-top: 1em;
+	padding-top: 1em;
+}
+
+.button {
+	display: block;
+	background-color: #216E21;
+	padding: 7px;
+	margin : 0 auto;
+	max-width: 15em;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
