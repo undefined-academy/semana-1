@@ -1,11 +1,44 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    color: #555;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: darkblue;
+main {
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 4em 1em;
 }
 
-h2, h3 {
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1, h2, h3 {
     color: #333;
 }
+
+a {
+    color: #e81c4f;
+}
+
+header {
+    background-color: #263d36;
+    background-image: url("header.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+.title, .subtitle {
+    color: white;
+}
+
