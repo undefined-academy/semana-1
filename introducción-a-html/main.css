@@ -1,0 +1,30 @@
+  body {
+    max-width: 700 font-size:16px;
+    margin: 0 auto;
+    border: 2px dashed tomato;
+    background: #f3f3f3;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p {
+    line-height: 1.1;
+
+  }
+  color: #555;
+  h1,
+  h2,
+  strong{
+      color: #333
+  }
+  div {
+    padding: 20px ;
+    border: 1px solid tomato;
+}
+
+  h1,
+  h2 {
+    line-height: 1.5;
+    margin-top: 50px;
+  }
+  
