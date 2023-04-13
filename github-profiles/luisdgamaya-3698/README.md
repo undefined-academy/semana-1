@@ -32,4 +32,5 @@
 |Alias|Descripcion|
 |-|-|
 |`alias actualizar="sudo apt update && sudo apt dist-upgrade -y"`|Sirve para actualizar el sistema operativo.|
-|`alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'`|Sirve para crear un directorio y acceder directamente al directorio creado.|
+|`alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'`|Sirve para crear un directorio y acceder directamente al directorio creado.
+
