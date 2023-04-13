@@ -1,0 +1,36 @@
+header {
+    background-color: lightpink;
+    background-image: url("BANNER_LARACONTIGO.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-width: 800px;
+    min-height: 320px;
+
+}
+
+body {
+    margin: 0 auto;
+    max-width: 700px;
+    background: lightcoral;
+    font-size: 20px;
+    font-family: Palatino Linotype;
+    line-height: 1.5;
+    color: #555;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+a {
+    color: lightskyblue;
+}
