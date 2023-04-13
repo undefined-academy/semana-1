@@ -1,0 +1,87 @@
+body {
+  margin: 0 auto;
+  max-width: 60rem;
+  font-family: "Inter" , "Arial" , sans-serif;
+  line-height: 1.5;
+  padding: 4rem 1rem;
+  background-color: whitesmoke;
+  color: #333;
+}
+
+header {
+  padding: 10vw 2rem;
+  padding-top: 2rem;
+  position: relative;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.name {
+  display: block;
+  font-size: 4.5rem;
+  background-image: linear-gradient(270deg, darkblue, hotpink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: slategray;
+}
+
+.photo {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  z-index: -10;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 1rem auto;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: tomato;
+}
+
+code {
+  background-color: bisque;
+  border-radius: 50px;
+  padding: 2px 7px;
+  border: 1px solid lightpink;
+}
+
+.section {
+  padding: 4rem 2rem 2rem;
+  font-size: 2rem;
+}
+
+.icon {
+  padding-left: 2rem;
+}
+
+article {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 2rem;
+}
+
+h3 {
+  height: 3rem;  
+}
+
+article > a {
+  display: block;
+}
+
+footer {
+  padding: 4rem 0 0 2rem;
+}
