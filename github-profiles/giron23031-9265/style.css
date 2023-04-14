@@ -1,0 +1,34 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    background: linear-gradient(skyblue, slateblue) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: black
+  }
+  
+  h1,h2,h3,p,table,td,tr,li {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+  
+  h1,h2,h3,em {
+    color: red;
+  }
+  
+  em{
+    background-image: radial-gradient(circle at 50% -20.71%, #eaffff 0, #dafffc 16.67%, #c8faf7 33.33%, #b5f2f2 50%, #a1eaee 66.67%, #8ee2ec 83.33%, #7bdbeb 100%);
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    border-radius: 50%;
+  }
+  
+  strong {
+    color: yellow;
+  }
+  
+  tr,td {
+    border: snow 1px solid;
+  }
+  
