@@ -10,13 +10,13 @@ Actualmente aprendiendo:
 
 ## Lista de comandos preferidos en la terminal
 
-| Comando | Descripcion |
-| --- | --- |
-| ls | lista de archivos en carpeta |
-| pwd | ruta absoluta de directorio actual |
-| mkdir | crear carpeta |
-| touch | crea archivo |
-| rm | elimina un archivo |
+| Comando | Descripcion                        |
+| ------- | ---------------------------------- |
+| ls      | lista de archivos en carpeta       |
+| pwd     | ruta absoluta de directorio actual |
+| mkdir   | crear carpeta                      |
+| touch   | crea archivo                       |
+| rm      | elimina un archivo                 |
 
 ## Comandos alias utiles
 
