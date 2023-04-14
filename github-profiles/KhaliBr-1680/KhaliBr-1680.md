@@ -12,3 +12,23 @@ Ademas, estoy haciendo la diplomatura en **ciencia de datos e inteligencia artif
 4. Creando una cuenta de GitHub
 5. Instalación de Node.js y Yarn
 6. Primeros pasos con VS Code
+
+### Mis comandos mas usados
+
+| Commands |                              Description                               |
+| -------- | ---------------------------------------------------------------------- |
+|    cd    |   Change Directory                                                     |
+|    ls    |   List all the contents of the specified directory                     |
+|   mkdir  |   Make directory                                                       |
+|   pwd    |   Print Working Directory                                              |          
+|   clear  |   Clear the Terminal screen                                            |
+
+### Creacion de Alias
+
+| Alias | Command |          Description        |
+| ----- | ------- | --------------------------- |
+|   cl  | `clear` | Clean terminal.             |
+|   ..  |  `cd..` | Back to parent directory.   |
+
+
+### Mi perfil de GitHub: [Medina Julian](https://github.com/Khalibr)
