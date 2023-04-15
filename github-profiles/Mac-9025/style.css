@@ -44,5 +44,9 @@ header {
     color: #5abd44;
 }
 
-
+.container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 80px;
+}
 
