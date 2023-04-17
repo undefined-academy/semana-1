@@ -1,0 +1,43 @@
+
+html, body{
+    margin: 0 auto;
+max-width: 50em;
+
+font-family: "Helvetica", "Arial", sans-serif;
+line-height: 1.5;
+padding: 4em 1em;
+}
+h2 {
+margin-top: 1em;
+padding-top: 1em;
+color: #555;
+
+}
+code,
+pre {
+background: #eee;
+}
+
+code {
+padding: 2px 4px;
+vertical-align: text-bottom;
+}
+
+pre {
+padding: 1em;
+}
+a {
+color: #e81c4f;
+}
+body {
+color: #566b78;
+}
+
+
+
+pre {
+border-left: 2px solid #69c;
+}
+body {
+font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
