@@ -13,14 +13,14 @@ body {
 
 table,
 td {
-    border: 1px solid #333;
-    background: #08a045;
+	border: 1px solid #333;
+	background: #08a045;
 }
 
 thead,
 tfoot {
-    background-color: #333;
-    color: #fff;
+	background-color: #333;
+	color: #fff;
 }
 
 a {
@@ -34,14 +34,18 @@ strong {
 
 }
 
+h3 {
+	text-align: center;
+}
+
 header {
 
 	background: url(https://images.unsplash.com/photo-1599931601414-696a3ddbd889?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) center no-repeat #263d36;
-    background-size: cover;
-    line-height: 1.2;
-    padding: 10vw 2em;
-    text-align: center;
-    color: #5abd44;
+	background-size: cover;
+	line-height: 1.2;
+	padding: 10vw 2em;
+	text-align: center;
+	color: #5abd44;
 }
 
 .container {
