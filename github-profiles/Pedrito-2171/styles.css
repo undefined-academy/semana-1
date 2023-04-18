@@ -25,19 +25,11 @@ vertical-align: text-bottom;
 
 pre {
 padding: 1em;
+border-left: 2px solid #69c;
 }
 a {
 color: #e81c4f;
 }
 body {
 color: #566b78;
-}
-
-
-
-pre {
-border-left: 2px solid #69c;
-}
-body {
-font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
