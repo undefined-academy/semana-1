@@ -44,6 +44,6 @@ Soy desarrolladora de front end que recien esta empezando en el mundo de la tecn
 ## Alias
 
 | Alias | Description |
-|--|--|
+|-------|-------------|
 | alias cl='clear'| Clears the terminal|
 | alias rm="trash" | Send the removes files to the recycle bin |
