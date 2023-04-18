@@ -1,0 +1,69 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c8d392;
+    line-height: 1.5;
+    padding: 1em 1em;
+}
+
+.section__head{
+    background-image: url(martin-bennie-8jN5k9jBjz4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center left;
+    background-color: #263d36;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+    margin: 1em auto;
+    max-width: 50em;
+    border-radius: 10px;
+}
+
+.section__head--subtitle{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h3, strong{
+    color: #333;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 54em;
+    color: #566b78;
+}
+
+.list__container{
+    background-color: #f5f7f9;
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    border-bottom: 1px solid #d8dee9;
+    border-left: 2px solid ;
+}
+
+.section__unorderlist{
+    border-radius: 10px 10px 0 0;
+}
+
+.section__orderlist{
+    border-radius: 0 0 10px 10px;
+}
+
+footer{
+    margin-top: 1em;
+    display: flex;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    margin-left: 1em;
+}
+
+a{
+    color: #e81c4f;
+    text-decoration: none;
+}
