@@ -1,0 +1,41 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  color: #566b78;
+}
+
+h2 {
+  margin-top: 2em;
+  padding-left: .5rem;
+  border-left: 2px solid #69c;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+a {
+  color: #e81c4f;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table thead th {
+	background-color: #333;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #333;
+}
+
+table th, table td {
+	padding: .5rem;
+}
