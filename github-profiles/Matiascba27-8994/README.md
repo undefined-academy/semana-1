@@ -1,5 +1,6 @@
-# Hola soy Matias Nuñez Fullstack Developers
-## Soy apasionado por la creación de soluciones innovadoras con experiencia en frontend y backend
+# Matias Nuñez
+## ¡Hola! Soy un desarrollador web fullstack con experiencia en HTML, CSS y Javascript. Aquí encontrarás información sobre mi experiencia, proyectos y habilidades.
+### Aquí te dejo unos comandos más conocidos
 
 ### 🛠️ Tabla de comandos de linux
 | ls | cd | pwd | mkdir | touch |
@@ -10,3 +11,5 @@
 |ll|update|
 |--|------|
 |ls -l: lista los archivos con detalles|sudo apt update && sudo apt upgrade: para actualizar el sistema con apt|
+
+[Mi GitHub](https://github.com/Matiascba27)
