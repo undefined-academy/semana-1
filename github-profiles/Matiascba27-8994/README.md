@@ -1,5 +1,5 @@
 # Matias Nuñez
-## ¡Hola! Soy un futuro desarrollador web fullstack con experiencia en HTML y CSS. Sigo aprendiendo en este mundo tan maravilloso de la programacion, hasta llega a ser un desarrolador web full stack.
+## ¡Hola! Soy un futuro desarrollador web fullstack con experiencia en HTML y CSS. Sigo aprendiendo en este mundo tan maravilloso de la programacion, hasta llegar a ser un desarrolador web full stack.
 
 ## 🛠️ Mis conocimientos
 - Maquetador (HTLM, CSS)
