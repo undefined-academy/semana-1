@@ -1,9 +1,9 @@
 # Hey, what's up!!
 
-##I'm Mauricio Coronado##
+## I'm Mauricio Coronado ##
 
-##I'm a project management engineer##
-from the construction area with civil, hydraulic and paviment engineering, now learning new skills in the programming.
+## I'm a project management engineer ##
+from the construction area with civil, hydraulic and paviment engineering knowledge, now learning new skills in the programming.
 ***
 I'm currently learning HTML, CSS, JavaScript, and other related languages...
 
@@ -22,6 +22,19 @@ Thanks to **Guillermo Rodas** and his ***Full-Stack Javascript Bootcamp*** for t
 |   cat     | Prints the contents of a file given its path              |
 |   cp      | Allows to copy files given an inicial and end path        |
 
+
+
+**Alias**
+
+```
+alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd' 
+```
+It creates a directory and access directly in it.
+
+```
+alias findd="ls ~/ | grep $1"
+```
+It allows to filter folders from our directory
 
 
 https://github.com/MrAlizarinCrimson
