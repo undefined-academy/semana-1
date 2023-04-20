@@ -1,0 +1,64 @@
+
+body {
+    background-color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+section {
+    background-color: purple;
+
+}
+
+div {
+    background-color: aquamarine;
+    padding: 16px 32px;
+    margin: 20px;
+    border: 8px solid orchid;
+    width: 100px;
+}
+
+p {
+    background-color: papayawhip;
+    color: rgb(59, 107, 11);
+} */
+
+/* -------------------- */
+
+/* 
+.abuelo {
+    border: 1px dotted black;
+}
+
+p + p {
+    color: tomato;
+}
+
+.hermano > span {
+    color: rebeccapurple;
+}
+
+div span {
+    font-weight: bold;
+}
+
+div ~ div {
+    color: steelblue;
+} */
+
+
+/* ejercicio 2 */
+
+main{
+    border: 10px solid blue;
+    width: 600px;
+}
+div {
+    padding: 20px;
+    border: 1px solid tomato;
+}
+
+.column {
+    display: inline-block;
+    width: calc(33.33% - 40px - 2px);
+}
