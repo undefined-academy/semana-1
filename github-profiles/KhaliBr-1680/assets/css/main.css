@@ -20,6 +20,7 @@ h2 {
 
 h1,
 h2,
+th,
 strong {
     color: #333
 }
@@ -75,6 +76,11 @@ header a:hover {
 }
 
 
+th,
+td {
+    padding: 0.25em;
+    border-bottom: 1px solid #333;
+}
 
 
 
