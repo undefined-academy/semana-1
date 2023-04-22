@@ -1,0 +1,1735 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:jsf="http://xmlns.jcp.org/jsf">
+    
+    <!-- Validacion de sesion -->
+    
+<f:metadata>
+	<f:event type="preRenderView"
+		listener="#{sievClienteBean.verificaSession2}"></f:event>
+</f:metadata>
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>SIEV</title>
+
+	<style type="text/css">
+.resultadoForm tr td:first-child {
+	width: 20% !important;
+}
+
+input {
+	font-size: x-large;
+	margin: 0;
+}
+
+label {
+	font-size: xx-small;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+input[type="text"] {
+	font-size: x-large;
+	margin-bottom: 1px;
+}
+
+.ui-selectoneradio .ui-radiobutton.ui-widget {
+	width: 15% !important;
+}
+
+.ui-selectoneradio label {
+	width: auto !important;
+	font-size: 15px !important;
+}
+
+/* .ui-panel .ui-panel-content { */
+/* 	font-size: medium; */
+/* } */
+
+.notaClas {
+	font-size: small !important;
+	color: red;
+	width: 100%;
+	display: block;
+	text-align: left;
+	"
+}
+
+.labelRenov {
+	font-size: xx-small;
+	display: inline-block;
+	width: 50% !important;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: left;
+	"
+}
+
+.inputRenov {
+	display: inline-block;
+	width: 50% !important;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: left;
+	"
+}
+
+.btnlinkConv {
+	padding: 0.9em;
+	box-sizing: inherit;
+	border: 1px solid #c5dbec;
+	background: #dfeffc;
+	font-weight: bold;
+	color: #2e6e9e !important;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.ui-selectonemenu-panel .ui-selectonemenu-list-item {
+	font-size: medium;
+}
+
+/* .ui-panel .ui-panel-content { */
+/* 	font-size: medium; */
+/* } */
+
+.ui-selectoneradio label {
+	width: 15% !important;
+	font-size: medium !important;
+}
+
+/* .ui-panel-content td { */
+/* 	width: 50% !important; */
+/* } */
+</style>
+</h:head>
+<h:body class="body" id="body"
+	rendered="#{session.getAttribute('isValidSeclienteSession')}">
+	<h:form id="hidden3" style="visibility:hidden">
+		<h:inputHidden id="folioOperacionABE"
+			value="#{sievClienteBean.folioOperacionABE}"></h:inputHidden>
+		<p:commandLink id="link3" action="#{sievClienteBean.salida()}"></p:commandLink>
+		<p:commandLink id="link4"
+			action="#{sievClienteBean.generaFolioSisact()}"></p:commandLink>
+		<p:commandLink id="goGH" action="#{sievClienteBean.edoFirma()}"></p:commandLink>
+	</h:form>
+	<ui:include src="/modelado/encabezado.xhtml"></ui:include>
+	<center>
+		<h:form id="formInfo">
+			<p:growl id="messages" life="15000" escape="true" showDetail="true"
+				sticky="true" closable="true" autoUpdate="true" />
+			<p:growl id="growl-sticky" for="sticky-key" life="30000"
+				showDetail="true" escape="true" keepAlive="true" autoUpdate="true"
+				closable="true" />
+			<p:panel style="width: 80%" id="movimientoS" header="Movimiento"
+				rendered="#{sievClienteBean.sievPojo.camposFuerzaVenta}">
+				<p:panelGrid columns="3" layout="grid">
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<h:inputHidden value="siev"></h:inputHidden>
+						<h:inputText value="siev" autocomplete="off" rendered="false"></h:inputText>
+						<p:outputLabel for="region" value="Region" styleClass="labelRenov"></p:outputLabel>
+						<p:selectOneMenu id="region" autocomplete="new-password"
+							value="#{sievClienteBean.sievPojo.region}"
+							styleClass="inputRenov" required="true">
+							<f:selectItem itemLabel="Seleccion..." itemValue=""></f:selectItem>
+							<f:selectItems value="#{sievClienteBean.lstRegiones}"
+								var="region" itemLabel="#{region.region}"
+								itemValue="#{region.clave}"></f:selectItems>
+							<p:ajax update="canalVenta"
+								listener="#{sievClienteBean.calculaListaCanalesVenta()}"></p:ajax>
+						</p:selectOneMenu>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel for="canalVenta" value="Canal de Venta"
+							styleClass="labelRenov"></p:outputLabel>
+						<p:selectOneMenu id="canalVenta"
+							disabled="#{sievClienteBean.renderCanalVenta}"
+							autocomplete="new-password"
+							value="#{sievClienteBean.sievPojo.canalVenta}" required="true"
+							styleClass="inputRenov" style=" min-width: 14px !important;">
+							<f:selectItem itemLabel="Selección..." itemValue=""></f:selectItem>
+							<f:selectItems value="#{sievClienteBean.listaCanalesVenta}"
+								var="canalVenta" itemLabel="#{canalVenta.canalVenta}"
+								itemValue="#{canalVenta.claveCCheck}"></f:selectItems>
+							<p:ajax update="fuerzaVenta"
+								listener="#{sievClienteBean.calculaListaFuerzaVentas()}"></p:ajax>
+						</p:selectOneMenu>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel for="fuerzaVenta" value="Fuerza de Venta"
+							styleClass="labelRenov"></p:outputLabel>
+						<p:selectOneMenu id="fuerzaVenta"
+							disabled="#{sievClienteBean.renderFuerzaVenta}"
+							autocomplete="new-password"
+							value="#{sievClienteBean.sievPojo.fuerzaVenta}" required="true"
+							styleClass="inputRenov" style=" min-width: 14px !important;">
+							<f:selectItem itemLabel="Selección..." itemValue=""></f:selectItem>
+							<f:selectItems value="#{sievClienteBean.listaFuerzaVentas}"
+								var="fuerza"
+								itemLabel="#{fuerza.razon_social} - #{fuerza.cve_frz}"
+								itemValue="#{fuerza.cve_frz}"></f:selectItems>
+						</p:selectOneMenu>
+					</h:panelGroup>
+				</p:panelGrid>
+			</p:panel>
+			<p:panel style="width: 80%" id="tipoMovimiento"
+				header="Tipo movimiento">
+				<p:panelGrid columns="2" layout="grid">
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel for="movimientoR" value="Movimiento:"
+							styleClass="labelRenov"></p:outputLabel>
+						<p:selectOneMenu id="movimientoR" styleClass="inputRenov"
+							autocomplete="new-password" disabled="true"
+							value="#{sievClienteBean.sievPojo.tipoTramiteRenov}"
+							required="true" style="opacity: 1 !important;">
+							<f:selectItem itemValue="RENO" itemLabel="RENOVACIÓN"></f:selectItem>
+						</p:selectOneMenu>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel value="Número a renovar:" for="itNumRenovar"
+							styleClass="labelRenov"></p:outputLabel>
+						<p:inputText id="itNumRenovar" styleClass="inputRenov"
+							value="#{sievClienteBean.sievPojo.numeroRenov}" maxlength="10"
+							validatorMessage="Numero de contacto incorrecto" disabled="false"
+							required="true" autocomplete="off">
+							<p:keyFilter preventPaste="false" regEx="/[0-9]/i"></p:keyFilter>
+							<f:validateLength minimum="10"></f:validateLength>
+						</p:inputText>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel value="Monto de renta a renovar:"
+							for="itMontoRenovar" styleClass="labelRenov"></p:outputLabel>
+						<p:inputText id="itMontoRenovar" styleClass="inputRenov"
+							value="#{sievClienteBean.sievPojo.rentaRenovarExpress}"
+							maxlength="10" validatorMessage="Monto necesario"
+							disabled="false" required="true" autocomplete="off">
+							<p:keyFilter preventPaste="false" regEx="/[0-9]/i"></p:keyFilter>
+							<f:validateLength minimum="1"></f:validateLength>
+						</p:inputText>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-end align-self-center"
+						rendered="#{!sievClienteBean.deshabilitaCamposRenovacion}">
+						 <p:commandButton id="btnConsulRenovMoral"
+							value="Consultar número a renovar"
+							actionListener="#{sievClienteBean.consultarNumero('M')}" update="@this formInfo formSiev">
+						 </p:commandButton> 
+							
+					</h:panelGroup> 
+				</p:panelGrid>
+			</p:panel>
+			<p:blockUI block="body" trigger="btnConsulRenovMoral"
+				id="blkConsulRenovMoral">
+				<p:graphicImage library="imgs" name="atendiendo.gif"
+					style=" vertical-align: middle;"></p:graphicImage>
+			</p:blockUI>
+			<p:panel style="width: 80%" id="datoslinea"
+				header="Datos de la linea actual"
+				rendered="#{sievClienteBean.deshabilitaCamposRenovacion}">
+				<p:panelGrid columns="2" layout="grid">
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel for="planLinea" value="Plan: "
+							styleClass="labelRenov"></p:outputLabel>
+						<p:inputText id="planLinea"
+							value="#{sievClienteBean.sievPojo.planRenov}"
+							styleClass="inputRenov" disabled="true"
+							style="opacity: 1 !important;"></p:inputText>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel for="plazoLinea" value="Plazo: "
+							styleClass="labelRenov"></p:outputLabel>
+						<p:inputText id="plazoLinea"
+							value="#{sievClienteBean.sievPojo.plazoRenov}"
+							styleClass="inputRenov" disabled="true"
+							style="opacity: 1 !important;"></p:inputText>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel for="fechaPlazoLinea" value="Fecha plazo forzoso: "
+							styleClass="labelRenov"></p:outputLabel>
+						<p:inputText id="fechaPlazoLinea"
+							value="#{sievClienteBean.sievPojo.fechaPlazoForzosoRenov}"
+							styleClass="inputRenov" disabled="true"
+							style="opacity: 1 !important;"></p:inputText>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel for="formaPago" value="Forma de Pago: "
+							styleClass="labelRenov"></p:outputLabel>
+						<p:inputText id="formaPago"
+							value="#{sievClienteBean.sievPojo.formaPagoRenov}"
+							styleClass="inputRenov" disabled="true"
+							style="opacity: 1 !important;"></p:inputText>
+					</h:panelGroup>
+				</p:panelGrid>
+			</p:panel>
+			<p:panel style="width: 80%" id="tipoEvaluacion"
+				header="Tipo Evaluacion"
+				rendered="#{sievClienteBean.deshabilitaCamposRenovacion}">
+				<p:panelGrid columns="2" layout="grid">
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel for="plazoEvaluacion" value="Plazo: "
+							styleClass="labelRenov"></p:outputLabel>
+						<p:selectOneMenu id="plazoEvaluacion" autocomplete="new-password"
+							value="#{sievClienteBean.sievPojo.tipoPlazo}" required="true"
+							styleClass="inputRenov" disabled="true"
+							style="opacity: 1 !important;">
+							<p:ajax event="itemSelect"></p:ajax>
+							<f:selectItem itemLabel="Selección..." itemValue=""></f:selectItem>
+							<f:selectItems value="#{sievClienteBean.listaTipoPlazo}"
+								var="tipoPlazo" itemLabel="#{tipoPlazo.plazo}"
+								itemValue="#{tipoPlazo.clave}"></f:selectItems>
+						</p:selectOneMenu>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center"></h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel for="formaPago2" value="Forma de Pago: "
+							styleClass="labelRenov"></p:outputLabel>
+						<p:selectOneMenu id="formaPago2" autocomplete="new-password"
+							value="#{sievClienteBean.sievPojo.formaPago}" required="true"
+							styleClass="inputRenov" style="opacity: 1 !important;">
+							<f:selectItem itemLabel="Selección..." itemValue=""></f:selectItem>
+							<f:selectItems value="#{sievClienteBean.listaFormaPago}"
+								var="formaPago" itemLabel="#{formaPago.valor}"
+								itemValue="#{formaPago.valor}"></f:selectItems>
+						</p:selectOneMenu>
+					</h:panelGroup>
+				</p:panelGrid>
+			</p:panel>
+		</h:form>
+		<h:form id="formSiev">
+			<p:panel style="width: 80%; " id="datosPersonales"
+				header="Datos del Cliente">
+				<!--  rendered="#{sievClienteBean.deshabilitaCamposRenovacion}"> -->  
+				<p:panelGrid columns="2" layout="grid">
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel for="rfc" value="RFC: " styleClass="labelRenov"></p:outputLabel>
+						<p:inputText id="rfc" label="RFC"
+							value="#{sievClienteBean.sievPojo.rfc}" required="true"
+							validatorMessage="fdsafdsfda" disabled="false" maxlength="13"
+							styleClass="inputRenov">
+							<h:message for="rfc"></h:message>
+						</p:inputText>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel for="razonSocial" value="Razon Social: "
+							styleClass="labelRenov"></p:outputLabel>
+						<p:inputText id="razonSocial" label="Razon Social"
+							value="#{sievClienteBean.sievPojo.razonSocial}" required="true"
+							maxlength="80" styleClass="inputRenov"></p:inputText>
+						<h:message for="razonSocial"></h:message>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel value="Representante legal a:"
+							for="itNumContCli" styleClass="labelRenov"></p:outputLabel>
+						<p:inputText id="itNumContCli"
+							value="#{sievClienteBean.sievPojo.numeroContactoCliente}"
+							maxlength="10" validatorMessage="Numero de contacto incorrecto"
+							disabled="false" required="true" autocomplete="off"
+							styleClass="inputRenov">
+							<p:keyFilter preventPaste="false" regEx="/[0-9]/i"></p:keyFilter>
+							<f:validateLength minimum="10"></f:validateLength>
+						</p:inputText>
+					</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						</h:panelGroup>
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel value="Representante legal b:"
+							for="itNumContClib" styleClass="labelRenov"></p:outputLabel>
+						<p:inputText id="itNumContClib"
+							value="#{sievClienteBean.sievPojo.numeroContactoCliente}"
+							maxlength="10" validatorMessage="Numero de contacto incorrecto"
+							disabled="false" required="true" autocomplete="off"
+							styleClass="inputRenov">
+							<p:keyFilter preventPaste="false" regEx="/[0-9]/i"></p:keyFilter>
+							<f:validateLength minimum="10"></f:validateLength>
+						</p:inputText>
+					</h:panelGroup>
+				</p:panelGrid>
+				
+				<p:panelGrid layout="grid" columns="1">
+					<p:outputLabel value="NOTA:" styleClass="notaClas"></p:outputLabel>
+					<p:outputLabel
+						value="Por favor verifique con el cliente si el acomodo de sus datos es correcto Razón Social."
+						style="font-size: small; color: red; width: 100%; display: block; text-align:left;"></p:outputLabel>
+					<p:outputLabel value="Si no, por favor ajuste su acomodo."
+						styleClass="notaClas"></p:outputLabel>
+					<p:outputLabel
+						value="Lo anterior, para realizar una evaluación correcta."
+						style="font-size: small; color: red; width: 100%; display: block; text-align:left;"></p:outputLabel>
+				</p:panelGrid>
+			</p:panel>
+			<p:panel style="width: 80%" id="direccion"
+				header="Domicilio"> <!--  rendered="#{sievClienteBean.fase0}"> -->
+				<h:panelGrid columns="4" id="domicilio" width="100%">
+					<h:panelGroup layout="block">
+						<p:outputLabel id="cp1" for="codigoPostalF1" value="Código Postal" styleClass="requiredLb1" style="width: 200px" rendered="false"/>
+						<p:inputText id="codigoPostalF1" label="Código Postal" rendered="false"
+							 value="#{sievClienteBean.sievPojo.codigoPostal}" required="true" maxlength="5">
+							<p:keyFilter preventPaste="false" regEx="/[0-9]/i" />
+							<p:ajax listener="#{sievClienteBean.obtCatalogoEstado(2, sievClienteBean.sievPojo.codigoPostal)}" event="blur" update="domicilio codigoPostalF1 codigoPostalF cp1 cp2"/>
+						</p:inputText>
+							<p:outputLabel id="cp2" for="codigoPostalF" value="Código Postal" styleClass="requiredLb1" style="width: 200px" rendered="true"/>
+						<p:inputText id="codigoPostalF" label="Código Postal" rendered="true" placeholder="Ingresa Codigo Postal" disabled="#{sievClienteBean.fase1}"
+							required="true" maxlength="5">
+							<p:keyFilter preventPaste="false" regEx="/[0-9]/i" />
+							<p:ajax listener="#{sievClienteBean.obtCatalogoEstado(1, sievClienteBean.sievPojo.codigoPostal)}" event="valueChange" update="estado ciudadF delegacionMunicipio coloniaPoblacion" />
+						</p:inputText>
+						<p:blockUI block=":formSiev" trigger="codigoPostalF">
+								CARGANDO<br />
+								<h:graphicImage library="imgs" name="atendiendo.gif" style=" vertical-align: middle;">
+								</h:graphicImage>
+						</p:blockUI> 
+					</h:panelGroup>
+          <h:panelGroup layout="block">
+              <p:outputLabel for="estado" value="Estado:" style="width: 200px"/>
+              <p:selectOneMenu id="estado" filter="true" filterMatchMode="contains" value="#{sievClienteBean.sievPojo.estado}"
+							style="width:215px" disabled="#{sievClienteBean.activarSelect or sievClienteBean.fase1}" required="true">
+                  <p:ajax listener="#{sievClienteBean.obtCatalogoCiudades(sievClienteBean.sievPojo.codigoPostal)}" event="change" update="ciudadF delegacionMunicipio"  />
+                  <f:selectItem itemLabel="Select..." itemValue="" />
+                  <f:selectItems value="#{sievClienteBean.listaEstados}" var="edo"
+                      itemValue="#{edo.clave}" itemLabel="#{edo.estado}" />
+              </p:selectOneMenu>
+          </h:panelGroup>
+          <h:panelGroup layout="block">
+              <p:outputLabel for="ciudadF" value="Ciudad"
+                  styleClass="requiredLb1" style="width: 200px"/>
+              <p:selectOneMenu id="ciudadF" label="Ciudad" style="width:215px"
+                  filter="true" filterMatchMode="contains" disabled="#{sievClienteBean.renderCiudad or sievClienteBean.fase1}"
+                  value="#{sievClienteBean.sievPojo.ciudad}" required="true" maxlength="40">
+                  <p:ajax listener="#{sievClienteBean.obtCatlgDelegaciones(sievClienteBean.sievPojo.codigoPostal)}" event="change" update="delegacionMunicipio" />
+                  <f:selectItem itemLabel="Select..." itemValue="" />
+                  <f:selectItems value="#{sievClienteBean.listaCiudades}" var="ciudades"
+                      itemValue="#{ciudades}" itemLabel="#{ciudades}" />
+                  <p:keyFilter preventPaste="false" regEx="/[a-zA0-9-ZñÑáéíóúÁÉÍÓÚ ]/i" />
+              </p:selectOneMenu>
+          </h:panelGroup>
+          <h:panelGroup layout="block">
+              <p:outputLabel for="delegacionMunicipio" value="Delegación/ Municipio" styleClass="requiredLb1" style="width: 200px" />
+              <p:selectOneMenu id="delegacionMunicipio" style="width:215px" disabled="#{sievClienteBean.renderDelegacion or sievClienteBean.fase1}"
+                  filter="true" filterMatchMode="contains" label="Delegación/Municipio"
+									value="#{sievClienteBean.sievPojo.delegacionMunicipio}" required="true" maxlength="40">
+                  <p:ajax listener="#{sievClienteBean.obtCatalogoColonias(sievClienteBean.sievPojo.codigoPostal)}" event="change" update="coloniaPoblacion" />
+                  <f:selectItem itemLabel="Select..." itemValue="" />
+                  <f:selectItems value="#{sievClienteBean.listaDelegaciones}" var="delegaciones"
+                      itemValue="#{delegaciones}" itemLabel="#{delegaciones}" />
+                  <p:keyFilter preventPaste="false" regEx="/[a-zA0-9-ZñÑáéíóúÁÉÍÓÚ ]/i" />
+              </p:selectOneMenu>
+          </h:panelGroup>
+					<h:panelGroup layout="block">
+              <p:outputLabel for="coloniaPoblacion" value="Colonia/Población" styleClass="requiredLb1" style="width: 200px"/>
+              <p:selectOneMenu id="coloniaPoblacion" style="width:215px" label="Colonia/Población"
+                  filter="true" filterMatchMode="contains" value="#{sievClienteBean.sievPojo.coloniaPoblacion}"
+                  disabled="#{sievClienteBean.renderColonia or sievClienteBean.fase1}" required="true" maxlength="40">
+                  <f:selectItem itemLabel="Select..." itemValue="" />
+                  <f:selectItems value="#{sievClienteBean.listaColonias}" var="colMpio"
+                      itemValue="#{colMpio}" itemLabel="#{colMpio}" />
+                  <p:keyFilter preventPaste="false" regEx="/[a-zA0-9-ZñÑáéíóúÁÉÍÓÚ ]/i" />
+              </p:selectOneMenu>
+          </h:panelGroup>
+          <h:panelGroup layout="block">
+              <p:outputLabel for="calle" value="Calle" styleClass="requiredLb1" style="width: 200px"/>
+              <p:inputText id="calle" label="Calle" disabled="#{sievClienteBean.fase1}"
+                  value="#{sievClienteBean.sievPojo.calle}" required="true" maxlength="30">
+                  <p:keyFilter preventPaste="false" regEx="/[a-zA0-9-ZñÑáéíóúÁÉÍÓÚ ]/i" />
+              </p:inputText>
+          </h:panelGroup>
+          <h:panelGroup layout="block">
+              <p:outputLabel for="numExterior" value="Número Exterior"
+                  styleClass="requiredLb1" style="width: 200px"/>
+              <p:inputText id="numExterior" label="Número Exterior"
+                  value="#{sievClienteBean.sievPojo.numeroExterior}"
+                  required="true" maxlength="5" disabled="#{sievClienteBean.fase1}">
+                  <p:keyFilter preventPaste="false" regEx="/[a-zA0-9-ZñÑáéíóúÁÉÍÓÚ ]/i" />
+              </p:inputText>
+          </h:panelGroup>
+          <h:panelGroup layout="block">
+              <p:outputLabel for="numInterior" value="Número Interior"
+                  styleClass="requiredLb1" style="width: 200px"/>
+              <p:inputText id="numInterior" label="Número Interior"
+                  value="#{sievClienteBean.sievPojo.numeroInterior}"
+                  required="false" maxlength="5" disabled="#{sievClienteBean.fase1}">
+                  <p:keyFilter preventPaste="false" regEx="/[a-zA0-9-ZñÑáéíóúÁÉÍÓÚ ]/i" />
+              </p:inputText>
+          </h:panelGroup>
+      </h:panelGrid>
+				<p:separator></p:separator>
+				<p:panelGrid columns="2" layout="grid">
+					<h:panelGroup layout="block"
+						class="py-2 d-flex justify-content-around align-self-center">
+						<p:outputLabel value="Numero de contacto del cliente:"
+							for="itNumContCli" styleClass="labelRenov"></p:outputLabel>
+						<p:inputText id="itNumContCli"
+							value="#{sievClienteBean.sievPojo.numeroContactoCliente}"
+							maxlength="10" validatorMessage="Numero de contacto incorrecto"
+							disabled="#{sievClienteBean.fase1}" required="true" autocomplete="off"
+							styleClass="inputRenov">
+							<p:keyFilter preventPaste="false" regEx="/[0-9]/i"></p:keyFilter>
+							<f:validateLength minimum="10"></f:validateLength>
+						</p:inputText>
+					</h:panelGroup>
+				</p:panelGrid>
+				<p:separator></p:separator>
+				<h:panelGroup layout="block">
+					<p:commandButton value="Submit Evalua" id="eval"
+						onclick="eval.disable()"
+						actionListener="#{sievClienteBean.submitEvaluacion()}"
+						ajax="false" rendered="false"></p:commandButton>
+				</h:panelGroup>
+				<h:panelGroup layout="block">
+					<p:commandButton value="Limpiar" id="cleanBtn" widgetVar="cleanBtn"
+						update="formInfo,formSiev" process="@this"
+						onclick="PF('cleanBtn').disable()"
+						action="#{sievClienteBean.redirecRenovacionMoral()}"></p:commandButton>
+				</h:panelGroup>
+				<h:panelGroup layout="block">
+					<p:commandButton value="Evaluar" id="btnEvalMoral"
+						widgetVar="btnEvalMoral"
+						actionListener="#{sievClienteBean.realizaLlamadoBuroABE()}"
+						disabled="#{sievClienteBean.evaluacionExitosa}"></p:commandButton>
+					<!-- 				<p:commandButton id="btnTicketsAdeudo" icon="ui-icon-search" value="Captura de tickets de pago para adeudos" -->
+					<!-- 								onclick="PF('dlgTicketsAdeudo').show();" rendered="${sievClienteBean.banderaAdeudo}" />	 -->
+				</h:panelGroup>
+			</p:panel>
+			<p:panel id="panelEvaluacion1" style="width: 80%"
+				header="Respuesta Evaluacion" rendered="#{sievClienteBean.fase2}">
+				<h:panelGrid columns="1" id="headEval">
+					<h:panelGroup layout="block">
+						<h:form id="resultadoForm">
+							<p:panel toggleable="false" toggleTitle=""
+								style="width: 100%;font-size: small" id="pnlResultados"
+								styleClass="resultadoForm"
+								header="Resultado Evaluacion Renovacion"
+								rendered="#{sievClienteBean.sievPojo.tipoRenovacionResp ne 2}">
+								<div align="center">
+									<!-- 								<p:outputLabel value="Liquidar Adeudo en Cuenta(s):" rendered="#{evaluacionView.evaluacion.deudor1}" -->
+									<!-- 									style="font-size: medium; color: red" /> -->
+									<p:panelGrid columns="2" rendered="true">
+										<p:outputLabel value="Tiene deudas en cuentas "></p:outputLabel>
+										<h:panelGroup>
+											<p:outputLabel
+												style="color: #{sievClienteBean.sievPojo.adeudoTotalActivo>0?'red':'blue'}"
+												value="#{sievClienteBean.sievPojo.adeudoTotalActivo>0?'Si':'No'}"></p:outputLabel>
+											<p:spacer width="5px"></p:spacer>
+											<p:commandButton id="btnVerDeudas1MIO" icon="ui-icon-search"
+												title="Ver cuentas" onclick="PF('dlgCueActDeuMIO').show();"
+												widgetVar="btnVerDeudas1MIO" rendered="true"></p:commandButton>
+											<!-- 										<p:commandButton id="btnTicketsAdeudo" icon="ui-icon-search" -->
+											<!-- 													value="Captura de tickets de adeudos" -->
+											<!-- 													onclick="PF('dlgTicketsAdeudo').show();" -->
+											<!-- 													rendered="${sievClienteBean.banderaAdeudo}" /> -->
+										<p:dialog header="Cuentas activas con deuda"
+												id="dlgCueActDeuMIO" widgetVar="dlgCueActDeuMIO"
+												modal="true" closable="true" resizable="false"
+												style="font-size: small;">
+												<h:outputText
+													value="#{sievUtil.obtenCuentasConAdeudos(sievClienteBean.sievPojo.referenciaCtasActivas)}"
+													escape="false"></h:outputText>
+											</p:dialog>
+										</h:panelGroup>
+										<p:outputLabel value="Tiene Cuentas canceladas con deuda "></p:outputLabel>
+										<h:panelGroup>
+											<p:outputLabel
+												style="color: #{sievClienteBean.sievPojo.adeudoTotalActivo>0?'red':'blue'}"
+												value="#{sievClienteBean.sievPojo.adeudoTotalInactivo>0?'Si':'No'}"></p:outputLabel>
+											<p:spacer width="5px"></p:spacer>
+											<p:commandButton id="btnVerDeudasCancMIO"
+												icon="ui-icon-search" title="Ver cuentas"
+												onclick="PF('dlgCueActDeuCanc').show();"
+												widgetVar="btnVerDeudasCancMIO" rendered="true"></p:commandButton>
+											<!-- 										<p:commandButton id="btnTicketsAdeudo" icon="ui-icon-search" -->
+											<!-- 													value="Captura de tickets de adeudos" -->
+											<!-- 													onclick="PF('dlgTicketsAdeudo').show();" -->
+											<!-- 													rendered="${sievClienteBean.banderaAdeudo}" /> -->
+										<p:dialog header="Cuentas activas con deuda"
+												id="dlgCueActDeuCanc" widgetVar="dlgCueActDeuCanc"
+												modal="true" closable="true" resizable="false"
+												style="font-size: small;">
+												<h:outputText
+													value="#{sievUtil.obtenCuentasConAdeudos(sievClienteBean.sievPojo.referenciaCtasCanceladas)}"
+													escape="false"></h:outputText>
+											</p:dialog>
+										</h:panelGroup>
+										<p:outputLabel value="Folio Evaluador generado FIEV "></p:outputLabel>
+										<p:outputLabel style="color: blue"
+											value="#{sievClienteBean.sievPojo.folioSIEV}"></p:outputLabel>
+										<p:outputLabel value="Condiciones de equipo y de plan "></p:outputLabel>
+										<h:panelGroup style="vertical-align: top">
+											<h:outputText style="color: blue"
+												value="Plazo: #{sievUtil.transformaClaveADescripcion(sievCons.CAMPO_PLAZO,sievClienteBean.sievPojo.tipoPlazo)}"
+												escape="false"></h:outputText>
+											<br />
+											<h:outputText style="color: blue"
+												value="Plan: #{sievClienteBean.sievPojo.plan}"
+												escape="false"></h:outputText>
+										</h:panelGroup>
+										<p:outputLabel value="Condiciones de financiamiento "
+											rendered="#{sievClienteBean.banderaGamaPlan == 0}"></p:outputLabel>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.sievPojo.respFinanciamiento.replace('. ', '. &lt;br/>')}"
+											escape="false"
+											rendered="#{sievClienteBean.banderaGamaPlan == 0}"></h:outputText>
+										<p:outputLabel value="Oferta Promocional "
+											rendered="#{sievClienteBean.ofertaPromocional.length() > 0}"></p:outputLabel>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.ofertaPromocional}" escape="false"
+											rendered="#{sievClienteBean.ofertaPromocional.length() > 0}"></h:outputText>
+										<p:outputLabel value="Enrolado/Verificado "
+											rendered="#{sievClienteBean.sievPojo.isEnrolado.length() > 0}"></p:outputLabel>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.sievPojo.isEnrolado}" escape="false"
+											rendered="#{sievClienteBean.sievPojo.isEnrolado.length() > 0}"></h:outputText>
+									</p:panelGrid>
+								</div>
+							</p:panel>
+							<br />
+							<!-- Renovacion Express 1 -->
+							<p:panel toggleable="false" toggleTitle=""
+								style="width: 100%;font-size: small" id="pnlResultadosExpres"
+								header="Resultado Renovacion"
+								rendered="#{sievClienteBean.sievPojo.tipoRenovacionResp eq 2 and sievClienteBean.banderaTipoExpress eq 1}">
+								<div align="left">
+									<p:outputLabel value="Folio FIEV "></p:outputLabel>
+									<p:outputLabel style="color: blue"
+										value="#{sievClienteBean.sievPojo.folioSIEV}"></p:outputLabel>
+									<hr />
+									<h:outputText style="font-weight: bold;"
+										value="APLICA RENOVACIÓN EXPRESS INMEDIATA: "></h:outputText>
+									<br />
+									<h:outputText style="color: blue"
+										value="Cliente presenta adeudo en otras lineas por "
+										escape="false"></h:outputText>
+									<h:outputText style="color: blue"
+										value="#{sievClienteBean.sievPojo.adeudoTotalRenoExp}">
+										<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+											type="currency"></f:convertNumber>
+									</h:outputText>
+									<h:outputText style="color: blue"
+										value=", dar la opción al cliente de condonar adeudo e incrementar su adendum 3 meses en la linea. "
+										escape="false"></h:outputText>
+									<br />
+									<p:commandButton id="btnConsultaLineas"
+										value="Consultar lineas con adeudos"
+										onclick="PF('dlgRentaRenoExpress').show();"></p:commandButton>
+									<hr />
+									<p:panelGrid columns="2" rendered="true">
+										<h:outputText value="Financiamiento Equipo Iphone de hasta: "></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.limiteCredFineqIphone}">
+											<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+												type="currency"></f:convertNumber>
+										</h:outputText>
+										<h:outputText
+											value="Financiamiento Equipo otra marca de hasta: "></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.limiteCredFineq}">
+											<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+												type="currency"></f:convertNumber>
+										</h:outputText>
+									</p:panelGrid>
+									<hr />
+									<p:commandButton id="btnCambiarPlazo" value="Cambiar plazo"
+										onclick="PF('dlgCambiaPlazo').show();"></p:commandButton>
+									<p:panelGrid columns="2" rendered="true">
+										<h:outputText value="Plazo del plan: "></h:outputText>
+										<h:outputText id="idPlazo" style="color: blue"
+											value="#{sievClienteBean.sievPojo.plazoOriginal}"
+											escape="false"></h:outputText>
+										<h:outputText value="Plazo total del plan: "></h:outputText>
+										<h:outputText id="idTotalPlazo" style="color: blue"
+											value="#{sievClienteBean.sievPojo.plazoFinal}" escape="false"></h:outputText>
+									</p:panelGrid>
+									<hr />
+									<p:commandButton value="Generar Carta Convenio de Pago"
+										id="testCAtwwq" onstart="cargarPagLoader()"
+										oncomplete="PF('dlgConfirmaConvenio').show();cerrarPagLoader();"
+										process="@this" action="#{sievClienteBean.generaCar()}"></p:commandButton>
+								</div>
+							</p:panel>
+							<!-- End Renovacion Express 1 -->
+							<!-- Renovacion Express 2 -->
+							<p:panel toggleable="false" toggleTitle=""
+								style="width: 100%;font-size: small" id="pnlResultadosExpres2"
+								header="Resultado Renovacion"
+								rendered="#{sievClienteBean.sievPojo.tipoRenovacionResp eq 2 and sievClienteBean.banderaTipoExpress eq 2}">
+								<div align="left">
+									<p:outputLabel value="Folio FIEV "></p:outputLabel>
+									<p:outputLabel style="color: blue"
+										value="#{sievClienteBean.sievPojo.folioSIEV}"></p:outputLabel>
+									<hr />
+									<h:outputText style="font-weight: bold;"
+										value="APLICA RENOVACIÓN EXPRESS INMEDIATA: "></h:outputText>
+									<br />
+									<h:outputText style="color: blue"
+										value="Cliente presenta adeudo en otras lineas por #{sievClienteBean.sievPojo.adeudoTotalRenoExp}"
+										escape="false"></h:outputText>
+									<h:outputText style="color: blue"
+										value="#{sievClienteBean.sievPojo.adeudoTotalRenoExp}">
+										<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+											type="currency"></f:convertNumber>
+									</h:outputText>
+									<h:outputText style="color: blue"
+										value=", dar la opción al cliente de realizar hasta 6 pagos mesuales para liquidar su adeudo y poder realizar su renovacion."
+										escape="false"></h:outputText>
+									<br />
+									<p:commandButton id="btnConsultaLineas2"
+										value="Consultar lineas con adeudos"
+										onclick="PF('dlgRentaRenoExpress').show();"></p:commandButton>
+									<hr />
+									<p:panelGrid columns="2" rendered="true">
+										<h:outputText value="Financiamiento Equipo Iphone de hasta: "></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.limiteCredFineqIphone}">
+											<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+												type="currency"></f:convertNumber>
+										</h:outputText>
+										<h:outputText
+											value="Financiamiento Equipo otra marca de hasta: "></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.limiteCredFineq}">
+											<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+												type="currency"></f:convertNumber>
+										</h:outputText>
+									</p:panelGrid>
+									<hr />
+									<p:commandButton id="btnCambiarPlazo2" value="Cambiar plazo"
+										onclick="PF('dlgCambiaPlazo2').show();"></p:commandButton>
+									<p:panelGrid columns="2" rendered="true">
+										<h:outputText value="Plazo para pago elegido por el cliente: "></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.sievPojo.numParcialidad}"
+											escape="false"></h:outputText>
+										<h:outputText
+											value="Monto mensual de pago que se cargará a la línea a renovar (Adeudo/Plazo elegido por el cliente): "></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.sievPojo.montoParcialidad}"
+											escape="false">
+											<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+												type="currency" maxFractionDigits="2" minFractionDigits="2"></f:convertNumber>
+										</h:outputText>
+									</p:panelGrid>
+									<span
+										style="font-weight: normal; color: red; font-size: smaller;">NOTA:
+										el monto mensual se sumara a renta de plan durante el plazo
+										seleccionado. </span>
+									<hr />
+									<p:commandButton value="Generar Carta Convenio de Pago"
+										id="btnGenConvenio" onstart="cargarPagLoader()"
+										oncomplete="PF('dlgConfirmaConvenio').show();cerrarPagLoader();"
+										process="@this" action="#{sievClienteBean.generaCar()}"></p:commandButton>
+								</div>
+							</p:panel>
+							<!-- End Renovacion Express 2 -->
+							<!-- Renovacion Express 3 -->
+							<p:panel toggleable="false" toggleTitle=""
+								style="width: 100%;font-size: small" id="pnlResultadosExpres3"
+								header="Resultado Renovacion"
+								rendered="#{sievClienteBean.sievPojo.tipoRenovacionResp eq 2 and sievClienteBean.banderaTipoExpress eq 3}">
+								<div align="left">
+									<p:outputLabel value="Folio FIEV "></p:outputLabel>
+									<p:outputLabel style="color: blue"
+										value="#{sievClienteBean.sievPojo.folioSIEV}"></p:outputLabel>
+									<hr />
+									<h:outputText style="font-weight: bold;"
+										value="APLICA RENOVACIÓN EXPRESS INMEDIATA: "></h:outputText>
+									<br />
+									<h:outputText style="color: blue"
+										value="Cliente presenta adeudo en otras lineas por "
+										escape="false"></h:outputText>
+									<h:outputText style="color: blue"
+										value="#{sievClienteBean.sievPojo.adeudoTotalRenoExp}">
+										<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+											type="currency"></f:convertNumber>
+									</h:outputText>
+									<h:outputText style="color: blue"
+										value=", y excede el monto de 6 rentas del plan a renovar, dar la opción al cliente de pagar esa diferencia de contado, posteriormente ofrecer la opción de realizar hasta 6 pagos mesuales para liquidar su adeudo y poder realizar su renovacion. "
+										escape="false"></h:outputText>
+									<br />
+									<p:commandButton id="btnConsultaLineas3"
+										value="Consultar lineas con adeudos"
+										onclick="PF('dlgRentaRenoExpress').show();"></p:commandButton>
+									<hr />
+									<p:panelGrid columns="2" rendered="true">
+										<h:outputText value="Financiamiento Equipo Iphone de hasta: "></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.limiteCredFineqIphone}">
+											<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+												type="currency"></f:convertNumber>
+										</h:outputText>
+										<h:outputText
+											value="Financiamiento Equipo otra marca de hasta: "></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.limiteCredFineq}">
+											<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+												type="currency"></f:convertNumber>
+										</h:outputText>
+									</p:panelGrid>
+									<hr />
+									<p:commandButton id="btnCambiarPlazo3" value="Cambiar plazo"
+										onclick="PF('dlgCambiaPlazo3').show();"></p:commandButton>
+									<p:panelGrid columns="2" rendered="true">
+										<h:outputText
+											value="Diferencia a pagar de contado por exceder limite de 6 rentas: "></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.sievPojo.excedenteAdeudo}">
+											<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+												type="currency"></f:convertNumber>
+										</h:outputText>
+										<h:outputText value="Plazo para pago elegido por el cliente: "></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.sievPojo.numParcialidad}"
+											escape="false"></h:outputText>
+										<h:outputText
+											value="Monto mensual de pago que se cargará a la línea a renovar (Adeudo/Plazo elegido por el cliente): "></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.sievPojo.montoParcialidad}"
+											escape="false">
+											<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+												type="currency" maxFractionDigits="2" minFractionDigits="2"></f:convertNumber>
+										</h:outputText>
+										<h:outputText
+											value="Número de folio de pago de la diferencia aplicada:"></h:outputText>
+										<h:outputText style="color: blue"
+											value="#{sievClienteBean.sievPojo.folioPagoAdeudo}"
+											escape="false"></h:outputText>
+									</p:panelGrid>
+									<span
+										style="font-weight: normal; color: red; font-size: smaller;">NOTA:
+										el monto mensual se sumara a renta de plan durante el plazo
+										seleccionado. </span>
+									<hr />
+									<p:commandButton value="Generar Carta Convenio de Pago"
+										id="btnGenerConvenio" onstart="cargarPagLoader()"
+										oncomplete="PF('dlgConfirmaConvenio').show();cerrarPagLoader();"
+										process="@this" action="#{sievClienteBean.generaCar()}"></p:commandButton>
+								</div>
+							</p:panel>
+							<!-- End Renovacion Express 3 -->
+							<p:spacer width="3px"></p:spacer>
+							<div align="center">
+								<p:commandButton id="aceptaEval" process="@this" value="Acepta"
+									actionListener="#{sievClienteBean.aceptaEvaluacionPortaReno()}"
+									update="formInfo formSiev noAceptaEval" style="height: 40px; width: 120px;"
+									class="my-3" rendered="#{sievClienteBean.fase21}"
+									disabled="false" onclick="PF('aceptaEval').disable();"
+									></p:commandButton>
+								<p:spacer width="15px"></p:spacer>
+								<p:commandButton id="noAceptaEval" process="@this"
+									value="#{sievClienteBean.msjTituloBtn}"
+									actionListener="#{sievClienteBean.noAceptaEvaluacion('MORAL')}"
+									style="height: 40px; width: 120px;" class="my-3"
+									rendered="#{sievClienteBean.fase21}"
+									disabled="#{sievClienteBean.deshabilitaBotonNoAcepta}"></p:commandButton>
+								<p:dialog header="Motivo de no aceptación" id="dlgNoAceptaEval"
+									widgetVar="dlgNoAceptaEval" modal="true" closable="false"
+									resizable="false" style="font-size: small;width: 700px">
+									<h:form id="noAcep">
+										<br />
+										<h:outputText class="my-3"
+											value="Selecciona una opción, si no se describe el motivo puedes ingresarlo."></h:outputText>
+										<br />
+										<!--                     Motivos No Aceptacion -->
+										<h:panelGroup id="pnlNoAcep">
+											<p:outputLabel id="slcNoacep" for="noAceptacion"
+												value="Selecciona un motivo de No Aceptación: "
+												class="d-flex flex-row" style="visibility:hidden"></p:outputLabel>
+											<br />
+											<p:selectOneMenu id="noAceptacion" class="my-3"
+												value="#{sievClienteBean.sievPojo.motivoNoAcepta}"
+												style="width:80%; font-size: medium !important; text-transform: uppercase;"
+												disabled="false">
+												<f:selectItem itemLabel="Seleccionar " itemValue="0"
+													noSelectionOption="true"></f:selectItem>
+												<f:selectItems value="#{sievClienteBean.noAceptacion}"
+													var="noAcp" itemLabel="#{noAcp.descripcion}"
+													itemValue="#{noAcp.clave}"></f:selectItems>
+												<p:ajax update="pnlNoAcep"></p:ajax>
+											</p:selectOneMenu>
+											<br />
+											<p:outputLabel value="Escribe el motivo de No Aceptación: "
+												class="mt-3 mb-2 d-flex flex-row"
+												rendered="#{sievClienteBean.sievPojo.motivoNoAcepta.equals('10')}"
+												style="width: 80%;" id="lblNoacep" for="txtNoacepta"></p:outputLabel>
+											<br />
+											<p:inputTextarea id="txtNoacepta"
+												value="#{sievClienteBean.sievPojo.txtOtroMotivoNoAcepta}"
+												required="true" style="width: 80%;text-transform: uppercase"
+												rendered="#{sievClienteBean.sievPojo.motivoNoAcepta.equals('10')}"
+												maxlength="4000" autocomplete="off">
+												<p:keyFilter preventPaste="false" regEx="/[A-Z0-9\s]/i"></p:keyFilter>
+											</p:inputTextarea>
+											<br />
+											<p:commandButton style="height: 40px;" class="my-3 ml-3"
+												id="btnGuardaMotivoNoAcepta" value="Guardar"
+												rendered="#{!sievClienteBean.sievPojo.motivoNoAcepta.equals('0')}"
+												actionListener="#{sievClienteBean.guardaMotivoNoAcepta('SievRenovacion.xhtml')}"
+												oncomplete="PF('dlgNoAceptaEval').hide();"
+												update="formInfo formSiev dlgNoAceptaEval panelsiev2"
+												ajax="false" />
+											<p:commandButton style="height: 40px;" class="my-3"
+												id="btnCancelarGMotivo" value="Cancelar"
+												oncomplete="PF('dlgNoAceptaEval').hide();"></p:commandButton>
+										</h:panelGroup>
+										<!--                     /Motivos de No Aceptacion -->
+									</h:form>
+								</p:dialog>
+							</div>
+						</h:form>
+					</h:panelGroup>
+				</h:panelGrid>
+			</p:panel>
+		</h:form>
+		<p:outputPanel id="panelsiev2" style="width: 100%">
+			<p:panel style="width: 80%" toggleable="true" collapsed="true"
+				rendered="#{sievClienteBean.fase2 eq 'true' and loginBean.verComponente(11) eq 'true'}"
+				toggleTitle="Abrir/Cerrar" header="Evaluacion en Cajas">
+				<h:panelGroup layout="block">
+					<p:inputTextarea rows="6" cols="100" id="msg"
+						style="align-content: center;"
+						value="#{sievClienteBean.responseWS}"></p:inputTextarea>
+				</h:panelGroup>
+			</p:panel>
+			<h:form id="datosClienteForm2">
+				<p:dialog header="Ingresar CURP" id="dlgErrorCurp"
+					widgetVar="dlgErrorCurp" modal="true" closable="false"
+					resizable="false" style="font-size: 14px">
+					<h:outputLabel
+						value="El tamaño del CURP debe ser de 16 a 18 carácteres."
+						style="font-size: 14px;width: 80%;"></h:outputLabel>
+					<div class="text-center">
+						<p:commandButton style="height: 50px" value="Entendido"
+							widgetVar="btnSiEvalua" oncomplete="PF('dlgErrorCurp').hide();"></p:commandButton>
+					</div>
+				</p:dialog>
+			</h:form>
+		</p:outputPanel>
+		<ui:include src="/eval/datosDlgReferencia.xhtml"></ui:include>
+		
+		<h:form id="formDlg">
+			<!-- Renovacion Express -->
+			<p:dialog header="Lineas con adeudo"
+				rendered="#{sievClienteBean.rentaRenoExpress}"
+				id="dlgRentaRenoExpress" widgetVar="dlgRentaRenoExpress"
+				modal="true" closable="true" resizable="false"
+				style="font-size: small;">
+				<div align="center">
+					<br />
+					<p:dataTable id="tblAdeudos"
+						value="#{sievClienteBean.listaCuentasExpress}" var="fs"
+						emptyMessage="No cuentas con adeudos"
+						style="width: 600px !important;">
+						<p:column headerText="Numero de Cuenta">
+							<p:outputLabel value="#{fs.numCuenta}"></p:outputLabel>
+						</p:column>
+						<p:column headerText="Monto adeudo">
+							<h:outputText value="#{fs.adeudo}">
+								<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+									type="currency"></f:convertNumber>
+							</h:outputText>
+						</p:column>
+					</p:dataTable>
+					<br />
+					<p:commandButton style="height: 40px" value="Cerrar"
+						oncomplete="PF('dlgRentaRenoExpress').hide();cerrarPagLoader();"></p:commandButton>
+				</div>
+			</p:dialog>
+			<p:dialog header="Confirmar datos"
+				rendered="#{sievClienteBean.rentaRenoExpress}"
+				id="dlgConfirmaConvenio" widgetVar="dlgConfirmaConvenio"
+				modal="true" closable="false" resizable="false"
+				style="font-size: small;">
+				<div align="left">
+					<br />
+					<h:outputText
+						value="Antes de continuar favor de revisar la información que esta enviando."
+						style="color: red;"></h:outputText>
+					<br />
+					<h:outputText
+						value="Una vez seguro puede proseguir con la generacion de carta convenio confirmando los datos."></h:outputText>
+				</div>
+				<br />
+				<div align="center">
+					<p:link
+						href="/SievFilePort?_cartaMoralUno=#{sievClienteBean.sievPojo.rfc}"
+						rendered="#{sievClienteBean.banderaTipoExpress eq 1}"
+						value="Datos confirmados, generar convenio" target="_blank"
+						styleClass="btnlinkConv"
+						onclick="PF('dlgConfirmaConvenio').hide();cerrarPagLoader();"></p:link>
+					<p:link
+						href="/SievFilePort?_cartaMoralDos=#{sievClienteBean.sievPojo.rfc}"
+						rendered="#{sievClienteBean.banderaTipoExpress eq 2}"
+						value="Datos confirmados, generar convenio" target="_blank"
+						styleClass="btnlinkConv"
+						onclick="PF('dlgConfirmaConvenio').hide();cerrarPagLoader();"></p:link>
+					<p:link
+						href="/SievFilePort?_cartaMoralTres=#{sievClienteBean.sievPojo.rfc}"
+						rendered="#{sievClienteBean.banderaTipoExpress eq 3}"
+						value="Datos confirmados, generar convenio" target="_blank"
+						styleClass="btnlinkConv"
+						onclick="PF('dlgConfirmaConvenio').hide();cerrarPagLoader();"></p:link>
+					<p:commandButton id="noConfConvenio"
+						style="height: 40px; margin-left: 10px;"
+						value="Cancelar, cambiaré datos"
+						onclick="PF('dlgConfirmaConvenio').hide();cerrarPagLoader();"></p:commandButton>
+				</div>
+			</p:dialog>
+			<!--/////////Escenario 1////////////// -->
+			<p:dialog header="Resultado evalución"
+				rendered="#{sievClienteBean.rentaRenoExpress}" id="dlgCambiaPlazo"
+				widgetVar="dlgCambiaPlazo" modal="true" closable="false"
+				resizable="false" style="font-size: small;">
+				<!--				<p:messages id="messagesCambiaPlazo" showDetail="true" autoUpdate="true" closable="true" style="width: 80%" />-->
+				<div align="left" style="width: 900px !important;">
+					<br />
+					<p:outputLabel style="color: blue"
+						value="#{sievClienteBean.sievPojo.folioSIEV}"></p:outputLabel>
+					<hr />
+					<h:outputText style="font-weight: bold;"
+						value="APLICA RENOVACIÓN EXPRESS INMEDIATA: "></h:outputText>
+					<br />
+					<h:outputText style="color: blue; width: 380px !important;"
+						value="Cliente presenta adeudo en otras lineas por "
+						escape="false"></h:outputText>
+					<h:outputText style="color: blue"
+						value="#{sievClienteBean.sievPojo.adeudoTotalRenoExp}">
+						<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+							type="currency"></f:convertNumber>
+					</h:outputText>
+					<h:outputText style="color: blue; width: 380px !important;"
+						value=", dar la opción al cliente de condonar adeudo e incrementar su adendum 3 meses en la linea. "
+						escape="false"></h:outputText>
+					<hr />
+					<p:panelGrid columns="2" rendered="true">
+						<h:outputText value="Financiamiento Equipo Iphone de hasta: "></h:outputText>
+						<h:outputText style="color: blue"
+							value="#{sievClienteBean.limiteCredFineqIphone}">
+							<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+								type="currency"></f:convertNumber>
+						</h:outputText>
+						<h:outputText value="Financiamiento Equipo otra marca de hasta: "></h:outputText>
+						<h:outputText style="color: blue"
+							value="#{sievClienteBean.limiteCredFineq}">
+							<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+								type="currency"></f:convertNumber>
+						</h:outputText>
+					</p:panelGrid>
+					<br />
+					<p:panelGrid id="pnlgPlazo" columns="2" rendered="true"
+						style="width: 380px !important;">
+						<h:outputText value="Plazo del plan: "></h:outputText>
+						<p:selectOneMenu id="plazos" style="width: 90% !important;"
+							styleClass="inputRenov"
+							value="#{sievClienteBean.plazoTemporalOrig}">
+							<f:selectItem itemValue="" itemLabel="Selecciona.."
+								noSelectionOption="true"></f:selectItem>
+							<f:selectItems value="#{sievClienteBean.listPlazos}" var="plazo"
+								itemValue="#{plazo.valor}" itemLabel="#{plazo.valor}"></f:selectItems>
+							<p:ajax event="change" update="plazoFinal"></p:ajax>
+						</p:selectOneMenu>
+						<h:outputText value="Plazo total del plan: "></h:outputText>
+						<h:outputText id="plazoFinal" styleClass="inputRenov"
+							style="color: blue"
+							value="#{sievClienteBean.plazoTemporalOrig + sievClienteBean.sievPojo.numParcialidad}"
+							escape="false"></h:outputText>
+					</p:panelGrid>
+				</div>
+				<br />
+				<div align="center">
+					<p:commandButton
+						style="height: 40px; margin-right: 5%; margin-top: 10px"
+						value="Cliente acepta" onstart="cargarPagLoader()"
+						oncomplete="PF('dlgCambiaPlazo').hide();cerrarPagLoader();"
+						action="#{sievClienteBean.cambiarPlazo()}" update="formSiev"></p:commandButton>
+					<p:commandButton style="height: 40px" value="Cliente NO acepta"
+						onstart="cargarPagLoader()"
+						oncomplete="PF('dlgCambiaPlazo').hide();cerrarPagLoader();"></p:commandButton>
+				</div>
+			</p:dialog>
+			<!--/////////Escenario 2////////////// -->
+			<p:dialog header="Resultado evalución"
+				rendered="#{sievClienteBean.rentaRenoExpress}" id="dlgCambiaPlazo2"
+				widgetVar="dlgCambiaPlazo2" modal="true" closable="true"
+				resizable="false" style="font-size: small;">
+				<!--				<p:messages id="messagesCambiaPlazo2" showDetail="true" autoUpdate="true" closable="true" style="width: 80%" />-->
+				<div align="left" style="width: 900px !important;">
+					<br />
+					<p:outputLabel style="color: blue"
+						value="#{sievClienteBean.sievPojo.folioSIEV}"></p:outputLabel>
+					<hr />
+					<h:outputText style="font-weight: bold;"
+						value="APLICA RENOVACIÓN EXPRESS INMEDIATA: "></h:outputText>
+					<br />
+					<h:outputText style="color: blue; width: 380px !important;"
+						value="Cliente presenta adeudo en otras lineas por "
+						escape="false"></h:outputText>
+					<h:outputText style="color: blue"
+						value="#{sievClienteBean.sievPojo.adeudoTotalRenoExp}">
+						<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+							type="currency"></f:convertNumber>
+					</h:outputText>
+					<h:outputText style="color: blue; width: 380px !important;"
+						value=", dar la opción al cliente de realizar hasta 6 pagos mesuales para liquidar su adeudo y poder realizar su renovacion. "
+						escape="false"></h:outputText>
+					<hr />
+					<p:panelGrid columns="2" rendered="true">
+						<h:outputText value="Financiamiento Equipo Iphone de hasta: "></h:outputText>
+						<h:outputText style="color: blue"
+							value="#{sievClienteBean.limiteCredFineqIphone}">
+							<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+								type="currency"></f:convertNumber>
+						</h:outputText>
+						<h:outputText value="Financiamiento Equipo otra marca de hasta: "></h:outputText>
+						<h:outputText style="color: blue"
+							value="#{sievClienteBean.limiteCredFineq}">
+							<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+								type="currency"></f:convertNumber>
+						</h:outputText>
+					</p:panelGrid>
+					<hr />
+					<p:panelGrid id="pnlgPlazo2" columns="2" rendered="true">
+						<h:outputText value="Plazo para pago elegido por el cliente: "></h:outputText>
+						<p:selectOneMenu id="plazos2"
+							style="margin-left: 10px; width: 90% !important;"
+							value="#{sievClienteBean.numMeses}" styleClass="inputRenov"
+							escape="false">
+							<f:selectItems itemLabelEscaped="false">
+								<f:selectItem itemValue="" itemLabel="Selecciona.."></f:selectItem>
+								<f:selectItem itemValue="1" itemLabel="1"></f:selectItem>
+								<f:selectItem itemValue="2" itemLabel="2"></f:selectItem>
+								<f:selectItem itemValue="3" itemLabel="3"></f:selectItem>
+								<f:selectItem itemValue="4" itemLabel="4"></f:selectItem>
+								<f:selectItem itemValue="5" itemLabel="5"></f:selectItem>
+								<f:selectItem itemValue="6" itemLabel="6" selected="true"></f:selectItem>
+							</f:selectItems>
+							<p:ajax event="change" update="plazoFinal2"></p:ajax>
+						</p:selectOneMenu>
+						<h:outputText
+							value="Monto mensual de pago que se cargará a la línea a renovar (Adeudo/Plazo elegido por el cliente): "></h:outputText>
+						<h:outputText id="plazoFinal2" style="color: blue"
+							value="#{sievClienteBean.adeudoTotalRenoExp}" escape="false">
+							<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+								type="currency" maxFractionDigits="2" minFractionDigits="2"></f:convertNumber>
+						</h:outputText>
+					</p:panelGrid>
+					<span style="font-weight: normal; color: red; font-size: smaller;">NOTA:
+						el monto mensual se sumara a renta de plan durante el plazo
+						seleccionado. </span>
+				</div>
+				<br />
+				<div align="center">
+					<!-- 					<p:commandButton style="height: 40px; margin-right: 5%; margin-top: 10px" value="Cliente acepta" onstart="cargarPagLoader()" -->
+					<!-- 						oncomplete="PF('dlgCambiaPlazo2').hide();cerrarPagLoader();" process="@this" action="#{sievClienteBean.cambiarPlazo()}" -->
+					<!-- 						update="formInfoPersonal formSiev dlgNoAceptaEval panelsiev2" /> -->
+					<!-- 					<p:commandButton style="height: 40px" value="Cliente NO acepta" onstart="cargarPagLoader()" -->
+					<!-- 						oncomplete="PF('dlgCambiaPlazo2').hide();cerrarPagLoader();PF('dlgNoAceptaPlazo').show();" /> -->
+					<p:commandButton
+						style="height: 40px; margin-right: 5%; margin-top: 10px"
+						value="Cliente acepta" process="@this pnlgPlazo2"
+						action="#{sievClienteBean.cambiarPlazo()}"
+						update="formSiev panelsiev2"></p:commandButton>
+					<p:commandButton style="height: 40px" value="Cliente NO acepta"
+						onstart="cargarPagLoader()"
+						oncomplete="PF('dlgCambiaPlazo2').hide();cerrarPagLoader();"></p:commandButton>
+				</div>
+			</p:dialog>
+			<!--/////////Escenario 3////////////// -->
+			<p:dialog header="Resultado evalución"
+				rendered="#{sievClienteBean.rentaRenoExpress}" id="dlgCambiaPlazo3"
+				widgetVar="dlgCambiaPlazo3" modal="true" closable="false"
+				resizable="false" style="font-size: small;">
+				<!--									<input type="hidden" name="${_csrf.parameterName}" id="${_csrf.parameterName}" value="${_csrf.token}" />-->
+				<div align="left" style="width: 900px !important;">
+					<br />
+					<p:outputLabel style="color: blue"
+						value="#{sievClienteBean.sievPojo.folioSIEV}"></p:outputLabel>
+					<hr />
+					<h:outputText style="font-weight: bold;"
+						value="APLICA RENOVACIÓN EXPRESS INMEDIATA: "></h:outputText>
+					<br />
+					<h:outputText style="color: blue; width: 900px !important;"
+						value="Cliente presenta adeudo en otras lineas por "
+						escape="false"></h:outputText>
+					<h:outputText style="color: blue"
+						value="#{sievClienteBean.sievPojo.adeudoTotalRenoExp}">
+						<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+							type="currency"></f:convertNumber>
+					</h:outputText>
+					<h:outputText style="color: blue; width: 900px !important;"
+						value=", y excede el monto de 6 rentas del plan a renovar, dar la opción al cliente de pagar esa diferencia de contado, posteriormente ofrecer la opción de realizar hasta 6 pagos mesuales para liquidar su adeudo y poder realizar su renovacion. "
+						escape="false"></h:outputText>
+					<hr />
+					<p:panelGrid columns="2" rendered="true">
+						<h:outputText value="Financiamiento Equipo Iphone de hasta: "></h:outputText>
+						<h:outputText style="color: blue"
+							value="#{sievClienteBean.limiteCredFineqIphone}">
+							<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+								type="currency"></f:convertNumber>
+						</h:outputText>
+						<h:outputText value="Financiamiento Equipo otra marca de hasta: "></h:outputText>
+						<h:outputText style="color: blue"
+							value="#{sievClienteBean.limiteCredFineq}">
+							<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+								type="currency"></f:convertNumber>
+						</h:outputText>
+					</p:panelGrid>
+					<br />
+					<p:panelGrid id="pnlgPlazo3" columns="2" rendered="true"
+						style="width: 900px !important;">
+						<h:outputText
+							value="Diferencia a pagar de contado por exceder limite de 6 rentas: "></h:outputText>
+						<h:outputText id="idExcedeAdeudo"
+							style="color: blue; margin-left: 10px;"
+							value="#{sievClienteBean.excedAdeudo}" escape="false">
+							<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+								type="currency"></f:convertNumber>
+						</h:outputText>
+						<h:outputText value="Plazo para pago elegido por el cliente: "></h:outputText>
+						<p:selectOneMenu id="plazos3"
+							style="margin-left: 10px; width: 90% !important;"
+							value="#{sievClienteBean.numMeses}" styleClass="inputRenov"
+							escape="false">
+							<f:selectItems itemLabelEscaped="false">
+								<f:selectItem itemValue="" itemLabel="Selecciona.."></f:selectItem>
+								<f:selectItem itemValue="1" itemLabel="1"></f:selectItem>
+								<f:selectItem itemValue="2" itemLabel="2"></f:selectItem>
+								<f:selectItem itemValue="3" itemLabel="3"></f:selectItem>
+								<f:selectItem itemValue="4" itemLabel="4"></f:selectItem>
+								<f:selectItem itemValue="5" itemLabel="5"></f:selectItem>
+								<f:selectItem itemValue="6" itemLabel="6" selected="true"></f:selectItem>
+							</f:selectItems>
+							<p:ajax event="change" update="idMontoMensual"></p:ajax>
+						</p:selectOneMenu>
+						<h:outputText
+							value="Monto mensual de pago que se cargará a la línea a renovar (Adeudo/Plazo elegido por el cliente): "></h:outputText>
+						<h:outputText id="idMontoMensual"
+							style="color: blue; margin-left: 10px;"
+							value="#{sievClienteBean.montoSExceAdeudo}" escape="false">
+							<f:convertNumber maxFractionDigits="2" minFractionDigits="2"></f:convertNumber>
+							<f:convertNumber pattern="$ #,##0.00" currencySymbol="$"
+								type="currency"></f:convertNumber>
+						</h:outputText>
+						<h:outputText
+							value="Número de folio de pago de la diferencia aplicada: "></h:outputText>
+						<p:inputText id="foliodPago" label="Número de folio"
+							value="#{sievClienteBean.sievPojo.folioPagoAdeudo}"
+							maxlength="20" styleClass="inputRenov"
+							style="width: 90% !important;"></p:inputText>
+					</p:panelGrid>
+					<span style="font-weight: normal; color: red; font-size: smaller;">NOTA:
+						el monto mensual se sumara a renta de plan durante el plazo
+						seleccionado. </span>
+				</div>
+				<br />
+				<div align="center">
+					<p:commandButton
+						style="height: 40px; margin-right: 5%; margin-top: 10px"
+						value="Cliente acepta" process="@this pnlgPlazo3"
+						action="#{sievClienteBean.cambiarPlazo()}" update="formSiev"></p:commandButton>
+					<p:commandButton style="height: 40px" value="Cliente NO acepta"
+						onstart="cargarPagLoader()"
+						oncomplete="PF('dlgCambiaPlazo3').hide();cerrarPagLoader();"></p:commandButton>
+				</div>
+			</p:dialog>
+			<!-- 								Confirma Folio -->
+			<!--								<p:dialog header="Confirmar" rendered="#{sievClienteBean.rentaRenoExpress}"-->
+			<!--									id="dlgConfirmaFolio" widgetVar="dlgConfirmaFolio" modal="true" closable="false" resizable="false" style="font-size: small;">-->
+			<!--									<div align="left">-->
+			<!--										<br />-->
+			<!--										<h:outputText value="NOTA: No se ha capturado el Número de folio de pago de la diferencia aplicada." />-->
+			<!--										<br />-->
+			<!--										<h:outputText value="¿ Aún así desea continuar ?" />-->
+			<!--									</div>-->
+			<!--									<br />-->
+			<!--									<div align="center">-->
+			<!--&lt;!&ndash; 										<p:commandButton id="Confolio" style="height: 40px; margin-left: 10px;" value="Continuar" &ndash;>-->
+			<!--&lt;!&ndash; 											oncomplete="PF('dlgConfirmaFolio').hide();" process="@this" action="#{sievClienteBean.validaSinFolio()}" &ndash;>-->
+			<!--&lt;!&ndash; 											update="formInfo formSiev dlgNoAceptaEval panelsiev2"/> &ndash;>-->
+			<!--&lt;!&ndash; 										<p:commandButton id="noConfolio" style="height: 40px; margin-left: 10px;" value="Regresar a capturarlo" &ndash;>-->
+			<!--&lt;!&ndash; 											oncomplete="PF('dlgConfirmaFolio').hide();PF('dlgCambiaPlazo3').show();" /> &ndash;>-->
+			<!--									</div>-->
+			<!--								</p:dialog>-->
+			<p:dialog header="Confirmacion" id="dlgConfirmacionEvalua"
+				widgetVar="dlgConfirmacionEvalua" modal="true" closable="false"
+				resizable="false" style="font-size: small;">
+				<p:panel id="pnlConfirmacionEvalua">
+					<center>
+						<h:outputText
+							value="¿Esta seguro que la informacion es la correcta para evaluar?"></h:outputText>
+						<br />
+						<h:outputText
+							value="Una vez seguro puede proseguir con la evaluación."></h:outputText>
+					</center>
+					<f:facet name="footer">
+						<div align="center">
+							<p:commandButton style="height: 50px;background-color: red;"
+								process="@this" id="btnSiEvalua" value="Si, Evalua"
+								widgetVar="btnSiEvalua"
+								action="#{sievClienteBean.EvaluacionMoral}"
+								onstart="cargarPagLoader();"
+								oncomplete="PF('dlgConfirmacionEvalua').hide();PF('btnEvalMoral').disable();finalPag();cerrarPagLoader();"
+								update="formSiev formDlg panelsiev2"></p:commandButton>
+							<p:commandButton style="height: 50px;background-color: red;"
+								process="@this" id="btnNoEvalua" value="No"
+								oncomplete="PF('dlgConfirmacionEvalua').hide();PF('btnNoEvalua').disable();finalPag();cerrarPagLoader();"></p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="Tipo persona incorrecto " id="dlgErrorTipoPersona"
+				widgetVar="dlgErrorTipoPersona" modal="true" closable="false"
+				resizable="false" style="font-size: small;">
+				<p:panel id="pnlErrorTipoPersona">
+					<center>
+						<h:outputText
+							value="NO HA SIDO POSIBLE CONTINUAR CON EL FLUJO, EL TIPO DE PERSONA ES INCORRECTO"
+							style="color: red; font-weight: bold;"></h:outputText>
+						<br />
+						<h:outputText
+							value="RFC pertenece a persona física, realizar evaluación por EVALUACION PERSONA FISICA RENOVACION"
+							style="color: red; font-weight: bold;"></h:outputText>
+						<br />
+					</center>
+					<f:facet name="footer">
+						<div align="center">
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btnErrorTipoPersona" value="Entendido"
+								oncomplete="PF('dlgErrorTipoPersona').hide();"
+								onclick="PF('btnErrorTipoPersona').enable();"
+								widgetVar="btnErrorTipoPersona"
+								actionListener="#{sievClienteBean.redirecRenovacionMoral()}"></p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="Tipo cuenta incorrecto " id="dlgErrorTipoCuenta"
+				widgetVar="dlgErrorTipoCuenta" modal="true" closable="false"
+				resizable="false" style="font-size: small;">
+				<p:panel id="pnlErrorTipoCuenta">
+					<center>
+						<h:outputText
+							value="NO HA SIDO POSIBLE CONTINUAR CON EL FLUJO, EL TIPO CUENTA INCORRECTO"
+							style="color: red; font-weight: bold;"></h:outputText>
+						<br />
+						<h:outputText
+							value="Cliente corporativo, no es posible realizar la evaluación por este medio. Por favor canalizar al cliente con su asesor corporativo"
+							style="color: red; font-weight: bold;"></h:outputText>
+						<br />
+					</center>
+					<f:facet name="footer">
+						<div align="center">
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btnErrorTipoCuenta" value="Entendido"
+								oncomplete="PF('dlgErrorTipoCuenta').hide();"
+								onclick="PF('btnErrorTipoCuenta').enable();"
+								widgetVar="btnErrorTipoCuenta"
+								actionListener="#{sievClienteBean.redirecRenovacionMoral()}"></p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="NOTIFICACIÓN BES" id="dlgNotiBES"
+				widgetVar="dlgNotiBES" modal="true" closable="false"
+				resizable="false" style="font-size: small;">
+				<p:panel id="pnlBES">
+					<h:outputText
+						value="LA LÍNEA CONSULTADA ESTA MIGRADA O EN PROCESO DE MIGRACIÓN A BES. ES NECESARIO REALIZAR EL TRAMITE EN EL SISTEMA BES."
+						style="color:green;"></h:outputText>
+					<f:facet name="footer">
+						<div align="center">
+							<p:commandButton
+								style="height: 50px;padding-left: 2%; padding-right: 2%;"
+								id="btnNotiBES" value="Finalizar"
+								oncomplete="PF('dlgNotiBES').hide();"
+								onclick="PF('btnNotiBES').enable();" widgetVar="btnNotiBES"
+								actionListener="#{sievClienteBean.redirecRenovacionMoral()}"></p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="Ops!! Algo salio mal" id="dlgErrFD"
+				widgetVar="dlgErrFD" modal="true" closable="true" resizable="false"
+				style="font-size: small;">
+				<p:messages id="messagesDialogErrFD" showDetail="true"
+					autoUpdate="true" closable="true" style="width: 80%"></p:messages>
+				<center>
+					<p:commandButton style="height: 50px" id="btnErrFD"
+						value="El documento no se ha firmado de forma correcta. Reintentar"
+						update="dlgErrFD" onclick="PF('dlgErrFD').hide();"
+						actionListener="#"></p:commandButton>
+				</center>
+			</p:dialog>
+			<p:dialog
+				header="Error en la evalución. (#{sievClienteBean.contErrorCCS}/3)"
+				id="dlgErrorCSS" widgetVar="dlgErrorCSS" modal="true"
+				closable="true" resizable="false"
+				style="font-size: small; width: 40%;" onShow="cerrarPagLoader();">
+				<p:panel id="pnlErrorCSS">
+					<h:outputText value="SE PRESENTO UN ERROR CON CREDIT CHECK."
+						style="width: auto;font-weight: bold;"></h:outputText>
+					<br />
+					<h:outputText
+						value="FAVOR DE ENVIAR UN CORREO A: #{sievClienteBean.errorCCSEmail}"
+						style="width: auto;font-weight: bold;"></h:outputText>
+					<br />
+					<h:outputText value="ANEXANDO LOS SIGUIENTES DATOS:"
+						style="width: auto; font-weight: bold;"></h:outputText>
+					<br />
+					<h:outputText value="#{sievClienteBean.errorCCSUno}"
+						style="width: auto; color: red; font-weight: bold;"></h:outputText>
+					<br />
+					<h:outputText
+						value="Folio FIEV: #{sievClienteBean.sievPojo.folioSIEV}"
+						style="width: auto; color: red; font-weight: bold;"></h:outputText>
+					<br />
+					<h:outputText value="#{sievClienteBean.errorCCSdos}"
+						style="width: auto; color: red;font-weight: bold;"></h:outputText>
+					<br />
+					<h:outputText
+						value="DESCRIPCIÓN: #{sievClienteBean.msjErrorGenericoDesc2} "
+						style="color: orange;font-weight: bold;"  rendered="#{sievClienteBean.bypassErrorSIEV}"/>
+					<br />
+					<h:outputText value="#{sievClienteBean.errorCCSTres}"
+						style="width: auto; color: red;font-weight: bold;"></h:outputText>
+					<br />
+					<f:facet name="footer">
+						<div align="center">
+							<!-- 					Botones de seleccion -->
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btnFinalizarCSS" value="Finalizar"
+								widgetVar="btnFinalizarCSS"
+								oncomplete="PF('dlgErrorCSS').hide();"
+								actionListener="#{sievClienteBean.redirecRenovacionMoral()}"
+								update="formSiev"></p:commandButton>
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btnReintentoCssSinBc"
+								rendered="#{sievClienteBean.banderaConBuro eq 'false' and sievClienteBean.contErrorCCS != 3}"
+								value="Reintentar" widgetVar="btnReintentoCssSinBc"
+								onstart="cargarPagLoader()"
+								oncomplete="finalPag();cerrarPagLoader();"
+								onclick="PF('dlgErrorCSS').hide();"
+								actionListener="#{sievClienteBean.submitEvaluacion()}"
+								update="panelsiev2 formSiev"></p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			
+			
+			<p:dialog
+				header="Error en el financimiamiento. (#{sievClienteBean.contErrorFINAN}/3)"
+				id="dlgErrorFinanciamientoWS" widgetVar="dlgErrorFinanciamientoWS" modal="true"
+				closable="true" resizable="false"
+				style="font-size: small; width: 40%;" onShow="cerrarPagLoader();">
+
+				<p:panel id="pnlErrorFinanciamientoWS">
+
+					<h:outputText value="SE PRESENTO UN ERROR AL GENERAR EL FINANCIMIENTO"
+						style="width: auto;font-weight: bold; color: red;"></h:outputText>
+					<br />
+					<h:outputText value="ERROR PRESENTADO: #{sievClienteBean.showErrorFinan}"
+						style="width: auto;font-weight: bold; color: red;"></h:outputText>
+					<br />
+					<h:outputText
+						value="FAVOR DE LEVANTAR UN FOLIO 'SERVICE DESK', ANEXANDO ESTA PANTALLA DE ERROR" rendered="#{sievClienteBean.contErrorFINAN == 3}"
+						style="width: auto;font-weight: bold;"></h:outputText>
+					<br />
+					<f:facet name="footer">
+						<div align="center">
+							<!-- 					Botones de seleccion -->
+
+							<p:commandButton style="height: 50px;background-color: red;" rendered="#{sievClienteBean.contErrorFINAN == 3}"
+								id="btnFinalizarFinanciamientoWS" value="Finalizar"
+								widgetVar="btnFinalizarFinanciamientoWS"
+								oncomplete="PF('dlgErrorFinanciamientoWS').hide();"
+								update="formSiev" />
+							<p:commandButton style="height: 50px" id="btnReintentoFinanciamientoWS1"
+								process="@this"
+								rendered="#{sievClienteBean.contErrorFINAN != 3}"
+								value="Cancelar" onstart="cargarPagLoader();"
+								oncomplete="finalPag();cerrarPagLoader();"
+								onclick="PF('dlgErrorFinanciamientoWS').hide();" widgetVar="btnReintentoFinanciamientoWS1"
+								update="panelsiev2 formSiev" />
+							<p:commandButton style="height: 50px" id="btnReintentoFinanciamientoWS"
+								process="@this"
+								rendered="#{sievClienteBean.contErrorFINAN != 3}"
+								value="Reintentar" onstart="cargarPagLoader();"
+								oncomplete="finalPag();cerrarPagLoader();"
+								onclick="PF('dlgErrorFinanciamientoWS').hide();" widgetVar="btnReintentoCss"
+								actionListener="#{sievClienteBean.reintentoFinan()}"
+								update="panelsiev2 formSiev" />
+						</div>
+					</f:facet>
+				</p:panel>
+
+			</p:dialog>
+			<p:dialog header="ERROR EN EL SERVICIO DE MANEJO DE ERRORES" id="dlgErrorManejoErrors"
+				widgetVar="dlgErrorManejoErrors" modal="true" closable="false" resizable="false"
+				style="font-size: small;">
+				<p:panel id="pnlErrorManejoErrors">
+					<h:outputText
+						value="SE PRESENTO UN ERROR CON EL SERVICIO DE MANEJO DE ERRORES, "
+						style="color: red;font-weight: bold;" />
+					<br />
+					<h:outputText
+						value="FAVOR DE MANDAR UN AVISO A SOPORTE. "
+						style="color: red;font-weight: bold;" />
+					<br />
+					<f:facet name="footer">
+						<div align="center">
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btndErrorManejoErrors" value="ENTENDIDO"
+								onclick="PF('dlgErrorManejoErrors').hide();"/>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="ERROR EN EL SERVICIO DE M2K" id="dlgErrorWsM2k"
+				widgetVar="dlgErrorWsM2k" modal="true" closable="false" resizable="false"
+				style="font-size: small;">
+				<p:panel id="pnlErrorWsM2k">
+					<h:outputText
+						value="SE PRESENTO UN ERROR EN M2K: "
+						style="color: red;font-weight: bold;" />
+					<br />
+					<h:outputText
+						value="#{sievClienteBean.msjM2kSW}"
+						style="color: red;font-weight: bold;" />
+					<br />
+					<h:outputText value="UUID: #{sievClienteBean.idErroresSIEV} - OK" rendered="#{sievClienteBean.errWsME == 'false' and sievClienteBean.bypassErrorSIEV}"
+						style="width: auto; color: black; font-size: 14px; font-weight: 500;"></h:outputText>
+					<h:outputText value="UUID: #{sievClienteBean.idErroresSIEV} - REVISAR WS" rendered="#{sievClienteBean.errWsME == 'true' and sievClienteBean.bypassErrorSIEV}"
+						style="width: auto; color: #007bff; font-size: 14px; font-weight: 500;"></h:outputText>	
+					<br />
+					<f:facet name="footer">
+						<div align="center">
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btndErrorManejoErrors2" value="ENTENDIDO" action="#{menuBean.redirecRenovacionMoral}"
+								onclick="PF('dlgErrorWsM2k').hide();"/>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="EVENTO INESPERADO" id="dlgManejoErrors"
+				widgetVar="dlgManejoErrors" modal="true" closable="false" resizable="false"
+				style="font-size: small;">
+				<p:panel id="pnlManejoErrors">
+					<h:outputText
+						value="SE PRESENTO UN ERROR: "
+						style="color: black;font-weight: bold;" />
+					<br />
+					<h:outputText
+						value="SISTEMA: #{sievClienteBean.msjErrorGenericoModulo} "
+						style="color: black;font-weight: bold;" />
+					<br />
+					<h:outputText
+						value="CODIGO: #{sievClienteBean.msjErrorGenericoCodigo} "
+						style="color: black;font-weight: bold;" />
+					<br />
+					<h:outputText
+						value="RFC: #{sievClienteBean.sievPojo.rfc} "
+						style="color: black;font-weight: bold;" />
+					<br />
+					<h:outputText
+						value="DESCRIPCIÓN: #{sievClienteBean.msjErrorGenericoDesc2} "
+						style="color: orange;font-weight: bold;" rendered="#{sievClienteBean.errorNoMapeado == 'false'}"/>
+					<br />
+					<h:outputText
+						value="ERROR: #{sievClienteBean.msjErrorGenericoDesc} "
+						style="color: red;font-weight: bold;" />
+					<br />
+					<h:outputText value="UUID: #{sievClienteBean.idErroresSIEV} - OK" rendered="#{sievClienteBean.errWsME == 'false' and sievClienteBean.bypassErrorSIEV}"
+						style="width: auto; color: black; font-size: 14px; font-weight: 500;"></h:outputText>
+					<h:outputText value="UUID: #{sievClienteBean.idErroresSIEV} - REVISAR WS" rendered="#{sievClienteBean.errWsME == 'true' and sievClienteBean.bypassErrorSIEV}"
+						style="width: auto; color: #007bff; font-size: 14px; font-weight: 500;"></h:outputText>	
+					<br />
+					<f:facet name="footer">
+						<div align="center">
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btndManejoErrors" value="ENTENDIDO"
+								onclick="PF('dlgManejoErrors').hide();"/>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			
+			<!-- 			Multiple dialog for ABE                           -->
+			<p:dialog header="Problema Consulta ABE" id="dlgErrorABE"
+				widgetVar="dlgErrorABE" modal="true" closable="false"
+				resizable="false" style="font-size: small;">
+				<p:panel id="pnlProblemaABE1">
+					<h:outputText
+						value="Hubo un problema al consultar el estado de la firma por favor reintente"
+						style="color: red;"></h:outputText>
+					<br />
+					<f:facet name="footer">
+						<div align="right">
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btnABEproper1" value="Reintentar"
+								onclick="PF('dlgErrorABE').hide();"
+								actionListener="#{sievClienteBean.salida}" update="dlgErrorABE"></p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="Inconsistencia Consulta ABE" id="dlgReintentoABE"
+				widgetVar="dlgReintentoABE" modal="true" closable="false"
+				resizable="false" style="font-size: small;">
+				<p:panel id="pnlInconsistenciaABE1">
+					<h:outputText
+						value="Problemas en la verificacion de identidad vuelva a procesar"
+						style="color: red;"></h:outputText>
+					<br />
+					<f:facet name="footer">
+						<div align="right">
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btnABEproper2" value="Reintentar"
+								onclick="PF('dlgReintentoABE').hide();"
+								actionListener="#{sievClienteBean.realizaLlamadoABE()}"
+								update="dlgReintentoABE"></p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="Problema Consulta ABE" id="dlgErrorAvisoABE"
+				widgetVar="dlgErrorAvisoABE" modal="true" closable="false"
+				resizable="false" style="font-size: small;">
+				<p:panel id="pnlProblemaABE2">
+					<h:outputText
+						value="NO AUTORIZADO: no es posible continuar con el tramite"
+						style="color: red;"></h:outputText>
+					<br />
+					<f:facet name="footer">
+						<div align="right">
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btnABEproper3" value="Cerrar"
+								onclick="PF('dlgErrorAvisoABE').hide();" actionListener="#"
+								update="dlgErrorAvisoABE"></p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="Consulta ABE Exitosa" id="dlgAvisoABE"
+				widgetVar="dlgAvisoABE" modal="true" closable="false"
+				resizable="false" style="font-size: small;">
+				<p:panel id="pnlExitoABE1">
+					<h:outputText value="ABE HA AUTORIZADO LA IDENTIDAD DEL CLIENTE"
+						style="color: blue;"></h:outputText>
+					<br />
+					<f:facet name="footer">
+						<div align="right">
+							<p:commandButton widgetVar="btnGenFolSisactabe"
+								onstart="cargarPagLoader()" oncomplete="cerrarPagLoader()"
+								value="GENERAR FOLIO SISACT" id="btnGenFolSisactabe"
+								onclick="PF('dlgAvisoABE').hide();"
+								actionListener="#{sievClienteBean.generaFolioSisact()}"
+								update="datosClienteForm2" disabled="false">
+							</p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="ABE WEB" id="dlgABEWebBuro"
+				widgetVar="dlgABEWebBuro" modal="true" closable="true"
+				resizable="false" style="font-size: small;">
+				<p:panel id="pnlABEWeb">
+					<h:outputText value="#{sievClienteBean.mensajeAbeVerif}"
+						style="color: green;"
+						rendered="#{sievClienteBean.estatusABE == 0}"></h:outputText>
+					<h:outputText value="#{sievClienteBean.mensajeAbeVerif}"
+						style="color: orange;"
+						rendered="#{sievClienteBean.estatusABE == 1}"></h:outputText>
+					<f:facet name="footer">
+						<div align="center">
+							<p:commandButton style="height: 50px" id="btnContinuarABEburo"
+								rendered="#{sievClienteBean.estatusABE == 0}" value="Continuar"
+								onstart="cargarPagLoader()"
+								oncomplete="cerrarPagLoader();PF('dlgABEWebBuro').hide();"
+								onclick="PF('btnContinuarABEburo').enable();"
+								widgetVar="btnContinuarABEburo"
+								actionListener="#{sievClienteBean.validaUserAbriVentanaPreEvaluacion()}"></p:commandButton>
+							<p:commandButton style="height: 50px" id="btnReintentarABEburo"
+								rendered="#{sievClienteBean.estatusABE == 1}" value="Reintentar"
+								update="formSiev" onstart="cargarPagLoader()"
+								oncomplete="cerrarPagLoader();PF('dlgABEWebBuro').hide();"
+								onclick="PF('btnReintentarABEburo').enable();"
+								widgetVar="btnReintentarABEburo" actionListener="#"></p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="Evaluación reaizada con exito"
+				id="dlgAceptaEvaluacionPortaReno"
+				widgetVar="dlgAceptaEvaluacionPortaReno" modal="true"
+				closable="false" resizable="false" style="font-size: small;">
+				<p:panel id="pnlAceptaEvaluacionPortaReno">
+					<h:outputText value="#{sievClienteBean.msjFinEvalua}" style="color: green;"/>
+				<!--	<h:outputText value="La evaluación se realizó de forma exitosa,"
+						style="color: green;" />
+					<br />
+					<h:outputText
+						value="puede continuar con el tramite en los medios convencionales."
+						style="color: green;" />
+					<br />
+					<br /> -->
+					<f:facet name="footer">
+						<div align="center">
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btnAceptaEvaluacionPortaReno" value="Cerrar"
+								onclick="PF('dlgAceptaEvaluacionPortaReno').hide();"></p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+			<p:dialog header="Proceso Enrolamiento" id="dlgEnrolamientoABE"
+				widgetVar="dlgEnrolamientoABE" modal="true" closable="false"
+				resizable="false" style="font-size: small;">
+				<p:panel id="pnlEnrolamientoABE">
+					<h:outputText value="Proceso de Enrolamiento no implementado"
+						style="color: red;"></h:outputText>
+					<br />
+					<f:facet name="footer">
+						<div align="right">
+							<p:commandButton style="height: 50px;background-color: red;"
+								id="btnEnrolamientoABE" value="Cerrar"
+								onclick="PF('dlgEnrolamientoABE').hide();"
+								actionListener="#{sievClienteBean.redirecRenovacionMoral()}"></p:commandButton>
+						</div>
+					</f:facet>
+				</p:panel>
+			</p:dialog>
+		</h:form>
+		
+	</center>
+	<h:outputScript library="js" name="siev.js" />
+	<script type="text/javascript"
+		src="#{sievClienteBean.configuracionABE.urlABEJS}"></script>
+	<script type="text/javascript" src="#{sievClienteBean.processDataForm}"></script>
+	<script type="text/javascript" src="#{sievClienteBean.gestorFirma}"></script>
+	<script type="text/javascript">
+		window.addEventListener('load', function() {
+			loaded();
+		});
+	</script>
+</h:body>
+</html>
