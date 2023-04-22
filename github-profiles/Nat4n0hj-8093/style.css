@@ -1,0 +1,28 @@
+body{
+    margin: 1% auto;
+    max-width: 50em;
+    border: 1px solid tomato;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #272727;
+    background-color: #fdfdfd;
+}
+
+p{
+    line-height: 1;
+}
+
+table{
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+h2{
+    line-height: 1.5;
+    font-size: 2em;
+    text-align: center;
+}
+
+h3,h4{
+    text-align: center;
+}
