@@ -24,4 +24,5 @@ soy de **Medellin, Colombia** vivo en San Jóse del Nus, tengo 16 años curso el
 |alias cl=clear|este comando es muy util ya que limpiamos mucho la terminal|
 |gst=git status|este alias no sirve mucho para ahorrarnos tiempo           |
 
-perfil de GitHub : https://github.com/andresxd1020
+
+[Mi perfil de GitHub](https://github.com/andresxd1020)
