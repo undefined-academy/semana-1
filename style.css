@@ -27,11 +27,6 @@ strong {
     color: #333
 }
 
-a{
-    color: #e81c4f
-}
-
-
 
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -55,7 +50,7 @@ header {
 
   }
 
-  header a {
+  header p {
     border: 1px solid #e81c4f;
     border-radius: 290486px;
     color: rgba(255, 255, 255, 0.685);
@@ -68,7 +63,7 @@ header {
     transition-property: color, background;
   }
   
-  header a:hover {
+  header p:hover {
     background:  #e81c4f;
     color: white;
   }
