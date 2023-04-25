@@ -1,0 +1,39 @@
+<style>
+      body {
+        max-width: 800px; /* 1. Establecer un límite de ancho */
+        margin: 0 auto; /* 1. Centrar el contenido */
+        padding: 20px;
+        font-family: 'Helvetica Neue', sans-serif; /* 2. Cambiar la fuente tipográfica por una sans-serif */
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        letter-spacing: 0.05em;
+        background-color: #f2f2f2;
+      }
+      h1, h2 {
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        letter-spacing: 0.1em;
+        font-family: 'Montserrat', sans-serif; /* 4. Utilizar una fuente personalizada */
+        color: #0077cc; /* 3. Utilizar un color primario */
+      }
+      p {
+        max-width: 600px; /* 1. Establecer un límite de ancho */
+        margin-bottom: 20px;
+        color: #555; /* 6. Mejorar el espaciado y ajustar el color y contraste */
+      }
+      ul {
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      a {
+        color: #0099ff; /* 3. Utilizar un color secundario */
+      }
+      ul li strong {
+        color: #555; /* 3. Utilizar un color secundario */
+      }
+    </style>
