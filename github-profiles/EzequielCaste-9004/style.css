@@ -3,10 +3,9 @@
 body {
   padding: 0;
   margin: 0;
-  /* max-width: 50em; */
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
-  /* padding: 4em 1em; */
+  padding-bottom: 4em;
   
 }
 main {
@@ -47,7 +46,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 1.2;
-    max-width: none;
     padding: 10vw 2em;
     text-align: center;
     color: white;
@@ -67,8 +65,17 @@ header a {
   /* background-color: #cccccc22;*/
   transition: background-color .3s ease-in-out;
 }
+.header-btn + .header-btn {
+  margin-left: 2em;
+}
 header a:hover {
   background-color: #009EC3;
   border: 1px solid #009EC3;
   /* color: #ccc; */
+}
+
+@media (min-width: 500px) {
+  .header-links {
+    flex-direction: row;
+  }
 }
