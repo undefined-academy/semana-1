@@ -65,17 +65,28 @@ header a {
   /* background-color: #cccccc22;*/
   transition: background-color .3s ease-in-out;
 }
-.header-btn + .header-btn {
-  margin-left: 2em;
-}
+
 header a:hover {
   background-color: #009EC3;
   border: 1px solid #009EC3;
   /* color: #ccc; */
 }
-
+.header-links {
+  display: flex;
+  flex-direction: column;
+}
+.header-btn {
+  margin: 0 auto;
+  width: fit-content;
+}
+.header-btn + .header-btn {
+  margin-top: 1em;
+}
 @media (min-width: 500px) {
+  .header-btn + .header-btn {
+    margin-left: 2em;
+  }
   .header-links {
-    flex-direction: row;
+    display: block;
   }
 }
