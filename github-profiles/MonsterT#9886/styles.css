@@ -1,4 +1,3 @@
-<style>
       body {
         max-width: 800px; /* 1. Establecer un límite de ancho */
         margin: 0 auto; /* 1. Centrar el contenido */
@@ -36,4 +35,3 @@
       ul li strong {
         color: #555; /* 3. Utilizar un color secundario */
       }
-    </style>
