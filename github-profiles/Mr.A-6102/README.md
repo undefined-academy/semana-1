@@ -25,7 +25,6 @@ Since 2021, I have been focusing on web development, taking various courses and 
 * Documented support interactions for future reference.
 * Configured hardware, devices and software to set up work stations for employees. 
 * Assisted with updating technical support best practices for use by team.
-* Patiently walked individuals through basic troubleshooting tasks.
 * Provided Tier 1 IT support to non-technical internal users through desk side support services.
 * Created support documentation that enabled user community to extend skills, leverage system features and find resolutions to questions without intervention from support team. 
 
