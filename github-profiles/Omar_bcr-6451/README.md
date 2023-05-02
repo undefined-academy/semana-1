@@ -6,9 +6,9 @@ Soy una persona entusiasta por aprender cosas nuevas, la tecnología me apasiona
 
 ## Estos 5 comandos son muy útiles en la terminal
 
-| command | description                        |
+| Comando | Descripción                        |
 |---------|------------------------------------|
-| pwd     | Muestra ubicacion actual           |
+| pwd     | Muestra ubicación actual           |
 | cd      | Cambiar de folder                  |
 | ls -l   | Muestra archivos y permisos        |
 | clear   | Limpia todo el texto de la pantalla|
