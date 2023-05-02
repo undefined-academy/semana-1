@@ -14,7 +14,7 @@ Soy una persona entusiasta por aprender cosas nuevas, la tecnología me apasiona
 | clear   | Limpia todo el texto de la pantalla|
 | mkdir   | Crear nuevo folder                 |
 
-## Algunos algunos alias
+## Algunos alias
 
 Para limpiar carpetas dando una palabra.
 ```bash
