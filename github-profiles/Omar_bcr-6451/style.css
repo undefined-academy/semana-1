@@ -1,0 +1,40 @@
+body {
+  max-width: 50em;
+  margin: 0 auto;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+a{
+    text-decoration:none ;
+}
+
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+table :is(td, th) {
+  border: 1px solid black;
+  padding: 0.3em;
+}
+tbody {
+  background-color: rgb(211, 233, 240);
+}
+
+.container-alias{
+    
+    background-color: rgb(230, 227, 227);
+    padding: 5px 5px 5px 15px;
+    width: 400px;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container-text-alias{
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: rgb(255, 254, 254);
+}
