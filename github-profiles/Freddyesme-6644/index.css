@@ -1,0 +1,40 @@
+body {
+    background-image: url("./Imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica";
+    color: #555;
+}
+
+body {
+    line-height: 1.5;
+    padding: 4em 1em;
+}
+
+h1,
+h2,
+h3,
+strong {
+    color: #333;
+    text-align: center;
+}
+
+h4,
+strong {
+    color: #333;
+}
+
+.Links img {
+    display: block;
+    margin: 10px;
+}
+
+.Name img {
+    float: left;
+    margin-right: 10px;
+}
