@@ -1,4 +1,4 @@
-### Hola!!🎈 
+### Hi🎈 
 
 ### I'm Ronald, I have 28 years old.✍️
 
