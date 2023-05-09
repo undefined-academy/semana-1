@@ -1,4 +1,4 @@
-### Hola!!🎈 
+Hi🎈 
 
 ### I'm Ronald, I have 28 years old.✍️
 
@@ -8,9 +8,9 @@
  - Football
  - Read
  - Exercise
- 
+
   ### I am going to attach a table with commands that I have seen that can be used in the terminal.
- 
+
 
 |                                    Command                                  |                                Command function                        |
 | --------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -26,14 +26,9 @@
 ```bash
 alias download="youtube-dl -f bestaudio --extract-audio --audio-format mp3
 ```
-
 ```bash
  alias grep="grep --color=auto" 
  ```
-
 💼**GitHub** :
  ## https://github.com/RBree75/Rbree75
-
-
-
-
+ 
