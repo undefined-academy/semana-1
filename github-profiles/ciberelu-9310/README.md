@@ -17,8 +17,20 @@ Voy a ser un habilidoso desarrollador Full Stack con el manejo de tecnologías J
 ## Esto es un ejemplo para prácticar markdown
 ### Comando que puedo utilizar en la terminal de ubuntu
 
-| Comando | Descripción | 
-|----------|----------|
-| LS    | Sirve para listar el listado de cosas que hay dentro del directorio actual |
-| clear   |  Sirve para limpiar la terminal |
-| CD   | Cambia de directorio  |
+| Comando  | Descripción                                                                | 
+|----------|----------------------------------------------------------------------------|
+| LS       | Sirve para listar el listado de cosas que hay dentro del directorio actual |
+| clear    |  Sirve para limpiar la terminal                                            |
+| CD       | Cambia de directorio                                                       |
+| mkdir    | Crea una nueva carpeta                                                     |
+| touch    | Crea un nuevo archivo                                                      |
+
+
+
+### Comandos Alias
+
+| Alias         | Description |
+| ------------- | ----------- |
+| cl            | clear       |
+| npmd          | npm run dev |
+| npms          | npm start   |
