@@ -1,0 +1,48 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body{
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #566b78;
+}
+h2{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,h2,strong{
+    color: #333;
+    text-align: center;
+}
+
+code, pre{
+    background: #5e5f5f;
+    border-bottom: 1px solid #d8dee9;
+    color: #2ace40;
+}
+ul{
+    background: #5e5f5f;
+}
+code{
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    padding: 1em;
+    border-left: 2px solid #69c;
+}
+a{
+    color: #e81c4f;
+}
+
+header{
+    background-image: url(https://images.unsplash.com/photo-1629654291663-b91ad427698f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bGludXh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center top;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+    margin-top: 1rem;
+}
