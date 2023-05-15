@@ -21,7 +21,7 @@ body {
   color: #555;
 }
 
-h1,
+h1
 h2,
 strong {
   color: #333;
@@ -86,7 +86,7 @@ header img {
 }
 
 header h1 {
-  color: white;
+  color: rgb(164, 23, 23);
   font-size: 2.5em;
   font-weight: 300;
 }
