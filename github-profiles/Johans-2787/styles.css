@@ -1,0 +1,126 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+
+body {
+    color: #eeeded;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 50em;
+    font-family:'Trebuchet MS',;
+    line-height: 1.5;
+    padding: 4em 1em;
+    background-image: url(https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}       
+
+h1,
+h2,
+strong{
+    color: #f1f1f1;
+}
+
+code,
+pre {
+    border-bottom:  1px solid #e2e2e2;
+    color: #ffffff;
+}
+code {
+    
+    padding:  2px 4px;
+}
+pre {
+    
+    padding: 1em;
+    border-left: 1px solid #69c;
+}
+
+a {
+    color: #e81c4f ;
+}
+
+.table{
+    margin: auto;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1617900906639-cab7adceb499?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60);
+    background-position: center; 
+    background-size: cover;
+    line-height: 1;
+    padding: 5vw 1em;
+    text-align: center;
+    font-size: x-large;
+    filter: blur(1px);
+    opacity: 1;
+    z-index: -1;
+    object-fit: cover;
+    border-radius: 10px;
+    mask-image: linear-gradient(rgb(255, 255, 255), transparent);
+    -webkit-mask-image: linear-gradient(rgb(255, 255, 255), transparent);
+
+
+}   
+
+header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+    
+}
+
+
+header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+
+
+.table {
+    display: flex;
+    flex-direction: column;
+    max-width: 470px;
+    
+}
+
+th, td{
+    border: 1px solid;
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0 rgba(255, 255, 255, 0.100), 0 1px 18px 0 rgba(255, 255, 255, 0.100);
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f22a;
+}
+
+a {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 4px;
+    position:relative;
+    animation-name: profile-link;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes profile-link {
+    0%   {left:0px; right:0px;}
+    25%  {right:200px; left:0px;}
+    50%  {left:200px; right:200px;}
+    75%  {right:0px; left:200px;}
+    100% {left:0px; right:0px;}  
+}

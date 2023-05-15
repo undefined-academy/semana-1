@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  background: #f3f4f6;
+}
+
+.header {
+  background-image: url("header.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1.2;
+  max-width: none;
+  padding: 9vw 2em;
+  text-align: center;
+}
+
+h1,
+h3 {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 3px 5px 7px black;
+}
+
+h1 {
+  margin-bottom: 1.2em;
+}
+
+h3 {
+  margin-top: 1.5em;
+}
+
+.header .button-perfil {
+  border: 2px solid rgb(27, 196, 131);
+  background-color: rgb(27, 196, 131);
+  color: white;
+  border-radius: 290486px;
+  padding: 0.8em 1em;
+  text-decoration: none;
+  transition: 200ms ease-out;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+cite {
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 1.5em;
+}
+
+.main {
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.5;
+  max-width: 900px;
+  padding: 2em 1.5em;
+  font-size: 1.2em;
+}
+
+div {
+  margin-bottom: 1.5em;
+}
+
+/* table */
+.content-table {
+  border-collapse: collapse;
+  min-width: 100%;
+}
+
+.content-table thead tr {
+  background-color: #059669;
+  color: #ffffff;
+  /* text-align: middle; */
+  text-align: justify;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #d1d5db;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+/* footer */
+.footer {
+  background-color: #6b7280;
+  padding: 4em;
+  text-align: center;
+}
+
+.footer p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
