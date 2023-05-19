@@ -10,10 +10,10 @@ Actualmente empecé el ✨ _Bootcamp de JavaScrip Full-Stack_ ✨ en [Undefined 
 - HTML
 - CSS
 
-Soy una persona  autodidacta, me apasiona la **tecnología**, la **programación** y la **ciberseguridad**:sunglasses:.
+Soy una persona  autodidacta, me apasiona la **tecnología**, la **programación** y la **ciberseguridad**.
 
 Mis pasatiempos son:
-escuchar musica :notes:, ver pelis :movie_camera:, leer libros :books:.
+escuchar musica 🎶, ver pelis 🎥, leer libros 📚.
 
 ----
 ### Puedes contactarme por: 
