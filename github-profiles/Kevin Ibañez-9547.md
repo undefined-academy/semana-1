@@ -20,3 +20,5 @@
 | --------------------------- | ------------------------------ |
 | alias npmd="npm run dev"    | 	Iniciar proyecto node en dev |
 | alias npms="npm start"      | iniciar proyecto node          |
+
+### Para ir a mi GitHub visita  https://github.com/KevinElioIbanez
