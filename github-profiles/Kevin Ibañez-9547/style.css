@@ -1,0 +1,41 @@
+body {
+    background: #202020;
+    color: white;
+    font-family: sans-serif;
+    padding: .5rem 1rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main div {
+    margin-top: 2rem;
+}
+
+main aside h3 {
+    text-decoration: underline;
+}
+
+main table {
+    border: 2px solid #ccc;
+}
+
+main table tr th {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1.5px solid #ccc;
+}
+
+main table .primeraTabla {
+    text-align: center;
+    padding: .5rem;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+footer a {
+    color: rgb(47, 47, 169);
+}
