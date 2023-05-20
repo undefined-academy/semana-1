@@ -1,4 +1,4 @@
-https://github.com/Karomogo26
+https://github.com/Karomogo26 
 
 # 👋Hola soy Karoline Mogollón 💜
 ----
@@ -10,10 +10,10 @@ Actualmente empecé el ✨ _Bootcamp de JavaScrip Full-Stack_ ✨ en [Undefined 
 - HTML
 - CSS
 
-Soy una persona  autodidacta, me apasiona la **tecnología**, la **programación** y la **ciberseguridad**.
+Soy una persona  autodidacta, me apasiona la **tecnología**, la **programación** y la **ciberseguridad**:sunglasses:.
 
 Mis pasatiempos son:
-escuchar musica 🎶, ver pelis 🎥, leer libros 📚.
+escuchar musica :notes:, ver pelis :movie_camera:, leer libros :books:.
 
 ----
 ### Puedes contactarme por: 
