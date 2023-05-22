@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+
+
+h1 {
+    margin-bottom: 30px;
+}
+
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+
+
+table {
+    border: 1px solid #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+}
