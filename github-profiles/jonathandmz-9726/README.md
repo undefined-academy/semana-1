@@ -32,3 +32,5 @@ Para eliminar los archivos permanentemente:
 ```sh
 alias cl ="trash"
 ```
+
+Mi perfil de Github es [jonathanDMZ](https://github.com/jonathanDMZ)
