@@ -1,8 +1,8 @@
-# Hola, soy Jonathan Marmolejo
+# Hola, soy Jonathan Marmolejo 👋🏽
 
 Soy licenciado en redes, trabajando como técnico de soporte informático y  desarrollador
 
-## He trabajado con
+## He trabajado con 💻
 
 * Ruby on Rails
 * JavaScript
@@ -12,8 +12,7 @@ Soy licenciado en redes, trabajando como técnico de soporte informático y  des
 * Python
 * MySQL
 
-
-## Comandos de terminal
+## Comandos de terminal ⌨️
 | Comando | Descripción |
 | ------ | ------ |
 | pwd | Nos muestra el directorio en que se esté trabajando |
@@ -22,7 +21,7 @@ Soy licenciado en redes, trabajando como técnico de soporte informático y  des
 | touch | Crea un archivo con el nombre que se le indique|
 | cp -r | Copia una carpeta en otra ubicación |
 
-## Alias
+## Alias 🦝
 
 Ahorra tiempo para iniciar el proyecto en desarrollo:
 ```sh
@@ -33,4 +32,4 @@ Para eliminar los archivos permanentemente:
 alias cl ="trash"
 ```
 
-Mi perfil de Github es [jonathanDMZ](https://github.com/jonathanDMZ)
+🗺️ Mi perfil de Github es [jonathanDMZ](https://github.com/jonathanDMZ)
