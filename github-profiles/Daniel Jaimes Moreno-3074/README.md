@@ -23,4 +23,3 @@ https://danieljaimes9213.github.io/
 <br>
 <h3>URL de GitHub</h3>
 https://github.com/DanielJaimes9213
-
