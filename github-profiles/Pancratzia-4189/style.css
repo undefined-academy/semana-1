@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    margin: 0 auto;
+    max-width: 50rem;
+    font-family:  'Montserrat', sans-serif;
+    padding: 4rem 2rem;
+    line-height: 1.25;
+    background-color: rgb(243, 230, 243);
+}
+
+h1, h2{
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+p, li{
+    font-size: 1rem;
+}
+
+h1 span{
+    color: rgb(114, 66, 114);
+}
+
+a{
+    text-decoration: none;
+}
+ul, .comandos-y-alias h2{
+    text-align: justify;
+}
+
+.redes, .tecnologias{
+    text-align: center;
+}
+
+/*Estilos para las tablas*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(114, 66, 114);;
+  }
+
+  th{
+    font-weight: bold;
+    background-color: rgb(114, 66, 114);;
+    color: white;
+  }
+  
+  th, td {
+    padding: 20px;
+  }
+
