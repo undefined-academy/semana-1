@@ -1,0 +1,78 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.5;
+    padding: 4em 1em;
+
+    color: #555;
+}
+
+h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+h2,
+h3,
+strong {
+    color: #333;
+}
+
+.commands {
+    background-color: #f8faf9;
+    border-radius: 7px;
+    border-left: 2px solid #8fb1d2;
+    padding: 0.4em;
+}
+
+ul li::marker {
+    color: #cfd4d9;
+}
+
+.commands-block code {
+    display: inline-block;
+    background-color: #e4e2e2;
+    font-size: 14px;
+    margin: 0.4em 0;
+    padding: 0.1em 0.5em;
+    border-radius: 4px;
+}
+
+tr {
+    background-color: #f3f7f5;
+}
+
+.none-color {
+    background-color: #ffffff;
+}
+
+th,
+td {
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    padding: 0.4em 0.6em;
+}
+
+td {
+    padding: 0 0.6em;
+}
+
+td code {
+    background-color: #e4e2e2;
+    padding: 0.3em 0.5em;
+    border-radius: 4px;
+}
+
+.github {
+    margin-top: 1em;
+}
+
+.github>a {
+    text-decoration: none;
+    color: #e81c4f;
+}
