@@ -5,10 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
+
+    <style>
+
+        table {
+        
+          font-family: arial, sans-serif;
+        
+        
+          width: 100%;
+        
+        }
+        
+        
+        td, th {
+        
+          border: 1px solid #dddddd;
+        
+          text-align: left;
+        
+          padding: 8px;
+        
+        }
+        
+        
+        tr:nth-child(even) {
+        
+          background-color: #dddddd;
+        
+        }
+        
+        </style>
 </head>
 <body>
     
-<h1> Hello there, my name is <a href= about.html> Agustina Zunini </h1>
+<h1> Hello there, my name is <a href= “about.html“> Agustina Zunini </a> </h1>
 <h2>Audiovisual designer & Community Manager</h2>
 
 
@@ -35,23 +66,57 @@
 ------
 
 <h3> Lista de 5 comandos de la Terminal </h3>
+<table class="default">
+<tr>
+    <th> Comandos </th>
+    <th> Descripción </th>
 
-<ol>
-    <li> <strong> Date </strong>  --- > Muestra la fecha y hora del sistema. </li>
-    <li> <strong> cd </strong>  -- --- > Nos permite navegar entre carpetas (change directory) </li>
-    <li> <strong> pwd </strong>   --- > Te informa en dónde estaas (print working directory) </li>
-    <li> <strong> mkdir </strong> -  > Crea una nueva carpeta si le damos el nombre (make directory) </li>
-    <li> <strong> ls </strong>   -- --- > Enlista los archivos de una carpeta determinada, o la actual (list) </li>
+</tr>
+<tr>
+    <td> Date </td>
+    <td> Muestra la fecha y hora del sistema. </td>
+</tr>    
+<tr>
+    <td> cd </td>
+    <td> Nos permite navegar entre carpetas (change directory) </td>
+</tr>
+<tr>
+    <td> pwd </td> 
+    <td> Te informa en dónde estás (print working directory) </td>
+</tr>
+<tr>
+    <td> mkdir </td>
+    <td> Crea una nueva carpeta si le damos el nombre (make directory) </td> 
+</tr>
+<tr>
+    <td>ls </td> 
+    <td> Enlista los archivos de una carpeta determinada, o la actual (list) </td>
+</tr>
 
-</ol>
-
-<h3> 3 Comandos Alias </h3>
-
-<ol>
-    <li> <strong> cl="clear" </strong>      --- > Limpia los comandos previos de la terminal.</li>
-    <li> <strong> alias cl="trash" </strong>     --- > envía los archivos a la papelera de reciclaje en vez de eliminarlos permanentemente.</li>
-    <li> <strong> alias cafe="cat /dev/urandom ! hexdump ! grep \”ca fe\”” </strong>        --- > Cuando tienes un día agitado, busca café </li>
+</table>
 
 
+<h3> Lista de 3 Comandos Alias </h3>
+
+<table class="default">
+<tr>
+    <th> Comandos </th>
+    <th> Descripción </th>
+</tr>
+<tr>
+    <td> cl="clear" </td>
+    <td> Limpia los comandos previos de la terminal. </td>
+</tr>
+<tr> 
+    <td> cl="trash" </td>
+    <td> Envía los archivos a la papelera de reciclaje en vez de eliminarlos permanentemente. </td>
+</tr>
+<tr>
+    <td> alias cafe="cat /dev/urandom ! hexdump ! grep \”ca fe\”” </td>
+    <td> Cuando tienes un día agitado, busca café </td>
+
+</tr>
+
+</table>
 </body>
 </html>
