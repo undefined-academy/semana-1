@@ -1,0 +1,38 @@
+*{
+    background-color: moccasin;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 0.5px black;
+}
+
+article p{
+    margin-left: 35px;
+}
+
+.caracter{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 13px
+}
+
+.footer{
+    border: solid 2px white;
+    padding-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
