@@ -21,8 +21,7 @@ strong {
 }
 
 .commands {
-    background-color: #f8faf9;
-    border-radius: 7px;
+    background-color: #f1f5f3;
     border-left: 2px solid #8fb1d2;
     padding: 0.4em;
 }
@@ -41,7 +40,7 @@ ul li::marker {
 }
 
 tr {
-    background-color: #f3f7f5;
+    background-color: #f1f5f3;
 }
 
 .none-color {
