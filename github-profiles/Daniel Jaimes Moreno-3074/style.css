@@ -21,10 +21,14 @@ strong {
   color: #333;
 }
 
-a {
+.webref {
   color: #e81c4f;
 }
 
 img{
   margin-right: 10px;
+}
+
+a{
+  color: white;
 }
