@@ -22,3 +22,19 @@ escuchar musica :notes:, ver pelis :movie_camera:, leer libros :books:.
 - [Github](https://github.com/Karomogo26) 💻
 
 ----
+
+#### Comandos de la Terminal
+
+| Comando | Descripción |
+| ---------- | ---------- |
+| mkdir  | creación de carpetas  |
+| whoami  | Nombre del usuario  |
+| ls  | Listar archivos de la ubicación actual  |
+| Date  | Fecha y hora actuales  |
+| pwd  | Ruta absoluta del directorio actual  |
+
+#### Comandos Alias
+ Alias | Descripción |
+| ---------- | ---------- 
+| cl  | Limpiar pantalla
+| ls  | lista  |
