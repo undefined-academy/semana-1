@@ -22,3 +22,8 @@ h2 {
 a {
   color: #e81c4f;
 }
+
+li {
+  font-size: 18px;
+  margin-bottom: .5em;
+}
