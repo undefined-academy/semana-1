@@ -1,0 +1,131 @@
+.main1 {
+  background: transparent url("https://i.ibb.co/X5ZSk0J/fondo2.jpg") repeat fixed 0 0;
+}
+
+.main2 {
+  background: transparent url("https://i.ibb.co/5YyQBND/fondo.jpg") repeat fixed 0 0;
+}
+
+.main3 {
+  background: transparent url("https://i.ibb.co/Ld7q13v/fondo3.jpg") repeat fixed 0 0;
+}
+
+.title {
+  margin: 2em 0 1em 0;
+  text-align: center;
+
+  color: #ffffff;
+  font-family: 'Great Vibes';
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.subtitle {
+  color: #ffffff;
+
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+.paragraph p {
+  margin: 0 7em 2em 7em;
+  text-align: justify;
+
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: italic;
+}
+
+.box-list {
+  width: 100%;
+  display: grid;
+  place-content: center;
+
+  color: #ffffff;
+}
+
+.list {
+  border: solid 3px #ffffff;
+  padding: 2em 7em 2em 7em;
+
+  border-radius: 40px;
+
+  background: #ffffff24;
+}
+
+li:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+li:active {
+  transform: scale(1);
+  transition: 0.2s;
+}
+
+.box-tbl {
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+table th,
+table td {
+  color: #ffffff;
+  background: #ffffff1f;
+
+  border: solid 1px;
+  border-color: #ffffff;
+
+  text-align: center;
+
+  padding: 0.3em 3em 0.3em 3em;
+}
+
+table td:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+  background: none;
+}
+
+.buttons {
+  margin: 5em 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin: 0 1em 5em 1em;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+
+
+  -webkit-box-shadow: -10px 0px 13px -7px #ffffff, 10px 0px 13px -7px #ffffff, 5px 5px 15px 5px rgba(255, 255, 255, 0);
+  box-shadow: -10px 0px 13px -7px #ffffff, 10px 0px 13px -7px #ffffff, 5px 5px 15px 5px rgba(255, 255, 255, 0);
+}
+
+.btn:active {
+  transform: scale(1);
+  transition: 0.2s;
+}
+
+footer,
+footer a{
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+
+  margin: 0 0 5em 0;
+}
+
+footer a:hover{
+  color: #ffe600;
+  transition: 0.2s;
+}
