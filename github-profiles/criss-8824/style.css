@@ -1,0 +1,29 @@
+body {
+  margin: 0 auto;
+  max-width: 70%;
+  font-family:'Segoe UI', sans-serif;
+}
+
+h1, h2 {
+  margin-top: .5em;
+  padding-top: 1em;
+  color: #000000;
+}
+
+strong {
+  color: #FF5959;
+}
+
+table {
+  background-color: #EEF2FF;
+  padding: .5rem 1rem;
+}
+
+a {
+  color: #676FA3;
+  text-decoration: none;
+}
+
+th {
+  color: #676FA3
+}
