@@ -1,0 +1,33 @@
+
+    body {
+      background: rgb(214, 201, 201);
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0 auto;
+      max-width: 50em ;
+      line-height: 1.5;
+      padding: 4em 1em;
+    }
+ 
+   h2{margin-top: 1em;
+      padding-top: 1em;
+  }
+  
+  header {
+    color: #01fd01;
+  }
+body{color: rgb(49, 49, 49);}
+
+ a{
+  color: #e81c4f;
+}
+header {
+  background-color: #263d36;
+  background-image: url("programa.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}

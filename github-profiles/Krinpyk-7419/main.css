@@ -1,0 +1,60 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+header{
+    background-color: rgba(189, 229, 166, 0.627);
+    text-align: center;
+    border-radius: 25px;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 60em;
+    font-family: "Libre Franklin", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    color: #555;
+    background-color: #f5f9ee; ;
+}
+
+h1 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #333
+}
+
+h2{
+    margin-top: 1em;
+    padding-top: 1em;
+    border-bottom: 1px solid rgb(22, 78, 22);
+    color: #333
+}
+
+a {
+    color: #005792;
+  }
+  a:hover{
+    border-bottom: 1px solid;
+    background: #CDFEAA;
+  }
+  a:visited {
+    color: #437A16;
+  }
+
+table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px;
+    border-bottom: 3px solid rgba(189, 229, 166, 0.627);
+}
+
+tr:hover{
+    background-color: #2d4f11;
+    color: white;
+}
+
+.Encabezado_Tabla{
+    background-color:rgba(189, 229, 166, 0.627);
+  }
