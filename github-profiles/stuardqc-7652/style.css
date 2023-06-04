@@ -1,0 +1,80 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 1.6rem;
+  background-color: #161b22;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #fff;
+}
+
+.info h1 {
+  font-size: clamp(3rem, 4vw, 4.5rem);
+  text-align: center;
+  letter-spacing: 0.3rem;
+  color: rgb(216, 37, 216);
+  margin-bottom: 5rem;
+}
+
+.info h3 {
+  font-style: italic;
+}
+
+h2 {
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  border-bottom: 2px solid #273041;
+  padding-bottom: 1rem;
+}
+
+.image__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.image__skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.soft__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.soft__content span {
+  display: inline-flex;
+  background-color: #273041;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.contact__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+} */
