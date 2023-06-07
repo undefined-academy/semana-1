@@ -21,6 +21,7 @@ img {
     max-width: 180px;
     height: 180px; 
     border: 0px;
+    object-fit: cover;
 }
 
 h1 {
