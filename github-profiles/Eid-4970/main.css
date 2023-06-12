@@ -1,0 +1,88 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    background-color: rgb(182, 178, 175);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 40em;
+    line-height: 1.5;
+    /* le damos la altura de las letras*/
+    padding: 4em 1em;
+    /* ancho de las letras*/
+    color: #555;
+    /* color en body es el tono de las letras en general*/
+    color: #566b78;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+
+}
+
+/*encabezado*/
+header {
+    background-color: #838f8b;
+    background-image: url("/Archivos/Astronauta.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+header h1 {
+
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+/* header img {
+    display: inline-block;
+    height: 500px;
+    vertical-align: top;
+    width: 500px;
+  }*/
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,
+/* le damos contraste */
+h2,
+/* le damos contraste */
+strong {
+    color: #333;
+    /* color en el apartado strong es par el tono de las negrillas*/
+}
+
+/*--------*/
+code,
+pre {
+    background: #eee;
+    background: #f5f7f9;
+    border-bottom: 1px solid #d8dee9;
+    color: #a7adba;
+}
+
+/*---------*/
+
+
+
+pre {
+    border-left: 2px solid #69c;
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    padding: 1em;
+}
+
+un {
+    /*estamos añadiendo un color a las palabras con enlace*/
+    color: #e81c4f;
+}
