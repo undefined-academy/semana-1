@@ -22,8 +22,8 @@ Este README lo estoy haciendo para una práctica de un bootcamp de programación
 - [x] JSON
 - [x] Base de datos
 - [x] PHP
-- [] React
-- [] Python
+- [ ] React
+- [ ] Python
 
 | Comandos de terminal | Descripción |
 | ----------- | ----------- |
