@@ -1,0 +1,51 @@
+ body {
+     background: linear-gradient(to right, #4776e6, #8e54e9);
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+ }
+
+ h1 {
+     padding: 25px;
+     background-color: black;
+     text-align: center;
+ }
+
+ h3 {
+     padding: 15px;
+     background-color: black;
+     color: rgb(255, 208, 0)
+ }
+
+ strong {
+     color: rgb(255, 208, 0);
+ }
+
+ em {
+     color: aqua;
+     font-weight: bold;
+ }
+
+ a {
+
+     color: orange;
+ }
+
+ ul {
+     list-style-type: circle;
+ }
+
+ .default {
+     background-color: black;
+     padding: 15px;
+ }
+
+ td {
+     border: aliceblue 1px solid;
+     padding: 5px;
+ }
+
+ p em {
+     color: orange;
+     font-weight: bold;
+ }
