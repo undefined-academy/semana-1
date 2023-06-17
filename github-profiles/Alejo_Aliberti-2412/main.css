@@ -1,0 +1,126 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto" Arial, Helvetica, sans-serif ;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: rgb(0, 0, 0);
+    background-color: gray;
+}
+
+
+h1 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: brown;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h3 {
+    color: black;
+    border-radius: 15px;
+    max-width: max-content;
+    padding: 5px ;
+    margin-left: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+code, pre {
+    background: #eee;
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    padding: 1em;
+}
+
+
+table {
+
+    box-shadow: 1px 1px 3px 1px gray;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+ol {
+    box-shadow: 1px 1px 3px 1px gray;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+ol li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px;
+}
+
+.comandos th {
+
+    background-color: gray;
+    border-radius: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+.comandos td{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.TablaComandos{
+
+    margin-left: 15%;
+}
+
+.tituloComandos{
+    text-align: center;
+    
+}
+
+
+.resumen {
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.Presentacion {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.comandosAlias th{
+    background-color: gray;
+    border-radius: 5px;
+    
+}
+
+.comandosAlias td{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: rgb(212, 209, 211);
+    padding: 2%;
+            
+}
+
+.alias {
+    text-align: center;
+    
+}
+
+hr {
+    margin: 50px;
+}
+
