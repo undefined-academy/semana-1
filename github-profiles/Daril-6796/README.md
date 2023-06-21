@@ -46,7 +46,7 @@ I am a self-taught enthusiast in new technologies. My preferred fields are **Mic
 
 ---
 
-## Additional Training
+## Additional Certificates
 
 - Professional Certification Level 2: **Assembly and Repair of Microcomputer Systems** (IFCT0309)  
    March 2022-February 2023 | 510H | IMEF
@@ -70,4 +70,4 @@ I am a self-taught enthusiast in new technologies. My preferred fields are **Mic
 | findd  | `findd="ls ~/ \| grep $1"`  |"
 | gp     | `gp='git push'`             |
 
-Currently, I am progressing in creating JavaScript projects in the DOM.
+Currently, I am progressing in creating JavaScript projects in the DOM.git 
