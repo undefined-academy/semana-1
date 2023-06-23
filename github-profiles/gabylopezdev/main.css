@@ -1,0 +1,44 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body{
+    margin: 0 auto;
+    max-width: 50rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4rem 1rem;
+    color: #555;
+    background-color: #eee;
+}
+
+ h3 {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+header {
+    
+    background-image: url("header.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+   
+  header div{
+    background-color: #333333aa;
+    padding: 10vw 2em;
+  }
+
+  svg{
+    padding-right: 1rem;
+  }
+
+  header h1, header h2 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 500;
+  }
