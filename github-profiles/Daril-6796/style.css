@@ -3,6 +3,7 @@ body {
     max-width: 50em;
     color: #555;
     text-align: justify;
+    line-height: 1.5;
 }
 
 h1,
@@ -11,15 +12,27 @@ h3,
 strong {
     color: #333;
 }
-
+button{
+    display: block;
+    margin: 10px 0px;
+    padding: 0.5% 5px 0.5% 5px;
+    font-size: 18px;
+    background: #ddeff0;
+    border:#356169  solid;
+    
+}
+button :hover{
+   background: #f2f9f9;
+}
 body {
     font-family: "Garamond ", "Arial", sans-serif;
 }
 
 a {
+    padding:0;
     text-decoration: none;
     font-weight: bold;
-    color: #0000FF;
+    color: #356169;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 
