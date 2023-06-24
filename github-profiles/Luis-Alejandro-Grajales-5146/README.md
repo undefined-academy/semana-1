@@ -9,9 +9,24 @@ constantly looking for new learning and passionate about the IT
 world.
 
 
+|Comand    | Description                      |
+|----------|----------------------------------|
+| cd       | Navigate between folders         |
+| mkdir    | Create folders                   |
+| ctrl + c |Stop processes in console         |
+| ls       | Show available folders           |
+| pwd      | Shows the location of where I am |
+
+
 ![Alejox GitHub stats](https://github-readme-stats.vercel.app/api?username=alejox&show_icons=true&theme=tokyonight)
 
-### [View my GitHub Profile](https://github.com/alejox) 🤖 
+### [View my GitHub Profile](https://github.com/alejox) 🤖
+
+|Alias             | Description               |
+|------------------|---------------------------|
+| alias cl="clear" | Clear the console         |
+| alias rm="trash" | Remove file or folder     |
+
 
 ### 🏬 **WORK  EXPERIENCE**
 
