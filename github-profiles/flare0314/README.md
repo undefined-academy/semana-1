@@ -16,6 +16,6 @@ ls | lists the directories of the current direction
 
 Alias | Command | Description
 ----|----|---
-ffind| alias findd="ls ~/ \| grep $1" | List the files and directories in the home directory then filter lines matching the given argument
+findd| alias findd="ls ~/ \| grep $1" | List the files and directories in the home directory then filter lines matching the given argument
 .\.| alias ..="cd .." | allows you to change to the root directory of the current directory
 h | alias h="history" | It is the command used to display the history of previously executed commands in the current terminal session.
