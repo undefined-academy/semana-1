@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+   color: #555
+}
+
+table {
+  margin-top: 0.5em;
+  padding-top: 1em;
+  background: #eee;
+  border-collapse: collapse;
+  width: 100%; 
+  border: 1px solid #ccc; 
+}
+
+th, td {
+  border: 1px solid #ccc; 
+  padding: 8px;
+}
+
+h1, h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+  color: black
+}
+
+a{
+   color: red
+}
