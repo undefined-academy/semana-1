@@ -1,23 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
-header {
-    background-color: #1b302a;
-    background-image: url("header.jpg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 1.2;
-    padding: 10vw 2em;
-    text-align: center;
-  }
-
-header img {
-    display: inline-block;
-    height: 120px;
-    vertical-align: top;
-    width: 120px;
-  }
-
 body{
     margin: 0 auto;
     max-width: 50em;
@@ -40,4 +22,3 @@ h1, h2 {
 a{
    color: red
 }
-
