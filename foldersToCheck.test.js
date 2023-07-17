@@ -32,7 +32,8 @@ describe("Folder structure", () => {
         // Check if each file in the filenames array exists in the folder
         folderToCheck.filenames.forEach((pattern) => {
           const files = glob.sync(
-            path.join(__dirname, folderToCheck.name, folder, pattern)
+            path.join(__dirname, folderToCheck.name, folder, pattern),
+            { nocase: false }
           );
           expect(files.length).toBeGreaterThan(0);
         });
