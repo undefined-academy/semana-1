@@ -1,0 +1,41 @@
+body {
+    background: tomato;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+section {
+    background: mediumpurple;    
+}
+
+/* div {
+    background: palegoldenrod;
+    padding: 16px 32px;
+    margin: 20px;
+    border: 8px solid orchid;
+}
+
+p {
+    background: papayawhip;
+    color: lightgray;
+} */
+
+.abuelo {
+    border: 1px dotted black;
+}
+
+p + p {
+	color: tomato;
+}
+
+div.hermano > span {
+    color: rebeccapurple;
+}
+
+div span {
+    font-weight: bold;
+}
+
+div ~ div {
+    color: teal;
+}

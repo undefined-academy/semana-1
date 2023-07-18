@@ -1,0 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+body {
+	margin: 0 auto;
+	max-width: 50em;
+	background: #073b3a;
+	font-size: 1rem;
+	color: white;
+	font-family: 'roboto', 'georgia', 'helvetica', 'arial';
+	line-height: 1.5;
+	padding: 4em 1em;
+	
+}
+
+table,
+td {
+	border: 1px solid #333;
+	background: #08a045;
+}
+
+thead,
+tfoot {
+	background-color: #333;
+	color: #fff;
+}
+
+a {
+	color: #5ABD44;
+}
+
+h1,
+h2,
+strong {
+	color: #5abd44;
+
+}
+
+h3 {
+	text-align: center;
+}
+
+header {
+
+	background: url(https://images.unsplash.com/photo-1599931601414-696a3ddbd889?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) center no-repeat #263d36;
+	background-size: cover;
+	line-height: 1.2;
+	padding: 10vw 2em;
+	text-align: center;
+	color: #5abd44;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 80px;
+}
+

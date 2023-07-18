@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500&family=Exo:wght@300&family=Josefin+Sans:wght@100;300&display=swap');
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 4em 1em;
+    background-color: #f3f4f6;
+    color: #3f3f46;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1, h2, strong {
+    color:#18181b;
+}
+
+a {
+    color:#0c4a6e;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+    height: 80px;
+    background-color: rgba(161, 161, 170, 0.3);
+    border-radius: 10px;
+    line-height: 0;
+    margin-top: 80px;
+}
+
+.footer-contact{
+    width: 30px;
+}
+
+.picture-profile {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 35%;
+    aspect-ratio: 1;
+}
+
+.main-aboutme{
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.aboutme{
+    margin: 0 2em;
+    font-size: 20px;
+    width: 65%;
+}
+
+.header-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav{
+    height: 100%    ;
+}
+
+.header-nav ul a{
+    text-decoration: none;
+}
+
+.header-nav li{
+    margin: 0 25px;
+    padding: 2px;
+}
+
+header{
+    padding: 0 1em;
+    height: 100px;
+    background-color: rgba(161, 161, 170, 0.3);
+    border-radius: 10px;
+}
+
+.main-projects ul{
+    border-left: solid #831843;
+    list-style-type: none;
+}
+
+.main-cv ul{
+    border-left: solid #831843;
+    list-style-type: none;
+}
