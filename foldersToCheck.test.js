@@ -22,20 +22,25 @@ describe("Folder structure", () => {
     const folders = fs.readdirSync(path.join(__dirname, folderToCheck.name));
 
     folders.forEach((folder) => {
-      test(`Check structure of ${folder} in ${folderToCheck.name}`, () => {
-        const usernameRegex = new RegExp(
-          `(${regularUsernameRegex.source})|(${discordUsernameRegex.source})`
-        );
-
-        expect(folder).toMatch(usernameRegex);
-
-        // Check if each file in the filenames array exists in the folder
-        folderToCheck.filenames.forEach((pattern) => {
-          const files = glob.sync(
-            path.join(__dirname, folderToCheck.name, folder, pattern),
-            { nocase: false }
+      describe(`Check folder ${folderToCheck.name}/${folder}`, () => {
+        test(`name ${folder} is valid`, () => {
+          const usernameRegex = new RegExp(
+            `(${regularUsernameRegex.source})|(${discordUsernameRegex.source})`
           );
-          expect(files.length).toBeGreaterThan(0);
+          expect(folder).toMatch(usernameRegex);
+        });
+
+        describe(`Check files in ${folderToCheck.name}/${folder}`, () => {
+          // Check if each file in the filenames array exists in the folder
+          folderToCheck.filenames.forEach((pattern) => {
+            const files = glob.sync(
+              path.join(__dirname, folderToCheck.name, folder, pattern),
+              { nocase: false }
+            );
+            test(`file ${pattern} exists in ${folder}`, () => {
+              expect(files.length).toBeGreaterThan(0);
+            });
+          });
         });
       });
     });
