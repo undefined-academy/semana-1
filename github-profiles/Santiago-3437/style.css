@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 50%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  background: linear-gradient(135deg, #303030 10%, #11393e 30%, #303030 60%, #11393e 80%);
+  color: #eaeaea;
+}
+
+img,
+a {
+  user-select: none;
+}
+
+main>h3 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1,
+h3,
+strong {
+  color: #fefefe;
+}
+
+.container__network {
+  background-color: #1e1e1e;
+  padding: .5em .5em;
+  vertical-align: text-bottom;
+  text-align: center;
+}
+
+.network {
+  display: inline-block;
+  padding-bottom: 1.5em;
+  width: calc(50% - 1em);
+}
+
+a {
+  color: #2ad0e6;
+}
+
+header {
+  background-color: #263d36;
+  background-image: url("https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2vw 2em;
+  text-align: center;
+}
+
+header img {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 4px solid #1e1e1e;
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
