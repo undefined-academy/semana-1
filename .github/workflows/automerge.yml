@@ -2,7 +2,7 @@ name: automerge
 
 on:
   pull_request_review:
-    types: [submitted]
+    types: [submitted, synchronize]
   workflow_dispatch:
     inputs:
       pr_number:
