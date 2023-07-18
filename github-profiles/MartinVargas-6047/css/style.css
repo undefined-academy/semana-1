@@ -1,0 +1,310 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap");
+* {
+  font-family: "Titillium web";
+  margin: 0;
+  padding: 0;
+}
+/* SECCION INICIO */
+.home {
+  box-sizing: border-box;
+  background-color: #670039bb;
+  background-size: cover;
+  color: #fff;
+}
+.home .content-section {
+  /* max-width: 1000px; */
+  margin: auto;
+  text-align: center;
+  padding: 0 10px;
+}
+i {
+  font-size: 1.5em;
+}
+/* NAV SUPERIOR*/
+.home .content-section header .nav .nav__menu {
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  padding: 3rem;
+  margin-left: 40px;
+}
+.nav__menu li {
+  list-style-type: circle;
+}
+.home .content-section .nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #e6e6e6;
+}
+.home .content-section .nav a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: #470039;
+}
+.home .content-section .nav a:active {
+  text-decoration: none;
+  font-weight: bold;
+  color: #a40000;
+}
+/* NAV INFERIOR [VOLVER ARRIBA] */
+.volver {
+  margin-top: 50px;
+}
+.volver a {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #e6e6e6;
+}
+.volver a:hover {
+  color: #940253;
+}
+.volver a:active {
+  color: #a40000;
+}
+/* **** */
+.home .content-section header .logo {
+  padding-top: 3rem;
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Yellowtail";
+  text-shadow: 0 0 35px #fff;
+}
+.home .content-section header .logo .color {
+  color: #940253;
+  font-family: "Yellowtail";
+}
+.home .content-section .info {
+  padding-bottom: 50px;
+}
+.home .content-section .info h1 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+.home .content-section .info h2 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: -10px;
+  letter-spacing: 2px;
+}
+.home .content-section .info .socials {
+  margin: 20px 0;
+}
+.home .content-section .info .socials a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #000;
+  color: #940253;
+  border: 1px solid #940253;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+.home .content-section .info .socials a:hover {
+  color: #fff;
+  background-color: #940253;
+  box-shadow: 0 0 20px #fff;
+}
+.home .content-section .photo {
+  position: relative;
+}
+/* estilos generales */
+.title-section {
+  font-family: "Yellowtail";
+  font-size: 2rem;
+}
+/* SECCION CLASES */
+.lesson {
+  padding: 80px 0 100px 0;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/img/Development.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #fff;
+}
+.lesson .content-section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+.lesson .content-section h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.lesson .content-section .info {
+  text-align: left;
+  display: flex;
+  margin-top: 30px;
+}
+.lesson .content-section .info .col {
+  width: 40%;
+}
+.lesson .content-section .info .col .title {
+  display: inline-block;
+  color: #940253;
+  background-color: #000;
+  font-weight: bold;
+  border: 2px solid #940253;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+.lesson .content-section .info .col ul {
+  position: relative;
+  margin-top: 20px;
+  padding: 0;
+  font-weight: bold;
+  backdrop-filter: blur(15px);
+  background-color: #ffffff4d;
+}
+.lesson .content-section .info .col ul li {
+  list-style: none;
+  border-top: 1px solid #940253;
+  border-bottom: 1px solid #940253;
+  margin: -1px 0;
+  transition: 0.5s;
+}
+.lesson .content-section .info .col ul li a {
+  display: block;
+  border-right: 1px solid #920251;
+  text-decoration: none;
+  color: #670039;
+  pointer-events: none;
+}
+.lesson .content-section .info .col ul li a span {
+  position: relative;
+  display: inline-block;
+}
+.lesson .content-section .info .col ul li a span:nth-child(1) {
+  width: 30px;
+  text-align: center;
+  border-left: 1px solid #940253;
+  border-right: 1px solid #940253;
+  padding: 10px;
+  transition: 0.5s;
+  color: #940253;
+}
+.lesson .content-section .info .col ul li:hover a span:nth-child(1) {
+  background-color: #a40000;
+}
+.lesson .content-section .info .col ul li a span:nth-child(1) .fa-brands {
+  transition: 0.3s;
+}
+.lesson .content-section .info .col ul li:hover a span:nth-child(1) .fa-brands {
+  transform: rotateY(360deg);
+  color: #fff;
+}
+.lesson .content-section .info .col ul li a span:nth-child(2) {
+  padding: 10px;
+}
+.lesson .content-section .info .col ul li:hover a span:nth-child(1) .fa-solid {
+  transform: rotateY(360deg);
+  color: #fff;
+}
+/* SECCION CLASES-2 */
+.lesson-2 {
+  background-color: #e6e6e6;
+  padding: 140px 0 100px 0;
+  text-align: center;
+}
+.lesson-2 .content-section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+.lesson-2 .content-section h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 15px;
+}
+.lesson-2 .content-section .info {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.lesson-2 .content-section .info .col {
+  width: 45%;
+}
+.lesson-2 .content-section .info .col ul {
+  position: relative;
+  margin-top: 5px;
+  padding: 0;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  /* backdrop-filter: blur(15px); */
+}
+.lesson-2 .content-section .info .col .data {
+  width: 80%;
+  border-bottom: 1px solid #940253;
+  margin-bottom: 10px;
+  list-style-type: circle;
+}
+
+/* TABLAS */
+.exercises {
+  padding: 80px 0 100px 0;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/img/excercise.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #fff;
+}
+.exercises .content-section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+.exercises .content-section h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.exercises .content-section .info {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.exercises .content-section .info .col {
+  width: 50%;
+}
+.exercises .content-section .info .col .title {
+  display: inline-block;
+  color: #940253;
+  background-color: #000;
+  font-weight: bold;
+  border: 2px solid #940253;
+  padding: 10px;
+}
+.exercises .content-section .info .col table {
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+.exercises .content-section .info .col table thead tr .data {
+  color: white;
+  /* backdrop-filter: blur(15px); */
+  background-color: #470039;
+  border: 2px solid #670039;
+  padding: 14px;
+  text-align: center;
+}
+.exercises .content-section .info .col table tbody .description {
+  /* backdrop-filter: blur(5px); */
+  background-color: #000;
+  border: 2px solid #670039;
+  padding: 5px;
+  color: #fff;
+  text-align: center;
+}
