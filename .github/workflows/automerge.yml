@@ -43,8 +43,12 @@ jobs:
           fi
 
           APPROVALS=$(gh pr view "https://github.com/${{ github.repository }}/pull/$PR_NUMBER" --json reviews | jq '[.reviews[] | select(.state=="APPROVED")] | length')
+          echo "Number of approvals: $APPROVALS"
           if [ "$APPROVALS" -ge "$REQUIRED_APPROVALS" ]; then
-            gh pr merge "https://github.com/${{ github.repository }}/pull/$PR_NUMBER" --merge --auto
+            MERGE_RESULT=$(gh pr merge "https://github.com/${{ github.repository }}/pull/$PR_NUMBER" --merge --auto)
+            echo "Merge result: $MERGE_RESULT"
+          else
+            echo "Not enough approvals, skipping..."
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
