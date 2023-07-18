@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 50em;
+    line-height: 1.8;
+}
+
+body {
+    margin: 70px auto;
+}
+
+.title {
+    text-align: center;
+    margin: 40px;
+}
+
+.subtitle {
+    margin: 20px 50px;
+}
+
+.subsubtitle {
+    margin: 15px 45px;
+}
+
+p, ul {
+    margin: 10px 25px;
+}
+
+a {
+    display: flex;
+    margin: 5px 50px
+}
