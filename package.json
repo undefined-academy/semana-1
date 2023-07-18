@@ -1,0 +1,16 @@
+{
+  "name": "semana-1",
+  "version": "1.0.0",
+  "description": "> 🏕️ [Base de conocimientos.](https://undefinedshell.notion.site/Semana-1-1cd3b0f777a44b4894456521cc0e649c#627a510ea8514e5fbd4cf6b206dc2048)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^10.3.3",
+    "jest": "^29.6.1"
+  }
+}
