@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 13px;
+}
+
+.container {
+  max-width: 60%;
+}
+
+.section {
+  margin-top: 25px;
+}
+
+.lista-tecnologias {
+  max-width: 50%;
+}
+
+.lista-tecnologias ul {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  border: #b2b2b2 1px solid;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: black 1px solid;
+}
+
+td:first-child {
+  text-align: center;
+}
