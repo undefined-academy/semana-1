@@ -1,0 +1,18 @@
+body {
+    background: violet;
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    color: #333;
+
+}
+
+p{
+    line-height: 1.1;
+}
+
+h1, h2{
+    line-height: 1.5;
+    margin-top: 50px;
+}
