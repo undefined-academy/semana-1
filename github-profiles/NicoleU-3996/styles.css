@@ -1,0 +1,31 @@
+head{
+    max-width: 800px;
+    font-size: 16px;
+    margin: 0 auto;
+    background: tomato;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    max-width: 800px;
+    font-size: 14px;
+    margin: 0 auto;
+    background: lavenderblush;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: indigo;
+    text-align: center;
+  }
+
+h2 {
+    color: mediumvioletred;
+    font-family: cursive;
+}
+
+h3 {
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

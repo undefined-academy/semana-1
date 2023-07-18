@@ -1,0 +1,50 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 60em;
+    line-height: 1.5;
+    padding: 0 1em 4em;
+    color: #555;
+}
+
+header {
+    background-image: url(portada.jpg);
+    background-position: center top;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 6vw 2em;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+p strong {
+    color: #333;
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(195, 83, 243);
+}
+
+p a:hover {
+    color: rgb(131, 7, 188);
+}
+
+.container {
+    background-color: rgb(213, 233, 239);
+    padding: 5px;
+    margin: 2rem 0;
+    color: black;
+}
+
+.container ul li {
+    list-style-type: square;
+}
+
+

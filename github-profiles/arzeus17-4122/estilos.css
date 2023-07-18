@@ -1,0 +1,99 @@
+body {
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 50em;
+    border: 4px solid rgb(58, 57, 57);
+    line-height: 1.5;
+    padding: 1em 1em;
+    color:rgb(34, 34, 34);
+    text-align: justify;
+    background-color: #F4F5F0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0.2em;
+    padding-top: 0.2em;
+}
+
+h1, h2, strong {
+    color:rgb(2, 2, 62);
+}
+
+p {
+    line-height: 1.5;
+}
+
+code, pre {
+    background: rgb(225, 217, 217);
+    border-bottom: 0.2px solid yellow;
+    color: darkorange;
+}
+
+code {
+    padding: 0.2px 0.2px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    padding: 0.2em;
+    border-left: green;
+}
+
+a {
+    color:rgb(226, 34, 72);
+}
+
+header {
+    background-color: rgb(244, 244, 249);
+    background-image: url("header.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 6vw 2em;
+    text-align: right;
+    color:aliceblue;
+}
+
+header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+}
+
+#header {
+    color: rgb(233, 225, 5);
+    font-size: 3.2em;
+    font-weight: 300;
+    text-align: right;
+}
+  
+header a {
+    border: 1px solid rgb(233, 225, 5);
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+  
+header a:hover {
+    background:  #d54b6d;
+    color: white;
+}
+
+img {
+    width: 280px; 
+    height: 400px;
+    text-align: center;
+}
