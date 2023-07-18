@@ -20,10 +20,20 @@ jobs:
 
       - name: Automerge PR
         run: |
-          PR_NUMBER=${{ github.event.pull_request.number }}
+          REQUIRED_APPROVALS=1
+          PR_NUMBER=""
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]
           then
             PR_NUMBER=${{ github.event.inputs.pr_number }}
+          elif [ "${{ github.event_name }}" == "pull_request" ] || [ "${{ github.event_name }}" == "pull_request_review" ]
+          then
+            PR_NUMBER=${{ github.event.pull_request.number }}
+          fi
+
+          if [ "$PR_NUMBER" == "" ]
+          then
+            echo "PR number not found, exiting..."
+            exit 0
           fi
 
           if [ "${{ github.event_name }}" == "pull_request_review" ] && [ "${{ github.event.review.state }}" != "APPROVED" ]
@@ -33,7 +43,7 @@ jobs:
           fi
 
           APPROVALS=$(gh pr view "https://github.com/${{ github.repository }}/pull/$PR_NUMBER" --json reviews | jq '[.reviews[] | select(.state=="APPROVED")] | length')
-          if [ "$APPROVALS" -ge "1" ]; then
+          if [ "$APPROVALS" -ge "$REQUIRED_APPROVALS" ]; then
             gh pr merge $PR_NUMBER --merge
           fi
         env:
