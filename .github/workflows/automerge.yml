@@ -1,0 +1,22 @@
+name: automerge
+
+on:
+  pull_request_review:
+    types: [submitted]
+  workflow_dispatch:  
+
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Automerge PR
+        run: |
+          APPROVALS=$(gh pr view https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }} --json reviews | jq '[.reviews[] | select(.state=="APPROVED")] | length')
+          if [ "$APPROVALS" -ge "1" ]; then
+            gh pr merge ${{ github.event.pull_request.number }} --merge
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
