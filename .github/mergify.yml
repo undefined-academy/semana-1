@@ -2,7 +2,7 @@ pull_request_rules:
   - name: automatic merge for main when CI passes and 2 reviews
     conditions:
       - "#approved-reviews-by>=1"
-      - check-success=Run Jest tests / test (pull_request)
+      - check-success=test
       - base=main
     actions:
       merge:
