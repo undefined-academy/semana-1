@@ -1,0 +1,188 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css"); /*Resets HTML style*/
+
+/*shared*/
+html {
+  background-color: #5f45bb;
+  background-image: linear-gradient(to bottom right, #180cac, #d054e4);
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  min-height: 100vh;
+  min-width: 300px;
+  overflow-x: hidden;
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1)
+}
+a {
+  color: currentColor;
+  cursor: pointer;
+  text-decoration: none;
+  }
+.wallpaper {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%
+  }
+.content {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  }
+.side {
+  max-height: 25rem;
+  max-width: 25rem;
+    }   
+.header {
+  max-width: 30rem;
+    }
+/*specific*/
+.name {
+  font-size: 2.25rem;
+  line-height: 1.125;
+  margin-bottom: 0.5rem;
+    }
+.line {
+  background-color: #ff470f;
+  border: none;
+  content: "";
+  height: 1px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  width: 5rem;
+      }       
+.logos {
+  display: inline-block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  vertical-align: top;
+    } 
+.artist {
+  color: #ffe479;
+  font-size: 0.75rem; 
+    }
+.description {
+  font-size: 1.5rem;
+    } 
+.button {
+  background-color: #fff;
+  border-radius: 290486px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  color: #ff470f;
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  padding: 1.25em 2em;
+  text-shadow: none;
+  transition-property: box-shadow, transform;
+  user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+    }
+.artist,
+.button {
+  font-family: "Montserrat", "Quicksand", sans-serif;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+    }
+.counter,  
+.more {
+  display: inline-block;
+  margin-top: 1.5rem;
+  vertical-align: top;
+    }
+.logos a,
+.counter a,
+.button {
+  transform-origin: center;
+  transition-duration: 100ms;
+    }
+.twitter,
+.github {
+  display: inline-block;
+  line-height: 1;
+  transition-property: transform;
+  user-select: none;
+  vertical-align: top;
+  will-change: transform;
+    }
+.button:hover {
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+  transform: scale(1.02) translateY(-4px);
+  }
+.button:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  transform: scale(0.98) translateY(-2px);
+    }
+
+.twitter:hover {
+  transform: scale(1.02) translateY(-4px);
+}
+.github:hover {
+  transform: scale(1.02) translateY(-4px);
+}
+.twitter:active {
+  transform: scale(0.98) translateY(-2px);
+}
+.github:active {
+  transform: scale(0.98) translateY(-2px);
+}
+.counter a {
+  display: inline-block;
+  opacity: 0.5;
+  transition-property: opacity;
+  will-change: opacity 
+  }
+.counter a:hover {
+    opacity: 1;
+  }
+.social a:active {
+  opacity: 1;
+  }
+.wallpaper {
+  background-image: url("/images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+    }
+
+/* Responsiveness*/
+@media screen and (max-width: 799px) {
+  .content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 3rem;
+  }
+  .side {
+  margin-bottom: 3rem;
+  width: 100%;
+  }
+  }
+  /* pc screen*/
+  @media screen and (min-width: 800px) {
+    .content {
+    align-items: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 4rem;
+    }
+    .side {
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 25rem;
+    margin-left: 4rem;
+    order: 2;
+    width: 25rem;
+    }
+    .about {
+    flex-grow: 1;
+    flex-shrink: 1;
+    }
+    }
+
+ 
