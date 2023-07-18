@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  padding-bottom: 4em;
+  
+}
+main {
+  color: #555;
+  max-width: 50em;
+  margin: 0 auto; 
+  padding: 0 2em;
+}
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+code, 
+pre {
+  background: #eee;  
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+a {
+  color: #00BB6E;
+}
+
+header {
+  background: url('marek-piwnicki-9MJU5vDAAAY-unsplash.jpg');
+  background-color: #263d36;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+    color: white;
+}
+header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 500;
+  padding-bottom: 1em;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5em 3em;
+  border-radius: 100px;
+  /* background-color: #cccccc22;*/
+  transition: background-color .3s ease-in-out;
+}
+
+header a:hover {
+  background-color: #009EC3;
+  border: 1px solid #009EC3;
+  /* color: #ccc; */
+}
+.header-links {
+  display: flex;
+  flex-direction: column;
+}
+.header-btn {
+  margin: 0 auto;
+  width: fit-content;
+}
+.header-btn + .header-btn {
+  margin-top: 1em;
+}
+@media (min-width: 500px) {
+  .header-btn + .header-btn {
+    margin-left: 2em;
+  }
+  .header-links {
+    display: block;
+  }
+}
