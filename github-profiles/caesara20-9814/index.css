@@ -1,0 +1,117 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  margin: 0 auto;
+}
+.main {
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 3em 1em;
+  color: #566b78;
+  font-family: "Roboto", "Arial", "Helvetica", "sans-serif";
+  font-size: 1em;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+ul,
+ol,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #f07828;
+  border-left: 2px solid #69c;
+  padding: 8px 22px;
+}
+
+#code, #code1, #code2, #code3, #code4 {
+    background: #f5f7f9;
+    color: #5a57df;
+  }
+
+.table1, th, td {
+    margin: 0 auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 2px 14px;
+    font-size: 15.5px;
+    line-height: 1.7;
+}
+
+.table2, th, td {
+    margin: 0 auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 2px 12px;
+    font-size: 15.5px;
+    line-height: 1.7;
+}
+
+table {
+    font-family: 'Roboto', "Arial", "Helvetica", "sans-serif";
+}
+
+ul, ol {
+  /* padding: 3px 4px; */
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+  border-left: 2px solid #69c;
+}
+
+a {
+  color: #e81c4f;
+}
+
+header {
+  background-color: #263d36;
+  background-image: url("header1.jpg");
+  opacity:1;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+
+.sub_header img {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+.sub_header h1 {
+  color: rgb(34, 26, 78);
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+.sub_header a {
+  border: 1px solid #e81c4f;
+  border-radius: 290486px;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+.sub_header a:hover {
+  background:  #e81c4f;
+  color: white;
+}
