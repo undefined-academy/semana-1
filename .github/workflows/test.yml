@@ -1,6 +1,13 @@
 name: Run Jest tests
 
-on: [push, pull_request, workflow_dispatch]
+on: 
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Pull request number (optional)'
+        required: false
 
 jobs:
   test:

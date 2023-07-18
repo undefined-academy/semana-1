@@ -3,7 +3,11 @@ name: automerge
 on:
   pull_request_review:
     types: [submitted]
-  workflow_dispatch:  
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: 'Pull request number to check'
+        required: true
 
 jobs:
   automerge:
@@ -14,9 +18,14 @@ jobs:
 
       - name: Automerge PR
         run: |
-          APPROVALS=$(gh pr view https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }} --json reviews | jq '[.reviews[] | select(.state=="APPROVED")] | length')
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]
+          then
+            PR_NUMBER=${{ github.event.inputs.pr_number }}
+          fi
+          APPROVALS=$(gh pr view https://github.com/${{ github.repository }}/pull/$PR_NUMBER --json reviews | jq '[.reviews[] | select(.state=="APPROVED")] | length')
           if [ "$APPROVALS" -ge "1" ]; then
-            gh pr merge ${{ github.event.pull_request.number }} --merge
+            gh pr merge $PR_NUMBER --merge
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
