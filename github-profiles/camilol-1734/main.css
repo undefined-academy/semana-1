@@ -1,0 +1,40 @@
+body{
+    background-color: LightSalmon;
+    font-family: 'Dancing Script' , cursive;
+
+    text-align: center;
+   
+}
+h2{
+   color:blueviolet ;
+}
+ h1{
+   display: inline-block;
+   position: relative;
+   font-family: 'Dancing Script' , cursive;
+ }
+h1::after,h1::before{
+   content:'';
+   position: absolute;
+   width: 120px;
+   height: 3px;
+   background-color: black;
+   top: 0.6em;
+   
+}
+hr{
+   color: gray;
+}
+h1::before{
+   left: -140px;
+}
+h1::after{
+   right: -140px;
+}
+table,th,td{
+   border: 1px solid black;
+   margin: 0 auto;
+}
+th,td{
+   padding: 10px;
+}

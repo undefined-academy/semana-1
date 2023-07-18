@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+
+
+body{
+    margin: 0 auto;
+    max-width: 50em;
+}
+body{
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    line-height: 1.5;
+    padding: 0em 1em;
+}
+h2{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+body{
+    color: #555;
+}
+
+h1,h2,strong{
+    
+    color: greenyellow;
+    
+}
+.parrafo1{
+    color: greenyellow;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+code,pre {
+        background: #f5f7f9;
+        border-bottom: 1px solid #d8dee9;
+        color:#a7adba;
+
+    }
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+pre{
+    padding: 1em;
+    border-left: 2px solid rgb(58, 96, 133);
+}
+a {
+    color: #e81c4f;
+  }
+  body{
+    color: #40484d;
+  }
+  header {
+    background-color: #263d36;
+    background-image: url("imagen.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+  }
+  header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+    border-radius: 50%;
+  }
+  header h1 {
+    color: rgb(255, 255, 59);
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  header a {
+    border: 3px solid #e81c4f;
+    border-radius: 290486px;
+    color: rgb(255, 255, 59);
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+  }
+  
+  header a:hover {
+    background:  #e81c4f;
+    color: rgb(0, 0, 0);
+  }
