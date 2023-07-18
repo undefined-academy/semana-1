@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 50%;
+  min-width: 450px;
+  margin: 0 auto;
+}
+:root {
+  --mainFont: "Poppins", sans-serif;
+  --titleFont: "Quicksand", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--titleFont);
+  margin: 10px;
+}
+
+p,
+li,
+td,
+a {
+  font-family: var(--mainFont);
+  padding: 10px 0;
+}
+p,
+li {
+  text-align: justify;
+}
+td {
+  text-align: center;
+  border: solid gray 2px;
+  padding: 10px 10px;
+}
+ul {
+  margin: 0 0 0 50px;
+}
+li {
+  list-style: circle;
+}
+table {
+  border: solid gray 2px;
+}
