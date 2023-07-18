@@ -1,0 +1,95 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+
+body {
+    margin: 6rem auto;
+    max-width: 768px;
+    background-color: #f6fff8;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #353535;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    color: #284b63;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+strong {
+    color: #780000;
+    text-decoration: dashed;
+}
+
+a {
+    color: #c1121f;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 8px 0;
+}
+
+li::before {
+    content: '\203A';
+    color: #003049;
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+    margin-right: 4px;
+}
+
+blockquote {
+    padding: 8px;
+    background: #a4d2db;
+    border-radius: 0 8px 8px 0;
+    border-left: 3px solid #003049;
+    color: #003049;
+    display: inline-block;
+    font-weight: 600;
+}
+
+hr {
+    border-top: 2px dashed #003049;
+    margin: 0;
+}
+
+table {
+   border-spacing: 8px;
+   width: 100%;
+}
+
+table td {
+    padding: 4px 8px;
+    background-color: #dff3f3;
+    border-radius: 4px;
+}
+  
+table th {
+    text-align: left;
+    background-color: #003049;
+    color: #a4d2db;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.bold {
+    font-weight: bold;
+}
