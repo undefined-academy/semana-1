@@ -1,9 +1,0 @@
-pull_request_rules:
-  - name: automatic merge for main when CI passes and 1 review
-    conditions:
-      - "#approved-reviews-by>=1"
-      - check-success=test
-      - base=main
-    actions:
-      merge:
-        method: merge
