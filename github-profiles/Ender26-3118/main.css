@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(112, 160, 232);
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+tr,
+th {
+    border: 1px solid black;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.informacion {
+    position: relative;
+    margin: 10px 0px 40px 20px;
+}
+
+.informacion-1 {
+    position: absolute;
+    top: 0;
+    left: 240px;
+}
+
+a {
+    color: white;
+}
+
+.text {
+    font-weight: bold;
+    text-align: center;
+}
+
+.cent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

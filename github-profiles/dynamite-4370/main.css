@@ -1,0 +1,121 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+/* Globals Styles */
+body {
+    margin: 0 auto;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    color: #566b78;
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+code,
+pre {
+    background: #f5f7f9;
+    border-bottom: 1px solid #d8dee9;
+}
+
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    padding: 1em;
+    border-left: 2px solid #69c;
+}
+
+/* Header Styles */
+header {
+    background-color: #263d36;
+    background-image: url('image.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+header p {
+    text-align: center;
+}
+
+header a {
+    border: 1px solid #04AA6D;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+header a:hover {
+    background: #04AA6D;
+    color: white;
+}
+
+/* Main Styles */
+main {
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 4em 1em;
+}
+
+/* Table Styles */
+#comandos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#comandos td,
+#comandos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#comandos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#comandos tr:hover {
+    background-color: #ddd;
+}
+
+#comandos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
