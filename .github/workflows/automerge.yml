@@ -32,7 +32,7 @@ jobs:
             exit 0
           fi
 
-          APPROVALS=$(gh pr view https://github.com/${{ github.repository }}/pull/"$PR_NUMBER" --json reviews | jq '[.reviews[] | select(.state=="APPROVED")] | length')
+          APPROVALS=$(gh pr view "https://github.com/${{ github.repository }}/pull/$PR_NUMBER" --json reviews | jq '[.reviews[] | select(.state=="APPROVED")] | length')
           if [ "$APPROVALS" -ge "1" ]; then
             gh pr merge $PR_NUMBER --merge
           fi
