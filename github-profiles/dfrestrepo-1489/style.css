@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --font-default: 'Inconsolata', monospace;
+    --base-size: 18px;
+
+    --color-primary: #FF6060;
+    --color-black: #191919;
+    --color-light: #e6ffef;
+}
+
+/* suppert for native dark mode  */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-primary: #FF6060;
+        --color-black: #e6ffef;
+        --color-light: #191919;
+    }
+}
+
+body {
+    font-family: var(--font-default);
+    font-size: var(--base-size);
+    font-weight: 400;
+    background-color: var(--color-light);
+    color: var(--color-black)
+}
+
+.container {
+    padding: var(--base-size);
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* titles */
+.title-l {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3rem;
+    padding-bottom: 1.25rem;
+}
+
+.title-m {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.title-s {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 2rem;
+    padding-bottom: 0.75rem;
+}
+
+/* paragraphs */
+.p-m {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    padding-bottom: 0.75rem;
+}
+
+.codeline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.code {
+    padding: .25rem;
+    background-color: var(--color-black);
+    color: var(--color-primary);
+    border-radius: .25rem;
+}
+
+/* helpers */
+.flex-col-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.gap-s {
+    gap: .25rem;
+}
+
+/* estilos para etiquetas (para el ejercicio) */
+h1 {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+footer {
+    font-size: .75rem;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+a {
+    color: var(--color-black)
+}
+
+a:hover {
+    color: var(--color-primary);
+}

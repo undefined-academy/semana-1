@@ -1,0 +1,67 @@
+* {
+    margin: 50px;
+    background-color: black;
+    
+}
+
+a {
+    color: rgb(255, 145, 0);
+}
+
+h1 {
+    color: rgb(255, 145, 0);
+    text-align: center;
+    padding: 45px;
+    font-size: 60px;
+}
+
+h2 {
+    color: antiquewhite;
+    text-align: center;
+}
+
+h3 {
+    color: antiquewhite;
+    text-align: center;
+    
+}
+
+p{
+    color: aquamarine;
+    font-size: 25px;
+    padding: 45px;
+}
+
+li {
+    color: aquamarine;
+}
+
+.section {
+    display: flex;
+    border: 3px solid rgb(255, 145, 0);
+    
+}
+
+.container {
+    /*border: 5px solid rgb(255, 145, 0);*/
+    height: 450px;
+    width: 350px;
+    display: inline;
+}
+
+.container-2 {
+    background: url(../Johan-Jimenez-4558/img/Herramientas.jpg) no-repeat;
+    /*border: 5px solid rgb(255, 145, 0);*/
+    height: 500px;
+    width: 767px;
+}
+
+.container-3 {
+    background: url(../Johan-Jimenez-4558/img/comandos.jpg) no-repeat;
+    /*border: 5px solid rgb(255, 145, 0);*/
+    height: 500px;
+    width: 767PX;
+}
+
+
+
