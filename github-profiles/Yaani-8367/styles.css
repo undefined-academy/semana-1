@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgrey;
+}
+
+h1{
+    margin: 30px;
+    text-align: center;
+}
+
+.description{
+    margin: 50px 30px;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.section-info{
+    margin: 25px 30px;
+    padding: 15px;
+}
+
+.title-item{
+    color: rgb(70, 134, 98);
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: #444343;
+}
+
+a:hover{
+    color: rgb(177, 174, 172);
+}
+
+.section-info div{
+    margin: auto;
+    padding-top: 15px;
+}
+
+.title-exercise{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+tr { 
+    background-color: #c0a9bd; 
+    color: #ffffff; 
+    text-align: middle; 
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-of-type(even) { 
+    background-color: #444343; 
+}
+
+tr:last-of-type { 
+    border-bottom: 2px solid #009879; 
+}
+
+th, td{
+    padding: 12px 15px;
+}
+

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOiCnqEu92Fr1Mu51QrEz0dL_nz.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 14px;
+    
+}
+
+h1 {
+    background: linear-gradient(90deg, #719bd0, #b72fbc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    margin: 0 auto;
+    font-family: Roboto,sans-serif;
+   
+}
+
+div {
+    background: linear-gradient(90deg, #719bd0, #b72fbc);
+    align-items: center;
+}

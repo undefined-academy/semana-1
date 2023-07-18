@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+header {
+   background-color: #263d36;
+    background-image: url(/github-profiles/DameAsado-6873/img/bg-image.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 7vw 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: rgb(111, 113, 135);
+    text-shadow: 3px 5px 7px rgba(0, 0, 0, 0.47);
+    -webkit-text-stroke: 0.5px rgb(234, 234, 234);
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    margin: 0 auto;
+    max-width: 45em;
+    line-height: 1.5;
+    padding: 3em 1em;
+    background-color: #e9e9e9;
+    color: #566b78;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h2,
+strong {
+    color: #333;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 5px;
+}
+td:first-child{
+    font-weight: 600;
+    background: #e0e0e0;
+    border-bottom: 1px solid #d8dee9;
+    color: #6d6e72;
+    padding: 10px 5px;
+    vertical-align: text-bottom;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+th {
+    color:#e81c4f;
+    height: 40px;
+    background-color: #e0e0e0;
+  }
+
+.code {
+    display: inline;
+    font-weight: 600;
+    background: #e0e0e0;
+    border-bottom: 1px solid #d8dee9;
+    color: #6d6e72;
+    padding: 10px 5px;
+    vertical-align: text-bottom;
+    box-shadow: 10px 10px 20px -10px rgb(187, 187, 187);
+}
+
+a {
+    color: #e81c4f;
+    text-decoration: none;
+}
