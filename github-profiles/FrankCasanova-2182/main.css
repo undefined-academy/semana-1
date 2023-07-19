@@ -1,0 +1,122 @@
+/* body {
+    background-color: tomato;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    background: mediumpurple;
+    border: 15px dashed red;
+
+}
+
+div {
+    background: palegoldenrod;
+    padding: 16px 32px;
+    border: 8px dashed orchid;
+    margin: 10px;
+}
+
+p {
+    background: papayawhip;
+    color: blue;
+    padding: 10px;
+    border: 5px solid;
+    margin: 10px;
+} */
+
+/*.abuelo {
+    border: 1px dotted black;
+}
+
+p + p {
+    color: tomato;
+}
+
+div.hermano > span {
+    color: greenyellow;
+}
+
+div span {
+    font-weight: bold;
+}
+
+div ~ div {
+    color: teal
+}*/
+
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #566b78;
+
+}
+
+h1,
+h2,
+h3,
+strong {
+    color: #333;
+}
+
+.code {
+    background-color: #f5f7f9;
+    font-family: monospace;
+    padding: 1em;
+    vertical-align: text-bottom;
+    border-left: 3px solid #69c;
+    border-bottom: 2px solid #d8dee9;
+}
+
+a {
+    color: goldenrod;
+}
+
+header {
+    background-color: #263d36;
+    background-image: url("https://i.postimg.cc/KYvyG52q/code.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+    border-radius: 10px;
+}
+
+header h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 400
+
+}
+
+header a {
+    border: 1px solid #e81c4f;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+header a:hover {
+    background: #e81c4f;
+    color: white;
+}
