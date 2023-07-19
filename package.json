@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "clean": "node cleanFiles.js"
+    "clean": "node cleanup.js"
   },
   "keywords": [],
   "author": "",
