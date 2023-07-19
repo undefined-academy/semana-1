@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main__content {
+    /* background-color: palegoldenrod; */
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.main__content .main__title {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.aboutMe__section,
+.aboutMe__section article {
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.aboutMe__section {
+    box-shadow: 0px 1px 10px -3px rgba(0,0,0,0.75);
+}
+
+.aboutMe__section article {
+    border: 1px solid #000;
+}
+
+.firstRow__articles {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    width: 98%;
+    margin: 0 auto;
+}
+.firstRow__articles > [class*="article"] {
+    background-color: palegoldenrod;
+    width: calc((100% / 2) - 10px);
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.firstRow__articles > [class*="article"] > h2 {
+    margin-bottom: 30px;
+}
+
+.firstRow__articles > [class*="article"] li {
+    margin-bottom: 10px;
+}
+
+.secondRow__article {
+    /* background-color: palevioletred; */
+    width: 96%;
+    margin: 5px auto 0;
+    border-radius: 10px;
+}
+
+.secondRow__article > h2,
+.secondRow__article > p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.secondRow__article > figure {
+    
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.secondRow__article > figure > img {
+    border-radius: 50%;
+    border: 1px solid #000;
+    width: 300px;
+    height: 300px;
+}
+
+.secondRow__article > figure > figcaption {
+    font-size: .8rem;
+}

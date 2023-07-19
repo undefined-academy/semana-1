@@ -1,0 +1,30 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital@1&display=swap';
+
+
+
+body {
+    margin: 0 auto;
+    padding-top: 30px;
+    max-width: 50em;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    background-image: url('lake.jpg');
+    background-size: cover;
+  }
+
+  table{
+    margin-top: 35px;
+    text-align:center;
+    width: 100%;
+  }
+
+  th, td {
+    width: 25%;
+    vertical-align: top;
+    border: 1px solid #176fb2;
+    border-spacing: 0;
+ }
+
+ .mejora{
+    font-weight: bold; 
+ }
