@@ -1,0 +1,63 @@
+body {
+    background: gainsboro;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 75em;
+}
+  
+section {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1;
+    padding: 0.5em 0.5em;
+    color: black;
+    background-color: yellow;
+    border: 10px solid black;
+    text-align: right;
+}
+
+h1 {
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black; 
+}
+
+h2  {
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: brown; 
+}
+
+h3  {
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black; 
+}
+
+table  {   
+    text-align: center;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white; 
+    border: 1;
+    background-color: grey;
+    border: 10px solid black;
+    margin: 0 auto;
+}
+h4  {
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: brown; 
+    text-align: center;
+}
+ul  {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    border: 1;
+    background-color: salmon;
+    border: 3px solid black;
+}
+
