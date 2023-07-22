@@ -1,0 +1,166 @@
+@import  'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  color: #555;
+  font-family: "Helvetica" , "Arial" , sans-serif;
+  font-family: "Roboto" , "Helvetica" , "Arial" , sans-serif;
+  line-height: 1.5;
+  color: #566b78;
+  
+}
+
+main{
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 4em 1em;
+}
+
+h1, h2, strong{
+  color: #333;
+}
+
+h2{
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin-bottom: .4em;
+}
+
+code, pre{
+  background-color: #eee;
+  background-color: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+
+code{
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre{
+  padding: 1em;
+  border-left: 2px solid #69c;
+}
+
+a{
+  color: #e8521c;
+}
+
+header{
+  width: 100%;
+  height: 56vh;
+  padding-top: 44vh;
+  background-color: black;
+  background-image: url("img/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  position: relative;
+  overflow: hidden;
+  line-height: 1.2;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0em;
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+header h4{
+  color: #707070;
+}
+
+header a {
+  margin-top: 2em;
+  padding: 1em 2em;
+  border: 1px solid #e8521c;
+  border-radius: 360px;
+  display: inline-block;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+header a:hover {
+  background: #e8521c;
+  color: white;
+}
+
+ul{
+  padding-left: 1em;
+  padding-bottom: 1em;
+  list-style: none;
+}
+
+.habilidades-listas{
+  display: flex;
+  gap: 1em;
+}
+
+.habilidades-listas div{
+  width: calc(100% / 4);
+  padding: 1em;
+  border-radius: 1em;
+  background: #fbfbfb;
+}
+
+
+.hobbies-list{
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.hobbies-list li{
+  width: calc((100% / 4) - .75em);
+  padding: 1em;
+  border-radius: 1em;
+  background: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.hobbies-list li ic{
+  width: 100%;
+  font-size: 2em;
+}
+
+table{
+  width: 100%;
+  padding-bottom: 2em;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+
+td, th {
+  border: 1px solid #fbfbfb;
+  text-align: left;
+  padding: .8em;
+}
+
+tr:nth-child(even) {
+  background-color: #fbfbfb;
+}

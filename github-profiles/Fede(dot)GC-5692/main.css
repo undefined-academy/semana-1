@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+/* Colors: #f4f1de, #e07a5f, #3d405b, #81b29a, #f2cc8f */
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #3d405b;
+    background-color: #f4f1de;
+}
+
+header {
+    border-radius: 40px;
+    background: #adccbd;
+    box-shadow: 14px 14px 28px #8ca599,
+        -14px -14px 28px #cef3e1;
+    line-height: 1.5;
+    padding: 3vw 2em;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h3 {
+    color: #e07a5f;
+}
+
+a {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #81B29A;
+    background-color: #f4f1de;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  a:hover {
+    background-color: #81B29A;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #f4f1de;
+    transform: translateY(-7px);
+  }
+  
+  a:active {
+    transform: translateY(-1px);
+  }
