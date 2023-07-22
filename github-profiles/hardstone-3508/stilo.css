@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #011F26;
+    font-family: 'Manrope', sans-serif;
+    color: #026873;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+section {
+    width: 900px;
+}
+p {
+    font-size: 1rem;
+}
+h1 {
+    color: #F2668B;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+h2 {
+    color: #025E73;
+    margin: 1rem 2rem;
+}
+li {
+    margin-bottom: 0.6rem;
+}
+.div-bor {
+    position: relative;
+    background: linear-gradient(114deg, rgba(111, 139, 157, 1) 0%, rgba(32, 68, 72, 1) 100%);
+    border-radius: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin: 1.5rem 0;
+    background-size: cover;
+    /* transition: box-shadow 1s linear; */
+}
+.div-bor::before {
+    position: absolute;
+    background: linear-gradient(120deg, rgba(32, 68, 72, 1) 0%, rgba(111, 139, 157, 1) 100%);
+    border-radius: 21px;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: opacity 0.5s linear;
+    opacity: 0;
+    background-size: cover;
+}
+.div-bor:hover::before {
+    opacity: 1;
+}
+/* .div-bor:hover {
+    box-shadow : 0px 0px 5.67px rgba(255, 255, 255, 0.5);
+} */
+.div-bor > * {
+    background: #011F26;
+    margin: 5px;
+    border-radius: 18px;
+    padding: 1.5rem;
+    width: 100%;
+}
+.div-bor h2 {
+    margin-top: 0;
+}
+hr {
+    width: 100%;
+    color: #1d3235;
+}
+/* code styles */
+.code {
+    position: relative;
+    background-color: black;
+    background-image: radial-gradient(rgba(0, 54, 0, 0.33), black 140%);
+    height: auto;
+    margin: 1rem 2rem;
+    overflow: hidden;
+    padding: 1.5rem;
+    color: white;   
+    font-size: 1.3rem;
+    font-family: 'Space Mono', monospace;
+    text-shadow: 0 0 5px #c8c8c8;
+    border-radius: 10px;
+    border: 2px solid #202328;
+    /* box-shadow : 0px 7px 5px rgba(0, 0, 0, 0.75); */
+}
+.code::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15), 1px,
+      transparent 1px,
+      transparent 2px
+    );
+    pointer-events: none;
+}
+.code::selection {
+    background: #0080ff;
+    text-shadow: none;
+}
+pre {
+    margin: 0;
+}
