@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+h1, h2, strong {
+  color: #333;
+}
+
+a {
+    color: rgb(226, 43, 43);
+  }
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
