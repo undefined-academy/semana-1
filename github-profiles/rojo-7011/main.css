@@ -44,5 +44,9 @@ header {
     line-height: 1.2;
     padding: 10vw 2em;
     text-align: center;
-  }
+}
+
+table, th,tr , td {
+  border: 1px solid;
+}
 

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header></header>
+    <h1>Guillermo Rojo | 
+        <a href="https://github.com/therojo/therojo.git" target="_blank"> Perfil en Github</a>
+    </h1>
+
+    <p>
+        Soy <strong>Mexicano</strong>, Ingeniero en Sistemas y actualmente desarrollo en PHP, Elixir y NodeJs, haciendo desarrollo BackEnd, uso los frameworks Yii2 y Phoenix, y sobre NodeJs, estoy aprendiendo esto y mucho mas en este BootCamp !!
+    </p>
+
+    &#127939;
+    <br>
+
+    <article>
+        <h3>Ejemplo de los alias que estoy usando actualmente, son pocos, pero ire agregando mas, estos alias puedes agregarlos en el archivo ~/.bash_aliases, el cual es absorbido o incluido en ~/.bashrc</h3>
+        <ol>
+            <li> <code> alias lsort='_lsort() { ls -la --sort=time | more ;}; _lsort'</code></li>
+            <li> <code> alias gow='cd /var/www/html'</code></li>
+            <li> <code> alias init_phx='cd ~/elixir2022/app; sudo iex -S mix phx.server'</code></li>
+            <li> <code> alias godu='cd ~/dumps/'</code></li>
+            <li> <code> alias glog='git log --oneline --decorate --graph'</code></li>
+            
+            <li> <code> alias cafe='cat /dev/urandom | hexdump | grep --color=always 'ca fe' | more'</code></li>
+            <li> <code> alias lastn='_lastn() { history | awk "{print $2}" | sort | uniq -c | sort -nr | head -n $1 ;}; _lastn'</code></li>
+        </ol>    
+    </article>
+    
+    <article>
+        <h3>Lista de algunos comandos de linux aprendidos en Semana 1, Clase 1</h3>
+    
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Comando</th>
+                    <th>Descripción</th>
+                </tr>    
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ctrl + r</td>
+                    <td>Busqueda de un comando ejecutado, se realiza en consola y busca en el history de comandos ejecutados, su uso es para no volver a teclearlo, solo lo buscas y lo ejecutas con los cambios que ocupes hacerle</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>cat ruta_archivo | grep palabra</td>
+                    <td>Muestra las lineas(texto) de un determinado archivo y que estas contengan la palabra especificada por grep</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>hexdump</td>
+                    <td>Muestra el contenido de un archivo en un formato hexadecimal, octal o decimal de acuerdo al parametro que se le especifique</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>ls</td>
+                    <td>Lista el contenido de la ruta actual</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td> |more</td>
+                    <td>Pagina los resultados de un comando anterior, por ejemplo ls -la | more</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </article>
+    
+</body>
+</html>
