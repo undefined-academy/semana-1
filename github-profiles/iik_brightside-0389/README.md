@@ -10,6 +10,7 @@ https://github.com/Victoria-Brightside/Victoria-Brightside.git
 
 
 
+
 |  Comando     |  Descripcion |
 |--------------|--------------|
 ls | Nos muestra los archivos donde estamos ubicados|
