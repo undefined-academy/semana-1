@@ -84,7 +84,7 @@ body {
     color: #d7d7d7;
 } */
 
-  header a {
+header a {
     border: 2px solid #007488;
     border-radius: 50px;
     font-size: 0.7em;
@@ -96,10 +96,10 @@ body {
     transition-property: border-radius, color, background;
     background: #007488;
     color: #dddddd;
-  }
+}
   
-  header a:hover {
+header a:hover {
     background:  #dddddd;
     color: #007488;
     border-radius: 1px;
-  }
+}
