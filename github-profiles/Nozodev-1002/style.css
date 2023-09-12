@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: tomato;
+  text-align: center;
+  font-size: 25px;
+}
+
+.tittle {
+  text-align: center;
+  font-size: 58px;
+  color: blueviolet;
+}
+
+.enlace {
+  text-decoration: none;
+  color: black;
+  font-size: 45px;
+}
+
+.enlace:hover {
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
