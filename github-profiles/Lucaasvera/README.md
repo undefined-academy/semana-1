@@ -17,6 +17,6 @@ cat         |Nos imprime el contenido que hay dentro de un archivo|
 2 Comandos utiles|Funcion|
 |-----------|------------|
 cl          |Es un alias a clear la cual nos permite limpiar la consola|
-em          |Es un alias de trash lo que nos permite eliminar un archivo permanentemente|
+rm          |Es un alias de trash lo que nos permite eliminar un archivo permanentemente|
 
 [Mi perfil de github](https://github.com/Lucaasvera)
