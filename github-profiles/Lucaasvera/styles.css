@@ -1,4 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 body {
     margin: 0;
-    max-width: 50em;
+    font-family: "Georgia", "Arial", sans-serif;
+    line-height: 1.5;
+  
+  color: #555;
+  color: #566b78;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+
+
 }
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+h1,h2,strong {
+  color: #333;
+}
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+a {
+    color: #e81c4f;
+  }
+  header {
+    background-color: #263d36;
+    background-image: url("https://images.unsplash.com/photo-1694852860772-ec8598c72c15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 0em;
+    text-align: center;
+    inline-size: 100%;
+  }
+  .contenido {
+    margin: 0 auto;
+    max-width: 50em;
+
+  }
+  header h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+  }
