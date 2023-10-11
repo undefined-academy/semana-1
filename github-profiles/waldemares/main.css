@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+body {
+    /* centrar el contenido*/
+    margin: 0 auto;
+    max-width: 50em;
+    /* importar fuentes*/
+    font-family: 'Ysabeau', sans-serif;
+    /* espaciado entre caracteres */
+    line-height: 1.5; 
+    padding: 4em 1em; 
+    /* es importante siempre que se puede usar el color de las fuentes siempre que corresponda */
+    background-color: rgb(234, 234, 220);
+  }
+  h3 {
+    /* espaciado */
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+  p{
+    /* indentación */
+    text-indent: 2em
+  }
+  a {
+    /* enfasis en enlace*/
+    color: #0f1474;
+  }
+  a:hover {
+    color: rgb(167, 122, 252);
+  }
