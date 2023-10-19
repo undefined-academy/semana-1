@@ -1,6 +1,14 @@
 https://github.com/MegaDev-Americo-Ortega
 
-ros pasos con VS Code
+# EL Bootcamp que estoy liderando
+## Semana 1
+**Configuración del ambiente de desarrollo (Prework)**
+1. Instalando Ubuntu en Windows 10/11
+1. Instalación de Git
+1. Configuración de las llaves SSH
+1. Creando una cuenta de GitHub
+1. Instalación de Node.js y Yarn
+1. Primeros pasos con VS Code
 
 **El mundo del Markdown**
 1. Sintaxis básica de Markdown
