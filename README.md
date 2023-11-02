@@ -40,6 +40,7 @@ Ejercicios de la primera semana.
 │   ├── glrodasz-0666/
 │   │   ├── README.md
 │   │   ├── index.html
+│   │   ├── style.css
 ```
 
 ## 🏋Clase 4 [EJERCICIO]
