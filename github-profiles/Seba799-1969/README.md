@@ -5,20 +5,15 @@ https://github.com/Sebas799
 
 Tengo 24 años y estoy incursionando en el mundo de la programación web. Actualmente estoy cursando un BootCamp de la mano de Undefined Academy.
 
-🧠 *Poseo conocimientos en:*
+## 🧠 *Poseo conocimientos en:*
 *  HTML
 * CSS
 * PYTHON
-
-🕛 MIS HORARIOS DE ESTUDIO:
-| LUNES | MARTES | MIERCOLES | JUEVES | VIERNES | SABADO            | DOMINGO             |
-| ----- | ------ | --------- | ------ | ------- | ----------------- | ------------------- |
-| 1hs   | 2hs    | 1hs       | 2hs    | 1hs     | Todo lo que pueda | Igual que el sábado |
  
 # 📖 TOP 5 COMANDOS MÁS UTILIZADOS
 | COMANDO | DESCRIPCIÓN                          |
 | ------- | ------------------------------------ |
-| cd      | Se utiliza pra cambiar de directorio |
+| cd      | Se utiliza para cambiar de directorio|
 | pwd     | Te muestra donde estas posicionado   |
 | mkdir   | Crear un nuevo directorio            |
 | ls      | Listar los elementos del directorio  |
