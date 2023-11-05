@@ -8,11 +8,21 @@
 - 💬 You can ask me about Anime.
 - ⚡ Fun fact: I love keyboards and VIM, every day more.
 
-## GitHub Stats
+## 🏅 GitHub Stats
 
 [![My GitHub stats](https://github-readme-stats.vercel.app/api?username=migueldecode)](https://github.com/MiguelDecode)
 
-## Languages and Tools
+## 📖 Top 5 commands I use everyday
+
+| COMANDO | DESCRIPCIÓN                                   |
+| ------- | --------------------------------------------- |
+| cd      | Used to change the directory                  |
+| pwd     | Show your current path                        |
+| mkdir   | Create a new folder                           |
+| ls      | List all the elements in the actual directory |
+| clear   | Clean all the terminal view                   |
+
+## 🧰 Languages or Tools
 
 - HTML
 - CSS
@@ -20,10 +30,16 @@
 - Git
 - Terminal
 
-## Contact
+## 📌 Alias for commands most used
+
+```bash
+    alias mostused='history | awk '\''{print $2}'\''| sort | uniq -c | sort -nr | head -n 10'
+```
+
+## 📞 Contact
 
 - [Email](mailto:migueldecode@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/miguel-lema-garc%C3%ADa/)
 - [GitHub](https://github.com/MiguelDecode)
 
-Thanks for visiting my profile!
+<h3 align="center">Thanks for visiting my profile!</h3>
