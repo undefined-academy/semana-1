@@ -12,6 +12,7 @@ My name is **Armando Duarte**, i'm from **Venezuela** currently learning web dev
 |**Typescript**|Learning|
 |**React**|Learning|
 |**Angular**|Learning|
+|**Node.js**|Learning|
 
 ---
 
