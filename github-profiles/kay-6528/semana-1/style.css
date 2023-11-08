@@ -1,11 +1,15 @@
 body {
   margin: 0;
+  background: lightblue;
 }
 
-div {
+.main-div {
   margin: 0;
   padding: 0;
-  border: 1px solid #000;
+  background: whitesmoke;
+  border: 3px solid #000;
+  border-radius: 8px;
+  padding: 24px 48px;
 }
 
 body{
@@ -18,7 +22,16 @@ body{
 }
 
 a {
-  font-size: bold;
   color: cornflowerblue;
   text-decoration: none;
+  font-size: larger;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.link {
+  display: inline-block;
 }
