@@ -6,60 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer - Salas, Sebastián</title>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/12403/12403038.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <h1>SALAS, Sebastián Ariel</h1>
-    <h2><strong>Full Stack Web Developer</strong></h2>
-    <p>
-        Tengo 24 años y estoy incursionando en el mundo de la programación web. Actualmente estoy cursando un BootCamp de
-        la mano de Undefined Academy.
-    </p>
-
-    <h2>🧠 Poseo conocimientos en:</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Python</li>
-    </ul>
-
-    <h2>📖 TOP 5 COMANDOS MÁS UTILIZADOS</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>COMANDO</th>
-                <th>DESCRIPCIÓN</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>cd</t>
-                <td>Se utiliza para cambiar de directorio</td>
-            </tr>
-            <tr>
-                <td>pwd</td>
-                <td>Te muestra donde estas posicionado</td>
-            </tr>
-            <tr>
-                <td>mkdir</td>
-                <td>Crear un nuevo directorio</td>
-            </tr>
-            <tr>
-                <td>ls</td>
-                <td>Listar los elementos del directorio</td>
-            </tr>
-            <tr>
-                <td>clear</td>
-                <td>Limpiar la terminal de comandos</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="nombre">
+        <img class="icono_user" src="https://cdn-icons-png.flaticon.com/128/560/560216.png" alt="Icono de Usuario">
+        <h1>SALAS, Sebastián Ariel</h1>
+        <h2>Full Stack Web Developer</h2>
+        <p class="info_1">
+            Tengo <strong>24 años</strong> y estoy incursionando en el mundo de la programación web. Actualmente estoy
+            cursando un BootCamp de la mano de <strong>Undefined Academy</strong>.
+        </p>
+    </div>
+    <div class="container">
+        
+        <div class="caja">
+            <h3>🧠 Poseo conocimientos en:</h3>
+            <ul class="lista_icon">
+                <img class="mini_icon" src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png" alt="logo html5">
+                <img class="mini_icon" src="https://cdn-icons-png.flaticon.com/128/5968/5968242.png" alt="logo css">
+                <img class="mini_icon" src="https://cdn-icons-png.flaticon.com/128/919/919852.png" alt="logo python">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+            </ul>
+        </div>
     
-    <h2>📌 COMANDO ALIAS MÁS UTILIZADO</h2>
-    <code>
-        alias mostused='history | awk '\''{print $2}'\''| sort | uniq -c | sort -nr | head -n 10'
-    </code>
+        <div class="caja">
+            <h3>📖 TOP 5 COMANDOS MÁS UTILIZADOS</h3>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>COMANDO</th>
+                        <th>DESCRIPCIÓN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>cd</t>
+                        <td>Se utiliza para cambiar de directorio</td>
+                    </tr>
+                    <tr>
+                        <td>pwd</td>
+                        <td>Te muestra donde estas posicionado</td>
+                    </tr>
+                    <tr>
+                        <td>mkdir</td>
+                        <td>Crear un nuevo directorio</td>
+                    </tr>
+                    <tr>
+                        <td>ls</td>
+                        <td>Listar los elementos del directorio</td>
+                    </tr>
+                    <tr>
+                        <td>clear</td>
+                        <td>Limpiar la terminal de comandos</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div class="caja">
+            <h3>📌 COMANDO ALIAS MÁS UTILIZADO</h3>
+            <code>
+                alias mostused='history | awk '\''{print $2}'\''| sort | uniq -c | sort -nr | head -n 10'
+            </code>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: #B886D1;
+    font-family: 'Roboto', sans-serif;
+}
+
+strong{
+    color: #8a22be;
+    font-weight: bold;
+}
+
+li{
+    font-weight: bolder;
+    list-style-type: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.nombre{
+    background-color: #FFFFFF;
+    display: grid;
+    padding: 15px;
+}
+
+.icono_user{
+    justify-self: center;
+    width: 150px;
+    padding-top: 20px;
+}
+
+h1{
+    color: #5e058a;
+    font-size: 50px;
+    margin: 25px;
+    justify-self: center;
+}
+
+h2 {
+    font-size: 30px;
+    justify-self: center;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 30px;
+    justify-self: left;
+    padding: 20px;
+}
+
+.info_1{
+    font-size: 25px;
+    font-weight: 500;
+    justify-self: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.caja{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 33,33%;
+    margin: 20px;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 10px 5px 5px #735581;
+    display: grid;
+}
+
+.lista_icon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 30px;
+    justify-items: center;
+}
+
+.mini_icon{
+    width: 60px;
+}
+
+.tabla {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: #000;
+ }
+ th {
+    background: #eee;
+ }
