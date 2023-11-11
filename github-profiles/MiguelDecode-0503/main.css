@@ -1,23 +1,9 @@
 /* ROOT */
-:ROOT {
+:root {
   --bg-clr: #242424;
   --text-clr: #edf2f4;
   --title-clr: #3a86ff;
   --accent-clr: #3186ff;
-}
-/* RESET */
-ul {
-  list-style: none;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
 }
 
 /* STYLES */
