@@ -4,44 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>ermian</title>
+    <title>Mini Curso de HTML</title>
 </head>
 <body>
-    <h1>😊 Hola, mi nombre es Kevin García</h1>
-    <hr>
-    <h2>Soy FullStack developer</h2>
-    <hr>
-    <p>Estoy tomando un bootcamp de promgración con distintos <strong>frameworks de javascript</strong> y espero aprender bastante.</p>
-    <h2>Mis con conocimientos hasta el momento</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Tema</th>
-                <th>Aprendido</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Introducción a HTML</td>
-                <td> x </td>
-             </tr>
-             <tr>
-                <td>Configuración del ambiente de desarrollo (Prework)</td>
-                <td> x </td>
-             </tr>
-             <tr>
-                <td>El mundo del Markdown</td>
-                <td> x </td>
-             </tr>
-             <tr>
-                <td>Uso básico de la Terminal</td>
-                <td> x </td>
-             </tr>
-             <tr>
-                <td>Git: Control de versiones</td>
-                <td> x </td>
-             </tr>
-        </tbody>
-    </table>
+    <header>
+        <img src="https://media.discordapp.net/attachments/658450422180347930/1174541546100641842/IMG_20231102_173839.png?ex=6571328e&is=655ebd8e&hm=ac14be211e6d1289c347ebc062528bb7d93aceba46dd25b3432689c0b86d5653&=&format=webp&quality=lossless" alt="Mi foto">
+        <h1>HTML en unos pocos minutos</h1>
+        <a href="">Mi perfil de github</a>
+    </header>
+    <main>
+        <h2>1. Estructura Básica:</h2>
+        <pre>
+        <code>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="es"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Título de la Página&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+    
+        &lt;!-- Contenido de la página va aquí --&gt;
+    
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </code>
+        </pre>
+        <br>
+        <ul>
+            <li><strong>!DOCTYPE html:</strong> Define la versión de HTML que estás utilizando.</li>
+            <li><strong>html:</strong> Elemento raíz de la página.</li>
+            <li><strong>head:</strong> Contiene meta-información sobre el documento.</li>
+            <li><strong>meta charset="UTF-8":</strong>: Especifica la codificación de caracteres.</li>
+            <li><strong>meta name="viewport" content="width=device-width, initial-scale=1.0":</strong> Configura la visualización en dispositivos móviles.</li>
+            <li><strong>title:</strong> Define el título de la página.</li>
+            <li><strong>body:</strong> Contiene el contenido visible de la página.</li>
+        </ul>
+        <h2>2. Elementos Básicos</h2>
+        <p>Encabezados:</p>
+        <pre>
+        <code>
+        &lt;h1&gt;Encabezado 1&lt;/h1&gt;
+        &lt;h2&gt;Encabezado 2&lt;/h2&gt;
+        &lt;!-- ... hasta h6 --&gt;
+        </code>
+        </pre>
+        <p>Párrafos:</p>
+        <pre>
+        <code>
+        &lt;p&gt;Este es un párrafo.&lt;/p&gt;
+        </code>
+        </pre>
+        <h2>Listas:</h2>
+        <p>Listas no ordenadas:</p>
+        <pre>
+        <code>
+        &lt;ul&gt;
+            &lt;li&gt;Elemento 1&lt;/li&gt;
+            &lt;li&gt;Elemento 2&lt;/li&gt;
+        &lt;/ul&gt;            
+        </code>
+        </pre>
+        <p>Listas ordenadas:</p>         
+        <pre>
+        <code>
+        &lt;ol&gt;
+            &lt;li&gt;Elemento 1&lt;/li&gt;
+            &lt;li&gt;Elemento 2&lt;/li&gt;
+        &lt;/ol&gt;
+        </code>
+        </pre>      
+        <p>Enlaces:</p>
+        <pre>
+        <code>
+        &lt;a href="https://www.ejemplo.com"&gt;Enlace a Ejemplo&lt;/a&gt;
+        </code>
+        </pre>
+        <p>Imágenes:</p>
+        <pre>
+        <code>
+        &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+        </code>
+        </pre>
+        <h2>3. Formularios:</h2>
+        <pre>
+        <code>
+        &lt;form action="/procesar" method="post"&gt;
+            &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+            &lt;input type="text" id="nombre" name="nombre" required&gt;
+
+            &lt;label for="email"&gt;Correo Electrónico:&lt;/label&gt;
+            &lt;input type="email" id="email" name="email" required&gt;
+
+            &lt;input type="submit" value="Enviar"&gt;
+        &lt;/form&gt;
+        </code>
+        </pre>
+        <h2>4. Estructuras semánticas</h2>
+        <p>Secciones:</p>
+        <pre>
+        <code>
+        &lt;section&gt;
+            &lt;h2&gt;Sección 1&lt;/h2&gt;
+            &lt;p&gt;Contenido de la sección 1.&lt;/p&gt;
+        &lt;/section&gt;
+    
+        &lt;section&gt;
+            &lt;h2&gt;Sección 2&lt;/h2&gt;
+            &lt;p&gt;Contenido de la sección 2.&lt;/p&gt;
+        &lt;/section&gt;
+        </code>
+        </pre>
+        <p>Artículos:</p>
+        <pre>
+        <code>
+        &lt;article&gt;
+            &lt;h2&gt;Artículo 1&lt;/h2&gt;
+            &lt;p&gt;Contenido del artículo 1.&lt;/p&gt;
+        &lt;/article&gt;
+
+        &lt;article&gt;
+            &lt;h2&gt;Artículo 2&lt;/h2&gt;
+            &lt;p&gt;Contenido del artículo 2.&lt;/p&gt;
+        &lt;/article&gt;
+        </code>
+        </pre>   
+    </main>
+    <footer><p>Kevin Garcia</p></footer>
 </body>
 </html>

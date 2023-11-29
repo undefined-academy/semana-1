@@ -376,3 +376,4 @@ $RECYCLE.BIN/
 .vite
 *:Zone.Identifier
 *.dropbox.attributes
+.vscode
