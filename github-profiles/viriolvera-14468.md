@@ -35,4 +35,6 @@ Mis *alias* favoritos de la Terminal
 [blog]: https://www.instagram.com/
 
 ```bash
-VOM 
+VOM
+
+>Segunda Oportunidad del Pull Recuest
