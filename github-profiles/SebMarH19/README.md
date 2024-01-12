@@ -1,14 +1,14 @@
 https://github.com/SebMar10
 
 # Hi, I'm Sebastian Martinez.
-### I want to become a software developer.
+### I'm a **Javascript Full-Stack Developer**.
 
-I'm a **Logistic coordinator** for a company in the US and im currently studying in a Bootcamp that will help me to become a **Full stack developer**.
+I learned Javascript in Undefined Academy
 
-## My experience
-* Customer Service Supervisor / Ebay
-* Server / US
-* Chef / Switzwerland
+## My portfolio
+* Undefined Academy Projects
+* JavaScript Projects
+* Other Projects
 
   ### This is some of the markdown that I've learned
 
