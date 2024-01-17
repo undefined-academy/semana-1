@@ -1,0 +1,23 @@
+h1 {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    text-align: justify;
+    text-align-last: center;
+
+}
+body {
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+h2 {
+    padding-top: 30px;
+}
+h1,h2,h3{
+    color: #333;
+}
+li{
+    color: #111;
+}
