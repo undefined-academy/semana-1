@@ -29,7 +29,7 @@ Los alias ayudan a **maximizar la eficiencia y productividad** al simplificar la
 #### Alias útiles:
 
 | Comando                      | Descripción                                                                                                                                                                              |
-| --------------------------------| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `alias` rm=`"trash"`         | Evita eliminar archivos de forma permanente moviéndolos a la papelera de reciclaje.                                                                                                      |
 | `alias` npmd=`"npm run dev"` | Se utiliza para iniciar un servidor de desarrollo que permite ejecutar la aplicación en un entorno local y realizar cambios en el código sin tener que volver a desplegar la aplicación. |
 | `alias` npms=`"npm star"`    | Se utiliza para iniciar una aplicación Node.js.                                                                                                                                          |
