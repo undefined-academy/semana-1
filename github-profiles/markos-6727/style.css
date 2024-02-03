@@ -1,0 +1,106 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.backgrond {
+  background-color: #6B42E1;
+  width: 1000px;
+  height: 1000px;
+}
+
+body {
+  margin : auto;
+  max-width: 60em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1,5;
+  padding: 4em 1em;
+  color: #566b78;
+  background-color: transparent;
+}
+
+h1 h2 h3 {
+  margin-top: 1em;
+  padding-top: 1em;
+  color: #333;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #a6abb4;
+  color: #ff1d1d;
+  padding: 2px 4px;
+  vertical-align: text-top;
+  margin-left: 5px;
+  font-size: 500;
+}
+
+
+a {
+  color: #1f1ce8;
+}
+
+header {
+  background-image: url("gradiente.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+
+header img {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+header {
+  border-radius: 29px;
+  color: white;
+  text-shadow: -2px 1px .5px #555555;
+  font-weight: 500;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  transition-property: color, background;
+}
+
+header:hover {
+  background:  #2a1ce8;
+  color: white;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  /* border: 3px solid rgb(45, 0, 128); */
+}
+
+thead th:nth-child(1) {
+  width: 15%;
+}
+
+tbody td:nth-child(1) {
+  text-align: center;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 2px solid #2826bd;
+}
