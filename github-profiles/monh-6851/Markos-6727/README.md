@@ -4,7 +4,7 @@
 
 ---
 
-"_Somos afortunados de contar con el mejor setup del mundo, cinco sentidos integrados y capacidad de almacenamiento ilimitada para crear lo que imaginemos"_
+_"Somos afortunados de contar con el mejor setup del mundo, cinco sentidos integrados y capacidad de almacenamiento ilimitada para crear lo que imaginemos"_
 **Marcos R.**
 
 ---
