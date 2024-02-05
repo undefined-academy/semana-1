@@ -3,13 +3,13 @@
 
 # Cristopher Cuautzo
 
-Hi, i´m student at the University UNID, and by the way I´m in the process of becomig a full-stack developer
+Hi, i am student at the University UNID, and by the way I am in the process of becomig a full-stack developer
 
 Mi perfil de GitHub es [Crisscde](https://github.com/crisscde)
 
 ## Comandos
 
-| Comando      | Descripción del comando i                                       |
+| Comando      | Descripción del comando                                         |
 | ------------ | --------------------------------------------------------------- |
 | **`mv`**     | Mueve de ubicación o cambia el nombre de un archivo o carpeta   |
 | **`whatis`** | Conoce para que sirve un determinado comando                    |
