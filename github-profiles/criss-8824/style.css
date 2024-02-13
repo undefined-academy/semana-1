@@ -27,9 +27,14 @@ th {
   color: #35211c;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 td,
 th {
   border: 2px solid #283618;
+  padding: 2px 16px;
 }
 
 a {
