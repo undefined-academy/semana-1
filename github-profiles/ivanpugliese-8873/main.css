@@ -1,0 +1,17 @@
+body {
+  font-family: "Onest", sans-serif;
+  background: #eef0f0;
+}
+
+h1,h2 {
+  color: #2d5e71;
+}
+
+main {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+strong {
+  color: #388ca2;
+}
