@@ -1,0 +1,31 @@
+body{
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+h1,
+h2,
+strong {    
+  color: #2c2c2c;
+}
+
+a{
+    color: rgb(0, 129, 129);
+}
+
+.separator{
+    border: 0.125px solid #69c;
+}
+
+.ending-text{
+    margin: 3em 0em;
+}
