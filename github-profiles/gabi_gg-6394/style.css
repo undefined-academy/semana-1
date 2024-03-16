@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+  width: 80%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  background-color: #3A3A3A;
+  color: #e7e7e7;
+}
+
+h2 {
+  margin-top: 1em;
+  padding: 1em;
+}
+
+h1,
+h3,
+strong {
+  color: #fdfdfd
+}
+
+a {
+  color: yellowgreen;
+}
+
+.skills {
+  background-color: #585858;
+  padding: 1em 2em;
+  vertical-align: text-bottom;
+  border-bottom:1px solid #1b1b1b;
+  border-left:2px solid yellowgreen;
+}
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+ul {
+  display: inline-block;
+}
+
+ul + ul {
+  margin-left: 4em;
+}

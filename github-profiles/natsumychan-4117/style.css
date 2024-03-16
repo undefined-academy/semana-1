@@ -1,0 +1,126 @@
+:root{
+  --main-color:#66347F;
+  --main-color-font:whitesmoke;
+  --main-font:'Poppins',
+    sans-serif;
+}
+
+body{
+ margin:0;
+ padding:0;
+ background-color:#F9F7FE;
+ font-size: 62.5%;
+ font-family: var(--main-font);
+ color:var(--main-color-font);
+}
+
+.profile-container{
+  margin: 0 auto;
+  max-width: 800px;
+  height: 1450px;
+  background-color: var(--main-color);
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid var(--main-color-font);
+  box-shadow: 7px 17px 34px -6px rgba(99, 97, 99, 1);
+}
+
+main{
+ margin: 0 auto;
+ margin-top: 20px;
+ padding: 20px;
+ width:80%;
+}
+
+main p{
+  text-align: justify;
+}
+
+main h1, h2{
+ margin-top: 30px;
+ text-align: center;
+}
+
+
+h1{
+ font-size:1.8rem;
+}
+
+h2{
+ font-size:1.6rem;
+}
+
+p, th, td {
+  font-size:1.3rem;
+}
+
+.terminal-container {
+ margin:  0 auto;
+ padding:10px;
+ width: 90%;
+}
+
+.terminal-container table{
+ margin: 0 auto;
+}
+
+table, th, td{
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+h3{
+ font-size:1.4rem;
+}
+
+.alias-container{
+ margin: 0 auto;
+ padding: 20px;
+ width: calc(100% - 70px);
+}
+
+.alias-container td{
+  font-size: 0.9rem;
+}
+
+.link-container h4{
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.link-container div {
+  margin: 0 auto;
+  width:80px;
+  height: 80px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  transition: all 0.3s ease-out;
+}
+
+img:hover {
+  width: 120px;
+  height: 120px;
+}
+
+footer{
+ height:auto;
+background-color: rgb(232, 157, 232);text-align: center;
+color: rgb(65, 65, 65);
+}
+
+footer p{
+  margin-top: 20px;
+}
+
+footer a{
+  color: rgb(31, 154, 113);
+  text-decoration: none;
+}
+
+footer a:hover{
+  color:rgb(145, 0, 118);
+}
