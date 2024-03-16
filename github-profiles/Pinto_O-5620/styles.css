@@ -1,0 +1,28 @@
+body{
+    max-width: 65%;
+    margin:0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    background-color: lightblue;
+    
+}
+
+h1, h3{
+    text-align: center;
+}
+h1,h2{
+    padding-top: 2em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid black;
+}
+.bold{
+    font-weight: bold
+}
+.curly{
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color:darkcyan
+}
