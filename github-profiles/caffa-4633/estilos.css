@@ -1,0 +1,55 @@
+/*
+Hoja de Estilos para Ejercicio Semana 1 Clase 4
+*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&display=swap');
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.5;
+    padding: 4em 1em;
+    background: #272626;
+    color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+h1,h2,h3 {
+    font-weight: 400;
+}
+
+h2,h3 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+h1,h2,h3, strong {
+    color: #fa7878;
+}
+
+a, a:active {
+    color: #fff;
+    font-weight: 400;
+}
+
+table {
+    background-color: #000000;
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 10px;
+    color: #cecdcd;
+}
+
+table thead {
+    text-transform: uppercase;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #272626;
+}
+
+
+

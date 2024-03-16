@@ -1,0 +1,105 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    color: #555;
+    font-family: "Helvetica", "Arial", sans-serif;
+    margin: 0 auto;
+    max-width: 75em;
+    line-height: 1.5;
+    padding: 4em;
+  }
+
+p + h2, div + h2, br + h2  {
+    border-bottom: 0.1em solid #007488;
+    color: #007488;
+    font-weight: bold;
+}
+
+h1, h2, h3, strong  {
+  color: #222;
+}
+
+a {
+    color: #209fff;
+}
+
+body {
+    color: #566b78;
+}
+  
+.first {
+    margin: 1em;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 7px 7px 10px 10px;
+    overflow: hidden; /*Ensure that the border-radius is going to work propoerly*/
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #007488;
+    color: #ffffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #007488;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #007488
+}
+
+/* header {
+    background-image: url("header.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 1vw 2em;
+    text-align: center;
+}
+*/
+
+/* header h1 {
+    color: #d7d7d7;
+} */
+
+header a {
+    border: 2px solid #007488;
+    border-radius: 50px;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+    padding: 0.8em 0.8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 100ms ease-out;
+    transition-property: border-radius, color, background;
+    background: #007488;
+    color: #dddddd;
+}
+  
+header a:hover {
+    background:  #dddddd;
+    color: #007488;
+    border-radius: 1px;
+}
