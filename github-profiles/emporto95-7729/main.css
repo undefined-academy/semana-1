@@ -1,0 +1,17 @@
+body {
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 8px;
+    width: 800px;
+}
+
+code {
+    background-color: #eee;
+}
+
+a {
+    color: #E6621F;
+}

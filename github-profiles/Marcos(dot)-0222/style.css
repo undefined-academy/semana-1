@@ -1,0 +1,62 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+  
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+    padding: 4em 1em;
+    background-color: rgb(139, 164, 231);
+    color: rgb(255, 255, 255);
+  }
+  body img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+  }
+  
+  h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+    color: #2c1497
+  }
+ 
+h3 {
+  color: rgb(93, 66, 161)
+}
+  a {
+    color:rgb(118, 239, 255)
+  }
+  code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+  
+  code,
+  pre {
+    background: #f5f7f9;
+    border-bottom: 1px solid #d8dee9;
+    color: #ffffff;
+  }
+  
+  pre {
+    border-left: 2px solid #69c;
+  }
+  
+h1 {
+    color: #e81c4f;
+    font-weight: 200;
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,45 @@
+body {
+    margin: 0 auto;
+    
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
+}
+div {
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+a {
+    color: #e81c4f;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+header {
+    background-color: #263d36;
+    background-image: url(header.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+    color:#263d36;
+    
+}
