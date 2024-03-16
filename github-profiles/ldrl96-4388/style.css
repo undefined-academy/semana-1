@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 4em 1em;
+    max-width: 60rem;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    line-height: 1.5;
+    color: #566b78;
+}
+header {
+    background-color: #263d36;
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    height: 100vh;
+    
+}
+
+header img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+}
+
+
+header h1 {
+    color: white;
+    margin-top: 1em;
+    padding-top: 1em;
+    font-size: 30px;
+    font-family: 'Righteous';
+    font-weight: 300;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 10px 0;
+}
+
+code,
+pre {
+    background: #f5f7f9;
+    border-bottom: 1px solid #d8dee9;
+    color: #a7adba;
+}
+
+code {
+    padding: 2px, 4px;
+    vertical-align: text-bottom;
+}
+
+pre {
+    padding: 1em;
+    border-left: 2px solid #69c;
+}
+
+header a {
+    border: 1px solid #fff;
+    border-radius: 290486px;
+    color: #fff;
+    font-size: 0.8em;
+    letter-spacing: 0.5em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+  }
+
+header a:hover {
+    background: #1CB698;
+    color: white;
+}
+
+header p {
+    color: #fff;
+}
+
+header p span {
+    color: #1CB698;
+    font-weight: bold;
+}
+
+.comando{
+    background-color: #212120;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.comando h3{
+    font-size: 18px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.comando td span{
+    color: #1CB698;
+    font-weight: bold;
+
+}

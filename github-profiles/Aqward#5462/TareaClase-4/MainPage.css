@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+.banner-img {
+
+    z-index: 1;
+    background-image: url('Background main.jpg');
+    background-size: 100%;
+    background-position: 0% 50%;
+    height: 98vh;
+    width: auto;
+    margin: 0;
+    padding: 0;   
+  
+}
+
+   section{
+    z-index: 2;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 80%;
+    height:25vh;
+    width: 100%;
+
+
+    padding-bottom: 10vh;
+    padding-right: 5vh;
+   }
+
+
+   .container{
+    
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height: 90vh; 
+        padding-right: 5vh;
+        
+    }
+
+    h1{
+        animation: fadeIn 4s;
+        z-index: 3;
+        font-size: 7vh;
+        color: #ffffff;
+        opacity: 100%;
+        margin-bottom: 10px;
+        padding-right: 15vh;
+    
+    }
+       
+    h2{
+        animation: fadeIn 6s;
+        z-index: 3;
+        font-size: 4vh;
+        color: #ffffff;
+        opacity: 100%;
+        margin-top: 20px;
+        padding-right: 15vh;
+    }
+  
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color:rgb(255, 177, 214);
+        text-decoration: none;
+    }
+
+
+    .fade-in {
+        animation: fadeIn 2s;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0%;
+        }
+
+        to {
+            opacity: 80%;
+        }
+
+    }
