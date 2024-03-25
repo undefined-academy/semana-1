@@ -1,0 +1,69 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+body {
+  margin : auto;
+  max-width: 60em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #566b78;
+  background-color: #dbdbdb;
+}
+
+h1 h2 h3 {
+  margin-top: 1em;
+  padding-top: 1em;
+  color: #333;
+}
+
+header {
+  display: flex;
+  background-image: url("/markos-6727/asset/gradiente.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.5;
+  text-align: center;
+  box-shadow: -5px 7px 4px #00000070;
+  border-radius: 29px;
+  color: #dbdbdb;
+  font-size: 0,7em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  margin-bottom: 4em;
+}
+
+.content_img_profile {
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+  margin-right: 1em;
+}
+
+.img_profile img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+header h1 {
+  font-size: 2.5em;
+  font-weight: 1em;
+}
+
+main {
+  padding: 0em 1em;
+  text-align: justify;
+}
+
+.about {
+  margin-bottom: 3em;
+}
