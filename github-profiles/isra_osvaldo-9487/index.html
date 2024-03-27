@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi página web</title>
+    <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
     <!-- Esto es un comentario -->
@@ -31,21 +32,39 @@
       en un proyecto informático.
     </p>
 
-    <h2>Skills</h2>
-    <h3>Lenguajes de Programación</h3>
-    <ul>
-      <li>PL SQL</li>
-      <li>Java (POO)</li>
-      <li>JavaScript</li>
-      <li>React.js</li>
-      <li>Node.js</li>
-      <li>Python</li>
-    </ul>
+    <hr />
+    <h2 class="skills-title">Skills</h2>
+    <section class="skills-idiomas">
+      <div class="col">
+        <article class="programming-languages">
+          <h3>Lenguajes de Programación</h3>
+          <ul class="lista-lenguajes">
+            <li>PL SQL</li>
+            <li>Java (POO)</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Python</li>
+          </ul>
+        </article>
+      </div>
 
-    <h2>Idiomas</h2>
-    <ul>
-      <li>Inglés Intermedio</li>
-      <li>Portugués Avanzado</li>
-    </ul>
+      <div class="col">
+        <article class="idiomas">
+          <h3>Idiomas</h3>
+          <ul>
+            <li>Inglés Intermedio</li>
+            <li>Portugués Avanzado</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <hr />
+    <footer class="footer">
+      <a href="https://github.com/isra-osvaldo" target="_blank">
+        <img src="./img/logo-github.png" alt="Logotipo de Github" />
+      </a>
+    </footer>
   </body>
 </html>
