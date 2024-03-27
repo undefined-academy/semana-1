@@ -1,0 +1,60 @@
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #566b78;
+
+  }
+
+  h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+
+h1,
+h2,
+h3,
+strong {
+  color: #333;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+a {
+    color: #e81c4f;
+    display: flex;
+}
+
+img {
+    display: inline-block;
+    width: 150px; /* o el ancho que desees */
+    height: auto;
+}
+
+.skills-idiomas {
+    max-width: 800px; /* Ancho máximo para el bloque de habilidades */
+    margin: 0 auto; /* Centrar el bloque de habilidades horizontalmente */
+}
+
+.skills-title {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 5px;
+
+}
+
+.skills-idiomas {
+    display: flex;
+}
+
+.col {
+    flex: 1; /* Ambas columnas ocupan el mismo espacio */
+    padding: 10px;
+}
+
+
