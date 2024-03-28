@@ -1,4 +1,4 @@
-# Hi there, I'm José Valerio
+# Hi there, I'm [José Valerio](https://github.com/Pioxscorpio)
 #### I'm a fullstack web developer student and this is a list of usefull commands for the linux terminal.
 
 |command|description|
