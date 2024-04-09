@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 50em;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    padding: 4em;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1495975832350-f46e82f0ceb6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+a {
+    text-wrap: nowrap;
+    color: dodgerblue;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 4em;
+}
+
+h2 {
+    padding: 0;
+    margin-top: 1em;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 1px;
+}
+
+th,
+td {
+    background-color: #eee;
+    padding: 0.5em;
+}
+
+th {
+    font-size: 1.1em;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 1.3em;
+    padding: 0.3em;
+    margin: 0;
+    background-color: #bbb;
+    border-radius: 5px;
+    color: black;
+}
