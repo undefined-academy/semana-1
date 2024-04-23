@@ -1,0 +1,22 @@
+body {
+    background: tomato;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    background: mediumpurple;
+    
+}
+
+div{
+    background:palegoldenrod;
+    padding: 16px 32px;
+    margin: 20px;
+    border: 8px solid orchid;
+}
+
+p{
+    background-color: papayawhip;
+    color: lightgray;
+}
