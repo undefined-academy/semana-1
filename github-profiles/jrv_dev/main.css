@@ -1,0 +1,57 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+    background: #f4eeee;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 50%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 2;
+    padding: 4rem 1rem;
+    color: #426073;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+
+h2 {
+    font-size: 2rem;
+}
+
+
+h1,
+h2,
+h3,
+strong,
+th {
+  color: #000000;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/*comandos terminal y comandos alias utiles*/
+table {
+    border: #040404 solid 2px;
+    color: #040404;
+    padding: 0.5em;
+    margin: 1.5rem;
+}
+
+th, 
+td {
+    border: #040404 solid 2px;
+}
+
+a {
+    margin: 1.5rem;
+    color: #f81111;
+    text-decoration: none;
+}
