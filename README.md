@@ -1,4 +1,4 @@
-# ⛺ Semana 1
+# ⛺ Semana 1.
 
 > 🏕️ [Base de conocimientos.](https://undefinedshell.notion.site/Semana-1-1cd3b0f777a44b4894456521cc0e649c#627a510ea8514e5fbd4cf6b206dc2048)
 
