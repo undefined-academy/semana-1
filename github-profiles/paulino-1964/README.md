@@ -8,7 +8,7 @@ Hola, mi nombre es Paulino y aunque he empezado demasiado tarde, me gusta estudi
 
 No estudio tanto para mi desarroyo profesional ya que en mi trabajo actual no es necesario, pero si estudio para mi desarroyo personal.
 
-¡Saludos a todos!
+¡Saludos a todos!.
 
 ### **Comandos alias:**
 
@@ -42,7 +42,7 @@ Para crear una cita debemos emplear el símbolo >
 
 > Un país, una civilización se puede juzgar por la forma en que trata a sus animales. — Mahatma Gandhi
 
-\*\*\* Para insertar un bloque de código se emplearían "```"
+### **Para insertar un bloque de código se emplearían "```"**
 
 `let casa = 0`
 
