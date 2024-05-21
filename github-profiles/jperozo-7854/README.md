@@ -27,5 +27,4 @@ Let's connect on LinkedIn and keep creating together!
 | `mkdir` | Crea una nueva carpeta dado un nombre para esa carpeta. |
 | `cat`   | Imprime el contenido de un archivo dada su ruta.   |
 | `mv`    | Nos permite mover un archivo o carpeta dada una ruta inicial y una ruta final. También nos permite cambiar el nombre de un archivo o carpeta. |
-| `pwd`   | Nos nuestra la ruta absoluta del directorio actual, así podemos saberen dónde estamos ubicados.  |
-| `ls`    | Lista los archivos de la carpeta actual, o de la ruta dada.   |
+| `pwd`   | Nos nuestra la # Hello, I'm Juan Perozo
