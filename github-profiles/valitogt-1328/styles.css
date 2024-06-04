@@ -47,3 +47,29 @@ a {
     color: #e81c4f;
   }
 
+  table {
+    width: 100%;
+  }
+  }
+  table, th, tr, td {
+    border: 1px solid rgb(184, 184, 255);
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 600;
+    background: rgb(184, 184, 255);
+    color: rgb(43, 110, 101);
+}
+
+th, td {
+    padding: 4px 8px;
+}
+
+td:first-child {
+    width:18em;
+}
+
+td:last-child {
+    width: 22em;
+}
