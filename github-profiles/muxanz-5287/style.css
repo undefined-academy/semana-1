@@ -1,0 +1,51 @@
+html {
+   box-sizing: border-box;
+   font-family: 'Cairo', sans-serif;
+   font-size: 62.5%;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ *, *:before, *:after {
+   box-sizing: inherit;  
+ }
+ body {
+   font-size: 1.6rem;
+   line-height: 2;
+   margin: 0 auto;
+   max-width: 90rem;
+ }
+ a {
+   text-decoration: none;
+   color: #009879;
+ }
+.content-table {
+   border-collapse: collapse;
+   margin: 2.5rem 0;
+   min-width: 40rem;
+   border-radius: .5rem .5rem 0 0;
+   overflow: hidden;
+   box-shadow: 0 0 2rem rgb(0, 0, 0, .15);
+   margin-bottom: 3rem;
+}
+.content-table thead tr {
+   background-color: #009879;
+   color: #fff;
+   text-align: center;
+   font-weight: bold;
+}
+.content-table td {
+   padding: 1.2rem 1.5rem;
+   text-align: center;
+}
+.content-table tbody tr {
+   border-bottom: 1px solid #ddd;
+}
+.content-table tbody tr:nth-of-type(even) {
+   background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type {
+   border-bottom: 2px solid #009879;
+}
+footer {
+   text-align: center;
+   padding: 1rem 0;
+}
