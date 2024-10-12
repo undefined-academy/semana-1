@@ -2,14 +2,18 @@ name: "Close stale issues and PRs"
 on:
   schedule:
     - cron: "30 1 * * *"
-
+  
 jobs:
   stale:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     steps:
       - uses: actions/stale@v7
         with:
-          stale-issue-message: 'Este issue está obsoleto porque ha estado abierto 10 días sin actividad. Elimine la etiqueta o el comentario "stale" o se cerrará en 5 días.'
-          stale-pr-message: 'Este pull request está obsoleto porque ha estado abierto 10 días sin actividad. Elimine la etiqueta o el comentario "stale" o se cerrará en 5 días.'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           days-before-stale: 10
           days-before-close: 5
+          stale-pr-label: "stale"
+          stale-pr-message: '🚨🪨 Este pull request está obsoleto porque ha estado abierto durante 10 días sin actividad. Por favor, elimine la etiqueta o el comentario "stale" o se cerrará en un plazo de 5 días'
+

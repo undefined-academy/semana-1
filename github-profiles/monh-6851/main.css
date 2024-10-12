@@ -1,0 +1,22 @@
+body {
+	/*debugger border: 1px solid tomato; */
+	
+	border: 1px dashed tomato;
+	max-width: 600px;
+	font-size: 14px;
+	margin: 0 auto;
+	background: #f3f4f6;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+	line-height: 1.1;
+}
+
+h1,
+h2 {
+	line-height: 1.5;
+	margin-top: 50px;
+}
