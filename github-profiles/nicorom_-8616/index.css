@@ -1,0 +1,61 @@
+body{
+    background: floralwhite;
+}
+table, tr, th, td {
+  border-collapse: collapse;
+  border: 1px solid;
+  padding: 0.5rem;
+  background: rgb(240, 227, 202);
+  text-align: center;
+}
+
+h1, h2, h3 {
+    margin: .2rem;
+    padding: .2rem;
+    word-spacing: 0.1rem;
+    letter-spacing: .01rem;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:active{
+    text-decoration: none;
+    color: rgb(231, 64, 64);
+}
+a:hover{
+    color:rgb(247, 0, 255);
+    font-weight: bold;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    word-spacing: 0.1rem;
+    letter-spacing: .03rem;
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+}
+
+.phirst-container{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+
+.paragaph-container{
+    margin: 0.5rem 10rem;    
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.bolt{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
